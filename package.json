@@ -1,0 +1,12 @@
+{
+  "name": "business-jalwa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "preflight": "node scripts/preflight_instagram.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

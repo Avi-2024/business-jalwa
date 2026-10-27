@@ -1,0 +1,47 @@
+name: Business Jalwa Instagram
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 3 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: instagram-queue
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ vars.IG_USER_ID }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - run: npm test
+      - name: Verify account without publishing
+        if: github.event_name == 'workflow_dispatch' || vars.PUBLISH_ENABLED == 'true'
+        run: node scripts/check_account.mjs
+      - name: Preflight images
+        run: npm run preflight
+      - name: Publish one approved due post
+        if: vars.PUBLISH_ENABLED == 'true'
+        run: node scripts/publish_instagram.mjs
+      - name: Verify published media
+        if: always() && vars.PUBLISH_ENABLED == 'true'
+        run: node scripts/verify_instagram_publish.mjs
+      - name: Save queue state
+        if: always()
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- posts.json; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posts.json
+          git commit -m "Save Instagram queue state"
+          git pull --rebase origin main
+          git push origin HEAD:main

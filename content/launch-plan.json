@@ -1,0 +1,26 @@
+{
+  "brand": "Business Jalwa",
+  "instagram": "business.jalwa",
+  "language": "Hinglish",
+  "format": "Simple meaning, illustrative rupee example, practical use; company stories after foundations",
+  "days": [
+    "Revenue / Turnover",
+    "Revenue vs Profit",
+    "Gross Profit vs Net Profit",
+    "Profit Margin",
+    "Assets and Liabilities",
+    "Equity",
+    "ROE",
+    "EPS",
+    "P/E Ratio",
+    "Market Cap and Company Size",
+    "Business Kaise: Pidilite"
+  ],
+  "rules": [
+    "Label illustrative numbers as examples.",
+    "Company facts require source links and financial year.",
+    "Distinguish consolidated and standalone figures.",
+    "Do not equate revenue, profit, valuation and market cap.",
+    "Explain limitations of ratios; no guaranteed-return claims."
+  ]
+}
