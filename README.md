@@ -7,10 +7,10 @@ The GitHub Actions workflow checks the queue daily at **09:00 IST** (03:30 UTC) 
 ## Asset naming and storage
 Keep each completed, manually approved carousel in its own date-and-sequence folder under `assets/approved/`:
 - `2026-10-29-post-001/slide-01.jpg` through `slide-05.jpg`
-- Next carousel: `2026-10-30-post-002/slide-01.jpg` through `slide-05.jpg`.
+- `2026-10-30-post-002/slide-01.jpg` through `slide-05.jpg`
 Use ISO dates (`YYYY-MM-DD`) and increment the post number. Store drafts under `assets/content-bank/`; do not mark a draft as approved in `posts.json`.
 
-The first carousel is queued for **29 October 2026 at 09:00 IST**. Its images and caption are listed in `posts.json`. Queue entries need a unique `id`, ISO `publish_at`, caption, 1–10 public HTTPS JPEG `image_urls`, and `manual_approved: true`.
+The first 10 posts are queued daily from **29 October through 7 November 2026 at 09:00 IST**. The sequence begins with “What is Business?”, then covers Revenue, Business Expenses, Revenue vs Profit, Profit Margin, Cash Flow, Business Model, Revenue Streams, ROE, and P/E Ratio. Each post's caption and five carousel image URLs are listed in `posts.json`. Queue entries need a unique `id`, ISO `publish_at`, caption, 1–10 public HTTPS JPEG `image_urls`, and `manual_approved: true`.
 
 ## Credentials and safety
 Repository Settings → Secrets and variables → Actions:
