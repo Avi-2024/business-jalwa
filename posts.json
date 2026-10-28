@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "business-basics-001",
+    "publish_at": "2026-10-29T09:00:00+05:30",
+    "caption": "Business kya hai? 🤔\n\nSimple words mein: Jab koi customer ki zaroorat ya problem solve karta hai aur badle mein paisa kamata hai, woh business hai.\n\nPehle business aksar mohalla tak hota tha. Aaj internet aur delivery se naye shehron ke customers tak pahunchna possible hai. Tareeka badla hai, par core wahi hai: customer ko value dena.\n\nAgli post: Company paisa kaise kamati hai? 🏢\n\n#BusinessJalwa #BusinessBasics #BusinessInHinglish #IndianBusiness #Entrepreneurship",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/post-001-slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/post-001-slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/post-001-slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/post-001-slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/post-001-slide-05.jpg"
+    ],
+    "manual_approved": true
+  }
+]
