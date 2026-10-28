@@ -22,7 +22,7 @@ async function api(path, params, method = 'GET') {
   return data;
 }
 const page = await api('me', {fields:'id,name'});
-if (String(page.id) !== id || page.name !== 'Business Jalwa') throw new Error('Page token must belong to the configured Business Jalwa Page.');
+if (String(page.id) !== id || page.name !== 'Business Jalwa') throw new Error(`Page token resolved to ID ${page.id}, name "${page.name}"; expected ID ${id}, name "Business Jalwa".`);
 // A request with no saved response may have succeeded. Never resend automatically.
 if (post.facebook_attempt?.publish_requested_at) throw new Error('Uncertain Facebook publish outcome. Reconcile the Page post before retrying; no duplicate sent.');
 const signature = JSON.stringify([id, post.image_urls, post.facebook_caption || post.caption]);
