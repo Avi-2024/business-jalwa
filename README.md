@@ -5,10 +5,10 @@ Instagram and Facebook publishing foundation for @business.jalwa.
 The GitHub Actions workflow checks the queue daily at **09:00 IST** (03:30 UTC) and publishes at most one due, approved post per run. GitHub may delay scheduled runs. Set each post's `publish_at` to its intended 09:00 IST date.
 
 ## Asset naming and storage
-Keep completed, manually approved carousel slides in `assets/approved/` using this sequence:
-- `post-001-slide-01.jpg` through `post-001-slide-05.jpg`
-- Next carousel: `post-002-slide-01.jpg`, and continue incrementing the post number.
-Keep slides in numerical order. Store draft or not-yet-approved media under `assets/content-bank/`; do not mark a draft as approved in `posts.json`.
+Keep each completed, manually approved carousel in its own date-and-sequence folder under `assets/approved/`:
+- `2026-10-29-post-001/slide-01.jpg` through `slide-05.jpg`
+- Next carousel: `2026-10-30-post-002/slide-01.jpg` through `slide-05.jpg`.
+Use ISO dates (`YYYY-MM-DD`) and increment the post number. Store drafts under `assets/content-bank/`; do not mark a draft as approved in `posts.json`.
 
 The first carousel is queued for **29 October 2026 at 09:00 IST**. Its images and caption are listed in `posts.json`. Queue entries need a unique `id`, ISO `publish_at`, caption, 1–10 public HTTPS JPEG `image_urls`, and `manual_approved: true`.
 
