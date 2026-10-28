@@ -10,7 +10,7 @@ Keep each completed, manually approved carousel in its own date-and-sequence fol
 - `2026-10-29-post-002/slide-01.jpg` through `slide-05.jpg`
 Use ISO dates (`YYYY-MM-DD`) and increment the post number. Store drafts under `assets/content-bank/`; do not mark a draft as approved in `posts.json`.
 
-The queue contains 41 posts from **28 October through 7 December 2026**. The launch post has been published; scheduled posts are due daily at **18:00 IST**. The first 11 posts introduce Business Jalwa and business basics. Posts 12–41 are daily Company Stories covering what each business does, how its model earns, and a simple lesson. Each post's caption and five carousel image URLs are listed in `posts.json`. Queue entries need a unique `id`, ISO `publish_at`, caption, 1–10 public HTTPS JPEG `image_urls`, and `manual_approved: true`.
+The 11 posts are queued from **28 October through 7 November 2026**. The launch post has been published; the remaining posts are due daily at **18:00 IST**. The launch post explains why Business Jalwa exists and what the page will cover. It is followed by “What is Business?”, then Revenue, Business Expenses, Revenue vs Profit, Profit Margin, Cash Flow, Business Model, Revenue Streams, ROE, and P/E Ratio. Each post's caption and five carousel image URLs are listed in `posts.json`. Queue entries need a unique `id`, ISO `publish_at`, caption, 1–10 public HTTPS JPEG `image_urls`, and `manual_approved: true`.
 
 ## Credentials and safety
 Repository Settings → Secrets and variables → Actions:
@@ -24,4 +24,3 @@ Never put tokens in posts, source files, screenshots, or chat. The account check
 
 ## Reliability
 The workflow stores attempts and publish results, reuses containers, and checks for existing media before uncertain retries. Live API authorization and actual publishing still need monitoring after the first scheduled run.
-
