@@ -2,7 +2,7 @@
 Instagram and Facebook publishing foundation for @business.jalwa.
 
 ## Posting schedule
-The GitHub Actions workflow checks the queue daily at **09:00 IST** (03:30 UTC) and publishes at most one due, approved post per run. GitHub may delay scheduled runs. Set each post's `publish_at` to its intended 09:00 IST date.
+The GitHub Actions workflow checks the queue daily at **18:00 IST** (12:30 UTC) and publishes at most one due, approved post per run. GitHub may delay scheduled runs. Set each post's `publish_at` to its intended 18:00 IST date.
 
 ## Asset naming and storage
 Keep each completed, manually approved carousel in its own date-and-sequence folder under `assets/approved/`:
@@ -10,7 +10,7 @@ Keep each completed, manually approved carousel in its own date-and-sequence fol
 - `2026-10-29-post-002/slide-01.jpg` through `slide-05.jpg`
 Use ISO dates (`YYYY-MM-DD`) and increment the post number. Store drafts under `assets/content-bank/`; do not mark a draft as approved in `posts.json`.
 
-The first 11 posts are queued from **28 October through 7 November 2026**. The launch post explains why Business Jalwa exists and what the page will cover. It is followed by “What is Business?”, then Revenue, Business Expenses, Revenue vs Profit, Profit Margin, Cash Flow, Business Model, Revenue Streams, ROE, and P/E Ratio. Each post's caption and five carousel image URLs are listed in `posts.json`. Queue entries need a unique `id`, ISO `publish_at`, caption, 1–10 public HTTPS JPEG `image_urls`, and `manual_approved: true`.
+The 11 posts are queued from **28 October through 7 November 2026**. The launch post has been published; the remaining posts are due daily at **18:00 IST**. The launch post explains why Business Jalwa exists and what the page will cover. It is followed by “What is Business?”, then Revenue, Business Expenses, Revenue vs Profit, Profit Margin, Cash Flow, Business Model, Revenue Streams, ROE, and P/E Ratio. Each post's caption and five carousel image URLs are listed in `posts.json`. Queue entries need a unique `id`, ISO `publish_at`, caption, 1–10 public HTTPS JPEG `image_urls`, and `manual_approved: true`.
 
 ## Credentials and safety
 Repository Settings → Secrets and variables → Actions:
