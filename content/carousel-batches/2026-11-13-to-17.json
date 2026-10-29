@@ -1,0 +1,171 @@
+{
+  "generator": "Built-in image_gen",
+  "style": "Warm editorial scrapbook; cream paper, forest green, terracotta; Roman Hinglish text; 4:5 portrait; BUSINESS JALWA footer with slide number",
+  "posts": [
+    {
+      "date": "2026-11-13",
+      "num": 17,
+      "id": "customer-retention-017",
+      "topic": "Customer Retention",
+      "slides": [
+        [
+          "CUSTOMER WAPAS KYUN AAYE?",
+          "Naya customer laana shuruaat hai. Use dobara kharidne ki wajah dena retention hai.",
+          "Indian neighborhood shop owner recognizing a returning customer"
+        ],
+        [
+          "RETENTION KYA HAI?",
+          "Customer ka waqt ke saath business se juda rehna aur dobara kharidna. Har business mein buying cycle alag hota hai.",
+          "Customer making a second purchase at a local store"
+        ],
+        [
+          "WAJAH DO, SIRF DISCOUNT NAHI",
+          "Achhi quality, time par delivery aur helpful service customer ko wapas aane ki wajah dete hain.",
+          "Delivery person bringing a neat parcel to pleased customer"
+        ],
+        [
+          "EK SIMPLE EXAMPLE",
+          "100 naye customers mein se 30 agle mahine phir kharidte hain. Repeat purchase ko alag track karo.",
+          "Shopkeeper marking return purchases on a notebook, no invented formulas"
+        ],
+        [
+          "PEHLE SUNO, PHIR SUDHARO",
+          "Feedback lo. Complaints solve karo. Dekho kaun dobara aata hai. Trust har achhe experience se banta hai.",
+          "Shopkeeper listening attentively to a customer"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "num": 18,
+      "id": "pricing-basics-018",
+      "topic": "Pricing Basics",
+      "slides": [
+        [
+          "PRICE KAISE TAY KAREIN?",
+          "Sirf competitor ka price copy karna kaafi nahi. Cost, customer ki need aur value ko saath dekho.",
+          "Craft seller considering a price tag"
+        ],
+        [
+          "APNI COST SAMJHO",
+          "Material ke saath packaging, delivery, fees aur business chalane ka kharch bhi dekho.",
+          "Small craft workshop with materials packaging and calculator"
+        ],
+        [
+          "CUSTOMER KO KYA VALUE MILTI HAI?",
+          "Quality, convenience aur reliable service bhi value hain. Customer kis baat ke liye pay karta hai, samjho.",
+          "Customer comparing well-made useful products"
+        ],
+        [
+          "DISCOUNT KA ASAR DEKHO",
+          "Price Rs100, cost Rs70: Rs30 bachte hain. Rs10 discount ke baad Rs20. Baaki costs abhi ghataani hain.",
+          "Two simple price tags and shopkeeper with calculator"
+        ],
+        [
+          "CHHOTE TEST, BEHTAR FAISLE",
+          "Price badalne par sales, customer feedback aur bachi rakam track karo. Sirf order count mat dekho.",
+          "Shopkeeper reviewing notebook and customer feedback"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "num": 19,
+      "id": "break-even-019",
+      "topic": "Break-even",
+      "slides": [
+        [
+          "BREAK-EVEN KYA HAI?",
+          "Jab total revenue aur total cost barabar ho: na profit, na loss. Ye ek simple planning point hai.",
+          "Cafe owner balancing sales receipts and expense bills"
+        ],
+        [
+          "DO TARAH KE COST",
+          "Rent jaise fixed cost aur har sale ke saath badhne wale variable cost ko alag samjho.",
+          "Cafe rent bill beside ingredients for cups of chai"
+        ],
+        [
+          "HAR SALE SE KITNA BACHTA HAI?",
+          "Selling price Rs100 - variable cost Rs60 = Rs40 contribution. Ye fixed cost cover karne mein kaam aata hai.",
+          "Cafe owner holding a cup with a large simple calculation card"
+        ],
+        [
+          "CHHOTA EXAMPLE",
+          "Fixed cost Rs4,000 / Rs40 contribution = 100 units. Is simple example mein 100 units par break-even.",
+          "Cafe counter with a notebook showing 100 units"
+        ],
+        [
+          "YE EK ESTIMATE HAI",
+          "Price, cost aur sales mix badlenge toh break-even bhi badlega. Numbers ko regularly update karo.",
+          "Cafe owner updating a planning notebook"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "num": 20,
+      "id": "inventory-basics-020",
+      "topic": "Inventory",
+      "slides": [
+        [
+          "STOCK BHI PAISA HAI",
+          "Inventory woh maal hai jo business bechne ya product banane ke liye rakhta hai. Ismein paisa laga hota hai.",
+          "Indian small shopkeeper arranging neatly stocked shelves"
+        ],
+        [
+          "BAHUT ZYADA STOCK?",
+          "Unsold maal mein cash atak sakta hai. Storage, damage aur expiry ka kharch bhi ho sakta hai.",
+          "Shopkeeper examining surplus boxes and expiry dates"
+        ],
+        [
+          "BAHUT KAM STOCK?",
+          "Customer ko product na mile toh sale miss ho sakti hai. Supplier ka delivery time bhi dhyan mein rakho.",
+          "Customer asking shopkeeper for unavailable product on empty shelf"
+        ],
+        [
+          "SIMPLE TRACKING SHURU KARO",
+          "Kya aaya, kya bika, kitna bacha? Fast-selling aur slow-moving items ko alag dekho.",
+          "Shopkeeper using an orderly stock ledger"
+        ],
+        [
+          "ANDAAZE SE AAGE BADHO",
+          "Pichhli sales, season aur supplier lead time dekhkar order karo. Har item ka stock ek jaisa mat rakho.",
+          "Shopkeeper planning next stock order with calendar and shelves"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "num": 21,
+      "id": "b2b-b2c-021",
+      "topic": "B2B vs B2C",
+      "slides": [
+        [
+          "B2B AUR B2C KYA HAI?",
+          "Farq customer ka hai: business ko bechna ya seedha consumer ko. Dono ka buying process alag ho sakta hai.",
+          "Split editorial scene office buyer and individual shopper"
+        ],
+        [
+          "B2B: BUSINESS SE BUSINESS",
+          "Jab ek business doosre business ko product ya service bechta hai. Example: offices ke liye software.",
+          "Software consultant demonstrating app to office team"
+        ],
+        [
+          "B2C: BUSINESS SE CONSUMER",
+          "Jab business seedha personal use ke liye customer ko bechta hai. Example: dukaan se apne liye shoes.",
+          "Individual customer buying shoes at local store"
+        ],
+        [
+          "EK BUSINESS, DONO MODELS",
+          "Bakery families ko cakes beche: B2C. Wahi bakery cafes ko bread supply kare: B2B.",
+          "Bakery owner supplying cafe bread and serving family cake"
+        ],
+        [
+          "CUSTOMER SAMJHO, TAREEKA CHUNO",
+          "Order size, decision process aur payment terms alag ho sakte hain. Offer customer ki need ke hisaab se banao.",
+          "Entrepreneur thoughtfully planning offers for business and personal customers"
+        ]
+      ]
+    }
+  ]
+}
