@@ -5,16 +5,15 @@ import math
 import subprocess
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 SIZE = (720, 1280)
 FPS = 24
-GREEN = (22, 61, 48)
-RUST = (177, 70, 32)
-CREAM = (248, 242, 225)
-GOLD = (237, 180, 83)
-WHITE = (255, 252, 243)
-FONT_LATIN = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+BLACK = (4, 5, 6)
+WHITE = (248, 247, 242)
+MUTED = (168, 170, 168)
+GOLD = (232, 181, 98)
+FONT_LATIN = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 FONT_HINDI = str(Path(__file__).resolve().parents[1] / 'assets/fonts/NotoSansDevanagari.ttf')
 
 
@@ -43,10 +42,10 @@ def remap_words(metadata_path, removed_intervals, audio_duration):
 
 
 def caption_groups(words):
-    """Keep the spoken caption in short, easy-to-read chunks."""
+    """Keep each spoken thought on screen for about one second."""
     groups = []
-    for index, word in enumerate(words):
-        if not groups or len(groups[-1]) >= 3 or sum(len(w['text']) for w in groups[-1]) + len(word['text']) > 22:
+    for word in words:
+        if not groups or len(groups[-1]) >= 4 or sum(len(w['text']) for w in groups[-1]) + len(word['text']) > 26:
             groups.append([])
         groups[-1].append(word)
         if word['text'].endswith(('।', '?', '!', '.')):
@@ -54,130 +53,100 @@ def caption_groups(words):
     return [group for group in groups if group]
 
 
-def fit_lines(draw, text, path, width, height, maximum, minimum):
-    for size in range(maximum, minimum - 1, -2):
-        font = ImageFont.truetype(path, size)
-        lines = []
-        for paragraph in text.splitlines():
-            current = ''
-            for word in paragraph.split():
-                candidate = (current + ' ' + word).strip()
-                if current and draw.textlength(candidate, font=font) > width:
-                    lines.append(current)
-                    current = word
-                else:
-                    current = candidate
-            if current:
-                lines.append(current)
-        if lines and len(lines) * (size + 10) <= height and all(draw.textlength(line, font=font) <= width for line in lines):
-            return lines, font, size
-    raise ValueError('Shorten Reel question or answer text')
-
-
-def draw_words(draw, group, t, x, top, width, foreground, accent):
-    font = ImageFont.truetype(FONT_HINDI, 49)
-    # Break on measured glyph width; RAQM shapes Devanagari conjuncts correctly.
+def caption_layer(group, shown):
+    """Show the whole phrase while the spoken word gains emphasis."""
+    visible = group
+    canvas = Image.new('RGBA', (650, 300), (0, 0, 0, 0))
+    if not visible:
+        return canvas
+    d = ImageDraw.Draw(canvas)
+    font = ImageFont.truetype(FONT_HINDI, 48)
     rows = [[]]
-    for word in group:
-        candidate = ' '.join(w['text'] for w in rows[-1] + [word])
-        if rows[-1] and draw.textlength(candidate, font=font) > width:
+    for word in visible:
+        trial = ' '.join(w['text'] for w in rows[-1] + [word])
+        if rows[-1] and d.textlength(trial, font=font) > 550:
             rows.append([word])
         else:
             rows[-1].append(word)
-    height = 65 * len(rows)
-    y = top + (180 - height) // 2
+    if len(rows) > 2:
+        raise ValueError('Spoken caption exceeds two lines')
+    y = 126 - (len(rows) - 1) * 33
     for row in rows:
-        line = ' '.join(w['text'] for w in row)
-        cursor = x + (width - draw.textlength(line, font=font)) / 2
+        whole = ' '.join(word['text'] for word in row)
+        x = (650 - d.textlength(whole, font=font)) / 2
         for word in row:
-            active = word['start'] <= t < word['end'] + .08
-            ink = accent if active else foreground
-            draw.text((round(cursor), y), word['text'], font=font, fill=ink, stroke_width=0)
-            measured = draw.textlength(word['text'], font=font)
-            if active:
-                draw.rounded_rectangle((round(cursor), y + 60, round(cursor + measured), y + 65), radius=2, fill=accent)
-            cursor += measured + draw.textlength(' ', font=font)
-        y += 65
+            active = word is group[shown - 1]
+            ink = WHITE if active else MUTED
+            if active and (any(ch.isdigit() for ch in word['text']) or
+                           any(term in word['text'] for term in ('रेवेन्यू', 'प्रॉफिट', 'खर्च', 'मुनाफा'))):
+                ink = GOLD
+            d.text((round(x), y), word['text'], font=font, fill=ink)
+            x += d.textlength(word['text'], font=font) + d.textlength(' ', font=font)
+        y += 67
+    glow = Image.new('RGBA', canvas.size, (255, 250, 241, 0))
+    glow.putalpha(canvas.getchannel('A').filter(ImageFilter.GaussianBlur(17)).point(lambda value: value // 3))
+    return Image.alpha_composite(glow, canvas)
+
+
+def background():
+    image = Image.new('RGB', SIZE, BLACK)
+    haze = Image.new('RGBA', SIZE, (0, 0, 0, 0))
+    d = ImageDraw.Draw(haze)
+    d.ellipse((140, 410, 580, 850), fill=(82, 87, 85, 36))
+    haze = haze.filter(ImageFilter.GaussianBlur(110))
+    image = Image.alpha_composite(image.convert('RGBA'), haze).convert('RGB')
+    ImageDraw.Draw(image).text((285, 1170), 'businessjalwa', font=ImageFont.truetype(FONT_LATIN, 16), fill=(51, 54, 54))
+    return image
 
 
 def render_scene(scene, index, duration, narration, words, clip):
-    """Draw an original kinetic typography scene at the voice's word timestamps."""
+    """Render voice words with restrained center motion and soft dissolves."""
     if not Path(FONT_HINDI).exists():
         raise FileNotFoundError('Bundled Devanagari font is required')
     groups = caption_groups(words)
     starts = [group[0]['start'] for group in groups]
     frames = math.ceil(duration * FPS)
     duration = frames / FPS
-    dark = index % 2 == 0
-    background = GREEN if dark else CREAM
-    ink = CREAM if dark else GREEN
-    panel = (35, 81, 68) if dark else WHITE
-    card_ink = WHITE if dark else GREEN
-    base = Image.new('RGB', SIZE, background)
-    base_draw = ImageDraw.Draw(base)
-    for j in range(50):
-        x = (j * 139 + 47) % 720
-        y = (j * 211 + 138) % 1160
-        base_draw.ellipse((x, y, x + 2, y + 2), fill=(67, 104, 87) if dark else (225, 208, 177))
-    headline, headline_font, head_size = fit_lines(base_draw, scene['question'], FONT_LATIN, 595, 210, 54, 34)
-    takeaway, takeaway_font, takeaway_size = fit_lines(base_draw, scene['answer'], FONT_LATIN, 570, 132, 30, 20)
+    base = background()
+    layers = {(gi, shown): caption_layer(group, shown)
+              for gi, group in enumerate(groups) for shown in range(1, len(group) + 1)}
     command = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24',
                '-s', '720x1280', '-r', str(FPS), '-i', '-', '-i', str(narration),
                '-frames:v', str(frames), '-t', str(duration),
                '-af', 'apad,loudnorm=I=-16:TP=-1.5:LRA=11', '-c:v', 'libx264',
-               '-preset', 'veryfast', '-crf', '21', '-pix_fmt', 'yuv420p',
+               '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p',
                '-c:a', 'aac', '-ar', '44100', '-ac', '1', '-b:a', '128k', str(clip)]
     process = subprocess.Popen(command, stdin=subprocess.PIPE)
     try:
         for frame in range(frames):
             t = frame / FPS
-            progress = frame / max(1, frames - 1)
-            image = base.copy()
-            draw = ImageDraw.Draw(image)
-            draw.rounded_rectangle((43, 65, 286, 104), radius=18, fill=RUST)
-            draw.text((59, 73), 'BUSINESS JALWA', font=ImageFont.truetype(FONT_LATIN, 16), fill=WHITE)
-            draw.text((613, 73), f'{index + 1:02}/05', font=ImageFont.truetype(FONT_LATIN, 17), fill=ink)
-            draw.text((45, 156), 'BUSINESS, SIMPLY EXPLAINED', font=ImageFont.truetype(FONT_LATIN, 16), fill=GOLD if dark else RUST)
-            reveal = min(1, t / .4)
-            reveal = 1 - (1 - reveal) ** 3
-            y = 238 + round(24 * (1 - reveal))
-            draw.rounded_rectangle((45, y, 51, y + min(155, len(headline) * (head_size + 10))), radius=3, fill=GOLD if dark else RUST)
-            draw.multiline_text((72, y - 8), '\n'.join(headline), font=headline_font, spacing=10, fill=ink)
-            # Animated outline, counter, and accent bars keep a steady visual beat.
-            angle = t * .45
-            cx = 594 + 15 * math.sin(angle)
-            cy = 428 + 9 * math.cos(angle)
-            draw.ellipse((cx - 55, cy - 55, cx + 55, cy + 55), outline=RUST if not dark else GOLD, width=3)
-            draw.ellipse((cx - 33, cy - 33, cx + 33, cy + 33), outline=RUST if not dark else GOLD, width=2)
-            draw.rounded_rectangle((45, 510, 675, 805), radius=28, fill=panel)
-            draw.text((77, 541), 'SUNO • SAMJHO', font=ImageFont.truetype(FONT_LATIN, 17), fill=GOLD if dark else RUST)
-            selected = bisect.bisect_right(starts, t) - 1
-            if selected >= 0:
-                group = groups[selected]
-                elapsed = max(0, t - group[0]['start'])
-                rise = round(20 * (1 - min(1, elapsed / .22)) ** 2)
-                draw_words(draw, group, t, 75, 585 + rise, 570, card_ink, GOLD if dark else RUST)
-            for bar in range(5):
-                bottom = 886
-                maximum = 22 + (bar * 31 % 64)
-                wave = .5 + .5 * math.sin(t * 2.8 - bar * .8)
-                height = maximum * (.5 + .5 * wave)
-                x = 52 + bar * 30
-                draw.rounded_rectangle((x, bottom - height, x + 14, bottom), radius=5, fill=GOLD if dark else RUST)
-            answer_delay = max(2.1, duration * .54)
-            if t >= answer_delay:
-                amount = min(1, (t - answer_delay) / .42)
-                amount = 1 - (1 - amount) ** 3
-                offset = round(19 * (1 - amount))
-                draw.rounded_rectangle((45, 912 + offset, 675, 1120 + offset), radius=23, fill=CREAM if dark else GREEN)
-                draw.text((71, 935 + offset), 'TAKEAWAY', font=ImageFont.truetype(FONT_LATIN, 16), fill=RUST if dark else GOLD)
-                draw.multiline_text((71, 971 + offset), '\n'.join(takeaway), font=takeaway_font,
-                                    fill=GREEN if dark else WHITE, spacing=10)
-            draw.rounded_rectangle((45, 1167, 675, 1176), radius=4, fill=(91, 121, 102) if dark else (225, 209, 181))
-            draw.rounded_rectangle((45, 1167, 45 + round(630 * (index + progress) / 5), 1176),
-                                   radius=4, fill=GOLD if dark else RUST)
-            draw.text((47, 1192), 'Business Jalwa • Save this lesson', font=ImageFont.truetype(FONT_LATIN, 15), fill=ink)
-            process.stdin.write(image.tobytes())
+            image = base.copy().convert('RGBA')
+            group_index = bisect.bisect_right(starts, t) - 1
+            if group_index >= 0:
+                group = groups[group_index]
+                shown = min(len(group), bisect.bisect_right([word['start'] for word in group], t))
+                if shown:
+                    line = layers[group_index, shown]
+                    start = group[0]['start']
+                    next_start = starts[group_index + 1] if group_index + 1 < len(groups) else duration
+                    age = max(0, t - start)
+                    fade_in = min(1, age / .17)
+                    fade_out = min(1, (next_start - t) / .19)
+                    opacity = max(0, min(fade_in, fade_out))
+                    shift = round(12 * (1 - fade_in) - 5 * (1 - fade_out))
+                    if opacity < 1:
+                        line = line.copy()
+                        line.putalpha(line.getchannel('A').point(lambda value: round(value * opacity)))
+                    image.alpha_composite(line, (35, 490 + shift))
+            elif index == 0 and frame < 5:
+                # A brief opening frame can also serve as the video cover.
+                title = Image.new('RGBA', SIZE, (0, 0, 0, 0))
+                d = ImageDraw.Draw(title)
+                font = ImageFont.truetype(FONT_LATIN, 41)
+                label = scene['question']
+                d.text(((720 - d.textlength(label, font=font)) / 2, 630), label, fill=WHITE, font=font)
+                image = Image.alpha_composite(image, title)
+            process.stdin.write(image.convert('RGB').tobytes())
     finally:
         process.stdin.close()
     if process.wait() != 0:
