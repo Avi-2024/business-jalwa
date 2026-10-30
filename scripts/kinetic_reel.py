@@ -9,7 +9,6 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 SIZE = (720, 1280)
 FPS = 24
-BLACK = (4, 5, 6)
 WHITE = (248, 247, 242)
 MUTED = (168, 170, 168)
 GOLD = (255, 199, 91)
@@ -128,12 +127,29 @@ def caption_layer(group, shown):
 
 
 def background():
-    image = Image.new('RGB', SIZE, BLACK)
-    haze = Image.new('RGBA', SIZE, (0, 0, 0, 0))
-    d = ImageDraw.Draw(haze)
-    d.ellipse((140, 410, 580, 850), fill=(82, 87, 85, 36))
-    haze = haze.filter(ImageFilter.GaussianBlur(110))
-    image = Image.alpha_composite(image.convert('RGBA'), haze)
+    # Deep navy carries the logo's blue without crowding the centered captions.
+    image = Image.new('RGB', SIZE)
+    draw = ImageDraw.Draw(image)
+    stops = [(0, (6, 21, 58)), (400, (5, 13, 35)),
+             (780, (4, 9, 22)), (1279, (5, 16, 42))]
+    for (y0, a), (y1, b) in zip(stops, stops[1:]):
+        for y in range(y0, y1 + 1):
+            blend = (y - y0) / (y1 - y0)
+            draw.line((0, y, SIZE[0], y), fill=tuple(round(x + (z - x) * blend)
+                                                     for x, z in zip(a, b)))
+    lights = Image.new('RGBA', SIZE, (0, 0, 0, 0))
+    d = ImageDraw.Draw(lights)
+    d.ellipse((180, -70, 540, 380), fill=(23, 65, 171, 68))
+    d.ellipse((135, 390, 585, 855), fill=(24, 51, 112, 43))
+    d.ellipse((300, 975, 840, 1450), fill=(19, 57, 153, 42))
+    image = Image.alpha_composite(image.convert('RGBA'), lights.filter(ImageFilter.GaussianBlur(90)))
+    detail = Image.new('RGBA', SIZE, (0, 0, 0, 0))
+    d = ImageDraw.Draw(detail)
+    d.arc((-320, -305, 300, 315), 3, 89, fill=(245, 185, 89, 75), width=2)
+    d.arc((-255, -242, 235, 248), 5, 85, fill=(64, 110, 206, 75), width=2)
+    d.arc((460, 1010, 1060, 1610), 186, 272, fill=(245, 185, 89, 78), width=2)
+    d.arc((510, 1056, 1010, 1556), 185, 270, fill=(64, 110, 206, 80), width=2)
+    image = Image.alpha_composite(image, detail)
     # Center the original brand mark in a clean circle above the narration.
     if not LOGO.exists():
         raise FileNotFoundError('Bundled Business Jalwa logo is required')
