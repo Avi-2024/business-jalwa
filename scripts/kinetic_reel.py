@@ -15,6 +15,7 @@ MUTED = (168, 170, 168)
 GOLD = (255, 199, 91)
 FONT_LATIN = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 FONT_HINDI = str(Path(__file__).resolve().parents[1] / 'assets/fonts/NotoSansDevanagari.ttf')
+LOGO = Path(__file__).resolve().parents[1] / 'assets/branding/business-jalwa-logo.jpg'
 
 
 def remap_words(metadata_path, removed_intervals, audio_duration):
@@ -132,8 +133,19 @@ def background():
     d = ImageDraw.Draw(haze)
     d.ellipse((140, 410, 580, 850), fill=(82, 87, 85, 36))
     haze = haze.filter(ImageFilter.GaussianBlur(110))
-    image = Image.alpha_composite(image.convert('RGBA'), haze).convert('RGB')
-    ImageDraw.Draw(image).text((285, 1170), 'businessjalwa', font=ImageFont.truetype(FONT_LATIN, 16), fill=(51, 54, 54))
+    image = Image.alpha_composite(image.convert('RGBA'), haze)
+    # Center the original brand mark in a clean circle above the narration.
+    if not LOGO.exists():
+        raise FileNotFoundError('Bundled Business Jalwa logo is required')
+    diameter = 154
+    left, top = (SIZE[0] - diameter) // 2, 145
+    logo = Image.open(LOGO).convert('RGB').resize((diameter, diameter), Image.Resampling.LANCZOS)
+    mask = Image.new('L', (diameter, diameter), 0)
+    ImageDraw.Draw(mask).ellipse((1, 1, diameter - 2, diameter - 2), fill=255)
+    image.paste(logo, (left, top), mask)
+    ring = ImageDraw.Draw(image)
+    ring.ellipse((left, top, left + diameter - 1, top + diameter - 1), outline=(255, 199, 91, 145), width=2)
+    image = image.convert('RGB')
     return image
 
 
