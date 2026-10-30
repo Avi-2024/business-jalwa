@@ -9,6 +9,7 @@ on:
   push:
     paths:
       - 'reels/plans/**'
+      - 'scripts/daily_reel.py'
       - '.github/workflows/publish-reels.yml'
   schedule:
     - cron: '30 13,14,15 * * *'
