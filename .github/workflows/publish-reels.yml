@@ -40,7 +40,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg fonts-dejavu-core
-          python -m pip install Pillow==12.3.0 edge-tts==7.2.8
+          python -m pip install Pillow==12.3.0 edge-tts==7.3.1
       - name: Configure checkpoint author
         run: |
           git config user.name 'github-actions[bot]'
