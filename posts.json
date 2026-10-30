@@ -434,5 +434,70 @@
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-28-post-032/slide-05.jpg"
     ],
     "manual_approved": true
+  },
+  {
+    "id": "customer-feedback-033",
+    "publish_at": "2026-11-29T18:00:00+05:30",
+    "caption": "Customer feedback ko action mein kaise badlein? 💬\n\nRating ke saath reason samjho. Specific sawal poochho, repeat hone wale patterns dekho, phir ek chhota improvement test karo.\n\nExample: delivery timing par confusion aa raha hai? Confirmation message clear karke customer queries compare karo.\n\nJisne feedback diya, use improvement batana bhi useful hai. Feedback → action → check ka loop chalate raho.\n\nAapko sabse common customer feedback kya milta hai?\n\n#BusinessJalwa #CustomerFeedback #SmallBusiness #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-29-post-033/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-29-post-033/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-29-post-033/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-29-post-033/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-29-post-033/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "discount-decisions-034",
+    "publish_at": "2026-11-30T18:00:00+05:30",
+    "caption": "Discount dene se pehle margin samjho 🏷️\n\nExample: ₹500 price aur ₹300 variable cost par contribution ₹200 hai. 10% discount ke baad ₹450 price aur ₹150 contribution bachta hai, agar cost same rahe.\n\nOffer ka goal clear karo, duration aur terms likho, phir orders ke saath contribution aur returns bhi dekho. Har discount useful nahi hota.\n\nAap offer ka result kis metric se check karte ho?\n\n#BusinessJalwa #DiscountStrategy #PricingBasics #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-30-post-034/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-30-post-034/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-30-post-034/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-30-post-034/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-30-post-034/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "supplier-planning-035",
+    "publish_at": "2026-12-01T18:00:00+05:30",
+    "caption": "Ek supplier late ho jaye toh business ka kya hoga? 📦\n\nCritical items pehchano, delivery time aur quality track karo. Alternate supplier ko pehle verify karo. Buffer stock rakho toh expiry aur storage cost bhi samjho.\n\nRegular review se problem jaldi pakad mein aati hai aur backup plan practical banta hai.\n\nAapke business ka sabse critical supply item kya hai?\n\n#BusinessJalwa #SupplierManagement #BusinessOperations #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-01-post-035/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-01-post-035/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-01-post-035/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-01-post-035/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-01-post-035/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "demand-forecasting-036",
+    "publish_at": "2026-12-02T18:00:00+05:30",
+    "caption": "Kal kitni demand hogi? 🌼\n\nForecast ek informed estimate hai. Pichhli sales, weekday pattern, season aur upcoming events dekho. Stockout ke din recorded sales actual demand se kam ho sakti hain.\n\nLow, expected aur high scenarios socho, especially jab stock jaldi kharab hota ho. Baad mein actual orders se compare karke estimate improve karo.\n\nAapke business ki demand kis din ya season mein badalti hai?\n\n#BusinessJalwa #DemandForecasting #InventoryPlanning #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-02-post-036/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-02-post-036/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-02-post-036/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-02-post-036/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-02-post-036/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "delegation-basics-037",
+    "publish_at": "2026-12-03T18:00:00+05:30",
+    "caption": "Delegation ka matlab sirf task dena nahi 👥\n\nExpected result, deadline aur quality check clear karo. Team member ko kis decision ki authority hai aur kab escalate karna hai, ye batao.\n\nEk useful checkpoint rakho, phir result par specific feedback do. Galti ho toh process aur training bhi review karo.\n\nAap apni team ko kaunsa repeat task handover kar sakte ho?\n\n#BusinessJalwa #Delegation #TeamManagement #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-03-post-037/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-03-post-037/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-03-post-037/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-03-post-037/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-03-post-037/slide-05.jpg"
+    ],
+    "manual_approved": true
   }
 ]
