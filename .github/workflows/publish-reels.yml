@@ -1,0 +1,58 @@
+name: Business Jalwa Daily Reels
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Optional YYYY-MM-DD to retry a specific date'
+        required: false
+        type: string
+  push:
+    paths:
+      - 'reels/plans/**'
+      - '.github/workflows/publish-reels.yml'
+  schedule:
+    - cron: '30 13,14,15 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: business-jalwa-reels
+  cancel-in-progress: false
+jobs:
+  reel:
+    if: vars.PUBLISH_ENABLED == 'true' && vars.FACEBOOK_PUBLISH_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+      FACEBOOK_PAGE_ID: ${{ vars.FACEBOOK_PAGE_ID }}
+      IG_USER_ID: ${{ vars.IG_USER_ID }}
+      REEL_DATE: ${{ inputs.date }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install video and narration dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install Pillow==12.3.0 edge-tts==7.2.8
+      - name: Configure checkpoint author
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Render and publish today's narrated Reel
+        run: python scripts/daily_reel.py
+      - name: Preserve diagnostics and generated video
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-result-${{ github.run_id }}
+          path: |
+            reels/state/
+            assets/reels/
+          if-no-files-found: ignore
+          retention-days: 7
