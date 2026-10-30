@@ -34,6 +34,8 @@ def call(path,token,params=None,method='GET',headers=None):
         raise RuntimeError(f'Meta API HTTP {e.code}; code {code}') from None
     if result.get('error'): raise RuntimeError('Meta API error; review account permissions')
     return result
+def instagram(path,token,params=None,method='GET'):
+    return call('https://graph.instagram.com/v23.0/'+path,token,params,method)
 def select(date,posts,plan):
     matches=[p for p in posts if p.get('publish_at','')[:10]==date and p.get('id')==plan.get('source_post_id')]
     if len(matches)!=1: raise ValueError('Expected exactly one matching source carousel')
@@ -102,8 +104,8 @@ def main():
     def save():
         statepath.write_text(json.dumps(state,indent=2)+'\n');checkpoint([statepath])
     ig=os.environ['IG_USER_ID'];page=os.environ['FACEBOOK_PAGE_ID']
-    it=os.environ['META_ACCESS_TOKEN'];ft=os.environ['FACEBOOK_PAGE_ACCESS_TOKEN']
-    if call(ig,it,{'fields':'id,username'}).get('username')!='business.jalwa': raise RuntimeError('Wrong Instagram account')
+    it=os.environ['META_ACCESS_TOKEN'].strip();ft=os.environ['FACEBOOK_PAGE_ACCESS_TOKEN'].strip()
+    if instagram(ig,it,{'fields':'id,username'}).get('username')!='business.jalwa': raise RuntimeError('Wrong Instagram account')
     p=call('me',ft,{'fields':'id,name'})
     if str(p.get('id'))!=page or p.get('name')!='Business Jalwa': raise RuntimeError('Wrong Facebook Page')
     asset=Path(f'assets/reels/{date}/reel.mp4')
@@ -117,18 +119,18 @@ def main():
     if not state.get('instagram_media_id'):
         if state.get('instagram_publish_requested_at'): raise RuntimeError('Uncertain Instagram result; reconcile before any retry')
         if not state.get('instagram_container_id'):
-            state['instagram_container_id']=call(ig+'/media',it,{'media_type':'REELS','video_url':state['video_url'],'caption':caption,'share_to_feed':'true'},'POST')['id'];save()
+            state['instagram_container_id']=instagram(ig+'/media',it,{'media_type':'REELS','video_url':state['video_url'],'caption':caption,'share_to_feed':'true'},'POST')['id'];save()
         for _ in range(40):
-            status=call(state['instagram_container_id'],it,{'fields':'status_code'}).get('status_code')
+            status=instagram(state['instagram_container_id'],it,{'fields':'status_code'}).get('status_code')
             if status=='FINISHED': break
             if status in ('ERROR','EXPIRED'): raise RuntimeError('Instagram video container '+status)
             time.sleep(15)
         else: raise RuntimeError('Instagram processing pending; rerun later')
         state['instagram_publish_requested_at']=now();save()
-        result=call(ig+'/media_publish',it,{'creation_id':state['instagram_container_id']},'POST')
+        result=instagram(ig+'/media_publish',it,{'creation_id':state['instagram_container_id']},'POST')
         state['instagram_media_id']=result['id'];state['instagram_published_at']=now();save()
     if not state.get('instagram_verified_at'):
-        media=call(state['instagram_media_id'],it,{'fields':'id,permalink,media_product_type,timestamp'})
+        media=instagram(state['instagram_media_id'],it,{'fields':'id,permalink,media_product_type,timestamp'})
         if media.get('media_product_type')!='REELS': raise RuntimeError('Instagram result is not a Reel')
         state['instagram_permalink']=media['permalink'];state['instagram_verified_at']=now();save()
     # Facebook: uploaded draft video is distinct from a published Reel.
