@@ -80,41 +80,98 @@ def select(date,posts,plan):
         if not url.startswith('https://raw.githubusercontent.com/'+REPO+'/main/assets/'): raise ValueError('Unexpected image host/path')
         if not all(isinstance(s.get(k),str) and s[k].strip() for k in ('narration','question','answer')): raise ValueError('Incomplete scene')
     return p
+def wrap_card_text(draw,text,font,max_width):
+    lines=[]
+    for paragraph in text.splitlines():
+        words=paragraph.split();line=''
+        for word in words:
+            trial=(line+' '+word).strip()
+            if line and draw.textlength(trial,font=font)>max_width:
+                lines.append(line);line=word
+            else: line=trial
+        if line: lines.append(line)
+    return lines
+def card(text,background,foreground,height,border=None):
+    from PIL import Image,ImageDraw,ImageFont
+    font='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+    image=Image.new('RGBA',(650,height),(0,0,0,0));draw=ImageDraw.Draw(image)
+    draw.rounded_rectangle((0,0,649,height-1),radius=20,fill=background,outline=border,width=2 if border else 1)
+    for size in range(24,17,-1):
+        face=ImageFont.truetype(font,size)
+        lines=wrap_card_text(draw,text,face,605)
+        spacing=5;line_height=size+spacing
+        if lines and len(lines)*line_height<=height-24 and all(draw.textlength(line,font=face)<=605 for line in lines): break
+    else: raise ValueError('Shorten scene overlay text')
+    draw.multiline_text((22,(height-len(lines)*line_height+spacing)//2),'\n'.join(lines),font=face,fill=foreground,spacing=spacing)
+    return image
+def render_scene(art,scene,index,duration,narration,clip):
+    """Animate only small movements so the original educational slide stays legible."""
+    from PIL import Image,ImageDraw,ImageFont
+    green=(23,62,48);rust=(180,72,32);cream=(250,245,229)
+    font='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+    title=ImageFont.truetype(font,32);small=ImageFont.truetype(font,17)
+    question=card(scene['question'],green,(255,255,250),78)
+    answer=card(scene['answer'],(255,255,250),green,125,border=(211,194,162))
+    def reveal(card_image,amount):
+        opacity=round(max(0,min(1,amount))*10)
+        if not opacity:return None
+        if opacity==10:return card_image
+        alpha=card_image.getchannel('A').point(lambda value:value*opacity//10)
+        result=card_image.copy();result.putalpha(alpha)
+        return result
+    question_levels=[reveal(question,j/10) for j in range(11)]
+    answer_levels=[reveal(answer,j/10) for j in range(11)]
+    base=Image.new('RGB',(720,1280),cream);base_draw=ImageDraw.Draw(base)
+    base_draw.rectangle((0,0,720,135),fill=green)
+    base_draw.text((35,34),'BUSINESS JALWA',font=title,fill=cream)
+    base_draw.text((35,88),'BUSINESS IN HINGLISH',font=small,fill=(223,174,92))
+    base_draw.text((615,89),f'{index+1:02}/05',font=small,fill=cream)
+    base_draw.rectangle((0,135,720,1015),fill=(235,226,204))
+    base_draw.line((0,1015,720,1015),fill=(198,161,111),width=3)
+    base_draw.rounded_rectangle((35,1257,685,1265),radius=4,fill=(220,210,186))
+    frames=math.ceil(duration*24);duration=frames/24
+    command=['ffmpeg','-y','-loglevel','error','-f','rawvideo','-pix_fmt','rgb24',
+             '-s','720x1280','-r','24','-i','-','-i',str(narration),'-frames:v',str(frames),
+             '-t',str(duration),'-af','apad,loudnorm=I=-16:TP=-1.5:LRA=11',
+             '-c:v','libx264','-preset','veryfast','-crf','21','-pix_fmt','yuv420p',
+             '-c:a','aac','-ar','44100','-ac','1','-b:a','128k',str(clip)]
+    process=subprocess.Popen(command,stdin=subprocess.PIPE)
+    try:
+        for frame in range(frames):
+            t=frame/24;progress=frame/max(1,frames-1)
+            image=base.copy()
+            # A 1.5% push-in adds movement without cropping educational text.
+            zoom=1+.015*progress
+            width=round(694*zoom);height=round(868*zoom)
+            slide=art.resize((width,height),Image.Resampling.BICUBIC)
+            image.paste(slide,((720-width)//2,141+(868-height)//2))
+            draw=ImageDraw.Draw(image)
+            draw.rectangle((0,1018,720,1255),fill=cream)
+            q=min(1,max(0,t/.4));q=1-(1-q)**3
+            a=min(1,max(0,(t-min(1.05,duration*.12))/.45));a=1-(1-a)**3
+            for layer,value,y in ((question_levels,q,1030),(answer_levels,a,1120)):
+                part=layer[round(value*10)]
+                if part:image.paste(part,(35,y+round(16*(1-value))),part)
+            draw.rounded_rectangle((35,1257,35+round(650*(index+progress)/5),1265),radius=4,fill=rust)
+            process.stdin.write(image.tobytes())
+    finally:
+        process.stdin.close()
+    if process.wait()!=0: raise RuntimeError('FFmpeg animated scene render failed')
 async def build(post,plan,directory):
     import edge_tts
-    from PIL import Image,ImageDraw,ImageFont
+    from PIL import Image
     directory.mkdir(parents=True,exist_ok=True)
     work=Path('.reel-work');work.mkdir(exist_ok=True)
-    font='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
     chunks=[]
     for i,(url,scene) in enumerate(zip(post['image_urls'],plan['scenes'])):
         jpg=work/f'{i}.jpg';urllib.request.urlretrieve(url,jpg)
-        im=Image.new('RGB',(720,1280),(250,245,229));d=ImageDraw.Draw(im)
-        d.rectangle((0,0,720,135),fill=(23,62,48))
-        d.text((35,34),'BUSINESS JALWA',font=ImageFont.truetype(font,32),fill='white')
-        d.text((35,87),'BUSINESS IN HINGLISH',font=ImageFont.truetype(font,17),fill=(223,174,92))
         art=Image.open(jpg).convert('RGB');art.thumbnail((694,868))
-        im.paste(art,((720-art.width)//2,141+(868-art.height)//2))
-        for box,text,color,ink in [((35,1030,685,1108),scene['question'],(23,62,48),'white'),((35,1120,685,1245),scene['answer'],(255,255,250),(23,62,48))]:
-            d.rounded_rectangle(box,radius=20,fill=color)
-            size=24
-            while True:
-                f=ImageFont.truetype(font,size);words=text.split();lines=['']
-                for word in words:
-                    trial=(lines[-1]+' '+word).strip()
-                    if d.textlength(trial,font=f)>596: lines.append(word)
-                    else: lines[-1]=trial
-                if len(lines)*(size+5)<=box[3]-box[1]-26: break
-                size-=1
-                if size<18: raise ValueError('Shorten scene overlay text')
-            d.multiline_text((box[0]+20,box[1]+14),'\n'.join(lines),font=f,fill=ink,spacing=5)
-        png=work/f'{i}.png';im.save(png)
         mp3=work/f'{i}.mp3'
         await edge_tts.Communicate(scene['narration'],'hi-IN-MadhurNeural',rate='+5%').save(str(mp3))
         narration=work/f'{i}.wav'
         duration=tighten_narration(mp3,narration)+.08
         clip=work/f'{i}.mp4';chunks.append(clip)
-        run('ffmpeg','-y','-loglevel','error','-loop','1','-i',str(png),'-i',str(narration),'-t',str(duration),'-vf','fps=24,format=yuv420p','-af','apad,loudnorm=I=-16:TP=-1.5:LRA=11','-c:v','libx264','-preset','veryfast','-crf','21','-c:a','aac','-ar','44100','-ac','1','-b:a','128k',str(clip))
+        render_scene(art,scene,i,duration,narration,clip)
     listing=work/'clips.txt';listing.write_text(''.join("file '"+str(p.resolve())+"'\n" for p in chunks))
     output=directory/'reel.mp4'
     run('ffmpeg','-y','-loglevel','error','-f','concat','-safe','0','-i',str(listing),'-c','copy','-movflags','+faststart',str(output))
