@@ -12,7 +12,7 @@ FPS = 24
 BLACK = (4, 5, 6)
 WHITE = (248, 247, 242)
 MUTED = (168, 170, 168)
-GOLD = (232, 181, 98)
+GOLD = (255, 199, 91)
 FONT_LATIN = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 FONT_HINDI = str(Path(__file__).resolve().parents[1] / 'assets/fonts/NotoSansDevanagari.ttf')
 
@@ -39,6 +39,44 @@ def remap_words(metadata_path, removed_intervals, audio_duration):
     if any(b['start'] + .03 < a['start'] for a, b in zip(words, words[1:])):
         raise ValueError('Word timestamps are out of order')
     return words
+
+
+AMOUNTS = {
+    'दो': 2, 'तीन': 3, 'चार': 4, 'पाँच': 5, 'पांच': 5,
+    'छह': 6, 'सात': 7, 'आठ': 8, 'नौ': 9, 'दस': 10,
+    'बीस': 20, 'तीस': 30, 'चालीस': 40, 'पचास': 50,
+    'साठ': 60, 'सत्तर': 70, 'अस्सी': 80, 'नब्बे': 90,
+    'सौ': 100,
+}
+
+
+def readable_words(words):
+    """Show spoken amounts as digits without changing the audio timings.
+
+    Only convert unambiguous number phrases. Other Hindi stays as narrated.
+    """
+    output = []
+    i = 0
+    while i < len(words):
+        raw = [word['text'].rstrip('।,?!') for word in words[i:i + 4]]
+        count, label = 1, words[i]['text']
+        if (len(raw) >= 3 and raw[0] in AMOUNTS and raw[1] == 'गुणा'
+                and raw[2] in AMOUNTS):
+            count, label = 3, f"{AMOUNTS[raw[0]]:,} × ₹{AMOUNTS[raw[2]]:,}"
+        elif (len(raw) >= 2 and raw[0] in AMOUNTS and raw[1] in ('हज़ार', 'हजार', 'लाख')):
+            value = AMOUNTS[raw[0]] * (100_000 if raw[1] == 'लाख' else 1_000)
+            count = 2
+            if len(raw) >= 3 and raw[2] in ('रुपये', 'रुपए', 'रुपये।'):
+                count = 3
+            label = f"{'₹' if count == 3 else ''}{value:,}"
+        elif raw[0] in AMOUNTS:
+            value = AMOUNTS[raw[0]]
+            count = 2 if len(raw) >= 2 and raw[1] in ('रुपये', 'रुपए') else 1
+            label = f"{'₹' if count == 2 else ''}{value:,}"
+        output.append({'text': label, 'start': words[i]['start'],
+                       'end': words[i + count - 1]['end']})
+        i += count
+    return output
 
 
 def caption_groups(words):
@@ -76,11 +114,11 @@ def caption_layer(group, shown):
         x = (650 - d.textlength(whole, font=font)) / 2
         for word in row:
             active = word is group[shown - 1]
-            ink = WHITE if active else MUTED
-            if active and (any(ch.isdigit() for ch in word['text']) or
-                           any(term in word['text'] for term in ('रेवेन्यू', 'प्रॉफिट', 'खर्च', 'मुनाफा'))):
-                ink = GOLD
-            d.text((round(x), y), word['text'], font=font, fill=ink)
+            ink = GOLD if active else MUTED
+            # Hold back the result until its own voice beat; keep its space
+            # reserved so the centered phrase never jumps horizontally.
+            if active or word not in group[shown:] or not any(ch.isdigit() for ch in word['text']):
+                d.text((round(x), y), word['text'], font=font, fill=ink)
             x += d.textlength(word['text'], font=font) + d.textlength(' ', font=font)
         y += 67
     glow = Image.new('RGBA', canvas.size, (255, 250, 241, 0))
@@ -103,7 +141,7 @@ def render_scene(scene, index, duration, narration, words, clip):
     """Render voice words with restrained center motion and soft dissolves."""
     if not Path(FONT_HINDI).exists():
         raise FileNotFoundError('Bundled Devanagari font is required')
-    groups = caption_groups(words)
+    groups = caption_groups(readable_words(words))
     starts = [group[0]['start'] for group in groups]
     frames = math.ceil(duration * FPS)
     duration = frames / FPS
