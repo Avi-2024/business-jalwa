@@ -499,5 +499,70 @@
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-03-post-037/slide-05.jpg"
     ],
     "manual_approved": true
+  },
+  {
+    "id": "customer-support-038",
+    "publish_at": "2026-12-04T18:00:00+05:30",
+    "caption": "Customer complaint ko handle karne ka simple flow 💬\n\nDhyan se suno, facts note karo, responsible person aur update time clear karo. Solution mein time lage toh status batate raho.\n\nClose karne se pehle customer se confirm karo. Repeat issues ko process improvement ke liye use karo.\n\nAapke business mein complaint ka sabse common reason kya hai?\n\n#BusinessJalwa #CustomerSupport #CustomerExperience #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-04-post-038/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-04-post-038/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-04-post-038/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-04-post-038/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-04-post-038/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "returns-policy-039",
+    "publish_at": "2026-12-05T18:00:00+05:30",
+    "caption": "Returns process clear ho toh customer aur team dono ka confusion kam hota hai 📦\n\nPolicy pehle dikhayein: eligibility, item condition aur applicable resolution. Request par reason record karo, status update do aur case close karo.\n\nRepeat reasons dekho—size guide, packaging ya order checks mein kya sudhar chahiye? Policy ko applicable consumer rules ke hisab se rakho.\n\nAapke products mein returns ka common reason kya hai?\n\n#BusinessJalwa #ReturnsProcess #CustomerExperience #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-05-post-039/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-05-post-039/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-05-post-039/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-05-post-039/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-05-post-039/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "purchase-order-040",
+    "publish_at": "2026-12-06T18:00:00+05:30",
+    "caption": "Supplier ko order dene ka clear tareeka: Purchase Order 📝\n\nPO mein item, quantity, agreed price aur delivery details likho. Supplier se confirmation lo. Delivery aane par items ko PO aur delivery note se match karo.\n\nPO, delivery note aur invoice ek saath rakho, taaki differences ko payment se pehle samajh sako.\n\nAap orders WhatsApp par bhejte ho ya written PO use karte ho?\n\n#BusinessJalwa #PurchaseOrder #SupplierManagement #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-06-post-040/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-06-post-040/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-06-post-040/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-06-post-040/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-06-post-040/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "quality-control-041",
+    "publish_at": "2026-12-07T18:00:00+05:30",
+    "caption": "Quality ko repeatable kaise banayein? ✅\n\nStandard sample aur short checklist se start karo. Raw material, making aur dispatch ke useful points par check karo. Issue mile toh affected batch identify karke review karo.\n\nCustomer feedback aur repeat defects se checklist aur training improve karo.\n\nAapke product ya service ka sabse important quality check kya hai?\n\n#BusinessJalwa #QualityControl #BusinessOperations #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-07-post-041/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-07-post-041/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-07-post-041/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-07-post-041/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-07-post-041/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "kpi-dashboard-042",
+    "publish_at": "2026-12-08T18:00:00+05:30",
+    "caption": "Business dashboard ko simple rakho 📊\n\n3–5 useful measures se start karo: sales, contribution or margin, cash collection, pending payments aur repeat customers—jo aapke model par fit hon.\n\nComparable periods dekho, unusual events note karo aur ek clear action assign karo. Numbers tab useful hain jab decision better ho.\n\nAap har week kaunsa ek number zaroor dekhte ho?\n\n#BusinessJalwa #BusinessDashboard #KPI #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-08-post-042/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-08-post-042/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-08-post-042/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-08-post-042/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-12-08-post-042/slide-05.jpg"
+    ],
+    "manual_approved": true
   }
 ]
