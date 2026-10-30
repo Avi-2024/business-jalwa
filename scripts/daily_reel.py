@@ -3,7 +3,7 @@
 Durable state is committed BEFORE each non-idempotent publish request. An
 uncertain response must be reconciled manually; reruns never blindly republish.
 """
-import asyncio, datetime as dt, hashlib, json, math, os, subprocess, sys, time
+import asyncio, datetime as dt, hashlib, json, math, os, re, subprocess, sys, time
 import urllib.request, urllib.parse, urllib.error, wave
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -13,6 +13,40 @@ REPO='Avi-2024/business-jalwa'
 API='https://graph.facebook.com/v23.0/'
 def run(*args): return subprocess.check_output(args, text=True).strip()
 def now(): return dt.datetime.now(dt.timezone.utc).isoformat()
+def tighten_narration(source, destination):
+    """Shorten only measured quiet pauses; leave spoken samples/speed unchanged."""
+    pcm=destination.with_suffix('.decoded.wav')
+    run('ffmpeg','-y','-loglevel','error','-i',str(source),'-ar','44100','-ac','1','-c:a','pcm_s16le',str(pcm))
+    scan=subprocess.run(['ffmpeg','-hide_banner','-i',str(pcm),'-af',
+                         'silencedetect=noise=-45dB:d=0.45','-f','null','-'],
+                        capture_output=True,text=True,check=True)
+    with wave.open(str(pcm),'rb') as audio:
+        rate=audio.getframerate();count=audio.getnframes()
+        data=audio.readframes(count);params=audio.getparams()
+    duration=count/rate
+    pauses=[];start=None
+    for kind,value in re.findall(r'silence_(start|end):\s*([\d.]+)',scan.stderr):
+        if kind=='start': start=float(value)
+        elif start is not None:
+            pauses.append((start,min(float(value),duration)));start=None
+    if start is not None: pauses.append((start,duration))
+    cuts=[]
+    for a,b in pauses:
+        if a<=.02: left,right=0,max(0,b-.06)
+        elif b>=duration-.04: left,right=min(duration,a+.08),duration
+        else: left,right=a+.11,b-.11
+        if right>left: cuts.append((round(left*rate),round(right*rate)))
+    pieces=[];cursor=0
+    for left,right in cuts:
+        pieces.append(data[cursor*2:left*2]);cursor=right
+    pieces.append(data[cursor*2:]);output=b''.join(pieces)
+    if len(output)<rate: raise ValueError('Narration is empty or too short after pause cleanup')
+    with wave.open(str(destination),'wb') as audio:
+        audio.setparams(params);audio.writeframes(output)
+    pcm.unlink()
+    trimmed=len(output)/2/rate
+    print(f'Narration pauses: {duration:.2f}s -> {trimmed:.2f}s; {len(cuts)} long gaps shortened',flush=True)
+    return trimmed
 def checkpoint(paths):
     subprocess.run(['git','add','--',*map(str,paths)],check=True)
     if subprocess.run(['git','diff','--cached','--quiet']).returncode==0: return
@@ -77,9 +111,10 @@ async def build(post,plan,directory):
         png=work/f'{i}.png';im.save(png)
         mp3=work/f'{i}.mp3'
         await edge_tts.Communicate(scene['narration'],'hi-IN-MadhurNeural',rate='+5%').save(str(mp3))
-        duration=float(run('ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(mp3)))+.35
+        narration=work/f'{i}.wav'
+        duration=tighten_narration(mp3,narration)+.08
         clip=work/f'{i}.mp4';chunks.append(clip)
-        run('ffmpeg','-y','-loglevel','error','-loop','1','-i',str(png),'-i',str(mp3),'-t',str(duration),'-vf','fps=24,format=yuv420p','-af','apad,loudnorm=I=-16:TP=-1.5:LRA=11','-c:v','libx264','-preset','veryfast','-crf','21','-c:a','aac','-ar','44100','-ac','1','-b:a','128k',str(clip))
+        run('ffmpeg','-y','-loglevel','error','-loop','1','-i',str(png),'-i',str(narration),'-t',str(duration),'-vf','fps=24,format=yuv420p','-af','apad,loudnorm=I=-16:TP=-1.5:LRA=11','-c:v','libx264','-preset','veryfast','-crf','21','-c:a','aac','-ar','44100','-ac','1','-b:a','128k',str(clip))
     listing=work/'clips.txt';listing.write_text(''.join("file '"+str(p.resolve())+"'\n" for p in chunks))
     output=directory/'reel.mp4'
     run('ffmpeg','-y','-loglevel','error','-f','concat','-safe','0','-i',str(listing),'-c','copy','-movflags','+faststart',str(output))
