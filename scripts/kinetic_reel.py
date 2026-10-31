@@ -174,7 +174,10 @@ def scene_topic(scene):
     """Classify the current spoken beat so the illustration follows its lesson."""
     text = ' '.join(str(scene.get(k, '')) for k in ('visual', 'topic', 'question', 'answer', 'narration')).lower()
     rules = [
+        ('inventory', ('inventory', 'stock turnover', 'stock level', 'slow-moving stock', 'average inventory', 'reorder point', 'इन्वेंटरी', 'स्टॉक')),
+        ('acquisition', ('customer acquisition', 'acquisition cost', 'new customer', 'marketing', 'ad spend', 'campaign', 'cac', 'विज्ञापन', 'नए ग्राहक')),
         ('breakeven', ('break-even', 'break even', 'break_even', 'breakeven', 'ब्रेक-ईवन')),
+        ('pricing', ('discount', 'pricing', 'selling price', 'price cut', 'छूट', 'कीमत')),
         ('cashflow', ('cash flow', 'cashflow', 'cash-flow', 'due date', 'payment', 'cash', 'भुगतान', 'पेमेंट')),
         ('retention', ('repeat', 'reorder', 'returning customer', 'customer rate', 'customer retention', 'दोबारा', 'ग्राहक')),
         ('costs', ('cost', 'expense', 'contribution', 'profit', 'margin', 'खर्च', 'लागत', 'कमाई')),
@@ -233,6 +236,33 @@ def topic_visual_layer(scene, elapsed):
         line([(60, 107), (108, 107)], (248,247,242,150), 2)
         d.ellipse((118, 105, 151, 138), fill=(0,0,0,255), outline=gold, width=4)
         d.text((125, 108), '−', font=ImageFont.truetype(FONT_LATIN, 22), fill=gold)
+    elif category == 'inventory':
+        # Stock shelf with distinct boxes and a reorder marker.
+        line([(40, 124), (138, 124)], blue, 5)
+        line([(45, 83), (133, 83)], blue, 5)
+        for x, y, w, h, col in ((49, 55, 29, 27, gold), (86, 49, 38, 34, white),
+                                (57, 92, 35, 28, white), (101, 91, 29, 29, gold)):
+            d.rounded_rectangle((x, y, x+w, y+h), radius=4, outline=col, width=4)
+        line([(121, 44), (141, 44), (141, 64)], mint, 4)
+        line([(133, 55), (141, 64), (149, 55)], mint, 4)
+    elif category == 'acquisition':
+        # Megaphone aimed at new customer dots.
+        line([(43, 73), (96, 55), (96, 117), (43, 99), (43, 73)], gold, 5)
+        line([(43, 78), (32, 78), (32, 94), (43, 94)], white, 4)
+        line([(54, 102), (63, 129), (79, 129), (70, 108)], blue, 5)
+        line([(108, 63), (125, 52)], mint, 4)
+        line([(111, 86), (137, 86)], mint, 4)
+        line([(108, 108), (125, 121)], mint, 4)
+        for x, y in ((136, 47), (145, 82), (136, 124)):
+            d.ellipse((x-5, y-5, x+5, y+5), fill=gold)
+    elif category == 'pricing':
+        # Price tag and a visible before/after bar comparison.
+        line([(39, 71), (76, 38), (119, 38), (138, 57), (94, 101), (39, 71)], gold, 5)
+        d.ellipse((111, 47, 120, 56), fill=white)
+        line([(49, 132), (138, 132)], blue, 4)
+        d.rounded_rectangle((57, 92, 79, 128), radius=4, fill=white)
+        d.rounded_rectangle((99, 107, 121, 128), radius=4, fill=gold)
+        line([(81, 86), (97, 98)], mint, 4)
     elif category == 'growth':
         # Rising sales bars with an upward trend arrow.
         line([(41, 132), (41, 49)], blue, 4); line([(41, 132), (140, 132)], blue, 4)
