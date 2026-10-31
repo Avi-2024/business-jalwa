@@ -3,9 +3,14 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: 'Optional YYYY-MM-DD to retry a specific date'
+        description: 'Optional YYYY-MM-DD to retry or prepare a specific date'
         required: false
         type: string
+      render_only:
+        description: 'Render and commit the video without publishing it'
+        required: false
+        default: false
+        type: boolean
   push:
     paths:
       - 'reels/plans/**'
@@ -31,6 +36,7 @@ jobs:
       FACEBOOK_PAGE_ID: ${{ vars.FACEBOOK_PAGE_ID }}
       IG_USER_ID: ${{ vars.IG_USER_ID }}
       REEL_DATE: ${{ inputs.date }}
+      REEL_RENDER_ONLY: ${{ inputs.render_only }}
     steps:
       - uses: actions/checkout@v6
         with:
