@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Customer Acquisition Cost (CAC): naya paying customer lane ka kharcha",
+  "caption": "₹3,000 ke campaign se 30 naye paying customers aaye. Simple example mein CAC = ₹3,000 ÷ 30 = ₹100 per customer. 👇\n\nCAC batata hai naye customer ko acquire karne mein kitna kharcha hua. Isse customer se aane wale contribution ya margin ke saath compare karo; CAC akela campaign ka profit nahi batata. Calculation mein usi campaign ka attributable spend aur usse aaye naye customers count karo.\n\nAap apne business mein har channel ka CAC track karte ho?\n\n#BusinessJalwa #CustomerAcquisition #CAC #SmallBusiness #Hinglish",
+  "scenes": [
+    {
+      "visual": "acquisition",
+      "narration": "Maan lo ek campaign par teen hazaar rupaye lage, aur usse tees naye paying customers aaye. Har customer lane ka kharcha kitna pada?",
+      "question": "₹3,000 campaign",
+      "answer": "30 new customers"
+    },
+    {
+      "visual": "acquisition",
+      "narration": "Customer Acquisition Cost, ya CAC, ka simple formula hai: customer lane ka attributable kharcha divide us campaign se aaye naye customers.",
+      "question": "CAC formula",
+      "answer": "Spend ÷ new customers"
+    },
+    {
+      "visual": "acquisition",
+      "narration": "Teen hazaar divide tees barabar sau rupaye. Is example mein ek naya paying customer lane ka kharcha sau rupaye hai.",
+      "question": "₹3,000 ÷ 30",
+      "answer": "₹100 per customer"
+    },
+    {
+      "visual": "acquisition",
+      "narration": "CAC akela nahi batata ki campaign profitable tha. Naye customer se milne wale contribution ya margin se compare karo, aur repeat order ko alag dekho.",
+      "question": "CAC alone?",
+      "answer": "Compare contribution"
+    },
+    {
+      "visual": "acquisition",
+      "narration": "Har marketing channel ka spend aur usse aaye naye customers same period mein note karo. Phir actual numbers se CAC compare karo.",
+      "question": "Track each channel",
+      "answer": "Spend ÷ customers"
+    }
+  ]
+}
