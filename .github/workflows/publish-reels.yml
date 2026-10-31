@@ -10,6 +10,8 @@ on:
     paths:
       - 'reels/plans/**'
       - 'scripts/daily_reel.py'
+      - 'scripts/kinetic_reel.py'
+      - 'assets/reels/visual-library/**'
       - '.github/workflows/publish-reels.yml'
   schedule:
     - cron: '30 13,14,15 * * *'
