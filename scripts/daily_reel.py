@@ -97,8 +97,16 @@ async def build(post,plan,directory):
     for i,scene in enumerate(plan['scenes']):
         mp3=work/f'{i}.mp3';metadata=work/f'{i}.words.jsonl'
         # WordBoundary offsets come from the same TTS stream as this audio.
-        await edge_tts.Communicate(scene['narration'],'hi-IN-MadhurNeural',
-                                   rate='+5%',boundary='WordBoundary').save(str(mp3),str(metadata))
+        for attempt in range(4):
+            try:
+                await edge_tts.Communicate(scene['narration'],'hi-IN-MadhurNeural',
+                                           rate='+5%',boundary='WordBoundary').save(str(mp3),str(metadata))
+                break
+            except edge_tts.exceptions.NoAudioReceived:
+                if attempt==3: raise
+                delay=5*(attempt+1)
+                print(f'Voice service returned no audio; retrying scene {i+1} in {delay}s',flush=True)
+                await asyncio.sleep(delay)
         narration=work/f'{i}.wav'
         voice_duration,removed=tighten_narration(mp3,narration)
         words=remap_words(metadata,removed,voice_duration)
