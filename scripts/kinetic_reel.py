@@ -172,7 +172,7 @@ def visual_layer(index, elapsed):
 
 def scene_topic(scene):
     """Classify the current spoken beat so the illustration follows its lesson."""
-    text = ' '.join(str(scene.get(k, '')) for k in ('visual', 'question', 'answer', 'narration')).lower()
+    text = ' '.join(str(scene.get(k, '')) for k in ('visual', 'topic', 'question', 'answer', 'narration')).lower()
     rules = [
         ('breakeven', ('break-even', 'break even', 'break_even', 'breakeven', 'ब्रेक-ईवन')),
         ('cashflow', ('cash flow', 'cashflow', 'cash-flow', 'due date', 'payment', 'cash', 'भुगतान', 'पेमेंट')),
