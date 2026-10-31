@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Repeat customer rate ko simple 10-customer example se samajhna",
+  "caption": "10 naye customers mein se 6 ne 30 din ke andar dobara order diya. Repeat rate = 6 ÷ 10 × 100 = 60%. 👇\n\nEk hi period aur same first-time customer group track karo, warna number misleading ho sakta hai. Repeat orders batate hain ki kitne log wapas aaye—par kyun aaye ya nahi aaye, ye feedback se samjho.\n\nAap apne returning customers ko kaise track karte ho?\n\n#BusinessJalwa #CustomerRetention #SmallBusiness #BusinessMetrics #Hinglish",
+  "scenes": [
+    {
+      "narration": "Maan lo das naye tiffin customers aaye. Unmein se chhe ne tees din ke andar phir se order kiya. Repeat rate kitna hua?",
+      "question": "10 naye customers",
+      "answer": "6 ne reorder kiya"
+    },
+    {
+      "narration": "Repeat rate ka formula hai: wapas order karne wale customers, divide pehli baar aaye total customers, multiply sau.",
+      "question": "Formula kya hai?",
+      "answer": "Repeat ÷ First-time × 100"
+    },
+    {
+      "narration": "Chhe divide das multiply sau barabar saath percent. Is example mein tees din ke andar repeat rate saath percent hai.",
+      "question": "6 ÷ 10 × 100",
+      "answer": "60% repeat rate"
+    },
+    {
+      "narration": "Same customer group aur same time period compare karo. Ek hafte ka number aur teen mahine ka number mix karoge to comparison sahi nahi rahega.",
+      "question": "Fair comparison?",
+      "answer": "Same group + period"
+    },
+    {
+      "narration": "Jo wapas nahi aaye unka feedback samjho—timing, taste ya delivery. Phir service improve karke agle thirty days ka repeat rate dekho.",
+      "question": "Next kya karein?",
+      "answer": "Feedback lo"
+    }
+  ]
+}
