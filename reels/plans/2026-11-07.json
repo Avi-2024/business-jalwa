@@ -8,7 +8,7 @@
   "scenes": [
     {
       "visual": "pricing",
-      "narration": "Ek product paanch sau rupaye mein bikta hai. Uski har unit ki variable cost teen sau pachaas rupaye hai. Abhi contribution kitna bachta hai?",
+      "narration": "Paanch sau rupaye ki sale, teen sau pachaas ki variable cost. Har unit mein kitna contribution bachega?",
       "question": "Price ₹500",
       "answer": "Cost ₹350"
     },
