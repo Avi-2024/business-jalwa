@@ -37,5 +37,9 @@
       "answer": "Balance stock + demand"
     }
   ],
-  "visual_asset": "assets/reels/2026-11-06/visual.png"
+  "visual_asset": "assets/reels/2026-11-06/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
 }
