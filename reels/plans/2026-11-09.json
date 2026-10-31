@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-09",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Capacity utilization: tailoring shop ki available machine-hours ka kitna use hua?",
+  "caption": "Tailoring shop mein 2 machines × 5 available hours = 10 machine-hours ki daily capacity. Agar actual silai 6 machine-hours hui, utilization = 6 ÷ 10 = 60%. 🧵\n\nBache 4 machine-hours ko dekhkar orders aur kaam ka schedule behtar plan kar sakte ho. Ye simplified example hai: capacity utilization profit percentage nahi batata. Kaam ki complexity, karigar aur costs bhi dekhni hongi.\n\nAap apne business mein available aur used hours track karte ho?\n\n#BusinessJalwa #CapacityUtilization #SmallBusiness #Operations #TailoringBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian woman tailor opens her tailoring workshop and notices unused sewing capacity",
+      "narration": "आपकी टेलरिंग दुकान में दो सिलाई मशीनें हैं। फिर भी दिन के कुछ घंटे दोनों खाली रहती हैं। ज़्यादा ऑर्डर लेने से पहले समझिए, आपकी असली काम करने की क्षमता कितनी इस्तेमाल हो रही है।",
+      "question": "Machines khali kyun?",
+      "answer": "Pehle use rate dekho"
+    },
+    {
+      "visual": "Sewing machines and thread representing available productive machine hours",
+      "narration": "मान लीजिए, हर मशीन रोज़ पाँच घंटे सिलाई कर सकती है। दो मशीनों की कुल उपलब्ध क्षमता हुई दस मशीन-घंटे। यही इस आसान उदाहरण का पूरा आधार है।",
+      "question": "Daily capacity?",
+      "answer": "2 × 5 = 10 hrs"
+    },
+    {
+      "visual": "Tailor actively stitches an order on the sewing machine",
+      "narration": "आज दोनों मशीनों पर मिलाकर सिर्फ छह घंटे सिलाई हुई। छह को दस से भाग दें, तो कैपेसिटी यूटिलाइज़ेशन हुआ साठ प्रतिशत। बाकी चार मशीन-घंटे खाली रहे।",
+      "question": "Actual use?",
+      "answer": "6 ÷ 10 = 60%"
+    },
+    {
+      "visual": "Completed garments beside empty sewing workstations",
+      "narration": "लेकिन साठ प्रतिशत का मतलब सीधे साठ प्रतिशत मुनाफ़ा नहीं है। कपड़ों की जटिलता, कारीगरों की उपलब्धता और लागत बदल सकती है। इसलिए एक जैसे काम और एक ही अवधि के घंटे तुलना में रखें।",
+      "question": "60% = profit?",
+      "answer": "Nahi, costs bhi dekho"
+    },
+    {
+      "visual": "Tailor plans tomorrow's orders with a blank calendar and coworker",
+      "narration": "अगले सात दिन, उपलब्ध मशीन-घंटे और वास्तव में इस्तेमाल हुए घंटे नोट करें। जहाँ लगातार समय खाली रहे, वहाँ ऑर्डर या काम का समय बेहतर बाँटें। डिलीवरी का वादा तभी करें, जब क्षमता सच में हो।",
+      "question": "Next step?",
+      "answer": "7 din hours track karo"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-09/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
