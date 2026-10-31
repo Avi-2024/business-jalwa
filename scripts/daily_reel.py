@@ -112,11 +112,25 @@ async def build(post,plan,directory):
     return output
 def main():
     local=dt.datetime.now(ZoneInfo('Asia/Kolkata'))
-    date=os.environ.get('REEL_DATE') or local.date().isoformat()
+    today=local.date().isoformat()
+    requested_date=os.environ.get('REEL_DATE')
     force_render_only=os.environ.get('REEL_RENDER_ONLY','').lower() in ('true','1','yes')
-    if date>local.date().isoformat() and not force_render_only:
+    # When a future daily plan is pushed, render it now without publishing.
+    if not requested_date and os.environ.get('GITHUB_EVENT_NAME')=='push' and os.environ.get('GITHUB_EVENT_PATH'):
+        event=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text())
+        commit=event.get('head_commit') or {}
+        changed=(commit.get('added') or [])+(commit.get('modified') or [])
+        future=sorted({m.group(1) for path in changed
+                       if (m:=re.fullmatch(r'reels/plans/(\\d{4}-\\d{2}-\\d{2})\\.json',path))
+                       and m.group(1)>today and Path(path).exists()})
+        if len(future)==1:
+            requested_date=future[0]
+            force_render_only=True
+            print(f'Future Reel plan detected; preparing {requested_date} only')
+    date=requested_date or today
+    if date>today and not force_render_only:
         print('Future Reel date; no processing yet');return
-    render_only=force_render_only or (date==local.date().isoformat() and local.hour<19)
+    render_only=force_render_only or (date==today and local.hour<19)
     planpath=Path(f'reels/plans/{date}.json')
     if not planpath.exists(): raise RuntimeError(f'No narrated Reel plan for {date}; daily preparation has not completed')
     plan=json.loads(planpath.read_text());posts=json.loads(Path('posts.json').read_text())
