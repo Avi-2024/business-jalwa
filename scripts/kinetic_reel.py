@@ -170,6 +170,86 @@ def visual_layer(index, elapsed):
     return source, (x, y)
 
 
+def scene_topic(scene):
+    """Classify the current spoken beat so the illustration follows its lesson."""
+    text = ' '.join(str(scene.get(k, '')) for k in ('visual', 'question', 'answer', 'narration')).lower()
+    rules = [
+        ('breakeven', ('break-even', 'break even', 'break_even', 'breakeven', 'ब्रेक-ईवन')),
+        ('cashflow', ('cash flow', 'cashflow', 'cash-flow', 'due date', 'payment', 'cash', 'भुगतान', 'पेमेंट')),
+        ('retention', ('repeat', 'reorder', 'returning customer', 'customer rate', 'customer retention', 'दोबारा', 'ग्राहक')),
+        ('costs', ('cost', 'expense', 'contribution', 'profit', 'margin', 'खर्च', 'लागत', 'कमाई')),
+        ('growth', ('growth', 'sales', 'revenue', 'increase', 'बढ़', 'विकास', 'बिक्री')),
+    ]
+    for category, keys in rules:
+        if any(key in text for key in keys):
+            return category
+    return 'business'
+
+
+def topic_visual_layer(scene, elapsed):
+    """A small animated editorial illustration that matches the spoken topic."""
+    category = scene_topic(scene)
+    size = 176
+    layer = Image.new('RGBA', (size, size), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    pulse = 1 + .025 * math.sin(elapsed * 2.3)
+    pad = round(10 * (1 - pulse))
+    d.ellipse((10 + pad, 10 + pad, 166 - pad, 166 - pad),
+              fill=(0, 0, 0, 220), outline=(255, 199, 91, 225), width=2)
+    gold, blue, white, mint = (255, 199, 91, 255), (74, 137, 255, 255), (248, 247, 242, 245), (106, 211, 169, 255)
+    def line(points, fill=white, width=5):
+        d.line(points, fill=fill, width=width, joint='curve')
+    if category == 'breakeven':
+        # Fixed-cost threshold and a rising contribution line crossing it.
+        line([(37, 132), (37, 47)], blue, 4); line([(37, 132), (141, 132)], blue, 4)
+        for x in (57, 79, 101, 123):
+            d.rounded_rectangle((x, 112 - (x - 57), x + 10, 130), radius=3, fill=(74, 137, 255, 170))
+        line([(45, 117), (72, 105), (94, 91), (121, 65), (141, 49)], gold, 6)
+        line([(41, 91), (138, 91)], (248, 247, 242, 140), 2)
+        d.ellipse((111, 55, 129, 73), fill=gold)
+    elif category == 'cashflow':
+        # Payment calendar with dated in/out movement and a coin.
+        d.rounded_rectangle((38, 42, 112, 119), radius=9, outline=blue, width=5)
+        line([(38, 62), (112, 62)], blue, 4)
+        for x in (57, 92): line([(x, 34), (x, 50)], gold, 5)
+        for x, y in ((56, 78), (76, 78), (96, 78), (56, 98), (76, 98)):
+            d.ellipse((x-3, y-3, x+3, y+3), fill=white)
+        d.ellipse((111, 92, 151, 132), fill=(0,0,0,255), outline=gold, width=4)
+        d.text((119, 98), '₹', font=ImageFont.truetype(FONT_LATIN, 23), fill=gold)
+        line([(123, 85), (138, 69)], mint, 4); line([(131, 69), (138, 69), (138, 76)], mint, 4)
+    elif category == 'retention':
+        # Returning customers linked by a circular repeat arrow.
+        for cx, cy in ((63, 76), (113, 76)):
+            d.ellipse((cx-12, cy-26, cx+12, cy-2), outline=white, width=4)
+            d.arc((cx-25, cy-2, cx+25, cy+45), 190, 350, fill=blue, width=5)
+        d.arc((42, 35, 139, 138), 202, 318, fill=gold, width=5)
+        line([(123, 43), (139, 45), (134, 59)], gold, 5)
+    elif category == 'costs':
+        # Itemized receipt and a calculator cue.
+        line([(54, 36), (116, 36), (116, 119), (54, 119), (54, 36)], white, 4)
+        for y, col in ((56, blue), (75, gold), (94, blue)):
+            line([(65, y), (82, y)], white, 3)
+            d.rounded_rectangle((91, y-8, 105, y+7), radius=4, fill=col)
+        line([(60, 107), (108, 107)], (248,247,242,150), 2)
+        d.ellipse((118, 105, 151, 138), fill=(0,0,0,255), outline=gold, width=4)
+        d.text((125, 108), '−', font=ImageFont.truetype(FONT_LATIN, 22), fill=gold)
+    elif category == 'growth':
+        # Rising sales bars with an upward trend arrow.
+        line([(41, 132), (41, 49)], blue, 4); line([(41, 132), (140, 132)], blue, 4)
+        for x, height in ((55, 24), (78, 43), (101, 63), (124, 83)):
+            d.rounded_rectangle((x, 128-height, x+13, 128), radius=4, fill=gold if x == 124 else blue)
+        line([(55, 95), (81, 79), (104, 68), (136, 43)], mint, 5)
+        line([(125, 43), (136, 43), (136, 55)], mint, 5)
+    else:
+        # Small shopfront plus the order bag for general business topics.
+        d.rectangle((43, 64, 113, 124), outline=blue, width=4)
+        line([(37, 64), (48, 43), (108, 43), (120, 64)], gold, 5)
+        for x in (48, 70, 92, 111): line([(x, 44), (x, 64)], gold, 3)
+        d.rectangle((62, 87, 91, 124), outline=white, width=4)
+        d.rounded_rectangle((112, 84, 145, 128), radius=5, outline=gold, width=4)
+        d.arc((119, 71, 138, 100), 180, 360, fill=gold, width=4)
+    return layer
+
 def render_scene(scene, index, duration, narration, words, clip):
     """Render voice words with restrained center motion and soft dissolves."""
     if not Path(FONT_HINDI).exists():
@@ -195,6 +275,7 @@ def render_scene(scene, index, duration, narration, words, clip):
             visual_index = (index + int(t / 3.5)) % len(VISUALS)
             cutout, cutout_position = visual_layer(visual_index, t)
             image.alpha_composite(cutout, cutout_position)
+            image.alpha_composite(topic_visual_layer(scene, t), (526, 700))
             group_index = bisect.bisect_right(starts, t) - 1
             if group_index >= 0:
                 group = groups[group_index]
