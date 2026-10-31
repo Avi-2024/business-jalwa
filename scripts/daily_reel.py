@@ -105,7 +105,7 @@ async def build(post,plan,directory):
         clip=work/f'{i}.mp4';chunks.append(clip)
         render_scene(scene,i,voice_duration+.08,narration,words,clip)
     listing=work/'clips.txt';listing.write_text(''.join("file '"+str(p.resolve())+"'\n" for p in chunks))
-    output=directory/'reel.mp4'
+    output=directory/f'Business-Jalwa-Reel-{directory.name}.mp4'
     run('ffmpeg','-y','-loglevel','error','-f','concat','-safe','0','-i',str(listing),'-c','copy','-movflags','+faststart',str(output))
     duration=float(run('ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(output)))
     if not 15<=duration<=90: raise ValueError(f'Reel duration {duration:.1f}s outside 15–90s')
