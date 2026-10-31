@@ -115,18 +115,18 @@ def main():
     today=local.date().isoformat()
     requested_date=os.environ.get('REEL_DATE')
     force_render_only=os.environ.get('REEL_RENDER_ONLY','').lower() in ('true','1','yes')
-    # When a future daily plan is pushed, render it now without publishing.
-    if not requested_date and os.environ.get('GITHUB_EVENT_NAME')=='push' and os.environ.get('GITHUB_EVENT_PATH'):
-        event=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text())
-        commit=event.get('head_commit') or {}
-        changed=(commit.get('added') or [])+(commit.get('modified') or [])
-        future=sorted({m.group(1) for path in changed
-                       if (m:=re.fullmatch(r'reels/plans/(\d{4}-\d{2}-\d{2})\.json',path))
-                       and m.group(1)>today and Path(path).exists()})
-        if len(future)==1:
-            requested_date=future[0]
-            force_render_only=True
-            print(f'Future Reel plan detected; preparing {requested_date} only')
+    # On repository pushes, render the earliest future plan that has no committed video.
+    if not requested_date and os.environ.get('GITHUB_EVENT_NAME')=='push':
+        for plan_file in sorted(Path('reels/plans').glob('????-??-??.json')):
+            candidate=plan_file.stem
+            if candidate<=today: continue
+            pending_state=Path(f'reels/state/{candidate}.json')
+            saved=json.loads(pending_state.read_text()) if pending_state.exists() else {}
+            if not saved.get('video_url'):
+                requested_date=candidate
+                force_render_only=True
+                print(f'Pending future Reel found; preparing {requested_date} only')
+                break
     date=requested_date or today
     if date>today and not force_render_only:
         print('Future Reel date; no processing yet');return
