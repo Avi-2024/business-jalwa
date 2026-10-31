@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-10",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Packing checklist SOP: kirana order mein chhuta item kaise rokein?",
+  "caption": "Customer ne 4 items mangaye, bag mein 3 nikle. 🛒\n\nKirana shop ka simple packing SOP: order dekho → items uthao → har item match karo → pack karo → dispatch se pehle final check. Chhoti checklist galti pakadne mein help kar sakti hai, agar team har order par use kare.\n\nApne pehle 10 aur agle 10 orders ki packing mistakes compare karo. Example illustrative hai; results aapke process par depend karenge.\n\nAapke business mein kaunsa repeat kaam checklist se behtar ho sakta hai?\n\n#BusinessJalwa #SmallBusiness #SOP #Operations #KiranaStore #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Grocery shop owner takes a four-item order from customer",
+      "narration": "किराना दुकान में ग्राहक ने चार सामान मंगाए, लेकिन बैग में तीन ही निकले। सिर्फ एक छूटी चीज़ से दोबारा डिलीवरी और ग्राहक की नाराज़गी, दोनों बढ़ सकते हैं।",
+      "question": "Order mein kya chhuta?",
+      "answer": "4 maange, 3 mile"
+    },
+    {
+      "visual": "Shop assistant picks rice lentils oil and onion, but an item remains on the counter",
+      "narration": "माल चुनते वक्त हर आइटम को ऑर्डर से मिलाना ज़रूरी है। मान लो सूची में चावल, दाल, तेल और प्याज़ हैं। जल्दबाज़ी में प्याज़ काउंटर पर रह गया।",
+      "question": "Galti kahan hui?",
+      "answer": "Packing se pehle check"
+    },
+    {
+      "visual": "Incomplete grocery bag and concerned customer",
+      "narration": "यहाँ छोटी सी पैकिंग चेकलिस्ट काम आती है। हर ऑर्डर के लिए सामान उठाओ, सूची से मिलाओ, पैक करो, फिर भेजने से पहले एक आख़िरी बार देखो।",
+      "question": "Simple process?",
+      "answer": "Pick • Match • Pack • Check"
+    },
+    {
+      "visual": "Shop owner and assistant check actual grocery items against a blank checklist",
+      "narration": "इसे स्टैंडर्ड ऑपरेटिंग प्रोसेस, यानी एस ओ पी, कह सकते हैं। मक़सद हर बार एक जैसा भरोसेमंद तरीका रखना है। लेकिन चेकलिस्ट तभी मदद करेगी जब टीम सच में उसे इस्तेमाल करे।",
+      "question": "SOP ka kaam?",
+      "answer": "Same reliable steps"
+    },
+    {
+      "visual": "Complete grocery bag delivered correctly to a smiling customer",
+      "narration": "आज अपने दस ऑर्डर में कितनी पैकिंग गलतियाँ हुईं, नोट करो। फिर एक सरल चेकलिस्ट लगाकर अगले दस ऑर्डर से तुलना करो। ग्राहक को सही सामान पहली बार मिले, यही असली सुधार है।",
+      "question": "Improvement kaise?",
+      "answer": "10 orders compare karo"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-10/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
