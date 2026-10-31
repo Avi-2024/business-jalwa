@@ -135,7 +135,16 @@ def main():
     if instagram(ig,it,{'fields':'id,username'}).get('username')!='business.jalwa': raise RuntimeError('Wrong Instagram account')
     p=call('me',ft,{'fields':'id,name'})
     if str(p.get('id'))!=page or p.get('name')!='Business Jalwa': raise RuntimeError('Wrong Facebook Page')
-    asset=Path(f'assets/reels/{date}/reel.mp4')
+    asset=Path(f'assets/reels/{date}/Business-Jalwa-Reel-{date}.mp4')
+    legacy_asset=Path(f'assets/reels/{date}/reel.mp4')
+    if (not state.get('instagram_media_id') and not state.get('facebook_publish_requested_at')
+            and not asset.exists() and legacy_asset.exists()):
+        legacy_asset.rename(asset)
+        checkpoint([legacy_asset,asset])
+        sha=run('git','rev-parse','HEAD')
+        state['video_url']=f'https://raw.githubusercontent.com/{REPO}/{sha}/{asset.as_posix()}'
+        state['renamed_at']=now()
+        save()
     if not state.get('video_url'):
         asyncio.run(build(post,plan,asset.parent));checkpoint([asset,planpath])
         sha=run('git','rev-parse','HEAD')
