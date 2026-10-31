@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-02",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Break-even point ko simple tiffin example se samajhna",
+  "caption": "Monthly fixed kharcha ₹15,000 hai aur har tiffin se ₹30 contribution bachta hai. Break-even ke liye kitne tiffin chahiye? 👇\n\n₹15,000 ÷ ₹30 = 500 tiffins. Is simple example mein 500 orders fixed kharcha cover karte hain; uske baad contribution aage ke kharche/profit mein jaata hai. Agar cost ya contribution badle, calculation bhi update karo.\n\nApne business ka monthly fixed kharcha aur per-order contribution likh kar break-even nikalo.\n\n#BusinessJalwa #BreakEvenPoint #SmallBusiness #BusinessBasics #Hinglish",
+  "scenes": [
+    {
+      "narration": "Mahine ka fixed kharcha pandrah hazaar rupaye hai. Har tiffin bechne ke baad tees rupaye contribution bachta hai. Break-even ke liye kitne tiffin bechne honge?",
+      "question": "Fixed cost ₹15,000",
+      "answer": "Break-even kitna?"
+    },
+    {
+      "narration": "Pehle samjho: contribution matlab selling price mein se har order ki variable cost nikalne ke baad bachi rakam. Pichhle example mein sau mein se sattar ghata kar tees rupaye bache the.",
+      "question": "Per tiffin bache",
+      "answer": "₹30 contribution"
+    },
+    {
+      "narration": "Ab monthly fixed cost ko per tiffin contribution se divide karo. Pandrah hazaar divide tees barabar paanch sau tiffin.",
+      "question": "₹15,000 ÷ ₹30",
+      "answer": "500 tiffins"
+    },
+    {
+      "narration": "Is simple hisaab mein paanch sau tiffin par contribution fixed kharcha cover karta hai. Yahan break-even par profit zero hota hai; extra costs hon to unhe bhi jodo.",
+      "question": "500 par kya?",
+      "answer": "Break-even point"
+    },
+    {
+      "narration": "Agar mahine mein pachchees din kaam karte ho, to paanch sau orders ka matlab roz bees tiffin. Apni actual cost daal kar target set karo.",
+      "question": "500 ÷ 25 din",
+      "answer": "20 tiffin/day"
+    }
+  ]
+}
