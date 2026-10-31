@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-07",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Discount ka maths: 10% off ke baad contribution aur sales volume",
+  "caption": "₹500 ki item par variable cost ₹350 hai, to contribution ₹150. 10% discount price ko ₹450 karta hai; cost same rahe to contribution ₹100 bachega. 👇\n\nPehle jitna contribution kamane ke liye discounted price par 1.5× units—yaani 50% zyada units—bechne honge. Ye simplified example hai: variable cost/order same maan kar. Real offer se pehle demand, fees aur extra costs bhi dekho.\n\nDiscount dene se pehle per-order contribution calculate karte ho?\n\n#BusinessJalwa #Pricing #SmallBusiness #ProfitMargin #Hinglish",
+  "scenes": [
+    {
+      "visual": "pricing",
+      "narration": "Ek product paanch sau rupaye mein bikta hai. Uski har unit ki variable cost teen sau pachaas rupaye hai. Abhi contribution kitna bachta hai?",
+      "question": "Price ₹500",
+      "answer": "Cost ₹350"
+    },
+    {
+      "visual": "pricing",
+      "narration": "Paanch sau ka das percent discount pachaas rupaye hai. Discount ke baad naya selling price chaar sau pachaas rupaye hoga.",
+      "question": "10% off = ₹50",
+      "answer": "New price ₹450"
+    },
+    {
+      "visual": "pricing",
+      "narration": "Agar cost teen sau pachaas hi rahe, to naya contribution chaar sau pachaas minus teen sau pachaas—sau rupaye bachega.",
+      "question": "₹450 − ₹350",
+      "answer": "₹100 contribution"
+    },
+    {
+      "visual": "pricing",
+      "narration": "Pehle ek sale se sau nahi, ek sau pachaas contribution bachta tha. Ab sau bachta hai. Wahi total contribution rakhne ke liye डेढ़ guna units bechne honge.",
+      "question": "₹150 ÷ ₹100",
+      "answer": "1.5× unit sales"
+    },
+    {
+      "visual": "pricing",
+      "narration": "Matlab pachaas percent zyada units—agar variable cost per unit same rahe. Discount se pehle apna target aur saare extra costs check karo.",
+      "question": "Same contribution?",
+      "answer": "50% more units"
+    }
+  ]
+}
