@@ -153,11 +153,16 @@ def background():
     return image.convert('RGB')
 
 
-def visual_layer(index, elapsed):
+def visual_layer(index, elapsed, scene=None):
+    """Use a unique generated image for this Reel; fall back to the general library only when absent."""
+    custom_path = Path(scene.get('visual_asset', '')) if scene else Path()
+    if custom_path.is_file():
+        source = Image.open(custom_path).convert('RGBA')
+    else:
+        if not VISUALS:
+            raise FileNotFoundError('Business cutaway visuals are required')
+        source = Image.open(VISUALS[index % len(VISUALS)]).convert('RGBA')
     """Subtle moving cutout visual; switch to a new business scene every 3.5 seconds."""
-    if not VISUALS:
-        raise FileNotFoundError('Business cutaway visuals are required')
-    source = Image.open(VISUALS[index % len(VISUALS)]).convert('RGBA')
     bounds = source.getbbox()
     if bounds:
         source = source.crop(bounds)
@@ -303,7 +308,7 @@ def render_scene(scene, index, duration, narration, words, clip):
             t = frame / FPS
             image = base.copy().convert('RGBA')
             visual_index = (index + int(t / 3.5)) % len(VISUALS)
-            cutout, cutout_position = visual_layer(visual_index, t)
+            cutout, cutout_position = visual_layer(visual_index, t, scene)
             image.alpha_composite(cutout, cutout_position)
             image.alpha_composite(topic_visual_layer(scene, t), (526, 700))
             group_index = bisect.bisect_right(starts, t) - 1
