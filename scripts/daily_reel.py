@@ -113,8 +113,9 @@ async def build(post,plan,directory):
 def main():
     local=dt.datetime.now(ZoneInfo('Asia/Kolkata'))
     date=os.environ.get('REEL_DATE') or local.date().isoformat()
-    if date>local.date().isoformat() or (date==local.date().isoformat() and local.hour<19):
-        print('Not due until 19:00 Asia/Kolkata');return
+    if date>local.date().isoformat():
+        print('Future Reel date; no processing yet');return
+    render_only=(date==local.date().isoformat() and local.hour<19)
     planpath=Path(f'reels/plans/{date}.json')
     if not planpath.exists(): raise RuntimeError(f'No narrated Reel plan for {date}; daily preparation has not completed')
     plan=json.loads(planpath.read_text());posts=json.loads(Path('posts.json').read_text())
@@ -140,6 +141,9 @@ def main():
         sha=run('git','rev-parse','HEAD')
         state['video_url']=f'https://raw.githubusercontent.com/{REPO}/{sha}/{asset.as_posix()}'
         state['created_at']=now();save()
+    if render_only:
+        print('Reel video rendered and committed; publishing waits until 19:00 Asia/Kolkata')
+        return
     caption=plan['caption']
     # Instagram: save the processing container, then save intent before publish.
     if not state.get('instagram_media_id'):
