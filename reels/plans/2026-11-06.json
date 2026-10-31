@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-06",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Inventory turnover: average stock ek period mein kitni baar bikta hai",
+  "caption": "Monthly COGS ₹60,000 hai. Opening stock ₹12,000 aur closing stock ₹18,000—average inventory ₹15,000. Turnover = ₹60,000 ÷ ₹15,000 = 4x us month. 👇\n\nInventory turnover formula mein sales nahi, cost of goods sold use hota hai. Period hamesha same rakho. High turnover fast sales ka sanket ho sakta hai, lekin bahut kam stock se stockouts ho sakte hain; product aur season ke hisaab se interpret karo.\n\nAapka stock kitne din mein move hota hai?\n\n#BusinessJalwa #InventoryManagement #SmallBusiness #BusinessBasics #Hinglish",
+  "scenes": [
+    {
+      "visual": "inventory",
+      "narration": "Inventory turnover batata hai ki ek period mein average stock kitni baar sell hua aur replace hua. Example ke liye ek month lete hain.",
+      "question": "Inventory turnover",
+      "answer": "Stock movement"
+    },
+    {
+      "visual": "inventory",
+      "narration": "Opening stock barah hazaar aur closing stock atharah hazaar ho, to average inventory dono ka average—pandrah hazaar rupaye.",
+      "question": "₹12,000 + ₹18,000 ÷ 2",
+      "answer": "₹15,000 average"
+    },
+    {
+      "visual": "inventory",
+      "narration": "Mahine ka cost of goods sold saath hazaar ho, to saath hazaar divide pandrah hazaar barabar chaar baar monthly turnover.",
+      "question": "₹60,000 ÷ ₹15,000",
+      "answer": "4× this month"
+    },
+    {
+      "visual": "inventory",
+      "narration": "Formula mein sales nahi, usi period ka cost of goods sold divide average inventory hota hai. Dono numbers same period ke hone chahiye.",
+      "question": "Use which cost?",
+      "answer": "COGS for same period"
+    },
+    {
+      "visual": "inventory",
+      "narration": "Turnover tez hona useful ho sakta hai, par bahut kam stock se item out of stock ho sakta hai. Apne product aur season ke context mein compare karo.",
+      "question": "Fast is always better?",
+      "answer": "Balance stock + demand"
+    }
+  ]
+}
