@@ -113,9 +113,10 @@ async def build(post,plan,directory):
 def main():
     local=dt.datetime.now(ZoneInfo('Asia/Kolkata'))
     date=os.environ.get('REEL_DATE') or local.date().isoformat()
-    if date>local.date().isoformat():
+    force_render_only=os.environ.get('REEL_RENDER_ONLY','').lower() in ('true','1','yes')
+    if date>local.date().isoformat() and not force_render_only:
         print('Future Reel date; no processing yet');return
-    render_only=(date==local.date().isoformat() and local.hour<19)
+    render_only=force_render_only or (date==local.date().isoformat() and local.hour<19)
     planpath=Path(f'reels/plans/{date}.json')
     if not planpath.exists(): raise RuntimeError(f'No narrated Reel plan for {date}; daily preparation has not completed')
     plan=json.loads(planpath.read_text());posts=json.loads(Path('posts.json').read_text())
