@@ -155,10 +155,15 @@ def background():
 
 def visual_layer(index, elapsed, scene=None):
     """Use a unique generated image for this Reel; fall back to the general library only when absent."""
-    custom_path = Path(scene.get('visual_asset', '')) if scene else Path()
-    if custom_path.is_file():
+    asset_name = scene.get('visual_asset', '') if scene else ''
+    custom_path = Path(asset_name) if asset_name else None
+    if custom_path:
+        if not custom_path.is_file():
+            raise FileNotFoundError(f'Reel-specific storyboard is required: {custom_path}')
         source = Image.open(custom_path).convert('RGBA')
         columns, rows = (scene or {}).get('visual_grid', [1, 1])
+        if columns < 1 or rows < 1 or source.width % columns or source.height % rows:
+            raise ValueError('Storyboard dimensions must divide evenly by visual_grid')
         if columns > 1 or rows > 1:
             tile_index = (index + int(elapsed / 3.5)) % (columns * rows)
             tile_width, tile_height = source.width // columns, source.height // rows
