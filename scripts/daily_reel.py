@@ -71,6 +71,14 @@ def call(path,token,params=None,method='GET',headers=None):
 def instagram(path,token,params=None,method='GET'):
     return call('https://graph.instagram.com/v23.0/'+path,token,params,method)
 def select(date,posts,plan):
+    if plan.get('content_mode')=='original':
+        if plan.get('approved') is not True: raise ValueError('Approval missing')
+        if plan.get('source_post_id') not in (None,''): raise ValueError('Original Reel must not claim a carousel source')
+        scenes=plan.get('scenes',[])
+        if len(scenes)!=5: raise ValueError('Exactly five scenes required')
+        for s in scenes:
+            if not all(isinstance(s.get(k),str) and s[k].strip() for k in ('narration','question','answer')): raise ValueError('Incomplete scene')
+        return None
     matches=[p for p in posts if p.get('publish_at','')[:10]==date and p.get('id')==plan.get('source_post_id')]
     if len(matches)!=1: raise ValueError('Expected exactly one matching source carousel')
     p=matches[0]
@@ -111,11 +119,13 @@ def main():
     if not planpath.exists(): raise RuntimeError(f'No narrated Reel plan for {date}; daily preparation has not completed')
     plan=json.loads(planpath.read_text());posts=json.loads(Path('posts.json').read_text())
     post=select(date,posts,plan)
-    if not post.get('instagram_media_id') or not post.get('verified_at'):
+    if post and (not post.get('instagram_media_id') or not post.get('verified_at')):
         raise RuntimeError('Source carousel not yet verified published; leave Reel pending')
     statepath=Path(f'reels/state/{date}.json');statepath.parent.mkdir(parents=True,exist_ok=True)
-    signature=hashlib.sha256(json.dumps([plan,post['image_urls']],sort_keys=True).encode()).hexdigest()
-    state=json.loads(statepath.read_text()) if statepath.exists() else {'date':date,'source_post_id':post['id'],'signature':signature}
+    source_id=post['id'] if post else None
+    source_images=post['image_urls'] if post else []
+    signature=hashlib.sha256(json.dumps([plan,source_images],sort_keys=True).encode()).hexdigest()
+    state=json.loads(statepath.read_text()) if statepath.exists() else {'date':date,'source_post_id':source_id,'signature':signature}
     if state['signature']!=signature: raise RuntimeError('Content changed after processing began')
     def save():
         statepath.write_text(json.dumps(state,indent=2)+'\n');checkpoint([statepath])
