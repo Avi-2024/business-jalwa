@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-11",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Marketplace commission model: local seller ki ₹500 sale par platform kya kamata hai?",
+  "caption": "Local marketplace par ₹500 ki sale aur 10% commission ka simple example. 🛍️\n\nPlatform ki commission income = ₹50. Seller ko ₹450 milte hain, apni product cost ghataane se pehle. Platform ke ₹50 bhi profit nahi—app, payment, support aur marketing ke kharche ho sakte hain. Delivery fees aur tax is simplified example mein include nahi hain.\n\nKisi marketplace ko samajhne ke liye dekho: customer kis se khareedta hai, platform kya value deta hai aur commission kis base par lagta hai.\n\nAapne kis local business ko marketplace par sell karte dekha hai?\n\n#BusinessJalwa #BusinessModel #Marketplace #Commission #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian craft seller displays handmade lamps at a market stall",
+      "narration": "ऑनलाइन बाज़ार में ग्राहक किसी लोकल दुकानदार से सामान खरीदता है। लेकिन बीच का प्लेटफ़ॉर्म पैसा कैसे कमाता है? हर बिक्री पर छोटा कमीशन इसका एक तरीका हो सकता है।",
+      "question": "Platform ka paisa?",
+      "answer": "Sale par commission"
+    },
+    {
+      "visual": "Customer selects the handmade lamp on a smartphone while seller prepares it",
+      "narration": "मान लो एक कारीगर अपना दीया पाँच सौ रुपये में बेचती है। प्लेटफ़ॉर्म उसे ग्राहक से जोड़ता है और इस उदाहरण में बिक्री पर दस प्रतिशत कमीशन लेता है।",
+      "question": "Order ₹500",
+      "answer": "Fee 10%"
+    },
+    {
+      "visual": "Seller wraps the lamp and hands package to a delivery rider",
+      "narration": "पाँच सौ का दस प्रतिशत हुआ पचास रुपये। इसलिए प्लेटफ़ॉर्म की कमीशन आमदनी पचास रुपये है। कारीगर को चार सौ पचास रुपये मिलते हैं, अपनी लागत घटाने से पहले।",
+      "question": "Commission kitna?",
+      "answer": "₹50; seller ₹450"
+    },
+    {
+      "visual": "Marketplace founder checks business expenses beside a laptop",
+      "narration": "पर ध्यान रहे, प्लेटफ़ॉर्म के पचास रुपये मुनाफ़ा नहीं हैं। ऐप चलाने, पेमेंट, सहायता और मार्केटिंग का खर्च अलग हो सकता है। डिलीवरी या टैक्स का हिसाब इस सरल उदाहरण में शामिल नहीं है।",
+      "question": "₹50 = profit?",
+      "answer": "Costs alag hain"
+    },
+    {
+      "visual": "Marketplace founder connects craft seller and customer through the transaction",
+      "narration": "ऐसा मॉडल देखें तो तीन सवाल पूछें। ग्राहक किससे खरीद रहा है? प्लेटफ़ॉर्म कौन सी सेवा दे रहा है? और फीस किस आधार पर लगती है? इनसे कमाई का तरीका साफ़ होता है।",
+      "question": "Model kaise samjhein?",
+      "answer": "Buyer • Value • Fee"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-11/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
