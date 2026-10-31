@@ -130,7 +130,7 @@ def main():
     date=requested_date or today
     if date>today and not force_render_only:
         print('Future Reel date; no processing yet');return
-    render_only=force_render_only or (date==today and local.hour<19)
+    render_only=force_render_only or os.environ.get('GITHUB_EVENT_NAME')=='push' or (date==today and local.hour<9)
     planpath=Path(f'reels/plans/{date}.json')
     if not planpath.exists(): raise RuntimeError(f'No narrated Reel plan for {date}; daily preparation has not completed')
     plan=json.loads(planpath.read_text());posts=json.loads(Path('posts.json').read_text())
