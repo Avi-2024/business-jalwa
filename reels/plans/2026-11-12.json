@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-12",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "B2B vs B2C: ek cleaning service, do tarah ke customers",
+  "caption": "Ek cleaning company ghar bhi saaf karti hai aur office bhi. Farq service mein nahi, customer mein hai. 🧹\n\nFamily apne ghar ke liye service leti hai: B2C (business to consumer). Office apne business ke liye service leta hai: B2B (business to business). Ek business dono tarah ke customers ko serve kar sakta hai.\n\nScope, approval aur payment terms alag ho sakte hain; har B2B deal badi ho, zaroori nahi. Apne buyer ko pehchano, phir uske hisaab se service aur messaging banao.\n\nAapke business ka buyer person hai, business hai, ya dono?\n\n#BusinessJalwa #B2B #B2C #BusinessModel #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Cleaning business owner prepares home and office cleaning kits",
+      "narration": "एक ही क्लीनिंग कंपनी घर भी साफ़ करती है और ऑफिस भी। सेवा लगभग वही है, फिर इन दो ग्राहकों के लिए बिज़नेस मॉडल अलग क्यों कहलाता है? फर्क ग्राहक में है।",
+      "question": "Same service, 2 buyers?",
+      "answer": "Buyer badla"
+    },
+    {
+      "visual": "Team cleans a family living room and the homeowner pays for it",
+      "narration": "जब कोई परिवार अपने घर की सफ़ाई के लिए सीधे पैसे देता है, कंपनी अंतिम उपभोक्ता को बेच रही है। इसे बी टू सी, यानी बिज़नेस टू कंज़्यूमर, कह सकते हैं।",
+      "question": "Home client?",
+      "answer": "B2C: person pays"
+    },
+    {
+      "visual": "Cleaning team works in an office and an office manager approves the service",
+      "narration": "अब वही कंपनी किसी ऑफिस को नियमित सफ़ाई देती है। बिल कंपनी को जाता है और फैसला उसका मैनेजर लेता है। यह बी टू बी, यानी बिज़नेस टू बिज़नेस, है।",
+      "question": "Office client?",
+      "answer": "B2B: company pays"
+    },
+    {
+      "visual": "Owner discusses the office cleaning arrangement with a business manager",
+      "narration": "सेवा एक जैसी दिख सकती है, लेकिन काम का दायरा, मंज़ूरी, बिलिंग और भुगतान की शर्तें अलग हो सकती हैं। हर बी टू बी ऑर्डर बड़ा हो, यह ज़रूरी नहीं।",
+      "question": "Har deal same?",
+      "answer": "Terms vary"
+    },
+    {
+      "visual": "Owner compares a home and an office while planning service packages",
+      "narration": "अपने व्यवसाय में देखिए, पैसा कौन दे रहा है और सेवा किसके काम आती है। ग्राहक व्यक्ति है या दूसरी कंपनी? यही पहचान मार्केटिंग और सेवा पैकेज बनाने में मदद करेगी।",
+      "question": "Apna buyer kaun?",
+      "answer": "Person ya business?"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-12/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
