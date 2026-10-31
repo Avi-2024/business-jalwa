@@ -37,5 +37,9 @@
       "answer": "Spend ÷ customers"
     }
   ],
-  "visual_asset": "assets/reels/2026-11-05/visual.png"
+  "visual_asset": "assets/reels/2026-11-05/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
 }
