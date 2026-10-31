@@ -2,7 +2,11 @@ name: Business Jalwa Social Publishing
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 12 * * *"
+    # Main publish at 6:00 PM IST, with same-evening recovery attempts.
+    - cron: "30 12 * * *" # 6:00 PM IST
+    - cron: "40,50 12 * * *" # 6:10 and 6:20 PM IST
+    - cron: "0 13 * * *" # 6:30 PM IST
+    - cron: "30 13 * * *" # 7:00 PM IST
 permissions:
   contents: write
 concurrency:
