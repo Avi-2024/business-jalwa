@@ -15,6 +15,8 @@ GOLD = (255, 199, 91)
 FONT_LATIN = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 FONT_HINDI = str(Path(__file__).resolve().parents[1] / 'assets/fonts/NotoSansDevanagari.ttf')
 LOGO = Path(__file__).resolve().parents[1] / 'assets/branding/business-jalwa-logo.jpg'
+VISUAL_DIR = Path(__file__).resolve().parents[1] / 'assets/reels/visual-library'
+VISUALS = sorted(VISUAL_DIR.glob('cutaway-*.webp'))
 
 
 def remap_words(metadata_path, removed_intervals, audio_duration):
@@ -150,6 +152,24 @@ def background():
                  outline=(255, 199, 91, 230), width=2)
     return image.convert('RGB')
 
+
+def visual_layer(index, elapsed):
+    """Subtle moving cutout visual; switch to a new business scene every 3.5 seconds."""
+    if not VISUALS:
+        raise FileNotFoundError('Business cutaway visuals are required')
+    source = Image.open(VISUALS[index % len(VISUALS)]).convert('RGBA')
+    bounds = source.getbbox()
+    if bounds:
+        source = source.crop(bounds)
+    phase = (elapsed % 3.5) / 3.5
+    scale = min(610 / source.width, 565 / source.height) * (1 + .035 * phase)
+    size = (max(1, round(source.width * scale)), max(1, round(source.height * scale)))
+    source = source.resize(size, Image.Resampling.LANCZOS)
+    x = (SIZE[0] - size[0]) // 2 + round(7 * math.sin(phase * math.pi))
+    y = SIZE[1] - size[1] - 48
+    return source, (x, y)
+
+
 def render_scene(scene, index, duration, narration, words, clip):
     """Render voice words with restrained center motion and soft dissolves."""
     if not Path(FONT_HINDI).exists():
@@ -172,6 +192,9 @@ def render_scene(scene, index, duration, narration, words, clip):
         for frame in range(frames):
             t = frame / FPS
             image = base.copy().convert('RGBA')
+            visual_index = (index + int(t / 3.5)) % len(VISUALS)
+            cutout, cutout_position = visual_layer(visual_index, t)
+            image.alpha_composite(cutout, cutout_position)
             group_index = bisect.bisect_right(starts, t) - 1
             if group_index >= 0:
                 group = groups[group_index]
