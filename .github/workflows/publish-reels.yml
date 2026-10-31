@@ -19,7 +19,7 @@ on:
       - 'assets/reels/visual-library/**'
       - '.github/workflows/publish-reels.yml'
   schedule:
-    - cron: '30 13,14,15 * * *'
+    - cron: '30 3,4,5,13,14,15 * * *'
 permissions:
   contents: write
 concurrency:
