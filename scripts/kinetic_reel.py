@@ -158,6 +158,13 @@ def visual_layer(index, elapsed, scene=None):
     custom_path = Path(scene.get('visual_asset', '')) if scene else Path()
     if custom_path.is_file():
         source = Image.open(custom_path).convert('RGBA')
+        columns, rows = (scene or {}).get('visual_grid', [1, 1])
+        if columns > 1 or rows > 1:
+            tile_index = (index + int(elapsed / 3.5)) % (columns * rows)
+            tile_width, tile_height = source.width // columns, source.height // rows
+            left = (tile_index % columns) * tile_width
+            top = (tile_index // columns) * tile_height
+            source = source.crop((left, top, left + tile_width, top + tile_height))
     else:
         if not VISUALS:
             raise FileNotFoundError('Business cutaway visuals are required')
@@ -310,7 +317,6 @@ def render_scene(scene, index, duration, narration, words, clip):
             visual_index = (index + int(t / 3.5)) % len(VISUALS)
             cutout, cutout_position = visual_layer(visual_index, t, scene)
             image.alpha_composite(cutout, cutout_position)
-            image.alpha_composite(topic_visual_layer(scene, t), (526, 700))
             group_index = bisect.bisect_right(starts, t) - 1
             if group_index >= 0:
                 group = groups[group_index]
