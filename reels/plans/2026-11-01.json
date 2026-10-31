@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-01",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Sale aur profit ka farq: tiffin business ka ₹100 example",
+  "caption": "₹100 ki sale hui—kya ₹100 profit hua? Nahi. 👇\n\nTiffin ka example dekho: ingredients ₹45 + packing ₹10 + delivery/fee ₹15 = ₹70 variable cost. ₹100 sale mein se ₹70 nikalne par ₹30 contribution bachta hai. Ye abhi final profit nahi; isi se rent, salary aur bijli jaise fixed kharche cover hote hain.\n\nHar order ki cost likho, tabhi pricing aur actual profit samajh aayega. Aap apne business mein kaunsi cost track karte ho?\n\n#BusinessJalwa #SmallBusiness #BusinessBasics #Pricing #ProfitAndLoss #Hinglish",
+  "scenes": [
+    {
+      "narration": "Agar ek tiffin sau rupaye mein bika, kya sau rupaye tumhara profit hai? Nahi. Sale aur profit alag cheezein hain. Chalo simple example se samajhte hain.",
+      "question": "₹100 ki sale",
+      "answer": "₹100 profit nahi"
+    },
+    {
+      "narration": "Ek tiffin ke ingredients par paintalees rupaye, packing par das rupaye aur delivery ya payment fee par pandrah rupaye lagte hain. Total variable cost sattar rupaye hui.",
+      "question": "Direct cost kitni?",
+      "answer": "₹45 + ₹10 + ₹15"
+    },
+    {
+      "narration": "Ab sau rupaye ki sale mein se sattar rupaye ki direct cost ghatao. Tees rupaye bachte hain. Isse contribution kehte hain, final profit nahi.",
+      "question": "₹100 − ₹70",
+      "answer": "₹30 contribution"
+    },
+    {
+      "narration": "Ye tees rupaye rent, helper ki salary aur bijli jaise monthly fixed kharche cover karne mein madad karte hain. Isliye ise fixed costs se pehle ka contribution samjho.",
+      "question": "₹30 se pehle kya?",
+      "answer": "Rent, salary, bills"
+    },
+    {
+      "narration": "Saare kharche nikalne ke baad jo bache wahi profit. Har order ki cost likho, tab price aur kamai ka sahi hisaab dikhega.",
+      "question": "Actual profit?",
+      "answer": "Sab costs ke baad"
+    }
+  ]
+}
