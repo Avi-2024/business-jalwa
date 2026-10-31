@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-08",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Gross margin vs markup: ek hi ₹100 ka farq kis base par percentage banta hai?",
+  "caption": "₹400 ki direct cost, ₹500 selling price. Gross profit = ₹100. 👇\n\nGross margin = ₹100 ÷ ₹500 selling price = 20%.\nMarkup = ₹100 ÷ ₹400 cost = 25%.\n\nDono percentages ek hi example se nikle, bas denominator alag hai. Gross profit yahan overheads se pehle ka hai; example simplified hai. Pricing compare karte waqt hamesha dekho percentage kis base par calculate hua.\n\nAap apne product ka margin ya markup kaise track karte ho?\n\n#BusinessJalwa #PricingBasics #GrossMargin #Markup #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian bakery owner thinking about the difference between profit and percentage",
+      "narration": "Ek product par sau rupaye bach rahe hain. Toh kya margin bhi pachchees percent hoga? Zaroori nahi. Aaj margin aur markup ka farq ek chhote bakery example se samjhenge.",
+      "question": "₹100 profit = 25% margin?",
+      "answer": "Not always"
+    },
+    {
+      "visual": "Bakery ingredients and the direct cost of making one cake",
+      "narration": "Maan lo ek cake banane ki direct cost chaar sau rupaye hai, aur aap use paanch sau rupaye mein bechte ho. Ye simplified example hai; rent jaise overheads abhi alag rakhe hain.",
+      "question": "Cost ₹400",
+      "answer": "Sell at ₹500"
+    },
+    {
+      "visual": "Baker calculates selling price minus ingredient cost",
+      "narration": "Gross profit nikalne ke liye selling price paanch sau mein se direct cost chaar sau ghatao. Sau rupaye bachte hain. Gross profit, rent aur doosre overheads ghataane se pehle ka hai.",
+      "question": "Gross profit?",
+      "answer": "₹100 before overhead"
+    },
+    {
+      "visual": "Baker measures gross profit against the full selling price",
+      "narration": "Gross margin mein wahi sau rupaye, selling price paanch sau se divide hote hain. Sau divide paanch sau barabar bees percent gross margin.",
+      "question": "Margin base?",
+      "answer": "₹100 ÷ ₹500 = 20%"
+    },
+    {
+      "visual": "Baker checks markup against ingredient cost before setting the next price",
+      "narration": "Markup mein wahi sau rupaye, cost chaar sau se divide hote hain: pachchees percent. Isliye price compare karte waqt pucho—base selling price hai ya cost? Dono useful hain, bas confuse mat karo.",
+      "question": "Markup base?",
+      "answer": "₹100 ÷ ₹400 = 25%"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-08/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
