@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-03",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Profit aur cash flow alag cheezein hain",
+  "caption": "Customer ka ₹3,000 tiffin bill ban gaya, par payment 15 din baad aayegi. Ingredients aur delivery ka paisa aaj dena hai. Sale hui—cash abhi nahi. 👇\n\nProfit ka hisaab ek period ki income aur expenses dekhta hai; cash flow batata hai paisa kab aaya aur kab gaya. Isliye payment due dates aur upcoming kharche saath track karo.\n\nAap customer payments kitne din mein receive karte ho?\n\n#BusinessJalwa #CashFlow #SmallBusiness #BusinessBasics #Hinglish",
+  "scenes": [
+    {
+      "narration": "Aapne customer ko teen hazaar rupaye ke tiffin deliver kiye, lekin payment pandrah din baad milegi. Sale hui, par cash abhi account mein nahi aaya.",
+      "question": "₹3,000 ki sale",
+      "answer": "Cash 15 din baad"
+    },
+    {
+      "narration": "Profit ka hisaab batata hai ek period mein income aur kharche ke baad kya bacha. Cash flow batata hai paisa kab andar aaya aur kab bahar gaya.",
+      "question": "Profit vs cash flow",
+      "answer": "Hisaab vs timing"
+    },
+    {
+      "narration": "Ingredients aur delivery ka paisa aaj dena hai, customer transfer baad mein karega. Is gap mein account ka balance kam ho sakta hai, chahe order par contribution bachta ho.",
+      "question": "Kharche pehle",
+      "answer": "Payment baad mein"
+    },
+    {
+      "narration": "Har invoice ka amount, payment due date aur supplier bill ki date likho. Sirf total sales dekhne se cash ki timing nahi samajh aati.",
+      "question": "Kya track karein?",
+      "answer": "Due dates + bills"
+    },
+    {
+      "narration": "Weekly cash sheet banao, payment reminder bhejo, aur zarurat ho to clear advance terms rakho. Isse agle kharche ka cash pehle plan kar sakte ho.",
+      "question": "Pehla step?",
+      "answer": "Weekly cash plan"
+    }
+  ]
+}
