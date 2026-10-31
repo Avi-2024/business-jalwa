@@ -9,7 +9,7 @@ on:
       render_only:
         description: 'Render and commit the video without publishing it'
         required: false
-        default: false
+        default: true
         type: boolean
   push:
     paths:
@@ -18,8 +18,6 @@ on:
       - 'scripts/kinetic_reel.py'
       - 'assets/reels/visual-library/**'
       - '.github/workflows/publish-reels.yml'
-  schedule:
-    - cron: '30 3,4,5,13,14,15 * * *'
 permissions:
   contents: write
 concurrency:
@@ -27,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   reel:
-    if: vars.PUBLISH_ENABLED == 'true' && vars.FACEBOOK_PUBLISH_ENABLED == 'true'
+    if: github.event_name == 'push' || inputs.render_only || (vars.PUBLISH_ENABLED == 'true' && vars.FACEBOOK_PUBLISH_ENABLED == 'true')
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
@@ -36,7 +34,7 @@ jobs:
       FACEBOOK_PAGE_ID: ${{ vars.FACEBOOK_PAGE_ID }}
       IG_USER_ID: ${{ vars.IG_USER_ID }}
       REEL_DATE: ${{ inputs.date }}
-      REEL_RENDER_ONLY: ${{ inputs.render_only }}
+      REEL_RENDER_ONLY: ${{ github.event_name == 'push' || inputs.render_only }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -53,7 +51,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: Render and publish today's narrated Reel
+      - name: Render Reel (publish only if manually requested)
         run: python scripts/daily_reel.py
       - name: Preserve diagnostics and generated video
         if: always()
