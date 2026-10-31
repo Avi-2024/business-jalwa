@@ -121,7 +121,7 @@ def main():
         commit=event.get('head_commit') or {}
         changed=(commit.get('added') or [])+(commit.get('modified') or [])
         future=sorted({m.group(1) for path in changed
-                       if (m:=re.fullmatch(r'reels/plans/(\\d{4}-\\d{2}-\\d{2})\\.json',path))
+                       if (m:=re.fullmatch(r'reels/plans/(\d{4}-\d{2}-\d{2})\.json',path))
                        and m.group(1)>today and Path(path).exists()})
         if len(future)==1:
             requested_date=future[0]
