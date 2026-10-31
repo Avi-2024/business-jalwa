@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-31",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Business idea ko chhote pilot se validate karna",
+  "caption": "Naya business idea hai? Pehle chhota test karo. 💡\n\nSirf compliments demand ka proof nahi hote. Customer, uski problem aur tumhara offer clear karo. Phir price bata kar dekho ki log actual trial order book karte hain ya nahi.\n\nPilot ke orders, delivery cost, feedback aur repeat interest note karo. Seekh ke baad improve karo—bada investment baad mein.\n\nAapka business idea kya hai? Ek line mein batao. 👇\n\n#BusinessJalwa #BusinessIdeas #SmallBusiness #Entrepreneurship #BusinessInHinglish",
+  "scenes": [
+    {
+      "narration": "Aapke dimag mein naya business idea aaya? Excitement achhi baat hai, lekin sirf doston ka “mast idea” bolna demand ka proof nahi. Pehle chhota test karke customer se seekho.",
+      "question": "Idea pasand aaya?",
+      "answer": "Demand ka proof?"
+    },
+    {
+      "narration": "Customer specific rakho, “sab log” nahi. Example: office workers jinka lunch break chhota hai aur jinhe time par ghar jaisa khana nahi milta. Need jitni clear, offer utna clear.",
+      "question": "Customer kaun?",
+      "answer": "Specific group"
+    },
+    {
+      "narration": "Problem ek line mein likho: lunch late milta hai. Phir solution batao: fixed time par tiffin delivery. Customer ko seedha samajh aana chahiye ki uski kaunsi dikkat kam hogi.",
+      "question": "Kaunsi problem?",
+      "answer": "Time par lunch"
+    },
+    {
+      "narration": "Ab demand ko compliments se nahi, action se check karo. Menu, price aur delivery timing batao. Kitne log trial ya pehla paid order book karte hain, ye note karo.",
+      "question": "Kaise validate karein?",
+      "answer": "Real order dekho"
+    },
+    {
+      "narration": "Chhote pilot mein delivery cost, time, feedback aur repeat interest track karo. Jo kaam na kare use badlo. Jab tak data na mile, bada investment mat karo.",
+      "question": "Pehla step?",
+      "answer": "Chhota pilot"
+    }
+  ]
+}
