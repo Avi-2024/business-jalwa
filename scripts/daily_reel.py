@@ -111,7 +111,7 @@ async def build(post,plan,directory):
         voice_duration,removed=tighten_narration(mp3,narration)
         words=remap_words(metadata,removed,voice_duration)
         clip=work/f'{i}.mp4';chunks.append(clip)
-        render_scene(scene,i,voice_duration+.08,narration,words,clip)
+        render_scene({**scene, 'topic': plan.get('topic', '')},i,voice_duration+.08,narration,words,clip)
     listing=work/'clips.txt';listing.write_text(''.join("file '"+str(p.resolve())+"'\n" for p in chunks))
     output=directory/f'Business-Jalwa-Reel-{directory.name}.mp4'
     run('ffmpeg','-y','-loglevel','error','-f','concat','-safe','0','-i',str(listing),'-c','copy','-movflags','+faststart',str(output))
