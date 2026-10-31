@@ -37,5 +37,9 @@
       "answer": "50% more units"
     }
   ],
-  "visual_asset": "assets/reels/2026-11-07/visual.png"
+  "visual_asset": "assets/reels/2026-11-07/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
 }
