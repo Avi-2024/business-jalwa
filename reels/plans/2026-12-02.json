@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-02",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Bicycle assembly workshop ka bottleneck: sabse dheema step delivery ko kaise rokta hai",
+  "caption": "Orders aa rahe hain, par delivery atak rahi hai? 🚲\n\nEk chhoti bicycle workshop ka illustrative example: frame prep ki capacity 10 bikes/day, wheel fitting ki 8, aur final check ki 10 hai. Agar parts aur orders available hain, to wheel-fitting station limiting step banega; iss setup mein roz maximum 8 complete bicycles nikal paayengi. Aur frames banana backlog badha sakta hai.\n\nHar step ka output aur beech ki queue note karo. Phir slow step par tools, parts arrangement ya trained help ka practical improvement test karo. Dobara measure karo ki finished deliveries sach mein badhi ya nahi.\n\nAapke business mein kaunsa step sabse zyada kaam rokta hai?\n\n#BusinessJalwa #SmallBusiness #Operations #Bottleneck #Workflow",
+  "scenes": [
+    {
+      "visual": "Indian bicycle assembly shop owner surveys incoming bicycle orders and workbenches",
+      "narration": "साइकिल वर्कशॉप में ऑर्डर बढ़े, फिर भी डिलीवरी क्यों अटकती है? हर स्टेप की रफ़्तार बराबर नहीं होती। जो सबसे धीमा है, वही पूरे काम की सीमा तय कर सकता है।",
+      "question": "Delivery kyon atki?",
+      "answer": "Slow step dhoondo"
+    },
+    {
+      "visual": "Craftsperson prepares bare bicycle frames at the first workshop station",
+      "narration": "मान लो एक दिन में दस साइकिलों के फ्रेम तैयार होते हैं। पार्ट्स और ऑर्डर पर्याप्त हैं। अगला स्टेप पहिए लगाना है, लेकिन वहाँ सिर्फ आठ फ्रेम पूरे हो पाते हैं।",
+      "question": "Frame vs wheel?",
+      "answer": "10 vs 8 daily"
+    },
+    {
+      "visual": "Wheel-fitting technician mounts a wheel while unfinished frames form a queue",
+      "narration": "आख़िरी जाँच की क्षमता भी दस साइकिल रोज़ की है। पहिए सिर्फ आठ पर लग रहे हैं, तो तैयार साइकिलें भी ज़्यादा से ज़्यादा आठ होंगी। बाकी फ्रेम लाइन में रुकेंगे।",
+      "question": "Kitni bikes niklengi?",
+      "answer": "Max 8 daily"
+    },
+    {
+      "visual": "Inspection worker has spare capacity while owner and technician examine backlog at wheel station",
+      "narration": "अब फ्रेम बनाने की स्पीड बढ़ाने से डिलीवरी तुरंत नहीं बढ़ेगी। पहले देखो पहिए वाले स्टेप में देरी क्यों है। औज़ार दूर हैं, पार्ट्स बिखरे हैं, या मदद चाहिए?",
+      "question": "Pehle kya sudharo?",
+      "answer": "Wheel step"
+    },
+    {
+      "visual": "Workshop team organizes wheel parts and trains a helper at wheel-fitting bench",
+      "narration": "हर स्टेप की रोज़ की गिनती और जहाँ काम जमा होता है, वह नोट करो। फिर धीमा स्टेप सुधारो और दोबारा मापो। बदलाव तभी काम का है, जब पूरी साइकिल समय पर निकले।",
+      "question": "Aaj ka action?",
+      "answer": "Queue aur output gino"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-02/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
