@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-29",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Homemade mango pickle ke har batch ko track karne ka simple record",
+  "caption": "Homemade pickle ka ek jar customer ko alag laga—kaise pata chale woh kis batch ka tha? 🥭\n\nIllustrative example: ek mixing se 20 jars bhare gaye. Un sab par ek hi batch code rakho. Notebook mein preparation date, ingredients ki lot/source, quantity aur jars ka count note karo. Agle din ki nayi mixing ko naya code do.\n\nAgar kisi jar par complaint aaye, code se usi batch ke baaki jars pehchano. Sale rok kar product aur records check karna sensible ho sakta hai; batch code akela quality ya safety ka proof nahi hai. Woh investigation ko focused banata hai.\n\nAap apne food product ke batches ka record kaise rakhte ho?\n\n#BusinessJalwa #SmallBusiness #BatchTracking #FoodBusiness #Operations",
+  "scenes": [
+    {
+      "visual": "Indian mango pickle maker hygienically prepares green mangoes and spices",
+      "narration": "घर के अचार बिज़नेस में कस्टमर ने एक जार पर शिकायत की। अब कैसे पता चले वह किस दिन बना और उसके साथ कौन से जार भरे गए? इसके लिए बैच रिकॉर्ड काम आता है।",
+      "question": "Ye jar kab bana?",
+      "answer": "Batch record dekho"
+    },
+    {
+      "visual": "Gloved maker mixes one batch of mango pickle in clean steel bowl",
+      "narration": "मान लो आज एक बार में आम का अचार मिलाया और उससे बीस जार भरे। ये एक बैच है। इस बैच को अपना छोटा कोड दो। अगली बार की नई मिक्सिंग को दूसरा कोड।",
+      "question": "Ek batch kya hai?",
+      "answer": "Ek preparation lot"
+    },
+    {
+      "visual": "Two gloved workers fill clean glass jars from one pickle preparation lot",
+      "narration": "उसी कोड को बीसों जार पर लिखो। नोटबुक में बनाने की तारीख, सामग्री की जानकारी और कितने जार भरे, दर्ज करो। बाद में हर जार को उसके रिकॉर्ड से जोड़ पाओगे।",
+      "question": "Jars par kya likhein?",
+      "answer": "Same batch code"
+    },
+    {
+      "visual": "Maker applies batch label to closed pickle jar and records details in notebook",
+      "narration": "अगर एक जार पर शिकायत आए, कोड देखकर उसी बैच के बाकी जार पहचानो। पहले बिक्री रोककर जार और रिकॉर्ड जांचो। हर जार खराब है, ऐसा बिना जांचे मानना भी सही नहीं।",
+      "question": "Complaint aaye to?",
+      "answer": "Batch trace karo"
+    },
+    {
+      "visual": "Maker investigates returned closed jar beside other jars and batch log",
+      "narration": "बैच कोड सुरक्षा की गारंटी नहीं देता, मगर जांच कहाँ से शुरू करनी है, यह बताता है। छोटी दुकान भी तारीख, कोड और जार की गिनती से शुरुआत कर सकती है। रिकॉर्ड लगातार रखो।",
+      "question": "Ab kya shuru karein?",
+      "answer": "Date, code, count"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-29/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
