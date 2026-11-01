@@ -1,12 +1,17 @@
 name: Business Jalwa Social Publishing
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/publish-instagram.yml'
   schedule:
     # Main publish at 6:00 PM IST, with same-evening recovery attempts.
     - cron: "30 12 * * *" # 6:00 PM IST
     - cron: "40,50 12 * * *" # 6:10 and 6:20 PM IST
-    - cron: "0 13 * * *" # 6:30 PM IST
-    - cron: "30 13 * * *" # 7:00 PM IST
+    - cron: "7 13 * * *" # 6:37 PM IST
+    - cron: "37 13 * * *" # 7:07 PM IST
+    - cron: "7 14 * * *" # 7:37 PM IST
+    - cron: "47 14 * * *" # 8:17 PM IST
 permissions:
   contents: write
 concurrency:
