@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-01",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Electrical shop mein cycle counting: roz thoda stock gin kar record milao",
+  "caption": "Stock register mein LED bulbs 50, par dukaan mein mil rahe hain 40? 💡\n\nIllustrative electrical-shop example: poori dukaan ek saath ginne ke bajay owner har din ek product ya shelf choose karta hai. Isse cycle counting kehte hain. Ek bulb model ka recorded stock 50 hai; shop aur storeroom mila kar physical count 40 hai. Gap 10 ka hai, par reason samjhe bina theft ya loss assume na karo. Recent sales, deliveries, returns aur misplaced boxes check karo, phir verified count record mein update karo.\n\nChhote regular counts se mismatch jaldi pakadne mein madad mil sakti hai. Ek fixed counting routine aur consistent product identity rakho.\n\nAapke stock record aur actual shelf count kitni baar milte hain?\n\n#BusinessJalwa #SmallBusiness #CycleCounting #InventoryManagement #Operations",
+  "scenes": [
+    {
+      "visual": "Indian electrical-supply shop owner surveys multiple shelves of bulbs switches and wire",
+      "narration": "दुकान का पूरा स्टॉक एक साथ गिनना भारी लगता है? हर दिन थोड़ा सा, तय तरीके से गिनो। इसे साइकिल काउंटिंग कहते हैं। आज सिर्फ एक मॉडल के एल ई डी बल्ब चेक करते हैं।",
+      "question": "Pura stock ek saath?",
+      "answer": "Roz thoda gino"
+    },
+    {
+      "visual": "Shop owner selects one LED bulb model and opens blank stock notebook",
+      "narration": "मान लो रजिस्टर में उस मॉडल के पचास बल्ब दर्ज हैं। पहले दुकान और स्टोररूम में उसी मॉडल के सारे डिब्बे ढूंढो। अलग मॉडल या पुरानी पैकिंग को साथ मत जोड़ो।",
+      "question": "Record mein kitne?",
+      "answer": "50 bulbs"
+    },
+    {
+      "visual": "Owner physically counts plain LED bulb boxes on shelf",
+      "narration": "अब हाथ से गिनने पर चालीस बल्ब मिले। रिकॉर्ड पचास कहता है, गिनती चालीस। फर्क दस का है। लेकिन इसे तुरंत चोरी या नुकसान मान लेना सही नहीं होगा। पहले वजह खोजो।",
+      "question": "Count mein kitne?",
+      "answer": "40 bulbs"
+    },
+    {
+      "visual": "Owner examines blank sales slips and incoming cartons to investigate mismatch",
+      "narration": "शायद कोई सेल दर्ज नहीं हुई, नया कार्टन गलत जगह रखा है, या रिटर्न का रिकॉर्ड बाकी है। हाल की बिक्री और डिलीवरी देखो। वजह साफ होने पर ही स्टॉक रिकॉर्ड सुधारो।",
+      "question": "10 ka gap kyon?",
+      "answer": "Entries check karo"
+    },
+    {
+      "visual": "Owner updates blank stock notebook after verifying physical count and arranges bulb boxes",
+      "narration": "कल दूसरा प्रोडक्ट चुनो, फिर अगला। छोटे, नियमित काउंट से फर्क जल्दी दिख सकता है। हर बार तारीख, मॉडल, रिकॉर्ड वाली गिनती और असली गिनती नोट करना शुरू करो।",
+      "question": "Ab routine kya?",
+      "answer": "One item daily"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-01/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
