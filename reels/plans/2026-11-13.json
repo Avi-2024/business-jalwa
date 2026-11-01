@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-13",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Accounts receivable: sale ho gayi, payment abhi baaki hai",
+  "caption": "₹10,000 ki sale hui, par payment 30 din baad aayegi. Kya ye paisa aaj cash hai? Nahi. 🧾\n\nPrinting shop ne cafe ko menu cards credit par diye. Customer se milna baaki ₹10,000 accounts receivable hai. Jab tak payment nahi milti, ise bank balance samajhkar kharch plan mat karo.\n\nCustomer, invoice amount, due date aur payment status ek simple list mein track karo. Har hafte pending payments dekho aur due hone par polite reminder bhejo. Ye illustrative example hai; actual payment terms business ke hisaab se alag honge.\n\nAap apne pending customer payments kaise track karte ho?\n\n#BusinessJalwa #AccountsReceivable #CashFlow #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Printing shop owner makes menu cards before receiving payment",
+      "narration": "कागज़ पर दस हज़ार की बिक्री दिख रही है, लेकिन बैंक में पैसा नहीं आया। ऐसा कैसे? क्योंकि ग्राहक को माल उधार दिया और भुगतान बाद में होना है।",
+      "question": "₹10,000 sale, cash?",
+      "answer": "Payment abhi pending"
+    },
+    {
+      "visual": "Owner hands printed menu cards to the cafe manager with an invoice",
+      "narration": "मान लो प्रिंटिंग शॉप ने कैफ़े के मेन्यू कार्ड दस हज़ार रुपये में दिए। दोनों ने तय किया है कि कैफ़े तीस दिन बाद भुगतान करेगा।",
+      "question": "Due kab?",
+      "answer": "30 din baad"
+    },
+    {
+      "visual": "Owner looks at empty cash drawer and a calendar of future payment",
+      "narration": "जब तक ग्राहक भुगतान नहीं करता, यह रकम आपके लिए रिसीवेबल, यानी मिलने वाला पैसा है। इसे आज उपलब्ध नकदी समझकर नया खर्च तय मत करो।",
+      "question": "Receivable kya?",
+      "answer": "Milne wala paisa"
+    },
+    {
+      "visual": "Owner records invoice amount and due date on a blank ledger and follows up",
+      "narration": "एक साधारण लिस्ट में ग्राहक का नाम, बिल की रकम, ड्यू डेट और भुगतान की स्थिति लिखो। देर होने पर विनम्रता से रिमाइंडर भेजो।",
+      "question": "Track kya karein?",
+      "answer": "Amount • Due date"
+    },
+    {
+      "visual": "Customer pays invoice and printing shop owner updates cash drawer",
+      "narration": "हर हफ़्ते देखो कितना पैसा समय पर आया और कितना बाकी है। भुगतान की तारीख़ समझकर खरीद और वेतन की योजना बनाओ। यह सिर्फ उदाहरण है, असली शर्तें अलग होंगी।",
+      "question": "Next step?",
+      "answer": "Weekly pending check"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-13/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
