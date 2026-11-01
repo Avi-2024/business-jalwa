@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-25",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Mixer repair shop ka job card: complaint se approval aur handover tak",
+  "caption": "Customer mixer repair ke liye de gaya. Kaunsi complaint thi, kaun sa part badla, aur kitne mein? 🔧\n\nJob card ek simple record hai jo customer, item, reported problem, checking result, estimated cost/time, approval, aur completed work ko ek jagah rakhta hai. Illustrative example: mixer ka jar ghoom nahi raha. Technician check karke worn coupling paata hai. Extra part lagne se pehle customer ko cost aur time batakar approval leta hai. Repair ke baad test karke handover karta hai.\n\nBlank form ya notebook se shuru kar sakte ho. Customer ko clear update do; diagnosis se pehle final price ka vada mat karo. Job card se customer aur shop dono ko pata rehta hai ki kya agree hua tha.\n\nAapki repair shop mein har item ka record kaise banta hai?\n\n#BusinessJalwa #SmallBusiness #RepairShop #JobCard #BusinessOperations",
+  "scenes": [
+    {
+      "visual": "Indian customer hands a faulty mixer grinder to neighborhood appliance repair shop owner",
+      "narration": "कस्टमर मिक्सर देकर कहता है, जार घूम नहीं रहा। कल पूछे, क्या खराब था और कितना खर्च आएगा? सब याददाश्त पर रखना मुश्किल है। यहाँ जॉब कार्ड काम आता है।",
+      "question": "Mixer mein kya problem?",
+      "answer": "Complaint likho"
+    },
+    {
+      "visual": "Repair shop owner examines mixer and writes its intake details on a blank job card",
+      "narration": "जॉब कार्ड में कस्टमर का संपर्क, मिक्सर की पहचान, साथ आए जार और बताई शिकायत दर्ज करो। सामान किस हालत में मिला, वह भी नोट करो। जांच की शुरुआत साफ रहेगी।",
+      "question": "Card mein kya likhein?",
+      "answer": "Item aur complaint"
+    },
+    {
+      "visual": "Technician opens mixer base and diagnoses the drive coupling at a clean workbench",
+      "narration": "जांच में कपलिंग घिसी मिली। अब खर्च और तैयार होने का अनुमान बताओ। जांच से पहले पक्का दाम बोलना मुश्किल है, इसलिए अनुमान को अनुमान ही कहो।",
+      "question": "Diagnosis ke baad?",
+      "answer": "Estimate batao"
+    },
+    {
+      "visual": "Technician compares worn mixer drive coupling with replacement while shop owner calls customer for approval",
+      "narration": "नया पार्ट लगाना है तो ग्राहक से पहले मंजूरी लो। कौन सा पार्ट, कितना अतिरिक्त खर्च और समय लगेगा—कार्ड पर दर्ज करो। बाद में दोनों तरफ एक ही बात रहेगी।",
+      "question": "Part badalne se pehle?",
+      "answer": "Approval lo"
+    },
+    {
+      "visual": "Repaired mixer is safely tested and handed back to relieved customer with job card",
+      "narration": "मरम्मत के बाद मिक्सर टेस्ट करो, क्या बदला वह लिखो, और लौटाते समय समझाओ। छोटा जॉब कार्ड शिकायत से हैंडओवर तक काम ट्रैक करता है। अपनी दुकान में आज से शुरू करो।",
+      "question": "Handover par kya karein?",
+      "answer": "Test aur explain"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-25/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
