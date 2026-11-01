@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-05",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Printing studio mein customer concentration: ek bade client par kitni sales depend karti hain",
+  "caption": "Ek client se sabse zyada orders aate hain? Achhi baat hai, par uska sales share jaan lo. 🖨️\n\nIllustrative printing-studio example: last week total sales ₹10,000 thi; ek client se ₹6,000 aur baaki se ₹4,000. Isliye top client ka revenue share 60% hai. Yeh customer ke order count ka percentage nahi, sales amount ka share hai.\n\n60% apne aap mein galat ya kharab nahi. Par agar woh client agla order postpone kare, planning badal sakti hai. Har week client-wise sales note karo aur dusre customer relationships bhi build karo. Yeh example planning ke liye hai, forecast nahi.\n\nAapke business ki sales mein top client ka hissa kitna hai?\n\n#BusinessJalwa #SmallBusiness #CustomerConcentration #SalesPlanning #PrintingBusiness",
+  "scenes": [
+    {
+      "visual": "Indian printing studio owner hands a large blank-paper order to a bulk client",
+      "narration": "प्रिंटिंग स्टूडियो का सबसे बड़ा ग्राहक अचानक ऑर्डर रोक दे, तो क्या होगा? बिक्री अच्छी दिख सकती है, लेकिन अगर ज़्यादातर बिक्री एक ही ग्राहक से आती है, तो कारोबार उस पर निर्भर हो सकता है।",
+      "question": "Ek client par bharosa?",
+      "answer": "Risk check karo"
+    },
+    {
+      "visual": "Owner serves several smaller customers with modest print bundles",
+      "narration": "मान लो पिछले हफ्ते कुल दस हज़ार रुपये की बिक्री हुई। उसमें छह हज़ार एक बड़े ग्राहक से आए, और चार हज़ार बाकी ग्राहकों से। गिनती नहीं, यहाँ बिक्री की रकम देख रहे हैं।",
+      "question": "Top client ki sale?",
+      "answer": "₹6,000 of ₹10,000"
+    },
+    {
+      "visual": "Owner compares one large pile of blank orders with small order piles",
+      "narration": "छह हज़ार को दस हज़ार से भाग दो, तो साठ प्रतिशत बिक्री उस एक ग्राहक से हुई। यह अपने आप बुरा नहीं है। बस जानना ज़रूरी है कि आपका कितना हिस्सा वहाँ से आता है।",
+      "question": "Share kitna hai?",
+      "answer": "60% sales"
+    },
+    {
+      "visual": "Bulk print client phones to postpone order while owner looks concerned",
+      "narration": "अब वही ग्राहक अगला ऑर्डर टाल दे, तो काम और नकदी दोनों के प्लान बदल सकते हैं। इसलिए बाकी ग्राहकों की ज़रूरत, ऑर्डर का आकार, और आने वाले काम की सूची भी देखते रहो।",
+      "question": "Order ruka to?",
+      "answer": "Plan badal sakta hai"
+    },
+    {
+      "visual": "Print owner meets multiple local business customers and plans varied orders",
+      "narration": "हर हफ्ते ग्राहक के हिसाब से बिक्री लिखो और सबसे बड़े ग्राहक का हिस्सा निकालो। फिर नए ग्राहकों से बात करने का समय रखो। मकसद बड़े ग्राहक को छोड़ना नहीं, अपनी निर्भरता समझना है।",
+      "question": "Aaj ka step?",
+      "answer": "Client-wise sales gino"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-05/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
