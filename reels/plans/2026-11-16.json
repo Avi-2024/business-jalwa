@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-16",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Stationery shop mein reorder point: supplier aane se pehle stock kab mangayein",
+  "caption": "Notebook shelf khaali hone ka wait mat karo. 📚\n\nEk illustrative example: agar roz lagbhag 5 notebooks bikti hain aur supplier ko naya stock pahunchane mein 4 din lagte hain, to us beech 5 × 4 = 20 notebooks bik sakti hain. Agar 5 notebooks ka chhota buffer rakhna hai, to stock 25 tak aate hi order dene ka signal set kar sakte ho.\n\nAsli demand aur delivery time badal sakte hain. Apni recent sales, supplier ka actual lead time aur busy days dekhkar level tay karo. Buffer bhi guarantee nahi hai; usse risk kam karne ki koshish hoti hai.\n\nAapke shop mein kis product ka stock sabse jaldi khatam hota hai?\n\n#BusinessJalwa #ReorderPoint #InventoryPlanning #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Stationery shopkeeper spots a low notebook shelf while school customers browse",
+      "narration": "दुकान की नोटबुक शेल्फ़ खाली होने पर ऑर्डर दोगे, तो ग्राहक को इंतज़ार करना पड़ सकता है। सवाल है, सप्लायर आने से कितने दिन पहले नया स्टॉक मंगाना चाहिए?",
+      "question": "Stock kab mangayein?",
+      "answer": "Shelf khaali hone se pehle"
+    },
+    {
+      "visual": "Shopkeeper counts notebook stacks and reviews a blank sheet",
+      "narration": "मान लो रोज़ औसतन पाँच नोटबुक बिकती हैं। सप्लायर को ऑर्डर पहुँचाने में चार दिन लगते हैं। इन चार दिनों में लगभग बीस नोटबुक बिक सकती हैं।",
+      "question": "4 din ki demand?",
+      "answer": "5 × 4 = 20 notebooks"
+    },
+    {
+      "visual": "Supplier prepares plain notebook cartons on a delivery scooter",
+      "narration": "अब पाँच नोटबुक का छोटा बफ़र भी रखना चाहते हो। बीस और पाँच मिलाकर पच्चीस हुए। स्टॉक पच्चीस तक आते ही नया ऑर्डर देने का संकेत रख सकते हो।",
+      "question": "Buffer jodkar?",
+      "answer": "20 + 5 = 25"
+    },
+    {
+      "visual": "Shopkeeper watches notebook shelf during supplier delivery wait",
+      "narration": "अगर रोज़ पाँच ही बिकें और डिलीवरी चार दिन में आए, तो नया माल आने तक पाँच नोटबुक बचेंगी। लेकिन बिक्री और डिलीवरी बदल सकती है; यह पक्का वादा नहीं।",
+      "question": "Delivery tak kya bachega?",
+      "answer": "Example: 5 notebooks"
+    },
+    {
+      "visual": "Supplier delivers cartons before shelf empties and owner restocks",
+      "narration": "अपने पिछले बिक्री रिकॉर्ड और सप्लायर का असली समय देखो। व्यस्त दिनों को ध्यान में रखकर अपना ऑर्डर स्तर तय करो, फिर हर महीने उसे जाँचकर बदलो।",
+      "question": "Apna next step?",
+      "answer": "Sales aur lead time dekho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-16/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
