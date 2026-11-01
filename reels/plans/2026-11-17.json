@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-17",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Laundry pickup route batching: aas-paas ke orders ek route mein plan karo",
+  "caption": "Laundry pickup mein sirf orders ginne se kaam nahi chalega; route bhi dekho. 🧺\n\nIllustrative example: ek hi gali ke 3 customers ke pickup ke liye agar alag-alag trip karoge, to 3 trips honge. Same time window agree ho aur capacity ho, to ek planned route mein 3 pickups kiye ja sakte hain. Repeated travel kam ho sakta hai.\n\nPickup aur delivery promises, bag tagging, capacity aur urgent orders pehle check karo. Har order ko zabardasti batch karna sahi nahi. Apne area, time aur actual travel record ke hisaab se route banao.\n\nAapke business mein kaun se kaam ek route ya visit mein combine ho sakte hain?\n\n#BusinessJalwa #LaundryBusiness #Operations #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Laundry owner gets separate pickup requests and holds a garment bag",
+      "narration": "एक ही गली से तीन लॉन्ड्री पिकअप आए, और राइडर हर बार अलग निकला। क्या इन तीन चक्करों को एक प्लान्ड रूट में बदला जा सकता है? पहले समय देखो।",
+      "question": "3 pickups, 3 trips?",
+      "answer": "Route plan karo"
+    },
+    {
+      "visual": "Rider travels alone with one laundry bag on a scooter",
+      "narration": "मान लो तीनों ग्राहक एक जैसी पिकअप विंडो पर राज़ी हैं। बैग रखने की जगह भी है। तब तीन अलग ट्रिप की जगह एक ही रूट पर तीन पिकअप हो सकते हैं।",
+      "question": "Same area aur time?",
+      "answer": "3 pickups, 1 route"
+    },
+    {
+      "visual": "Owner groups clean garment bags by nearby customer location",
+      "narration": "ग्राहकों का इलाक़ा, पिकअप समय और बैग की संख्या साथ में लिखो। पास के पते क्रम से रखो, ताकि राइडर बार बार उसी रास्ते पर वापस न जाए।",
+      "question": "Group kaise karein?",
+      "answer": "Area • Time • Bags"
+    },
+    {
+      "visual": "Rider collects laundry bags from multiple nearby homes",
+      "narration": "इस उदाहरण में चक्कर कम हुए, इसलिए रास्ते का समय और खर्च घट सकता है। मगर दूरी, ट्रैफ़िक और ठहरने का समय अलग होता है। अपना असली ट्रैवल रिकॉर्ड देखो।",
+      "question": "Fayda kya?",
+      "answer": "Repeat travel kam"
+    },
+    {
+      "visual": "Worker checks blank tickets and customer receives folded clean clothes",
+      "narration": "रूट बनाते समय ग्राहक से किया हुआ समय का वादा मत तोड़ो। अर्जेंट ऑर्डर और बैग की पहचान अलग रखो। एक हफ़्ते का रूट देखकर फिर सुधार करो।",
+      "question": "Next step?",
+      "answer": "Promises aur route check"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-17/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
