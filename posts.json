@@ -909,5 +909,18 @@
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2027-01-02-post-067/slide-05.jpg"
     ],
     "manual_approved": true
+  },
+  {
+    "id": "daily-cash-closing-68",
+    "publish_at": "2027-01-03T18:00:00+05:30",
+    "caption": "Roz ki sales ke baad cash drawer match hota hai? 💐\n\nFlorist shop ka simple daily closing example: subah opening cash ₹500 tha. Din mein ₹3,000 ki cash sales hui aur drawer se ₹800 ka cash expense diya. Expected cash = ₹500 + ₹3,000 − ₹800 = ₹2,700.\n\nAb drawer ka actual cash count karo. Match na ho to sales entries, change aur expense receipts check karo. UPI payments ko cash drawer mein mat jodo; unhe alag payment record mein dekho. Ye numbers sirf samjhane ke liye hain—actual records apne business ke honge.\n\nAap roz closing cash count karte ho?\n\n#BusinessJalwa #CashClosing #SmallBusiness #BusinessBasics #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2027-01-03-post-068/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2027-01-03-post-068/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2027-01-03-post-068/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2027-01-03-post-068/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2027-01-03-post-068/slide-05.jpg"
+    ],
+    "manual_approved": true
   }
 ]
