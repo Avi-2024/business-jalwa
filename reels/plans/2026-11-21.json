@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-21",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Wholesaler vs retailer: soap carton se customer tak",
+  "caption": "Ek sabun factory se customer tak kaise pahunchta hai? 🧼\n\nIllustrative example: ek wholesaler shop ko 50 soap bars ka carton bechta hai. Retail shop us carton se individual bars customers ko bechti hai. Wholesaler aam taur par businesses ko bulk quantity mein supply karta hai; retailer end customer ko chhoti quantity mein bechta hai. Har supply chain mein layers alag ho sakti hain—kuch makers direct bhi bechte hain.\n\nShop chalate ho to supplier se minimum order, per-unit price, delivery time aur damaged goods ki terms samajhkar order do. Selling price aur buying price ka gap seedha profit nahi hota; dukaan ke aur bhi kharche hote hain.\n\nAap apne products kis channel se source karte ho?\n\n#BusinessJalwa #Wholesale #Retail #BusinessModel #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Soap maker staff packs plain soap bars into bulk cartons",
+      "narration": "एक साबुन बनाने वाले से आपके घर तक साबुन पहुँचने के बीच कौन कौन होते हैं? होलसेलर और रिटेलर का काम एक छोटे उदाहरण से समझते हैं।",
+      "question": "Soap ka safar?",
+      "answer": "Maker se customer"
+    },
+    {
+      "visual": "Woman wholesale merchant manages stacked soap cartons in small warehouse",
+      "narration": "मान लो एक होलसेलर पचास साबुन वाला कार्टन दुकान को देता है। होलसेलर आम तौर पर दुकानों जैसे बिज़नेस को बड़ी मात्रा में सामान सप्लाई करता है।",
+      "question": "Wholesaler kisko beche?",
+      "answer": "Business ko bulk mein"
+    },
+    {
+      "visual": "Wholesaler hands one soap carton to neighbourhood shopkeeper",
+      "narration": "रिटेल दुकान वह कार्टन लेती है और साबुन अलग अलग ग्राहक को बेचती है। एक ग्राहक सिर्फ एक साबुन भी खरीद सकता है। यही रिटेल बिक्री है।",
+      "question": "Retailer kisko beche?",
+      "answer": "Customer ko chhoti qty"
+    },
+    {
+      "visual": "Shopkeeper puts individual soap bars on shelf and serves one customer",
+      "narration": "मगर हर प्रोडक्ट की सप्लाई चेन एक जैसी नहीं होती। कुछ बनाने वाले सीधे ग्राहक को भी बेचते हैं। और खरीद दाम से ऊपर बेचने का अंतर पूरा प्रॉफ़िट नहीं है।",
+      "question": "Price gap = profit?",
+      "answer": "Aur costs bhi hain"
+    },
+    {
+      "visual": "Shopkeeper checks carton and supplier terms before restocking",
+      "narration": "दुकान के लिए सप्लायर चुनते समय कम से कम ऑर्डर, प्रति पीस दाम, डिलीवरी और खराब सामान की शर्तें देखो। फिर अपनी मांग के हिसाब से खरीदो।",
+      "question": "Next step?",
+      "answer": "Supplier terms check"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-21/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
