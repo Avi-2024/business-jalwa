@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-15",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Home painting quote mein scope aur extra kaam pehle clear karo",
+  "caption": "Painting ka quote dene se pehle kaam ka scope likho. 🎨\n\nMaan lo example mein do rooms paint karne ka agreed price ₹3,000 per room hai: total ₹6,000. Agar customer baad mein teesra, similar room add kare, to uska extra ₹3,000 discuss karke naya total ₹9,000 confirm karo—kaam shuru karne se pehle.\n\nActual quote room size, wall condition, paint, preparation aur labour par depend karega. Written scope mein rooms, surfaces, paint type, preparation, timeline aur extra work approval clear rakho. Ye numbers sirf example hain.\n\nAap quote mein kaunsi detail zaroor likhte ho?\n\n#BusinessJalwa #SmallBusiness #ServiceBusiness #Pricing #CustomerCommunication #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Painting contractor surveys two rooms with the customer",
+      "narration": "पेंटिंग का काम शुरू हुआ और बीच में ग्राहक ने एक और कमरा जोड़ दिया। अब पुराना कोट ही चलेगा? पहले तय करो कि कोट में कौन सा काम शामिल था।",
+      "question": "Quote mein kya hai?",
+      "answer": "Scope pehle clear"
+    },
+    {
+      "visual": "Contractor measures wall and reviews blank scope sheet",
+      "narration": "मान लो दो एक जैसे कमरे पेंट करने का दाम तीन हज़ार रुपये प्रति कमरा तय हुआ। कुल छह हज़ार रुपये। कमरे, दीवारें और तैयारी लिखकर ग्राहक से कन्फ़र्म कर लो।",
+      "question": "2 rooms ka quote?",
+      "answer": "₹3,000 × 2 = ₹6,000"
+    },
+    {
+      "visual": "Painter rolls colour across two agreed rooms",
+      "narration": "अब ग्राहक तीसरा, वैसा ही कमरा भी पेंट करवाना चाहता है। यह पहले के दो कमरों से अलग, अतिरिक्त काम है। उसका दाम काम शुरू करने से पहले बताओ।",
+      "question": "Extra room?",
+      "answer": "Pehle price batao"
+    },
+    {
+      "visual": "Customer points at third room and contractor discusses revised scope",
+      "narration": "इस उदाहरण में तीसरे कमरे के तीन हज़ार रुपये जोड़ने पर नया कुल नौ हज़ार होगा। लेकिन असल दाम दीवार की हालत, कमरे के आकार और पेंट पर निर्भर करेगा।",
+      "question": "Naya total?",
+      "answer": "₹6,000 + ₹3,000 = ₹9,000"
+    },
+    {
+      "visual": "Contractor and customer agree on blank revised quote as painters finish work",
+      "narration": "हर नए काम पर बदला हुआ स्कोप, दाम और समय लिखकर ग्राहक की सहमति लो। इससे दोनों को साफ़ पता रहेगा कि क्या काम होगा और उसका कितना भुगतान होगा।",
+      "question": "Next step?",
+      "answer": "Change likho, approve lo"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-15/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
