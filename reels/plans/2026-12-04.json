@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-04",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Water purifier service: one-time repair aur annual service plan ka business model",
+  "caption": "Repair call ya annual service plan — dono ka business model alag hai. 🚰\n\nOne-time repair mein ek problem aur ek visit ka scope hota hai. Annual plan mein aap future service visits ka vada karte ho, isliye calendar, staff aur cost planning zaroori hai.\n\nIllustrative example: ₹1,800 ke plan mein 3 scheduled visits hon to ₹600 per planned visit revenue allocate hota hai. Yeh profit nahi hai; travel, labour aur included parts ki cost dekhni hogi. Plan bechne se pehle visits, work aur parts ka scope clearly batao.\n\nAap service business mein one-time calls karte ho ya planned maintenance bhi?\n\n#BusinessJalwa #SmallBusiness #ServiceBusiness #BusinessModel #Operations",
+  "scenes": [
+    {
+      "visual": "Water-purifier customer shows a problem to visiting technician in home kitchen",
+      "narration": "वॉटर प्यूरीफायर की सर्विस में कमाई सिर्फ खराबी आने पर ही होगी? एक बार की रिपेयर और सालाना सर्विस प्लान, दोनों अलग मॉडल हैं। फर्क समझो, फिर ग्राहक को सही विकल्प बताओ।",
+      "question": "Repair ya plan?",
+      "answer": "Dono alag model"
+    },
+    {
+      "visual": "Technician replaces filter cartridge during a single repair visit",
+      "narration": "एक बार की रिपेयर में ग्राहक किसी समस्या पर बुलाता है। आप तय काम करते हो और उस विज़िट का भुगतान लेते हो। अगली विज़िट की कमाई अपने आप तय नहीं होती।",
+      "question": "One-time repair?",
+      "answer": "Ek visit ka kaam"
+    },
+    {
+      "visual": "Service owner explains blank annual calendar to household customer",
+      "narration": "सालाना प्लान में ग्राहक पहले से तय सर्विस विज़िट खरीद सकता है। मान लो अठारह सौ रुपये में तीन विज़िट शामिल हैं। आपको उन तीनों विज़िट के लिए समय और स्टाफ़ रखना होगा।",
+      "question": "Annual plan kya?",
+      "answer": "3 planned visits"
+    },
+    {
+      "visual": "Technician performs a scheduled filter and water-purifier inspection",
+      "narration": "सिर्फ हिसाब के लिए अठारह सौ को तीन से बाँटो, तो छह सौ रुपये प्रति विज़िट आते हैं। यह मुनाफ़ा नहीं है। यात्रा, समय और जिन पार्ट्स का वादा किया, उनका खर्च भी देखना होगा।",
+      "question": "₹1,800 / 3?",
+      "answer": "₹600 revenue, not profit"
+    },
+    {
+      "visual": "Service owner organizes filters, tools and upcoming appointments at desk",
+      "narration": "प्लान बेचने से पहले साफ लिखो: कितनी विज़िट, कौन सा काम, और कौन से पार्ट्स शामिल हैं। फिर कैलेंडर में हर ग्राहक की अगली सर्विस रखो। वादा निभा सको, तभी मॉडल काम करेगा।",
+      "question": "Plan ka rule?",
+      "answer": "Scope aur schedule clear"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-04/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
