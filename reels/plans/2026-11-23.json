@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-23",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Photo print studio ka order turnaround time: order se prints ready hone tak",
+  "caption": "Customer ne photo prints order kiye—kab tak ready honge? 📸\n\nOrder turnaround time ko order accept hone se prints ready-for-pickup hone tak naap sakte ho. Illustrative example: Monday subah 10 baje order mila, Tuesday subah 10 baje prints pack hokar ready the. Turnaround time 24 hours hua; customer ne baad mein pickup kiya ho to woh extra wait is measure mein nahi aata.\n\nEk hafte ke orders mein promised time aur actual ready time note karo. Editing, printing, quality check ya packing mein delay kahan hota hai, dekho. Phir workload dekhkar realistic time promise karo aur delay ho to customer ko pehle batao.\n\nAapke business mein order se ready hone tak kitna time lagta hai?\n\n#BusinessJalwa #SmallBusiness #OrderFulfilment #CustomerExperience #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian neighborhood photo studio owner receives a family photo print order from a customer phone",
+      "narration": "कस्टमर फोटो प्रिंट के लिए दे जाता है और पूछता है, कब तक मिलेंगे? अंदाज़े से जवाब देने के बजाय, अपना ऑर्डर टर्नअराउंड टाइम नापो। यानी ऑर्डर लेने से प्रिंट तैयार होने तक का समय।",
+      "question": "Prints kab ready honge?",
+      "answer": "Time naapkar bolo"
+    },
+    {
+      "visual": "Woman photo studio owner marks order acceptance on a blank slip beside paper and an analog clock",
+      "narration": "मान लो सोमवार सुबह दस बजे ऑर्डर मिला। यहीं से घड़ी शुरू करो। फोटो फाइल लेना, एडिट करना, प्रिंट निकालना, क्वालिटी चेक और पैकिंग—सब इसी समय में आते हैं।",
+      "question": "Time kab se shuru?",
+      "answer": "Order accept hote hi"
+    },
+    {
+      "visual": "Photo editor adjusts a family portrait at a studio computer before photo printing",
+      "narration": "अब मंगलवार सुबह दस बजे सारे प्रिंट पैक होकर तैयार हैं। सोमवार के दस बजे से मंगलवार के दस बजे तक चौबीस घंटे हुए। यही उस ऑर्डर का टर्नअराउंड टाइम है।",
+      "question": "Kitna time laga?",
+      "answer": "24 hours"
+    },
+    {
+      "visual": "Photo print technician inspects fresh prints next to a studio printer before packaging",
+      "narration": "ध्यान रहे, कस्टमर कब लेने आया, उससे यह समय मत बढ़ाओ। बस प्रिंट कब तैयार थे, वह नोट करो। अगर एडिटिंग या प्रिंटिंग अटकी, तो वजह भी लिखो।",
+      "question": "Pickup time bhi jodein?",
+      "answer": "Ready time par stop"
+    },
+    {
+      "visual": "Studio staff packs finished prints in an envelope and informs the customer before handoff",
+      "narration": "एक हफ्ते तक हर ऑर्डर का वादा किया हुआ समय और असल तैयार होने का समय मिलाओ। फिर काम की भीड़ देखकर सही वादा करो। देरी दिखे तो कस्टमर को पहले बता दो।",
+      "question": "Ab kya improve karein?",
+      "answer": "Realistic promise do"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-23/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
