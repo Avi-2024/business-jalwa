@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-06",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Handmade soap parcel mein box aur label ka per-order packaging cost kaise nikalein",
+  "caption": "Soap ki price mein packaging ka kharcha bhi dekha? 🧼📦\n\nIllustrative example: 20 plain boxes ₹100 mein aur 20 labels ₹100 mein milte hain. Har parcel mein ek box aur ek label lagta hai, to box ₹5 + label ₹5 = ₹10 per parcel. Yeh sirf in do cheezon ka cost hai, poori packaging cost nahi. Tissue, filler, tape aur shipping alag ho sakte hain.\n\nEk real parcel pack karke har material aur uski per-use cost note karo. Tab price aur margin ka estimate zyada complete hoga; profit automatically assume mat karo.\n\nAap packaging ka per-order kharcha track karte ho?\n\n#BusinessJalwa #SmallBusiness #PackagingCost #PricingBasics #HandmadeBusiness",
+  "scenes": [
+    {
+      "visual": "Indian handmade-soap seller prepares a soap parcel at her worktable",
+      "narration": "साबुन की कीमत तय करते समय क्या आप सिर्फ साबुन बनाने का खर्च देखते हैं? डिलीवरी वाले हर ऑर्डर में डिब्बा, लेबल और भराव भी लगता है। पहले इन चीज़ों का प्रति पार्सल खर्च निकालो।",
+      "question": "Box ka cost?",
+      "answer": "Har parcel mein jodo"
+    },
+    {
+      "visual": "Soap seller receives a bundle of plain kraft boxes from a supplier",
+      "narration": "मान लो बीस सादे डिब्बे सौ रुपये में मिले। एक पार्सल में एक डिब्बा लगता है। तो डिब्बे का खर्च पाँच रुपये प्रति पार्सल हुआ। पूरे बंडल की रकम एक ही ऑर्डर पर मत डालो।",
+      "question": "20 boxes, ₹100?",
+      "answer": "₹5 per box"
+    },
+    {
+      "visual": "Soap seller sorts blank label stickers and plain boxes",
+      "narration": "अब बीस खाली लेबल भी सौ रुपये के हैं। एक पार्सल पर एक लेबल लगता है। लेबल का खर्च भी पाँच रुपये हुआ। अलग-अलग सामान का प्रति पार्सल हिस्सा इसी तरह निकालना आसान है।",
+      "question": "Labels ka cost?",
+      "answer": "₹5 per label"
+    },
+    {
+      "visual": "Seller packs a handmade soap with tissue and filler into one box",
+      "narration": "इस उदाहरण में डिब्बा पाँच और लेबल पाँच, यानी दस रुपये। लेकिन यही पूरी पैकिंग लागत नहीं है। टिशू, भराव, टेप और शिपिंग अलग से जोड़ने पड़ सकते हैं।",
+      "question": "Abhi total kitna?",
+      "answer": "₹10 plus extras"
+    },
+    {
+      "visual": "Seller reviews a finished soap parcel and blank checklist",
+      "narration": "आज एक असली पार्सल बनाकर उसमें लगी हर चीज़ नोट करो। खरीदी की कुल रकम को इस्तेमाल होने वाली संख्या से बाँटो। फिर कीमत तय करते समय यह खर्च याद रखो; अनुमान से मार्जिन मत मानो।",
+      "question": "Aaj kya note karo?",
+      "answer": "Per-parcel cost"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-06/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
