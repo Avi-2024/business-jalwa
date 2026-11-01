@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-30",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Toy shop shelf layout: customer ko popular puzzle aasani se dikhayein",
+  "caption": "Customer baar-baar puzzle poochhe, aur woh shelf ke kone mein chhupa ho? 🧩\n\nIllustrative toy-shop example: ek din 5 customers ne jigsaw puzzle poochha. Owner ko har baar neeche ke shelf se nikalna pada. Usne puzzle ko saaf, aasani se dikhne wali jagah rakha aur checkout ka rasta khula rakha.\n\nAb ek hafte tak puzzle se judi inquiries aur purchases note karo; pichhle period se compare karo. Placement change se sales badhna guaranteed nahi. Price, stock, age suitability aur customer need bhi matter karte hain. Chhota layout test karke actual behaviour se seekho.\n\nAapki shop mein kaunsa product customer baar-baar poochta hai?\n\n#BusinessJalwa #SmallBusiness #ToyShop #RetailDisplay #CustomerExperience",
+  "scenes": [
+    {
+      "visual": "Indian mother and child browse educational toys in a neighborhood toy store",
+      "narration": "कस्टमर बार-बार जिगसॉ पज़ल पूछते हैं, फिर भी वह दुकान में दिखता ही नहीं। अगर प्रोडक्ट ढूंढना मुश्किल है, तो ग्राहक और दुकानदार दोनों का समय जाता है। चलो शेल्फ लेआउट का छोटा टेस्ट करें।",
+      "question": "Puzzle kahan hai?",
+      "answer": "Visible rakho"
+    },
+    {
+      "visual": "Toy-store owner listens as customer points to puzzle hidden on low shelf",
+      "narration": "मान लो आज पांच कस्टमर ने पज़ल पूछा। दुकानदार को हर बार नीचे के कोने से निकालना पड़ा। यह एक संकेत है कि पज़ल को आसानी से दिखने वाली जगह चाहिए।",
+      "question": "5 log pooch rahe?",
+      "answer": "Placement check"
+    },
+    {
+      "visual": "Toy shop owner moves unbranded jigsaw puzzle box from low shelf to visible shelf",
+      "narration": "पज़ल को साफ, पहुंच में आने वाली शेल्फ पर रखो। उसका बॉक्स सामने दिखे, लेकिन रास्ता या काउंटर मत रोको। बच्चों के प्रोडक्ट हों तो सुरक्षित ऊंचाई भी सोचो।",
+      "question": "Kahan rakhein?",
+      "answer": "Saaf visible shelf"
+    },
+    {
+      "visual": "Mother and child find and examine puzzle with owner nearby",
+      "narration": "फिर एक हफ्ते तक नोट करो, कितने लोगों ने पज़ल पूछा और कितनों ने खरीदा। पिछले हफ्ते से तुलना करो। सिर्फ शेल्फ बदलने से बिक्री बढ़ेगी, यह मानकर मत चलो।",
+      "question": "Result kaise dekhein?",
+      "answer": "Inquiries aur sales"
+    },
+    {
+      "visual": "Owner reviews blank inquiry and purchase records at end of week",
+      "narration": "कीमत, स्टॉक और ग्राहक की जरूरत भी असर डालती है। छोटा बदलाव करो, आंकड़े देखो, फिर अगला फैसला लो। दुकान का लेआउट अंदाजे से नहीं, ग्राहक के व्यवहार से सुधारो।",
+      "question": "Agla step kya?",
+      "answer": "Test, phir decide"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-30/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
