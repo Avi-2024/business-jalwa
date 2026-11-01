@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-24",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Shoe shop ka walk-in conversion rate: visitors mein se kitne kharidte hain",
+  "caption": "Shop mein log aa rahe hain, par kitne actually kharid rahe hain? 👟\n\nWalk-in conversion ko simple tareeke se dekho: ek period mein kharidne wale store visits ÷ total store visits × 100. Illustrative example: shoe shop mein ek din 50 visits hue, 10 visits par purchase hui. Conversion rate 20% hai. Yeh visitors ki quality, product fit, price, size availability aur in-store experience samajhne ka signal hai; akela number poori kahani nahi batata.\n\nEk hi counting rule rakho: store visit count aur us visit mein purchase hui ya nahi. Kuch din ka trend dekho; non-buyers se politely poochho unhe kya nahi mila. Data ke saath customer experience bhi samjho.\n\nAap apni shop ka walk-in conversion track karte ho?\n\n#BusinessJalwa #SmallBusiness #WalkInConversion #RetailBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian independent shoe store owner welcomes distinct shoppers into the shop",
+      "narration": "दुकान में लोग आ रहे हैं, फिर भी सेल उम्मीद से कम है? सिर्फ फुटफॉल देखने से जवाब नहीं मिलेगा। देखो, अंदर आने वाले कितने लोग सच में खरीदकर जाते हैं। इसे वॉक-इन कन्वर्ज़न कहते हैं।",
+      "question": "Log aaye, sale hui?",
+      "answer": "Conversion dekho"
+    },
+    {
+      "visual": "Shoe store owner listens to a customer's footwear needs beside varied shoe styles",
+      "narration": "मान लो एक दिन में जूते की दुकान में पचास विज़िट हुईं। कोई स्पोर्ट्स शूज़ देखने आया, कोई सैंडल। अब अलग से गिनो, कितनी विज़िट में खरीदारी हुई।",
+      "question": "Kisko count karein?",
+      "answer": "Store visits gino"
+    },
+    {
+      "visual": "Customer tries walking shoes while assistant offers another size",
+      "narration": "उन पचास विज़िट में दस पर खरीदारी हुई। दस को पचास से भाग दो, फिर सौ से गुणा करो। कन्वर्ज़न बीस परसेंट निकला। यानी हर सौ विज़िट में लगभग बीस पर खरीदारी जैसा अनुपात।",
+      "question": "50 visits, 10 sales?",
+      "answer": "20% conversion"
+    },
+    {
+      "visual": "A shopper examines shoes and leaves without buying while owner stays polite",
+      "narration": "लेकिन कम कन्वर्ज़न का मतलब हमेशा खराब सेल्समैन नहीं। शायद सही साइज़ नहीं था, स्टाइल पसंद नहीं आई, या ग्राहक सिर्फ तुलना करने आया था। वजह पूछो, अनुमान मत लगाओ।",
+      "question": "Sale kyon nahi hui?",
+      "answer": "Reason samjho"
+    },
+    {
+      "visual": "Store owner reviews simple blank visitor and buyer count cards after handing a shoebox to customer",
+      "narration": "हर दिन विज़िट और खरीदारी एक जैसे नियम से नोट करो। फिर कुछ दिनों का ट्रेंड देखो। अगर लोग बार-बार साइज़ पूछकर लौटें, तो स्टॉक सुधारो। नंबर को फैसले की शुरुआत बनाओ।",
+      "question": "Ab kya track karein?",
+      "answer": "Visits aur buyers"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-24/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
