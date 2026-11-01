@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-27",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Event decor business: custom panel sale aur reusable arch rental ka farq",
+  "caption": "Event decor business mein har product ko bechna zaroori nahi. 🎉\n\nIllustrative example: customer ko custom floral panel becha, to panel customer ka ho gaya. Reusable arch aur drapes rent par diye, to event ke baad business unhe wapas leta hai aur next booking ke liye ready karta hai. Rental mein baar-baar booking ka mauka hai, saath hi transport, setup, safai, storage aur repair ka kaam bhi.\n\nSame arch teen events mein use ho sakta hai, lekin har booking ka actual margin alag hoga. Price tay karte waqt sirf booking fee nahi, associated costs aur damage risk bhi samjho. Sale aur rental terms customer ko pehle clear karo.\n\nAapke product mein sale, rental, ya dono model ka option hai?\n\n#BusinessJalwa #SmallBusiness #RentalBusiness #BusinessModel #EventDecor",
+  "scenes": [
+    {
+      "visual": "Indian event decor owner prepares reusable metal arch and drapes in workshop",
+      "narration": "इवेंट डेकोर में फूलों का पैनल है और बार-बार इस्तेमाल होने वाला आर्च। दोनों से कमाई एक जैसी होगी? नहीं। एक चीज़ बेची जा सकती है, दूसरी किराए पर दी जा सकती है।",
+      "question": "Sell ya rent?",
+      "answer": "Model alag hai"
+    },
+    {
+      "visual": "Client chooses a custom floral panel and event decor maker hands it over",
+      "narration": "मान लो कस्टमर ने अपने लिए कस्टम फूलों का पैनल खरीदा। पैसे देकर वह पैनल अपने पास रखता है। इस सेल में उस खास पैनल का मालिकाना हक ग्राहक के पास चला गया।",
+      "question": "Sale mein kya hota?",
+      "answer": "Customer rakhega"
+    },
+    {
+      "visual": "Decor team installs reusable arch and rust-orange drapes at an event venue",
+      "narration": "अब वही बिज़नेस आर्च और ड्रेप्स एक शाम के लिए किराए पर देता है। टीम सेटअप करती है, इवेंट के बाद सामान वापस लाती है। आर्च फिर अगली बुकिंग में इस्तेमाल हो सकता है।",
+      "question": "Rental mein kya hota?",
+      "answer": "Wapas aata hai"
+    },
+    {
+      "visual": "Staff collect the arch and drapes after event and prepare to return them to workshop",
+      "narration": "मान लो वही आर्च तीन अलग इवेंट में गया। तीन बुकिंग से रकम आई, लेकिन ट्रांसपोर्ट, सेटअप, सफाई और रिपेयर का खर्च भी हुआ। सिर्फ किराया देखकर मुनाफा मत मानो।",
+      "question": "3 bookings = profit?",
+      "answer": "Costs bhi dekho"
+    },
+    {
+      "visual": "Owner cleans and stores reusable arch and fabric for the next event booking",
+      "narration": "ग्राहक को पहले बताओ कि क्या उसका होगा और क्या वापस देना है। हर किराए वाली बुकिंग के बाद सामान की हालत और खर्च नोट करो। इससे सही रेंटल प्राइस तय करने में मदद मिलेगी।",
+      "question": "Ab kya clear karein?",
+      "answer": "Terms aur costs"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-27/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
