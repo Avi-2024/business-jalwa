@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-20",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Plant nursery ka Average Order Value: total sales per order",
+  "caption": "Nursery mein 3 orders aaye: ₹200, ₹300 aur ₹400. Average order value kitni? 🪴\n\nTotal sales ₹900, orders 3. AOV = ₹900 ÷ 3 = ₹300 per order. Ye sirf illustrative example hai. AOV batata hai ek order ka average sale amount; ye profit nahi batata.\n\nOrder values note karo aur dekho customer ko kaunsa relevant product saath chahiye—jaise plant ke liye theek pot ya soil. Zyada items bechna hi goal nahi; customer ki need aur apni cost dono samjho.\n\nAap apni average order value track karte ho?\n\n#BusinessJalwa #AverageOrderValue #SmallBusiness #BusinessMetrics #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian plant nursery owner looks at three different customer purchase baskets",
+      "narration": "दुकान में बिक्री हुई, लेकिन औसतन एक ऑर्डर में कितनी बिक्री है? यही एवरेज ऑर्डर वैल्यू है। प्लांट नर्सरी के तीन छोटे ऑर्डर से इसे समझते हैं।",
+      "question": "Ek order ka average?",
+      "answer": "AOV samjho"
+    },
+    {
+      "visual": "First nursery customer chooses one small indoor plant",
+      "narration": "पहले ग्राहक ने दो सौ रुपये का पौधा लिया। दूसरे ने तीन सौ रुपये के दो पौधे लिए। तीसरे ने चार सौ रुपये के पौधे और मिट्टी ली।",
+      "question": "3 orders kitne?",
+      "answer": "₹200 • ₹300 • ₹400"
+    },
+    {
+      "visual": "Nursery owner counts three blank order slips beside plant pots",
+      "narration": "तीनों ऑर्डर मिलाकर बिक्री नौ सौ रुपये हुई। नौ सौ को तीन ऑर्डर से भाग दो, तो एवरेज ऑर्डर वैल्यू तीन सौ रुपये प्रति ऑर्डर है।",
+      "question": "AOV ka hisaab?",
+      "answer": "₹900 ÷ 3 = ₹300"
+    },
+    {
+      "visual": "Owner reviews three blank order slips and varied plant baskets",
+      "narration": "इसका मतलब हर ग्राहक ने ठीक तीन सौ रुपये नहीं खर्च किए। यह सिर्फ औसत है। और ध्यान रहे, ऑर्डर वैल्यू बिक्री बताती है, प्रॉफ़िट नहीं।",
+      "question": "AOV profit hai?",
+      "answer": "Nahi, sale ka average"
+    },
+    {
+      "visual": "Nursery owner suggests a suitable pot to customer with a plant",
+      "narration": "अपने ऑर्डर लिखो और देखो ग्राहक को पौधे के साथ सही गमला या मिट्टी चाहिए भी या नहीं। ज़रूरत के हिसाब से सुझाव दो, और अपनी लागत अलग जाँचो।",
+      "question": "Next step?",
+      "answer": "Orders aur cost dekho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-20/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
