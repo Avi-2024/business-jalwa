@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-28",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Custom apron bulk order: pehle ek sample approve karao, phir production",
+  "caption": "Café ko 40 matching aprons chahiye. Seedha sab sil doge? 🧵\n\nIllustrative uniform workshop example: order details likhne ke baad ek physical sample banao. Café owner se size, strap length, colour aur embroidery placement check karao. Agar sample mein change chahiye, bulk kaam shuru hone se pehle note karo. Approved sample ko reference bana kar baaki aprons taiyar karo.\n\nSample banane ka time aur cost hota hai, lekin galat placement ya fit ko poore batch mein repeat karne ka risk kam hota hai. Approval ka agreed version aur delivery date clear rakho. Ye simple process custom bulk orders mein rework aur confusion ghata sakta hai.\n\nAapki shop mein bulk order se pehle sample approval hota hai?\n\n#BusinessJalwa #SmallBusiness #BulkOrders #SampleApproval #Operations",
+  "scenes": [
+    {
+      "visual": "Indian cafe owner brings a forest-green apron to custom uniform embroidery workshop",
+      "narration": "कैफ़े को चालीस एक जैसे एप्रन चाहिए। वर्कशॉप सीधे चालीस सिल दे, फिर ग्राहक कहे लोगो गलत जगह है? पूरा बैच दोबारा करना पड़ सकता है। इसलिए पहले एक सैंपल बनाओ।",
+      "question": "40 aprons seedha banao?",
+      "answer": "Pehle sample"
+    },
+    {
+      "visual": "Apron maker measures straps, fit and chest motif placement at worktable",
+      "narration": "ऑर्डर में कपड़ा, रंग, साइज़, स्ट्रैप की लंबाई और कढ़ाई की जगह साफ लिखो। फिर उन्हीं बातों के हिसाब से सिर्फ एक एप्रन तैयार करो। यही पहली जांच है।",
+      "question": "Sample mein kya check?",
+      "answer": "Fit aur placement"
+    },
+    {
+      "visual": "Embroidery machine stitches a single sample forest-green cafe apron",
+      "narration": "कैफ़े मालिक को वह सैंपल दिखाओ। पहनकर फिट देखे, कढ़ाई की जगह देखे। कुछ बदलना हो तो अभी बोल दे। सहमति के बाद उसी मंजूर सैंपल को बाकी काम का रेफरेंस बनाओ।",
+      "question": "Approval kab lo?",
+      "answer": "Bulk se pehle"
+    },
+    {
+      "visual": "Cafe owner tries sample apron and points to details while maker listens",
+      "narration": "मान लो स्ट्रैप छोटा निकला। एक सैंपल में सुधार आसान है। लेकिन यही गलती चालीस एप्रन में दोहर जाए, तो समय और सामान दोनों लगेंगे। सैंपल गलती जल्दी पकड़ने में मदद करता है।",
+      "question": "Sample ka fayda?",
+      "answer": "Rework kam"
+    },
+    {
+      "visual": "Workshop produces matching approved aprons and hands completed set to cafe owner",
+      "narration": "मंजूर डिज़ाइन, बदलाव और डिलीवरी तारीख दर्ज करो। फिर उसी हिसाब से बाकी एप्रन बनाकर जांचो। सैंपल में समय और लागत जरूर है, पर कस्टम बल्क ऑर्डर में स्पष्टता भी मिलती है।",
+      "question": "Ab bulk kaise karein?",
+      "answer": "Approved sample follow"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-28/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
