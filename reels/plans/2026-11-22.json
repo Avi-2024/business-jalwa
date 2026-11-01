@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-22",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Minimum Order Quantity: 30 candle orders ke liye 100 jars kharidne ka decision",
+  "caption": "Supplier kahe minimum 100 jars lo, aur aapko abhi 30 hi chahiye—kya karein? 🕯️\n\nMOQ ka matlab minimum order quantity: supplier usse kam quantity ka order accept nahi karta. Illustrative example mein candle maker ke confirmed orders ke liye 30 jars chahiye, supplier ka MOQ 100 hai. Order karne par 70 jars abhi use nahi honge. Ye zaroori nahi ki woh waste hon, lekin unke liye cash aur storage lagega.\n\nSupplier se chhota pack, staggered delivery ya doosra option poochho. Per-jar price ke saath total payment, storage aur likely demand dekho. Apni actual sales ke hisaab se decision lo.\n\nAapke supplier ka MOQ aapki demand se match karta hai?\n\n#BusinessJalwa #MOQ #SmallBusiness #InventoryPlanning #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian candle maker checks confirmed candle requests beside a few finished jars",
+      "narration": "कैंडल मेकर को अभी तीस जार चाहिए, लेकिन सप्लायर कहता है कम से कम सौ लो। सस्ता प्रति जार दाम सुनकर तुरंत खरीद लेना सही होगा? पहले एम ओ क्यू समझो।",
+      "question": "30 chahiye, 100 lo?",
+      "answer": "MOQ samjho"
+    },
+    {
+      "visual": "Packaging supplier stands beside large stack of empty jar cartons",
+      "narration": "एम ओ क्यू यानी मिनिमम ऑर्डर क्वांटिटी। सप्लायर तय करता है कि एक ऑर्डर में न्यूनतम कितनी यूनिट लेनी होंगी। इस उदाहरण में सौ जार से कम का ऑर्डर नहीं मिलेगा।",
+      "question": "MOQ kya hai?",
+      "answer": "Minimum order qty"
+    },
+    {
+      "visual": "Candle maker counts needed empty jars beside additional jars",
+      "narration": "पक्के ऑर्डर में तीस जार लगेंगे। सौ खरीदने पर सत्तर जार फिलहाल बचेंगे। वे आगे काम आ सकते हैं, मगर अभी उनके लिए पैसा और जगह लगेगी।",
+      "question": "Extra kitne jars?",
+      "answer": "100 − 30 = 70"
+    },
+    {
+      "visual": "Owner looks at shelves packed with unused jar boxes",
+      "narration": "सिर्फ प्रति जार कीमत मत देखो। कुल भुगतान, स्टोरेज और अगले महीनों की संभावित मांग देखो। अगर जार बदल गए या बिक्री धीमी रही, स्टॉक अटक सकता है।",
+      "question": "Decision mein kya dekhein?",
+      "answer": "Cash • Space • Demand"
+    },
+    {
+      "visual": "Owner discusses smaller batches with supplier and makes candles",
+      "narration": "सप्लायर से छोटा पैक या अलग अलग तारीख़ पर डिलीवरी पूछो। विकल्प न मिले तो असली बिक्री देखकर तय करो कि बड़ा ऑर्डर आपके बिज़नेस के लिए ठीक है या नहीं।",
+      "question": "Next step?",
+      "answer": "Options poochho, data dekho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-22/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
