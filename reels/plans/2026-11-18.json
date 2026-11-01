@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-18",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Consignment model: pottery artisan aur local boutique ka sale-share",
+  "caption": "Handmade pottery shop mein rakho, payment kab milega? 🏺\n\nConsignment ke ek illustrative arrangement mein artisan apne pieces boutique ko display ke liye deti hai. Shop piece bechti hai aur agreement ke mutabik sale ka share rakhti hai. Maan lo vase ₹500 mein bika aur shop ka agreed share 20% hai: shop ₹100 rakhegi, artisan ko ₹400 milenge—apni production cost aur doosre charges se pehle.\n\nKiski ownership kab tak rahegi, unsold pieces kab lautenge, damage ka zimma, price aur settlement date pehle likh lo. Har consignment deal ki terms alag ho sakti hain.\n\nAapke business mein aisa model useful ho sakta hai?\n\n#BusinessJalwa #Consignment #BusinessModel #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian pottery artisan makes a handcrafted terracotta vase in her workshop",
+      "narration": "आपने खूबसूरत मिट्टी के बर्तन बनाए, पर अपनी दुकान नहीं है। क्या लोकल बुटीक में रखकर बेच सकते हो? हाँ, एक तरीका कन्साइनमेंट है। चलो आसान उदाहरण देखते हैं।",
+      "question": "Apni shop nahi?",
+      "answer": "Consignment samjho"
+    },
+    {
+      "visual": "Artisan hands pottery to boutique owner with a blank agreement sheet",
+      "narration": "मान लो कारीगर अपने बर्तन बुटीक में डिस्प्ले के लिए देती है। दोनों पहले तय करते हैं कि बिका हुआ सामान कैसे गिना जाएगा और दुकान को कितना हिस्सा मिलेगा।",
+      "question": "Deal kaise hoti?",
+      "answer": "Share pehle tay"
+    },
+    {
+      "visual": "Boutique displays ceramic mugs and vases for customers",
+      "narration": "बुटीक बर्तन सजाता है, ग्राहक देखता है और एक फूलदान खरीदता है। इस उदाहरण में फूलदान पाँच सौ रुपये में बिका। अब तय हिस्से का हिसाब होगा।",
+      "question": "Vase kitne mein bika?",
+      "answer": "₹500 sale"
+    },
+    {
+      "visual": "Customer buys a ceramic vase and artisan reviews blank sale record with owner",
+      "narration": "अगर दुकान का तय हिस्सा बीस प्रतिशत है, तो पाँच सौ का बीस प्रतिशत सौ रुपये हुए। कारीगर को चार सौ रुपये मिलेंगे, अपने बनाने के खर्च और दूसरे शुल्क से पहले।",
+      "question": "₹500 ka 20%?",
+      "answer": "Shop ₹100 • Maker ₹400"
+    },
+    {
+      "visual": "Artisan and boutique owner count unsold ceramics before return",
+      "narration": "शुरू में ही दाम, भुगतान की तारीख़, नुकसान की ज़िम्मेदारी और बिना बिके सामान की वापसी लिख लो। हर डील की शर्तें अलग होंगी। साफ़ रिकॉर्ड दोनों को मदद करेगा।",
+      "question": "Likhein kya?",
+      "answer": "Price • Share • Returns"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-18/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
