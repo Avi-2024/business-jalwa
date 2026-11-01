@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-14",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Bike garage mein fixed aur variable costs ka farq",
+  "caption": "Bike repair garage mein har kharcha ek jaisa behave nahi karta. 🏍️\n\nMaan lo mahine ka rent ₹10,000 hai. Is example mein 10 ya 20 repairs hone par us mahine ka rent same hai: fixed cost. Agar har repair mein average ₹200 ke spare parts lagein, to 10 repairs par parts ₹2,000 aur 20 par ₹4,000: variable cost.\n\nYe sirf samjhane ke liye numbers hain. Har repair ki actual parts cost alag ho sakti hai. Apne kharche likho: kaun se kam orders par bhi aate hain, aur kaun se har job ke saath badhte hain. Pricing aur monthly target samajhne mein madad milegi.\n\nAapke business ka sabse bada fixed cost kya hai?\n\n#BusinessJalwa #FixedCost #VariableCost #SmallBusiness #BusinessBasics #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian woman bike garage owner opens workshop shutter with a motorcycle",
+      "narration": "ग्राहक आए या न आए, गैरेज के कुछ खर्च चलते रहते हैं। लेकिन कुछ खर्च हर बाइक रिपेयर के साथ बढ़ते हैं। इन दोनों का फ़र्क समझकर ही काम का सही हिसाब बनेगा।",
+      "question": "Kaunsa kharcha badalta?",
+      "answer": "Rent vs parts"
+    },
+    {
+      "visual": "Garage owner holds keys and blank rent paper outside her motorcycle workshop",
+      "narration": "मान लो गैरेज का महीने का किराया दस हज़ार रुपये है। इस उदाहरण में दस बाइक ठीक हों या बीस, उसी महीने का किराया दस हज़ार रहता है। इसे फ़िक्स्ड कॉस्ट कहते हैं।",
+      "question": "Monthly rent?",
+      "answer": "₹10,000 fixed"
+    },
+    {
+      "visual": "Mechanic fits a spare part into a motorcycle engine",
+      "narration": "अब मान लो हर रिपेयर पर औसतन दो सौ रुपये के स्पेयर पार्ट्स लगते हैं। दस रिपेयर पर पार्ट्स का खर्च दो हज़ार रुपये, और बीस रिपेयर पर चार हज़ार रुपये होगा।",
+      "question": "10 vs 20 repairs?",
+      "answer": "Parts ₹2,000 → ₹4,000"
+    },
+    {
+      "visual": "Mechanic services more motorcycles as spare parts accumulate beside them",
+      "narration": "यह वैरिएबल कॉस्ट है, क्योंकि काम बढ़ने पर कुल पार्ट्स का खर्च बढ़ा। मगर हर बाइक का काम अलग हो सकता है। अपनी असली पार्ट्स लागत हर जॉब पर नोट करो।",
+      "question": "Variable cost?",
+      "answer": "Jobs badhe, parts badhe"
+    },
+    {
+      "visual": "Garage owner reviews a blank cost sheet with spare parts trays before discussing pricing with mechanic",
+      "narration": "पिछले महीने के खर्च दो हिस्सों में लिखो। कौन से खर्च कम काम पर भी आते हैं, और कौन से हर रिपेयर के साथ बदलते हैं? फिर प्राइसिंग और महीने का लक्ष्य समझना आसान होगा।",
+      "question": "Apna next step?",
+      "answer": "Costs 2 groups mein likho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-14/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
