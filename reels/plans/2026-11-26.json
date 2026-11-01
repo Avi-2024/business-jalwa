@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-26",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Handmade bag workshop: invoice aur payment receipt ka farq",
+  "caption": "Invoice diya, to kya payment bhi mil gayi? Zaroori nahi. 👜\n\nIllustrative handmade-bag example: customer ne ₹800 ka bag liya. Invoice mein item aur payable amount ₹800 dikhta hai. Invoice apne aap payment milne ka proof nahi hai. Jab customer ₹800 pay kare aur seller payment acknowledge kare, uska receipt/payment confirmation alag record hai.\n\nDono records sambhalne se amount due aur amount received mein confusion kam hota hai. Payment mode aur date note karo, aur apne applicable invoicing/tax rules follow karo. Yeh general business explanation hai.\n\nAapki shop mein invoice aur received payment ka record alag rehta hai?\n\n#BusinessJalwa #SmallBusiness #Invoice #PaymentReceipt #BusinessBasics",
+  "scenes": [
+    {
+      "visual": "Indian handmade leather bag maker finishes a tan handbag on her workbench",
+      "narration": "हैंडमेड बैग की दुकान में कस्टमर ने बैग लिया। दुकानदार ने इनवॉइस दे दिया। क्या इसका मतलब पैसे भी मिल गए? जरूरी नहीं। इनवॉइस और पेमेंट रसीद अलग काम करते हैं।",
+      "question": "Invoice = payment?",
+      "answer": "Zaroori nahi"
+    },
+    {
+      "visual": "Customer selects handbag and maker hands over a blank invoice sheet",
+      "narration": "मान लो बैग की कीमत आठ सौ रुपये है। इनवॉइस पर बैग और देने वाली रकम दिखेगी। इससे पता चलता है क्या बेचा गया और कितनी रकम देनी है।",
+      "question": "Invoice kya bataye?",
+      "answer": "Item aur amount"
+    },
+    {
+      "visual": "Customer looks at the invoice before making payment for the handmade bag",
+      "narration": "लेकिन इनवॉइस अकेले यह नहीं बताता कि पैसे दुकान तक पहुंच गए। कस्टमर अभी भुगतान कर सकता है, या तय शर्तों पर बाद में। इसलिए रकम मिलना अलग से दर्ज करो।",
+      "question": "Paisa mila kya?",
+      "answer": "Alag check karo"
+    },
+    {
+      "visual": "Customer pays by smartphone at a plain terminal and seller gives a blank receipt slip",
+      "narration": "अब कस्टमर ने आठ सौ रुपये पे कर दिए। दुकानदार पेमेंट दर्ज करता है और रसीद या पेमेंट कन्फर्मेशन देता है। यह रकम मिलने का रिकॉर्ड है। तारीख और पेमेंट तरीका भी नोट करो।",
+      "question": "Payment ke baad?",
+      "answer": "Receipt do"
+    },
+    {
+      "visual": "Bag maker keeps separate blank invoice and payment receipt records in folders",
+      "narration": "सीधा नियम: इनवॉइस में क्या और कितना देना है; रसीद में कितना मिला। दोनों रिकॉर्ड मिलाकर रखो, ताकि बकाया और प्राप्त रकम में भ्रम न हो। अपने लागू टैक्स नियम भी मानो।",
+      "question": "Dono kyon rakhein?",
+      "answer": "Records clear rakho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-26/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
