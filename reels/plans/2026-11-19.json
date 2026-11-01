@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-19",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Bakery mein made-to-order cake aur ready-stock cookies ka farq",
+  "caption": "Bakery mein har product ek hi tarah prepare nahi hota. 🍰🍪\n\nCustom cake made-to-order ho sakta hai: customer design aur delivery time confirm karta hai, phir cake banaya jata hai. Cookies ready-stock mein pehle se banakar shelf par rakhi ja sakti hain, taaki walk-in customer turant le sake.\n\nIllustrative example: aaj 20 cookie packs ready kiye, 15 bike aur 5 bache. Kal ki quantity guess se nahi—pichhli sales, freshness window aur expected demand dekhkar plan karo. Custom orders mein price, design, pickup time aur cancellation terms pehle clear karo. Har bakery ki demand alag hoti hai.\n\nAapke business mein kaunsa product order ke baad banana better hai?\n\n#BusinessJalwa #MadeToOrder #ReadyStock #BakeryBusiness #SmallBusiness #BusinessInHinglish",
+  "scenes": [
+    {
+      "visual": "Indian bakery owner discusses a custom celebration cake request with customer",
+      "narration": "बेकरी में कस्टम केक और कुकीज़ एक ही तरीके से क्यों नहीं बनतीं? क्योंकि एक ग्राहक के ऑर्डर पर बनता है, और दूसरा पहले से तैयार रख सकते हो।",
+      "question": "Cake ya cookies?",
+      "answer": "2 alag models"
+    },
+    {
+      "visual": "Baker decorates a personalised cake after customer confirms order",
+      "narration": "कस्टम केक में डिज़ाइन, दाम और पिकअप का समय पहले तय करो। ग्राहक की पुष्टि के बाद उस ऑर्डर के लिए केक बनाओ। इसे मेड टू ऑर्डर कह सकते हैं।",
+      "question": "Custom cake kab?",
+      "answer": "Order confirm hone par"
+    },
+    {
+      "visual": "Bakery worker displays packaged cookies on shelf for walk-in buyers",
+      "narration": "कुकीज़ के पैक पहले से बनाकर शेल्फ़ पर रखे जा सकते हैं। ग्राहक आए तो तुरंत खरीद सके। इसे रेडी स्टॉक समझो, लेकिन ताज़गी और बची मात्रा पर नज़र रखो।",
+      "question": "Cookies kaise?",
+      "answer": "Ready stock"
+    },
+    {
+      "visual": "Walk-in customer picks cookie pack while another waits for cake",
+      "narration": "मान लो आज बीस कुकी पैक बनाए, पंद्रह बिके और पाँच बचे। यह एक दिन का संकेत है, पूरा ट्रेंड नहीं। अगले दिन की तैयारी के लिए कई दिनों की बिक्री देखो।",
+      "question": "20 mein se 15 bike?",
+      "answer": "5 packs bache"
+    },
+    {
+      "visual": "Bakery owner checks blank ingredient sheet and hands custom cake to customer",
+      "narration": "कस्टम ऑर्डर की शर्तें साफ़ रखो, और रेडी स्टॉक की मात्रा असली मांग से मिलाओ। अपने प्रोडक्ट के हिसाब से दोनों तरीके साथ में भी चला सकते हो।",
+      "question": "Next step?",
+      "answer": "Order aur stock alag plan"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-11-19/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
