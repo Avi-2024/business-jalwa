@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-03",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Mobile accessories shop mein wrong-fit phone case complaint se process kaise sudharein",
+  "caption": "Phone case fit nahi hua? Complaint ko process signal samjho. 📱\n\nIllustrative example: ek accessories shop ne ek hafte mein 20 cases beche; 2 wrong-fit complaints aayi. Is sample mein mismatch 10% hai. Customer ka exact phone model aur case cutout check karo, clear solution do, phir mixed shelf/tray aur packing process dekho.\n\nCases ko model ke hisaab se alag rakhna aur handover se pehle fit verify karna repeat galti kam karne ka practical test ho sakta hai. Agle hafte complaints dobara count karo; result ko assume mat karo.\n\nAapke business mein kaunsi complaint baar-baar aati hai?\n\n#BusinessJalwa #SmallBusiness #CustomerService #Operations #Retail",
+  "scenes": [
+    {
+      "visual": "Indian mobile accessories shop customer returns with a phone case that does not fit; owner listens at counter",
+      "narration": "ग्राहक कवर लेकर वापस आया और बोला, फोन में फिट नहीं हो रहा। अब बहस शुरू करोगे, या इसे अपनी दुकान का काम बेहतर करने का मौका समझोगे? पहले उसकी बात पूरी सुनो।",
+      "question": "Case fit nahi hua?",
+      "answer": "Pehle suno"
+    },
+    {
+      "visual": "Owner and customer compare the actual phone and case camera cutout without labels",
+      "narration": "फोन का मॉडल और कवर का कटआउट साथ रखकर देखो। रसीद या ऑर्डर में क्या लिखा था, वह भी चेक करो। अंदाज़े से नया कवर देने पर वही गलती फिर हो सकती है।",
+      "question": "Galti kahan hui?",
+      "answer": "Model match karo"
+    },
+    {
+      "visual": "Owner checks mixed phone cases in two unsorted trays",
+      "narration": "मान लो इस हफ्ते बीस कवर बेचे और दो गलत फिट निकले। यह दस प्रतिशत है। छोटा उदाहरण है, पर इशारा साफ है: शेल्फ या मॉडल पहचानने की प्रक्रिया जाँचो।",
+      "question": "2 galat, 20 sales?",
+      "answer": "10% mismatch"
+    },
+    {
+      "visual": "Shopkeeper offers a correctly fitting case to customer after comparing phone fit",
+      "narration": "जिस ग्राहक को दिक्कत हुई है, उसे साफ बताओ क्या विकल्प है। अगर दुकान से गलत कवर दिया गया, तो सही फिट वाला कवर दिखाओ और देने से पहले फोन पर मिलाकर देखो।",
+      "question": "Customer ko kya do?",
+      "answer": "Clear solution"
+    },
+    {
+      "visual": "Owner trains colleague to separate phone cases and verify fit before handover",
+      "narration": "अब केसों को मॉडल के हिसाब से अलग रखो। पैक करते समय फोन मॉडल और कैमरा कटआउट दोबारा मिलाओ। अगला हफ्ता देखो: गलत फिट की शिकायतें कम हुईं या नहीं?",
+      "question": "Repeat kaise roko?",
+      "answer": "Fit check routine"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-03/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
