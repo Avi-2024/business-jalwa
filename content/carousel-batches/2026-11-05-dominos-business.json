@@ -1,0 +1,42 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-11-05",
+  "id": "dominos-business-scale-073",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1286681/000119312526062321/dpz-20251228.htm",
+    "https://ir.dominos.com/news-releases/news-release-details/dominos-pizzar-announces-fourth-quarter-and-fiscal-2025",
+    "https://www.grandviewresearch.com/industry-analysis/pizza-chain-market-report"
+  ],
+  "slides": [
+    {
+      "heading": "DOMINO'S KA SCALE",
+      "body": "2025 end: 22,100+ stores, 90+ markets.",
+      "citation": "Domino's 2025 Form 10-K",
+      "path": "assets/approved/2026-11-05-post-073/slide-01.jpg"
+    },
+    {
+      "heading": "PIZZA MARKET $197.6B",
+      "body": "2025 global pizza-chain market estimate: $197.6 billion.",
+      "citation": "Grand View Research, 2026",
+      "path": "assets/approved/2026-11-05-post-073/slide-02.jpg"
+    },
+    {
+      "heading": "REVENUE $4.94B",
+      "body": "Domino's Pizza Inc. ka FY2025 company revenue $4.94 billion tha.",
+      "citation": "Domino's 2025 Form 10-K",
+      "path": "assets/approved/2026-11-05-post-073/slide-03.jpg"
+    },
+    {
+      "heading": "RETAIL SALES $20.1B+",
+      "body": "2025 global store retail sales $20.1B se zyada thi. Franchise sales bhi include hain.",
+      "citation": "Domino's FY2025 results",
+      "path": "assets/approved/2026-11-05-post-073/slide-04.jpg"
+    },
+    {
+      "heading": "DONO ALAG KYUN?",
+      "body": "Company revenue aur store sales alag metrics hain.",
+      "citation": "Domino's 2025 Form 10-K",
+      "path": "assets/approved/2026-11-05-post-073/slide-05.jpg"
+    }
+  ]
+}
