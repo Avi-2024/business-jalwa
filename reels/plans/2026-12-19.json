@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-19",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Daily milk-delivery subscription mein pause days aur actual deliveries ka record",
+  "caption": "Milk subscription mein customer 4 din bahar chala gaya—monthly bill kaise clear rakhen? 🥛\n\nShuru mein daily quantity, pause batane ka time, aur paused days ka billing rule agree karo. Har din actual delivery ya pause mark karo. Illustrative example: 30-day period mein 1 litre per day plan hai; 4 days time par pause hue aur baaki 26 days poori delivery hui, to 26 litres delivered record honge. Final bill agreed terms ke hisaab se banega; 26 litres ko apne-aap invoice amount mat samjho.\n\nCustomer ko monthly delivery summary dikhao, discrepancy ho to delivery record milao. Pause notice aur route plan se unnecessary packing kam ho sakti hai. Aap apne recurring orders ka daily record kaise rakhte ho?\n\n#BusinessJalwa #SmallBusinessIndia #MilkDelivery #SubscriptionBusiness #BusinessOperations",
+  "scenes": [
+    {
+      "visual": "Indian neighborhood milk-delivery owner agrees daily bottled milk plan with customer at doorway",
+      "narration": "रोज दूध पहुँचता है, लेकिन ग्राहक चार दिन के लिए बाहर जा रहा है। क्या महीने के अंत में दोनों को याद रहेगा कि कौन से दिन डिलीवरी रुकी थी? पहले ही नियम तय करो।",
+      "question": "Pause days ka kya?",
+      "answer": "Rule pehle agree karo"
+    },
+    {
+      "visual": "Owner packs safe sealed milk bottles into insulated delivery box for morning route",
+      "narration": "रोज की मात्रा, पॉज़ बताने का समय और उन दिनों की बिलिंग ग्राहक से साफ करो। फिर हर सुबह ऑर्डर देखकर बोतलें तैयार करो। बिना ज़रूरत सामान पैक करने से बच सकते हो।",
+      "question": "Daily route kaise bane?",
+      "answer": "Pause list check karo"
+    },
+    {
+      "visual": "Customer calls to pause delivery while owner notes it on blank calendar",
+      "narration": "मान लो तीस दिन के प्लान में रोज एक लीटर है। चार दिन समय पर पॉज़ हुए, और बाकी छब्बीस दिन पूरा दूध पहुँचा। रिकॉर्ड में छब्बीस लीटर डिलीवरी लिखोगे।",
+      "question": "30 din, 4 pause?",
+      "answer": "26 litre delivered"
+    },
+    {
+      "visual": "Delivery rider continues route to active customer while paused home's bottle stays packed away",
+      "narration": "लेकिन छब्बीस लीटर अपने आप बिल की रकम नहीं बताता। कीमत और पॉज़ का हिसाब पहले तय शर्तों से निकालो। ग्राहक ने देर से सूचना दी हो, तो वही सहमति लागू करो।",
+      "question": "Delivered = bill amount?",
+      "answer": "Agreed terms dekho"
+    },
+    {
+      "visual": "Milk business owner shows customer a blank monthly delivery record and reconciles bottle count",
+      "narration": "महीने के अंत में डिलीवरी और पॉज़ की सूची ग्राहक को दिखाओ। कोई फर्क मिले तो उसी दिन के रिकॉर्ड से मिलाओ। आज से हर सब्सक्रिप्शन के लिए एक साधारण डेली लॉग रखो।",
+      "question": "Month-end par kya dikhao?",
+      "answer": "Daily delivery summary"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-19/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
