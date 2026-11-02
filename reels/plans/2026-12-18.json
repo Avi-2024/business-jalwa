@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-18",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Home-cleaning service ke quote mein onsite kaam ke saath travel time kaise ginen",
+  "caption": "Home-cleaning booking sirf ghar ke andar kaam karne ka time nahi leti. 🧹\n\nTeam ko pahunchna, tools le jana, kaam karna aur wapas aana hota hai. Quote aur daily schedule banate waqt travel ko alag note karo. Illustrative example: ghar par 90 minute cleaning aur har taraf 20 minute travel ho, to ek worker ke schedule mein 130 minute lagte hain. Yeh price ka formula nahi; supplies, team size, transport aur dusre kharche bhi alag dekhne honge.\n\nDo ghar paas-paas hon to route plan karo, lekin client ko diya hua arrival time realistic rakho. Ek hafte tak estimated aur actual travel time compare karo. Aapki service mein travel ka average kitna hai?\n\n#BusinessJalwa #SmallBusinessIndia #CleaningBusiness #ServicePricing #BusinessOperations",
+  "scenes": [
+    {
+      "visual": "Indian home-cleaning business owner receives customer booking and checks blank schedule notebook",
+      "narration": "घर की सफाई का ऑर्डर आया। काम डेढ़ घंटे का है, तो क्या अगले ग्राहक को ठीक डेढ़ घंटे बाद बुक कर दें? टीम को वहाँ पहुँचना और वापस चलना भी है।",
+      "question": "Booking time sirf cleaning?",
+      "answer": "Travel bhi jodo"
+    },
+    {
+      "visual": "Owner reviews neighborhood route on blank map as worker packs cleaning tools",
+      "narration": "कोट बनाते समय काम की जगह, दूरी और सामान ले जाने का तरीका देखो। पास का घर और दूर का घर बराबर समय नहीं लेते। पहुँचने का वादा वास्तविक रखो।",
+      "question": "Door ka job same time?",
+      "answer": "Route check karo"
+    },
+    {
+      "visual": "Cleaning worker rides scooter with securely packed equipment then arrives at client apartment",
+      "narration": "मान लो घर पर नब्बे मिनट सफाई हुई। जाने में बीस और लौटने में बीस मिनट लगे। कुल एक सौ तीस मिनट टीम के शेड्यूल में गए। यह सिर्फ समय का उदाहरण है।",
+      "question": "90 + 20 + 20 minute?",
+      "answer": "130 minute schedule"
+    },
+    {
+      "visual": "Two cleaning workers vacuum and wipe agreed areas in customer's living room",
+      "narration": "अब कीमत सोचो तो केवल मिनट मत गिनो। सफाई का सामान, आने जाने का खर्च, टीम और बाकी खर्च भी देखो। ग्राहक से काम का दायरा और अनुमानित समय पहले तय करो।",
+      "question": "Price sirf time se?",
+      "answer": "Saare kharche dekho"
+    },
+    {
+      "visual": "Cleaning business owner compares blank time log after team returns from customer job",
+      "narration": "एक हफ्ते तक हर जॉब का अनुमानित और असली ट्रैवल टाइम लिखो। दो नज़दीकी बुकिंग साथ प्लान कर सकते हो, मगर जल्दबाज़ी में गलत वादा मत करो। आज से यात्रा का समय अलग नोट करो।",
+      "question": "Aaj kya track karein?",
+      "answer": "Actual travel time likho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-18/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
