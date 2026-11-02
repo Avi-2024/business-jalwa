@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-09",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Kurti boutique mein color aur size variant ka alag stock count kyon zaroori hai",
+  "caption": "“Kurti stock mein hai” — lekin customer ka color aur size available hai? 👗\n\nIllustrative boutique example: ek design 2 colors aur har color mein 3 sizes mein aata hai. Total 6 alag variants hain. Green, large size bikne par ussi variant ka count ghatao. Sirf design ka total dekhne se wrong size available lag sakta hai.\n\nEk popular design se start karo: har color-size combination ka actual shelf count aur record milao. Customer ka order confirm karne se pehle exact piece check karo.\n\nAapke store mein variants ka stock alag track hota hai?\n\n#BusinessJalwa #SmallBusiness #InventoryManagement #Retail #Boutique",
+  "scenes": [
+    {
+      "visual": "Indian kurti boutique owner presents one design in two different colors",
+      "narration": "बुटीक में एक कुर्ती का डिज़ाइन है। ग्राहक को हरा रंग और बड़ा साइज़ चाहिए, लेकिन रिकॉर्ड बस कहता है कि कुर्ती स्टॉक में है। क्या वह सही कुर्ती सच में मौजूद है?",
+      "question": "Stock hai, par kaunsa?",
+      "answer": "Color aur size dekho"
+    },
+    {
+      "visual": "Owner compares three sizes of one-color kurti on a table",
+      "narration": "मान लो वही डिज़ाइन दो रंगों में आता है, और हर रंग के तीन साइज़ हैं। तो कुल छह अलग वैरिएंट हुए। हर वैरिएंट की गिनती अलग रखनी चाहिए।",
+      "question": "2 colors, 3 sizes?",
+      "answer": "6 variants"
+    },
+    {
+      "visual": "Owner sorts green and rust kurtis into distinct size piles",
+      "narration": "अगर हरे रंग का एक साइज़ बिक गया, तो उसी साइज़ और रंग की गिनती घटाओ। सिर्फ डिज़ाइन का कुल स्टॉक घटाकर काम चलाओगे, तो गलत साइज़ उपलब्ध दिख सकता है।",
+      "question": "Kya count ghatega?",
+      "answer": "Wahi variant"
+    },
+    {
+      "visual": "Customer selects one kurti color and fit while owner checks garment",
+      "narration": "ग्राहक को ऑर्डर confirm करने से पहले वही रंग और साइज़ निकालकर देखो। दुकान और ऑनलाइन सूची दोनों में एक जैसी पहचान रखो। इससे स्टॉक की जानकारी ज़्यादा भरोसेमंद बन सकती है।",
+      "question": "Order se pehle?",
+      "answer": "Exact piece check"
+    },
+    {
+      "visual": "Owner separates mixed kurti piles and checks blank stock notebook",
+      "narration": "आज एक लोकप्रिय डिज़ाइन चुनो। उसके हर रंग और साइज़ की अलग गिनती लिखो, फिर शेल्फ़ से मिलाओ। जहाँ फर्क हो, पहले वजह खोजो; अनुमान से उपलब्धता मत बताओ।",
+      "question": "Aaj ka action?",
+      "answer": "Variant-wise count"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-09/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
