@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-11",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Tailoring shop ka fitting rework rate: wapas aaye garments se process kaise sudharein",
+  "caption": "Silai ke baad fitting ke liye kapde wapas aa rahe hain? 🧵\n\nIllustrative example: ek hi period mein 20 garments deliver hue aur unmein se 3 fitting correction ke liye laute. Rework rate = 3 ÷ 20 × 100 = 15%. Yeh sirf us period aur us definition ka measure hai; har return ko quality failure mat mano.\n\nHar correction ka reason likho: sleeve, length ya fitting? Sabse common reason par trial fitting aur final measurement check improve karo. Agle period mein wahi rate dobara nikaal kar dekho.\n\nAapki tailoring shop mein sabse common alteration kya hai?\n\n#BusinessJalwa #SmallBusinessIndia #TailoringBusiness #QualityControl #BusinessOperations",
+  "scenes": [
+    {
+      "visual": "Indian tailor receives a delivered kurta back from customer for sleeve adjustment",
+      "narration": "कुर्ता सिलकर दे दिया, फिर ग्राहक आस्तीन की फिटिंग ठीक कराने वापस आया। ऐसे काम को बस अलग से ठीक करने की जगह, उसका पैटर्न देखना भी ज़रूरी है।",
+      "question": "Kapda wapas kyon aaya?",
+      "answer": "Reason note karo"
+    },
+    {
+      "visual": "Tailor separates three returned garments from twenty delivered garments in the same tracking period",
+      "narration": "मान लो एक अवधि में बीस कपड़े डिलीवर हुए। उन्हीं में से तीन फिटिंग ठीक कराने लौटे। तीन को बीस से भाग देकर सौ से गुणा करो: पंद्रह प्रतिशत। इसे रीवर्क रेट कह सकते हैं।",
+      "question": "3 of 20 returned?",
+      "answer": "15% fitting rework"
+    },
+    {
+      "visual": "Tailor closely checks sleeve seam, garment length and measurement tape against blank notes",
+      "narration": "हर लौटे कपड़े की वजह अलग लिखो। आस्तीन छोटी थी, लंबाई गलत थी, या ग्राहक ने पसंद बदली? हर वापसी को एक जैसी सिलाई गलती मत मानो।",
+      "question": "Har return same hai?",
+      "answer": "Cause alag likho"
+    },
+    {
+      "visual": "Tailor and customer check trial fit in mirror and verify sleeve measurement before final stitch",
+      "narration": "अगर आस्तीन की फिटिंग बार बार बदल रही है, तो अंतिम सिलाई से पहले ट्रायल फिटिंग और माप की पुष्टि करो। ग्राहक से सही साइज़ कन्फर्म करना छोटा कदम है।",
+      "question": "Common cause ka fix?",
+      "answer": "Trial fit check"
+    },
+    {
+      "visual": "Tailor records garment correction reasons and compares next period's counts at work table",
+      "narration": "अगली अवधि में उसी तरह गिनती दोबारा करो: कुल डिलीवरी और उनमें से फिटिंग के लिए लौटे कपड़े। रेट कम हो या नहीं, वजह देखकर प्रक्रिया सुधारो। आज से कारण लिखना शुरू करो।",
+      "question": "Aaj ka action?",
+      "answer": "Returns ka reason track karo"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-11/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
