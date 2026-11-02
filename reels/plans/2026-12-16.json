@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-16",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Chai stall ke morning rush mein order flow aur counter setup kaise sudharein",
+  "caption": "Subah chai stall par line lagti hai, par delay chai banne mein hai ya order dene mein? ☕\n\nRush se pehle saaf cups, strainer, doodh aur ingredients apni jagah rakho. Ek person order aur cup handoff sambhale, doosra fresh chai banaye—agar team chhoti ho to steps ko isi order mein rakho.\n\nIllustrative example: 6 confirmed orders mein 4 regular chai aur 2 adrak chai hain. Similar orders ko saath prepare karna helpful ho sakta hai, lekin customer ki sugar/ginger choice alag note karo. Bina order ke bahut chai pehle se bana kar mat rakho; freshness aur safety ka khayal rakho.\n\nEk busy hour mein order milne se cup dene tak ka time note karo. Kaunsa step baar-baar ruk raha hai? Wahi step pehle sudharo.\n\n#BusinessJalwa #SmallBusinessIndia #ChaiBusiness #Operations #CustomerExperience",
+  "scenes": [
+    {
+      "visual": "Morning office crowd waits at an Indian roadside chai stall while owner notices order queue",
+      "narration": "सुबह चाय की दुकान पर लाइन लग गई। लेकिन देरी कहाँ है? चाय बनाने में, ऑर्डर सुनने में, या कप देने में? पहले ये देखो कि ग्राहक सबसे ज्यादा कहाँ रुकते हैं।",
+      "question": "Line kahan ruk rahi hai?",
+      "answer": "Slow step pehchano"
+    },
+    {
+      "visual": "Owner sets clean cups, strainer, milk and ginger in easy-to-reach positions before rush",
+      "narration": "रश से पहले साफ कप, छन्नी, दूध और अदरक अपनी जगह रखो। बार बार सामान ढूँढना पड़े, तो छोटा काम भी लाइन बढ़ा देता है। काउंटर का रास्ता खुला रखो।",
+      "question": "Rush se pehle kya?",
+      "answer": "Counter ready rakho"
+    },
+    {
+      "visual": "One worker records chai orders while coworker freshly brews tea in kettle",
+      "narration": "अगर दो लोग हैं, तो एक ऑर्डर और कप संभाले, दूसरा ताज़ी चाय बनाए। अकेले हो, तो भी यही क्रम रखो: पहले ऑर्डर साफ समझो, फिर चाय तैयार करो।",
+      "question": "Kaam kaise baantein?",
+      "answer": "Order aur brewing alag"
+    },
+    {
+      "visual": "Owner groups confirmed regular chai cups but keeps ginger chai preference separate",
+      "narration": "मान लो छह ऑर्डर आए: चार रेगुलर और दो अदरक वाली चाय। मिलते जुलते ऑर्डर साथ बना सकते हो, पर चीनी और अदरक की पसंद अलग लिखो। बिना ऑर्डर बहुत चाय पहले मत बनाओ।",
+      "question": "6 orders kaise sambhalein?",
+      "answer": "Similar saath, choice alag"
+    },
+    {
+      "visual": "Worker hands correct chai cups to customers; owner reviews blank notes after rush",
+      "narration": "आज एक बिजी घंटे में देखो, ऑर्डर से कप देने तक कितना समय लगा। सबसे धीमा हिस्सा लिखो, उसे बदलो, फिर कल दोबारा देखो। छोटी प्रक्रिया सुधरे, तो लाइन बेहतर चल सकती है।",
+      "question": "Aaj kya measure karein?",
+      "answer": "Order-to-cup time dekho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-16/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
