@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-13",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Stationery shop ka school-project kit: alag items ko useful bundle kaise banayein",
+  "caption": "School project ke liye parent ko chart paper, glue aur colours alag-alag dhoondhne padte hain? 📚\n\nEk stationery shop in cheezon ka ready project kit bana sakti hai. Pehle dekho ki customers kaun se items saath maangte hain. Kit mein wahi rakho jo sach mein kaam aata hai, aur har item ka stock check karo.\n\nIllustrative cost example: chart paper ₹20, glue ₹15, colours ₹25 aur packing ₹5. In direct items ka total ₹65 hai. Ismein shop ka time, overhead aur doosre kharche shamil nahi; ₹65 ko poori cost ya munafa mat samjho. Selling price tay karte waqt unhe bhi dekho.\n\nEk chhota batch banao, feedback lo, aur dekho kaun se items bach rahe hain. Aapke customers kaun si cheezen saath kharidte hain?\n\n#BusinessJalwa #SmallBusinessIndia #StationeryShop #ProductBundling #BusinessBasics",
+  "scenes": [
+    {
+      "visual": "Indian stationery owner notices parent and schoolchild searching separate shelves for project supplies",
+      "narration": "स्कूल प्रोजेक्ट के लिए पेरेंट को चार्ट पेपर, गोंद और कलर अलग अलग ढूँढने पड़ रहे हैं। अगर दुकान ये चीज़ें एक साथ दे, तो खरीदारी आसान हो सकती है।",
+      "question": "Customer kya dhoondh raha hai?",
+      "answer": "Saath chahiye items"
+    },
+    {
+      "visual": "Owner assembles frequently requested chart paper, glue and colored pencils at stationery counter",
+      "narration": "पहले देखो, ग्राहक कौन सी चीज़ें साथ माँगते हैं। उन्हीं से छोटा प्रोजेक्ट किट बनाओ। सिर्फ किट भरने के लिए बेकार सामान मत जोड़ो; सुविधा असली होनी चाहिए।",
+      "question": "Kit mein kya rakhein?",
+      "answer": "Useful items saath rakho"
+    },
+    {
+      "visual": "Owner checks blank stock ledger and notices glue sticks missing from a shelf",
+      "narration": "किट बेचने से पहले हर आइटम का स्टॉक देखो। गोंद खत्म है, तो बाकी सामान होते हुए भी पूरा किट नहीं बनेगा। कमी दिखे तो ग्राहक से साफ बताओ।",
+      "question": "Ek item missing ho to?",
+      "answer": "Stock pehle check karo"
+    },
+    {
+      "visual": "Owner counts project kit components and packing cost using blank notebook, then packs a complete kit",
+      "narration": "मान लो चार्ट पेपर बीस रुपये, गोंद पंद्रह, कलर पच्चीस और पैकिंग पाँच रुपये की है। सीधे सामान का जोड़ पैंसठ रुपये है। दुकान का समय और दूसरे खर्च अभी जोड़ने हैं।",
+      "question": "Kit ki cost kaise dekhein?",
+      "answer": "Items + packing + baaki kharche"
+    },
+    {
+      "visual": "Owner hands complete transparent project kit to parent and schoolchild and later notes kit feedback",
+      "narration": "अब थोड़े किट बनाकर देखो। ग्राहक को क्या उपयोगी लगा, और कौन सा आइटम बचा? अगला बैच उसी हिसाब से बदलो। आज अपनी दुकान के साथ बिकने वाले तीन आइटम लिखो।",
+      "question": "Aaj ka action?",
+      "answer": "3 saath bikne wale items likho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-13/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
