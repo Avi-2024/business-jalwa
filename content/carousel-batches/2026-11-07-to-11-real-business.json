@@ -1,0 +1,221 @@
+{
+  "generator": "Built-in image_gen",
+  "sets": [
+    {
+      "date": "2026-11-07",
+      "num": 75,
+      "id": "walmart-business-scale-075",
+      "brand": "Walmart",
+      "sources": [
+        "https://corporate.walmart.com/news/2026/04/23/walmart-releases-2026-annual-report-and-proxy-statement",
+        "https://www.infosys.com/iki/research/retail-industry-outlook2026.html"
+      ],
+      "slides": [
+        [
+          "WALMART KA SCALE",
+          "FY2026: 10,900+ stores aur 19 countries.",
+          "Walmart FY2026 report",
+          "Global discount retail map"
+        ],
+        [
+          "RETAIL MARKET $28.1T",
+          "2025 global retail market estimate: $28.1 trillion. Broad category hai.",
+          "Infosys Retail Outlook 2026",
+          "Global retail streets and shops"
+        ],
+        [
+          "REVENUE $713B",
+          "Walmart ka FY2026 company revenue lagbhag $713 billion tha.",
+          "Walmart FY2026 report",
+          "Indian analyst reviewing annual report"
+        ],
+        [
+          "280M WEEKLY VISITS",
+          "Har week lagbhag 280M customers aur members Walmart channels par aate hain.",
+          "Walmart FY2026 report",
+          "Busy store, online shopper, checkout"
+        ],
+        [
+          "SCOPE SAMJHO",
+          "Global retail market aur Walmart revenue alag measures hain. Year bhi alag hai.",
+          "Walmart; Infosys",
+          "Separate market and company panels"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "num": 76,
+      "id": "ikea-business-scale-076",
+      "brand": "IKEA",
+      "sources": [
+        "https://www.ikea.com/global/en/newsroom/corporate/ikea-retail-sales-fy25-251016/",
+        "https://www.ikea.com/global/en/our-business/how-we-work/",
+        "https://www.inter.ikea.com/performance",
+        "https://www.grandviewresearch.com/industry-analysis/furniture-market"
+      ],
+      "slides": [
+        [
+          "IKEA KA SCALE",
+          "FY2025 mein IKEA ke 504 stores, 63 markets mein the.",
+          "IKEA Global FY2025",
+          "Furniture stores and world map"
+        ],
+        [
+          "FURNITURE $786.1B",
+          "2025 global furniture market estimate: $786.1 billion.",
+          "Grand View Research, 2026",
+          "Global furniture workshops and homes"
+        ],
+        [
+          "RETAIL SALES €44.6B",
+          "FY2025 total IKEA retail sales €44.6 billion thi.",
+          "IKEA Global FY2025",
+          "Furnishing store checkout and catalog"
+        ],
+        [
+          "GROUP REVENUE €26.3B",
+          "Inter IKEA Group FY2025 revenue €26.3B tha. Retail sales alag measure hai.",
+          "Inter IKEA FY2025",
+          "Franchise company ledger and retail sales panels"
+        ],
+        [
+          "DIFFERENCE DEKHO",
+          "Furniture market, IKEA retail sales aur Inter IKEA revenue ka scope alag hai.",
+          "IKEA; Grand View Research",
+          "Three distinct furniture market, retail, franchise panels"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "num": 77,
+      "id": "nike-business-scale-077",
+      "brand": "Nike",
+      "sources": [
+        "https://investors.nike.com/",
+        "https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/nke-20260531.htm",
+        "https://www.grandviewresearch.com/industry-analysis/sportswear-market"
+      ],
+      "slides": [
+        [
+          "NIKE KA SCALE",
+          "FY2026: Nike lagbhag 190 countries ke consumers ko serve karti hai.",
+          "Nike Investor Relations",
+          "Athletic retail around global map"
+        ],
+        [
+          "SPORTSWEAR $399.4B",
+          "2025 global sportswear market estimate: $399.4 billion.",
+          "Grand View Research, 2026",
+          "Athletic apparel and footwear market"
+        ],
+        [
+          "REVENUE $46.4B",
+          "Nike Inc. ka FY2026 revenue $46.398 billion tha.",
+          "Nike FY2026 Form 10-K",
+          "Analyst examining sports apparel report"
+        ],
+        [
+          "WHOLESALE + DIRECT",
+          "FY2026: wholesale sales $28.058B; direct consumer sales $18.197B.",
+          "Nike FY2026 Form 10-K",
+          "Wholesale partner and direct store separate panels"
+        ],
+        [
+          "SCOPE CHECK KARO",
+          "Sportswear market aur Nike Inc. revenue ka scope aur year alag hain.",
+          "Nike; Grand View Research",
+          "Market, company and channel panels"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "num": 78,
+      "id": "netflix-business-scale-078",
+      "brand": "Netflix",
+      "sources": [
+        "https://about.netflix.com/en",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000034/nflx-20251231.htm",
+        "https://www.grandviewresearch.com/industry-analysis/video-streaming-market",
+        "https://www.sec.gov/Archives/edgar/data/1065280/000119312526159286/d20613ddef14a.htm"
+      ],
+      "slides": [
+        [
+          "NETFLIX KA SCALE",
+          "Netflix 190+ countries mein viewers ko serve karti hai.",
+          "About Netflix",
+          "Global streaming viewers and screens"
+        ],
+        [
+          "STREAMING $129.3B",
+          "2024 global video-streaming market estimate: $129.3 billion.",
+          "Grand View Research",
+          "Video streaming market collage"
+        ],
+        [
+          "REVENUE $45.2B",
+          "Netflix ka 2025 company revenue lagbhag $45.2 billion tha.",
+          "Netflix 2025 Form 10-K",
+          "Analyst reviewing digital subscription report"
+        ],
+        [
+          "325M+ MEMBERS",
+          "2025 mein Netflix ne 325M se zyada paid memberships report ki.",
+          "Netflix 2026 Proxy",
+          "Diverse households watching different content"
+        ],
+        [
+          "YEAR AUR SCOPE",
+          "Market estimate 2024 ka hai; company revenue 2025 ka. Seedha share mat nikalo.",
+          "Netflix; Grand View Research",
+          "Separate industry and platform panels"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "num": 79,
+      "id": "airbnb-business-scale-079",
+      "brand": "Airbnb",
+      "sources": [
+        "https://news.airbnb.com/airbnb-q4-2025-financial-results",
+        "https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm",
+        "https://www.grandviewresearch.com/industry-analysis/vacation-rental-market"
+      ],
+      "slides": [
+        [
+          "AIRBNB KA SCALE",
+          "Airbnb 220+ countries aur regions mein operate karta hai.",
+          "Airbnb Q4 2025 results",
+          "Global host homes and travel map"
+        ],
+        [
+          "RENTALS $101.7B",
+          "2025 global vacation-rental market estimate: $101.7 billion.",
+          "Grand View Research, 2026",
+          "Holiday rental homes across regions"
+        ],
+        [
+          "REVENUE $12.2B",
+          "Airbnb ka 2025 company revenue lagbhag $12.2 billion tha.",
+          "Airbnb 2025 Form 10-K",
+          "Analyst reviewing travel platform results"
+        ],
+        [
+          "BOOKINGS $91.3B",
+          "2025 gross booking value $91.273B thi. Yeh revenue nahi hai.",
+          "Airbnb 2025 Form 10-K",
+          "Guests booking stays and host receiving payment"
+        ],
+        [
+          "NUMBERS ALAG HAIN",
+          "Market size, booking value aur platform revenue teen alag measures hain.",
+          "Airbnb; Grand View Research",
+          "Three distinct travel market, booking, revenue panels"
+        ]
+      ]
+    }
+  ]
+}
