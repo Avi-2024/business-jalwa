@@ -1,0 +1,38 @@
+name: Publish missed 2026-11-01 Business Jalwa Reel once
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-missed-2026-11-01.yml'
+permissions:
+  contents: write
+concurrency:
+  group: business-jalwa-reels
+  cancel-in-progress: false
+jobs:
+  publish-missed:
+    if: github.event.head_commit.message == 'Publish missed 2026-11-01 Business Jalwa Reel' && vars.PUBLISH_ENABLED == 'true' && vars.FACEBOOK_PUBLISH_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+      FACEBOOK_PAGE_ID: ${{ vars.FACEBOOK_PAGE_ID }}
+      IG_USER_ID: ${{ vars.IG_USER_ID }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install video and narration dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install Pillow==12.3.0 edge-tts==7.3.1
+      - name: Configure checkpoint author
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Publish only the prepared 2026-11-01 Reel
+        run: env -u GITHUB_EVENT_NAME REEL_DATE=2026-11-01 REEL_RENDER_ONLY=false python scripts/daily_reel.py
