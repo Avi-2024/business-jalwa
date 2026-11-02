@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-26",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Plant nursery mein customer ki jagah samajhkar sahi care handover kaise dein",
+  "caption": "Nursery se plant bechne ke baad customer ko uski care samajh aani chahiye. 🌿\n\nPehle poochho: plant kahan rakhenge, wahan roshni kaisi hai, aur dekhbhal ke liye kitna waqt hai? Specific plant ke liye light, paani aur pot drainage ki guidance do; har plant ko ek hi routine mat batao. Illustrative example: agar customer ka balcony mostly shaded hai, usse full-sun jagah samajhkar plant recommend mat karo. Space ki photo aur actual plant ki needs milao.\n\nAaj apne top-selling plants ke liye short care handover note banao aur customer ki common questions likho.\n\n#BusinessJalwa #SmallBusinessIndia #PlantNursery #CustomerExperience #RetailBusiness",
+  "scenes": [
+    {
+      "visual": "Indian plant nursery owner welcomes a customer among different potted plants",
+      "narration": "ग्राहक ने कहा, कोई अच्छा पौधा दे दीजिए। लेकिन उसके घर में पौधा कहाँ रहेगा? रोशनी कितनी आती है? पहले जगह और देखभाल की दिनचर्या पूछो। सुंदर दिखना अकेला चुनाव नहीं है।",
+      "question": "Sirf sundar plant?",
+      "answer": "Customer ki jagah samjho"
+    },
+    {
+      "visual": "Customer shows owner a photo of her mostly shaded apartment balcony on a phone",
+      "narration": "मान लो ग्राहक की बालकनी में ज्यादातर छाया रहती है। उसे धूप वाली जगह मानकर पौधा मत सुझाओ। बालकनी की फोटो देख लो, फिर जिस पौधे को दिखा रहे हो उसकी जरूरत से मिलाओ।",
+      "question": "Balcony shaded hai?",
+      "answer": "Light needs milao"
+    },
+    {
+      "visual": "Nursery owner compares plants kept in brighter and shaded nursery sections with customer",
+      "narration": "एक ही पानी और रोशनी का नियम हर पौधे पर नहीं चलता। खास पौधे के हिसाब से बताओ कि उसे कहाँ रखना है और मिट्टी कब जाँचनी है। अंदाज़े से रोज पानी देने को मत कहो।",
+      "question": "Har plant same care?",
+      "answer": "Species-specific guidance"
+    },
+    {
+      "visual": "Owner demonstrates drainage holes under a plant pot and hands customer a blank care card",
+      "narration": "पॉट में पानी निकलने की जगह भी दिखाओ। ग्राहक को छोटा केयर नोट दो: जगह, पानी जाँचने का तरीका और मदद के लिए संपर्क। भाषा ऐसी रखो कि घर जाकर भी आसानी से समझ आ जाए।",
+      "question": "Handover mein kya do?",
+      "answer": "Simple care note"
+    },
+    {
+      "visual": "Owner follows up by phone as customer checks healthy potted plant on her balcony",
+      "narration": "आज अपने सबसे ज्यादा बिकने वाले पौधों के लिए छोटे केयर नोट बनाओ। ग्राहक बार बार जो सवाल पूछते हैं, उन्हें लिखो। वही सवाल अगली बार बेहतर समझाने में मदद करेंगे।",
+      "question": "Aaj ka action?",
+      "answer": "Care notes aur FAQs"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-26/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
