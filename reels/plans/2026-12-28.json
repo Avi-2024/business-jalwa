@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-28",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Small bakery mein WhatsApp aur counter ke cake orders ko ek production list mein kaise rakhein",
+  "caption": "Cake order WhatsApp par aaye ya counter par, kitchen ko ek hi clear list chahiye. 🎂\n\nHar confirmed order mein customer reference, cake design, size, pickup time aur status note karo. Sirf chat mein chhoda order kitchen se miss ho sakta hai. Illustrative example: do custom cakes ek hi 5 PM pickup slot mein hain, lekin team us slot mein ek hi cake finish kar sakti hai. Central list par clash dikhe to customer se naya realistic time confirm karo. Capacity har bakery ki alag hoti hai.\n\nAaj ke sab confirmed orders ek production list mein milao aur pickup se pehle final cake check karo.\n\n#BusinessJalwa #SmallBusinessIndia #BakeryBusiness #OrderManagement #Operations",
+  "scenes": [
+    {
+      "visual": "Indian bakery owner sees a custom cake photo request on phone while counter cakes are displayed",
+      "narration": "केक का एक ऑर्डर व्हाट्सऐप पर आया, दूसरा काउंटर पर। अगर दोनों अलग जगह पड़े रहें, तो किचन को पूरा काम कैसे दिखेगा? हर पक्का ऑर्डर एक ही प्रोडक्शन लिस्ट में डालो।",
+      "question": "Orders kahan dikhein?",
+      "answer": "Ek production list"
+    },
+    {
+      "visual": "Walk-in customer explains cake choice to bakery staff while owner notes confirmed order details",
+      "narration": "लिस्ट में ग्राहक का रेफरेंस, केक का डिज़ाइन, साइज, पिकअप समय और ऑर्डर की स्थिति रखो। सिर्फ मैसेज पढ़ लेना, ऑर्डर कन्फर्म होने जैसा नहीं है। ग्राहक से जरूरी बातें दोहराकर पक्की करो।",
+      "question": "Order mein kya likhein?",
+      "answer": "Design, size, pickup"
+    },
+    {
+      "visual": "Owner and baker consolidate phone and counter orders on blank shared planning board",
+      "narration": "मान लो पाँच बजे के लिए दो कस्टम केक आ गए, लेकिन टीम उस स्लॉट में एक ही पूरा कर सकती है। एक लिस्ट पर टकराव तुरंत दिखेगा। दूसरा समय ग्राहक से पूछकर कन्फर्म करो।",
+      "question": "Same 5 PM slot?",
+      "answer": "Capacity check karo"
+    },
+    {
+      "visual": "Baker decorates two distinct custom cakes while team checks blank colored order cards",
+      "narration": "किचन शुरू करने से पहले आज की लिस्ट साथ देखो। किस केक का काम शुरू हुआ, कौन सा तैयार है, और किसका पिकअप बाकी है? स्थिति बदलते ही लिस्ट अपडेट करो।",
+      "question": "Kitchen ko kya dikhe?",
+      "answer": "Har order ka status"
+    },
+    {
+      "visual": "Bakery owner checks finished cake with customer at counter and reviews organized production board",
+      "narration": "आज व्हाट्सऐप और काउंटर के सारे पक्के ऑर्डर एक जगह मिलाओ। पिकअप से पहले डिज़ाइन और ग्राहक रेफरेंस चेक करो। एक सरल साझा लिस्ट भूल और गलत वादा पकड़ने में मदद कर सकती है।",
+      "question": "Aaj ka action?",
+      "answer": "Confirmed orders milao"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-28/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
