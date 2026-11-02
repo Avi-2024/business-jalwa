@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-12",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Orange juice stall mein ingredient yield: kharide hue phal se kitne cups bante hain",
+  "caption": "10 kilo oranges kharide—par kitne cups juice bana? 🍊\n\nIllustrative example: usable oranges se 4 litre juice nikla. Agar har cup 200 ml ka hai, to 4,000 ÷ 200 = 20 cups. Har batch ka yield alag ho sakta hai: fruit quality, juicer aur wastage ka farq hota hai.\n\nApni stall par ek batch ka fruit weight, usable juice aur cup size note karo. Phir total fruit cost ko actual cups se divide karke fruit cost per cup dekho. Cup, ice, labour aur dusre kharche alag jodo—fruit cost ko full cost ya profit mat samjho.\n\nAap apne product ka yield kaise track karte ho?\n\n#BusinessJalwa #SmallBusinessIndia #JuiceBusiness #FoodCost #BusinessBasics",
+  "scenes": [
+    {
+      "visual": "Indian orange juice stall owner buys a basket of oranges for the day's batch",
+      "narration": "जूस स्टॉल पर दस किलो संतरे आए। लेकिन क्या दस किलो खरीदने से पता चल गया कि कितने कप बिक सकेंगे? नहीं। फल से निकला असली जूस गिनना पड़ेगा।",
+      "question": "10 kilo fruit = kitne cups?",
+      "answer": "Pehle juice measure karo"
+    },
+    {
+      "visual": "Owner separates usable oranges from bruised fruit and weighs the usable batch",
+      "narration": "खराब फल अलग करो, फिर इस्तेमाल किए गए संतरों का वज़न लिखो। एक ही वज़न से हर बार बराबर जूस नहीं निकलता। क्वालिटी और मशीन दोनों से यील्ड बदल सकती है।",
+      "question": "Same weight, same juice?",
+      "answer": "Yield badal sakta hai"
+    },
+    {
+      "visual": "Owner presses oranges and measures the collected juice in transparent jug",
+      "narration": "मान लो इस बैच से चार लीटर जूस निकला। हर कप 200 मिलीलीटर का है। चार लीटर यानी चार हज़ार मिलीलीटर; 200 से भाग दो, तो बीस कप बनेंगे।",
+      "question": "4 litre, 200 ml cups?",
+      "answer": "20 cups, illustrative"
+    },
+    {
+      "visual": "Owner pours measured orange juice into consistent serving cups and checks a blank cost notebook",
+      "narration": "अब कुल फल का खर्च उन असली बीस कपों में बाँटो। यह सिर्फ फ्रूट कॉस्ट प्रति कप है। कप, बर्फ, बिजली और मेहनत का खर्च अभी अलग जोड़ना है।",
+      "question": "Fruit cost kaise nikle?",
+      "answer": "Total fruit cost / cups"
+    },
+    {
+      "visual": "Owner serves customer and notes remaining fruit, juice volume and cup count",
+      "narration": "आज एक बैच चुनो। फल का वज़न, निकले जूस की मात्रा और बने कप लिखो। अगले बैच से तुलना करो; तभी अपने स्टॉल की असली यील्ड समझ में आएगी।",
+      "question": "Aaj kya likhna hai?",
+      "answer": "Weight, juice, cups"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-12/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
