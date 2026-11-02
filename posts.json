@@ -246,7 +246,7 @@
   },
   {
     "id": "business-basics-016",
-    "publish_at": "2026-11-12T18:00:00+05:30",
+    "publish_at": "2027-01-15T18:00:00+05:30",
     "caption": "Naye customers laane ka kharch kaise samjhein? 📣\n\nCustomer acquisition ka matlab naye customers ko business tak laana. Ads, referrals, search, content aur direct outreach alag channels ho sakte hain.\n\nCustomer Acquisition Cost (CAC) = naye customers laane par sales aur marketing ka total kharch ÷ us period mein aaye naye customers. Example: ₹10,000 kharch aur 100 naye customers = ₹100 CAC.\n\nLekin sirf CAC dekhna enough nahi. Kaunse customers dobara kharidte hain aur business ko long term value dete hain, ye bhi track karo.\n\nAapke business mein customers sabse zyada kahan se aate hain? 👇\n\n#BusinessJalwa #CustomerAcquisition #CAC #BusinessBasics #BusinessInHinglish",
     "image_urls": [
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-12-post-016/slide-01.jpg",
@@ -259,7 +259,7 @@
   },
   {
     "id": "customer-retention-017",
-    "publish_at": "2026-11-13T18:00:00+05:30",
+    "publish_at": "2027-01-16T18:00:00+05:30",
     "caption": "Customer retention: customer ko wapas aane ki wajah dena. 🔁\n\nNaya customer laana shuruaat hai. Quality, time par delivery aur helpful service se uska trust banta hai. Sirf discount dena hi retention nahi hai.\n\nExample: 100 naye customers mein se 30 agle mahine phir kharidte hain. Is repeat purchase ko track karo; ise bina poore data ke standard retention rate mat samjho.\n\nFeedback lo, complaints solve karo aur buying cycle ke hisaab se repeat purchases dekho.\n\nAap kis wajah se kisi dukaan par dobara jaate ho?\n\n#BusinessJalwa #CustomerRetention #BusinessBasics #BusinessInHinglish",
     "image_urls": [
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-13-post-017/slide-01.jpg",
@@ -272,7 +272,7 @@
   },
   {
     "id": "pricing-basics-018",
-    "publish_at": "2026-11-14T18:00:00+05:30",
+    "publish_at": "2027-01-17T18:00:00+05:30",
     "caption": "Price kaise tay karein? 🏷️\n\nCompetitor ka price ek reference hai. Apna material, packaging, delivery, fees aur overhead samjho. Phir dekho customer ko quality, convenience aur service se kya value milti hai.\n\nExample: ₹100 selling price aur ₹70 product cost par ₹30 bachte hain. ₹10 discount ke baad ₹20. Ismein se baaki applicable costs bhi ghataani hongi—ye net profit nahi hai.\n\nPrice test karo aur sales ke saath bachi rakam aur feedback bhi dekho.\n\nAap pricing mein sabse pehle kya dekhte ho?\n\n#BusinessJalwa #Pricing #BusinessBasics #BusinessInHinglish",
     "image_urls": [
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-14-post-018/slide-01.jpg",
@@ -285,7 +285,7 @@
   },
   {
     "id": "break-even-019",
-    "publish_at": "2026-11-15T18:00:00+05:30",
+    "publish_at": "2027-01-18T18:00:00+05:30",
     "caption": "Break-even: jab total revenue aur total cost barabar ho. ⚖️\n\nSimple single-product example:\nSelling price ₹100 − variable cost ₹60 = ₹40 contribution per unit.\nFixed costs ₹4,000 ÷ ₹40 = 100 units par break-even.\n\nSame period mein 100 units ki sales ₹10,000; variable cost ₹6,000 aur fixed cost ₹4,000. Total cost ₹10,000.\n\nYe constant price aur per-unit variable cost wala simplified example hai. Costs, price ya sales mix badle toh calculation update karo.\n\nIs example ko save karo!\n\n#BusinessJalwa #BreakEven #BusinessBasics #BusinessInHinglish",
     "image_urls": [
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-15-post-019/slide-01.jpg",
@@ -298,7 +298,7 @@
   },
   {
     "id": "inventory-basics-020",
-    "publish_at": "2026-11-16T18:00:00+05:30",
+    "publish_at": "2027-01-19T18:00:00+05:30",
     "caption": "Inventory mein bhi business ka paisa laga hota hai. 📦\n\nBahut zyada stock: cash atak sakta hai, storage aur expiry ka risk badh sakta hai. Bahut kam stock: customer ko product na milne se sale miss ho sakti hai.\n\nShuruaat simple rakho: kya aaya, kya bika aur kitna bacha? Fast-selling aur slow-moving items ko alag dekho.\n\nOrder karte waqt pichhli sales, season aur supplier lead time consider karo. Har item ke liye ek hi stock level zaroori nahi.\n\nAap stock notebook mein track karte ho ya software mein?\n\n#BusinessJalwa #Inventory #SmallBusiness #BusinessInHinglish",
     "image_urls": [
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-16-post-020/slide-01.jpg",
@@ -1073,6 +1073,71 @@
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-11-post-079/slide-03.jpg",
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-11-post-079/slide-04.jpg",
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-11-post-079/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "amazon-business-scale-080",
+    "publish_at": "2026-11-12T18:00:00+05:30",
+    "caption": "Amazon ka business scale samjho 📊\n\n2025 global e-commerce market $33.9T (Grand View Research); Amazon 2025 net sales $716.924B; AWS net sales $128.725B; Amazon Global Selling mentions reach across 130 countries and regions.\n\nMarket estimate, company revenue aur platform metrics ki scope alag hai; inhe seedha divide karke market share na nikalein. Figures ka year aur currency slides par diya hai.\n\nSources:\n• https://www.grandviewresearch.com/industry-analysis/e-commerce-market\n• https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm\n• https://sellingpartners.aboutamazon.com/amazon-global-selling\n\nAap next kis company ki story dekhna chahoge?\n\n#BusinessJalwa #CompanyStories #BusinessInHinglish #MarketSize #Revenue",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-12-post-080/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-12-post-080/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-12-post-080/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-12-post-080/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-12-post-080/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "apple-business-scale-081",
+    "publish_at": "2026-11-13T18:00:00+05:30",
+    "caption": "Apple ka business scale samjho 📊\n\n2025 global smartphone market $537.6B (Grand View Research); Apple FY2025 total revenue $416.161B; Apple Retail Careers lists 500+ stores and 26 markets, including regions.\n\nMarket estimate, company revenue aur platform metrics ki scope alag hai; inhe seedha divide karke market share na nikalein. Figures ka year aur currency slides par diya hai.\n\nSources:\n• https://www.grandviewresearch.com/industry-analysis/smart-phone-market\n• https://www.apple.com/in/newsroom/2025/10/apple-reports-fourth-quarter-results/\n• https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm\n• https://www.apple.com/careers/us/work-at-apple/retail.html\n\nAap next kis company ki story dekhna chahoge?\n\n#BusinessJalwa #CompanyStories #BusinessInHinglish #MarketSize #Revenue",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-13-post-081/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-13-post-081/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-13-post-081/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-13-post-081/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-13-post-081/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "microsoft-business-scale-082",
+    "publish_at": "2026-11-14T18:00:00+05:30",
+    "caption": "Microsoft ka business scale samjho 📊\n\n2025 global cloud computing market $943.6B (Grand View Research); Microsoft FY2026 total revenue $331.839B, Microsoft Cloud revenue $214.4B; Microsoft's 2024 global report states doing business in 190 countries.\n\nMarket estimate, company revenue aur platform metrics ki scope alag hai; inhe seedha divide karke market share na nikalein. Figures ka year aur currency slides par diya hai.\n\nSources:\n• https://www.grandviewresearch.com/industry-analysis/cloud-computing-industry\n• https://www.microsoft.com/investor/reports/ar26/index.html\n• https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/dni/documents/presentations/microsoftcorp_gdi_report_2024_final.pdf\n\nAap next kis company ki story dekhna chahoge?\n\n#BusinessJalwa #CompanyStories #BusinessInHinglish #MarketSize #Revenue",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-14-post-082/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-14-post-082/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-14-post-082/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-14-post-082/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-14-post-082/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "uber-business-scale-083",
+    "publish_at": "2026-11-15T18:00:00+05:30",
+    "caption": "Uber ka business scale samjho 📊\n\n2025 global ride-hailing services market $47.6B (Grand View Research); Uber 2025 total revenue $52.017B and Gross Bookings $193.454B; its 10-K says 70+ countries and 15,000+ cities. Revenue includes Mobility, Delivery, Freight, so not directly comparable with ride-hailing market.\n\nMarket estimate, company revenue aur platform metrics ki scope alag hai; inhe seedha divide karke market share na nikalein. Figures ka year aur currency slides par diya hai.\n\nSources:\n• https://www.grandviewresearch.com/industry-analysis/ride-hailing-services-market\n• https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2025/\n• https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm\n\nAap next kis company ki story dekhna chahoge?\n\n#BusinessJalwa #CompanyStories #BusinessInHinglish #MarketSize #Revenue",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-15-post-083/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-15-post-083/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-15-post-083/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-15-post-083/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-15-post-083/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "spotify-business-scale-084",
+    "publish_at": "2026-11-16T18:00:00+05:30",
+    "caption": "Spotify ka business scale samjho 📊\n\n2025 global music streaming market $54.1B (Grand View Research); Spotify 2025 total revenue €17.186B; Q4 2025 MAU 751M, premium subscribers 290M; investor site says 184 markets (current). Market USD and company EUR are different currencies.\n\nMarket estimate, company revenue aur platform metrics ki scope alag hai; inhe seedha divide karke market share na nikalein. Figures ka year aur currency slides par diya hai.\n\nSources:\n• https://www.grandviewresearch.com/industry-analysis/music-streaming-market\n• https://s29.q4cdn.com/175625835/files/doc_financials/2025/ar/Spotify-20-F-Filing.pdf\n• https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/\n• https://investors.spotify.com/home/\n\nAap next kis company ki story dekhna chahoge?\n\n#BusinessJalwa #CompanyStories #BusinessInHinglish #MarketSize #Revenue",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-16-post-084/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-16-post-084/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-16-post-084/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-16-post-084/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-16-post-084/slide-05.jpg"
     ],
     "manual_approved": true
   }
