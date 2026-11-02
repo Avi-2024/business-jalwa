@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-15",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Car wash mein basic aur deep-clean package ka scope customer ko kaise samjhayein",
+  "caption": "Customer ne ‘car wash’ bola—par kya unka matlab sirf exterior wash tha, ya interior cleaning bhi? 🚗\n\nDo clear service options banao. Basic mein kaun se exterior steps hain, aur deep clean mein kaun se extra interior tasks hain, unki short checklist dikhao. Gaadi dekhkar kaam, estimated time aur price pehle agree karo; difficult stains ya extra requests ka scope alag confirm karo.\n\nIllustrative time example: basic wash 30 minutes aur interior ke saath deep clean 75 minutes le sakta hai. Yeh sirf 45 minutes ka time difference hai, fixed industry standard ya price formula nahi. Apni team ke actual time, materials aur kharchon se pricing socho.\n\nAaj apne dono packages ki included-services list likho. Aapki shop mein kaunsa step sabse zyada time leta hai?\n\n#BusinessJalwa #SmallBusinessIndia #CarWashBusiness #ServicePricing #CustomerExperience",
+  "scenes": [
+    {
+      "visual": "Indian car-wash owner and customer inspect dusty hatchback and discuss requested cleaning",
+      "narration": "ग्राहक ने कहा, कार वॉश कर दो। लेकिन क्या सिर्फ बाहर की सफाई चाहिए, या अंदर की भी? ये बात शुरू में साफ नहीं हुई, तो डिलीवरी पर गलतफहमी हो सकती है।",
+      "question": "Car wash mein kya milega?",
+      "answer": "Scope pehle clear karo"
+    },
+    {
+      "visual": "Workers clean car exterior with water, soft sponge and buckets for basic service",
+      "narration": "बेसिक वॉश में कौन कौन से बाहरी स्टेप हैं, छोटी लिस्ट बनाओ। जैसे बॉडी की सफाई और सुखाना। ग्राहक को वही लिस्ट दिखाओ, ताकि दोनों की एक जैसी समझ हो।",
+      "question": "Basic wash mein kya?",
+      "answer": "Exterior steps likho"
+    },
+    {
+      "visual": "Customer points to dusty car interior and worker shows blank service checklist",
+      "narration": "अगर ग्राहक सीट, मैट और डैशबोर्ड भी साफ कराना चाहता है, तो उसे अलग डीप क्लीन का काम समझाओ। मुश्किल दाग या अतिरिक्त मांग को पहले देखो और फिर सहमति लो।",
+      "question": "Interior bhi chahiye?",
+      "answer": "Extra kaam agree karo"
+    },
+    {
+      "visual": "Workers vacuum car floor mat and wipe dashboard for deep interior clean",
+      "narration": "मान लो बेसिक वॉश आधा घंटा लेता है और डीप क्लीन सवा घंटा। फर्क पैंतालीस मिनट का हुआ। यह सिर्फ समय का उदाहरण है; कीमत सिर्फ मिनट देखकर तय नहीं होती।",
+      "question": "30 vs 75 minutes?",
+      "answer": "45 min time difference"
+    },
+    {
+      "visual": "Car-wash owner checks materials and work time then hands cleaned hatchback back to customer",
+      "narration": "अपनी टीम का असली समय, सामान और बाकी खर्च देखो। फिर हर पैकेज की सर्विस, अनुमानित समय और कीमत ग्राहक से पहले तय करो। आज बेसिक और डीप क्लीन की दो चेकलिस्ट लिखो।",
+      "question": "Aaj ka action?",
+      "answer": "Dono package lists banao"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-15/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
