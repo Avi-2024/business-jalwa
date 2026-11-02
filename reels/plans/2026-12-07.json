@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-07",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Winter scarf shop mein seasonal stock planning: pichhli sale aur leftover ka use",
+  "caption": "Seasonal stock ka decision sirf andaaze se mat lo. 🧣\n\nIllustrative winter-scarf shop: pichhle saal ke ek hafte mein 50 scarves mangaye, 40 bike, 10 bache. Yeh record useful signal hai, par iss saal ki demand exactly 40 hogi, aisa maan lena sahi nahi.\n\nRang/style-wise sales aur leftover dekho, abhi customers kya pooch rahe hain woh note karo, aur supplier ka lead time samjho. Agar timely replenishment possible ho, smaller batches test karke aage order decide kar sakte ho. Unsold stock mein bhi cash laga hota hai.\n\nAap seasonal products ka stock kis record se plan karte ho?\n\n#BusinessJalwa #SmallBusiness #SeasonalDemand #InventoryPlanning #Retail",
+  "scenes": [
+    {
+      "visual": "Indian winter scarf shop owner surveys shoppers and colorful scarves",
+      "narration": "सर्दियों में स्कार्फ़ की बिक्री बढ़े तो क्या हर बार बहुत सारा माल एक साथ खरीदना सही है? सीज़न का अंदाज़ा लगाने के लिए पिछले रिकॉर्ड और बचा हुआ स्टॉक, दोनों देखो।",
+      "question": "Kitna stock mangayein?",
+      "answer": "Past sales dekho"
+    },
+    {
+      "visual": "Shop owner receives a large bundle of folded scarves from supplier",
+      "narration": "मान लो पिछले साल के एक हफ्ते में दुकान ने पचास स्कार्फ़ मंगाए थे। खरीद के समय पूरे पचास का पैसा लग गया। अब देखना है, उस हफ्ते वास्तव में कितने बिके।",
+      "question": "Pichhle saal order?",
+      "answer": "50 scarves"
+    },
+    {
+      "visual": "Customers buy scarves while a neat stack remains on shelf",
+      "narration": "उस हफ्ते चालीस स्कार्फ़ बिके और दस बचे। यानी खरीद और बिक्री में दस का फर्क था। लेकिन इससे यह तय नहीं होता कि इस साल भी ठीक चालीस ही बिकेंगे।",
+      "question": "Bike aur bache?",
+      "answer": "40 sold, 10 left"
+    },
+    {
+      "visual": "Owner checks remaining scarves and blank ledger in storeroom",
+      "narration": "बचा हुआ माल संभालना पड़ता है, और उसमें पैसा लगा रहता है। पहले देखो कौन से रंग या तरह के स्कार्फ़ चले, कौन से रुके, और ग्राहक अभी क्या पूछ रहे हैं।",
+      "question": "Bacha stock kya bataye?",
+      "answer": "Demand ka signal"
+    },
+    {
+      "visual": "Owner discusses smaller replenishment batches with supplier and serves customer",
+      "narration": "अगर सप्लायर समय पर दोबारा माल दे सकता है, तो छोटे बैच में शुरुआत करके बिक्री देखते हुए अगला ऑर्डर सोचो। पिछले साल की गिनती, मौजूदा मांग और डिलीवरी समय साथ रखो।",
+      "question": "Agla order kaise?",
+      "answer": "Batch aur timing dekho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-07/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
