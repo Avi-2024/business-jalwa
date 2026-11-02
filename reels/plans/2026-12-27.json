@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-27",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Bicycle rental shop mein full-day bike-days se fleet usage kaise samjhein",
+  "caption": "Cycle rental shop ki saari bikes har din book nahi hoti. Fleet use dekhne ke liye bike-days ka simple count rakho. 🚲\n\nIllustrative example: 6 serviceable bikes 5 din available rahin, to capacity = 6 × 5 = 30 full-day bike-days. Agar is period mein total 18 full-day bike-days book hue, usage = 18 ÷ 30 × 100 = 60%. Yeh booked capacity ka share hai, profit ya demand forecast nahi. Jo bike maintenance mein ho, use available capacity mein mat gino. Hourly rentals ko is full-day example mein seedha mix mat karo.\n\nAaj 5 din ke liye available aur booked bike-days alag note karo.\n\n#BusinessJalwa #SmallBusinessIndia #BicycleRental #BusinessMetrics #Operations",
+  "scenes": [
+    {
+      "visual": "Indian bicycle rental owner opens shop with a row of serviceable colorful rental cycles",
+      "narration": "साइकिल रेंटल शॉप में छह बाइक खड़ी हैं। क्या सबका रोज़ किराये पर जाना ज़रूरी है? इस्तेमाल समझने के लिए पहले एक तय अवधि चुनो और देखो कितनी बाइक सच में किराये के लिए उपलब्ध थीं।",
+      "question": "Fleet use kaise dekhein?",
+      "answer": "Available bikes gino"
+    },
+    {
+      "visual": "Owner checks serviceable bicycles against a blank five-day calendar at rental counter",
+      "narration": "मान लो छह बाइक पाँच दिन तक ठीक हालत में उपलब्ध रहीं। छह गुणा पाँच, यानी तीस फुल-डे बाइक-डेज़ की क्षमता। जो बाइक मरम्मत में थी, उसे उपलब्ध संख्या में मत जोड़ो।",
+      "question": "6 bikes × 5 days?",
+      "answer": "30 bike-days capacity"
+    },
+    {
+      "visual": "Customers take different rental cycles for full-day rides while owner records handovers",
+      "narration": "अब उसी अवधि में बुक हुए फुल-डे बाइक-डेज़ जोड़ो। मान लो कुल अठारह निकले। एक बाइक दो दिन गई, तो दो बाइक-डेज़ गिनेंगे। यह हिसाब पूरे दिन वाले रेंटल का उदाहरण है।",
+      "question": "Booked use kitna?",
+      "answer": "18 full-day bike-days"
+    },
+    {
+      "visual": "Rental owner compares blank booking ledger with returning bicycles and physical key tags",
+      "narration": "अठारह को तीस से भाग देकर सौ से गुणा करो, तो साठ प्रतिशत क्षमता बुक हुई। यह मुनाफ़ा नहीं बताता। घंटे वाले रेंटल को बिना एक समान यूनिट बनाए इस हिसाब में मत मिलाओ।",
+      "question": "18 ÷ 30 × 100?",
+      "answer": "60% booked capacity"
+    },
+    {
+      "visual": "Owner and assistant discuss the rental fleet and review blank five-day booking notebook",
+      "narration": "आज पाँच दिन के लिए उपलब्ध और बुक हुए बाइक-डेज़ अलग लिखो। एक दिन देखकर नई बाइक खरीदने का फैसला मत करो। कई अवधियों का पैटर्न और रखरखाव भी साथ देखो।",
+      "question": "Aaj kya track karein?",
+      "answer": "Available aur booked days"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-27/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
