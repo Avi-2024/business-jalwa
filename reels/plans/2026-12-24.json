@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-24",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Dry-cleaning shop mein milte-julte kapde galat customer ko jaane se kaise rokein",
+  "caption": "Dry-cleaning counter par do navy blazers ek jaise dikh sakte hain. Sirf rang ya yaad se customer ka kapda mat pehchano. 👔\n\nIntake par har garment ki condition note karo, order se linked unique tag lagao, aur receipt par garment count rakho. Processing mein tag saath rehna chahiye. Handover se pehle tag, receipt aur kapde ka detail milao. Illustrative example: do customers ke same-color blazers hain; alag order tags aur final check se mix-up pakda ja sakta hai.\n\nAaj apne counter ka ek order intake se handover tak trace karke dekho.\n\n#BusinessJalwa #SmallBusinessIndia #DryCleaning #Operations #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Two customers bring similar navy blazers to an Indian dry-cleaning counter",
+      "narration": "दो ग्राहकों के नेवी ब्लेज़र लगभग एक जैसे हैं। सफाई के बाद किसका कपड़ा किसे लौटेगा? सिर्फ रंग देखकर या याद के भरोसे देना जोखिम है। हर कपड़े को ऑर्डर से जोड़ना ज़रूरी है।",
+      "question": "Same blazer, kiska hai?",
+      "answer": "Order se match karo"
+    },
+    {
+      "visual": "Counter worker checks blazer buttons, pockets and existing marks while taking condition photos",
+      "narration": "काउंटर पर कपड़े की संख्या और पहचान लिखो। बटन, दाग या पहले की खराबी दिखे, तो ग्राहक के सामने नोट कर लो। रसीद पर वही जानकारी रहे, जिसे वापसी पर मिलाया जा सके।",
+      "question": "Intake par kya note ho?",
+      "answer": "Count aur condition"
+    },
+    {
+      "visual": "Dry-cleaning worker attaches distinct colored blank tags to two similar navy blazers",
+      "narration": "मान लो दोनों ब्लेज़र एक ही रंग के हैं। हर एक पर उसके ऑर्डर से जुड़ा अलग टैग लगाओ। टैग ग्राहक का नाम, नंबर या कोई निजी जानकारी दिखाए बिना अंदरूनी ऑर्डर पहचान से जुड़ सकता है।",
+      "question": "Same color ka solution?",
+      "answer": "Unique order tag"
+    },
+    {
+      "visual": "Staff sorts tagged blazers on separate racks and checks matching tags before packing",
+      "narration": "सफाई, प्रेस और पैकिंग के दौरान टैग कपड़े के साथ रहे। अगर टैग निकल जाए या पढ़ा न जाए, अंदाज़े से पैक मत करो। पहले रसीद और शुरुआती रिकॉर्ड से पहचान पक्की करो।",
+      "question": "Tag missing ho gaya?",
+      "answer": "Record se verify karo"
+    },
+    {
+      "visual": "Customer and worker compare finished navy blazer with receipt at dry-cleaning handover",
+      "narration": "देने से पहले ऑर्डर टैग, रसीद और कपड़े का विवरण तीनों मिलाओ। आज एक ऑर्डर को शुरुआत से वापसी तक ट्रेस करो। जहाँ पहचान टूटती है, वहीं अपना अगला चेक जोड़ो।",
+      "question": "Handover se pehle?",
+      "answer": "Tag, receipt, detail milao"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-24/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
