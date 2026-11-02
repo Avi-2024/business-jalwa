@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-22",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Custom furniture order ki realistic delivery date: material, build aur finish ka samay",
+  "caption": "Custom furniture ka delivery promise sirf workshop time dekhkar mat karo. 🪵\n\nPehle required material ki availability confirm karo. Phir making, finishing aur delivery ke stages alag estimate karo. Illustrative example: wood aane mein 4 working days, banane mein 5, finish ko 2 lagte hain. Agar stages sequential hain, total 11 working days hain, delivery travel aur reasonable buffer alag check karo. Actual duration har order aur supplier par depend karegi.\n\nAaj ek pending order ka stage-wise timeline banao aur customer ko clear update do.\n\n#BusinessJalwa #SmallBusinessIndia #FurnitureBusiness #Operations #CustomerExperience",
+  "scenes": [
+    {
+      "visual": "Indian custom furniture maker and customer discuss a bespoke bookshelf design in a workshop",
+      "narration": "ग्राहक ने कस्टम बुकशेल्फ़ मांगी और पूछा, कब मिलेगी? सिर्फ बनाने के दिन गिनकर तारीख मत बताओ। लकड़ी आने, बनाने, फिनिश करने और पहुँचाने में अलग अलग समय लग सकता है।",
+      "question": "Delivery date kaise bolo?",
+      "answer": "Saare stages gino"
+    },
+    {
+      "visual": "Carpenter checks required board size in workshop stock and speaks with timber supplier",
+      "narration": "पहले डिज़ाइन और नाप पक्के करो। ज़रूरी लकड़ी स्टॉक में है या सप्लायर से आएगी? सप्लायर की बताई तारीख चेक करो। सामग्री का इंतज़ार शुरू होने से पहले ही टाइमलाइन में जोड़ो।",
+      "question": "Wood available hai?",
+      "answer": "Supplier se confirm karo"
+    },
+    {
+      "visual": "Supplier delivers boards; craftsperson assembles a wooden bookshelf frame",
+      "narration": "मान लो लकड़ी आने में चार वर्किंग डे, बनाने में पाँच, और फिनिशिंग में दो लगते हैं। अगर ये काम एक के बाद एक होंगे, तो ग्यारह वर्किंग डे हुए। यह सिर्फ उदाहरण है।",
+      "question": "4 + 5 + 2 din?",
+      "answer": "11 working days"
+    },
+    {
+      "visual": "Workshop craftsperson sands and finishes assembled bookshelf while checking drying time",
+      "narration": "अब फिनिश सूखने, क्वालिटी चेक और ग्राहक तक पहुँचने का समय भी देखो। हर काम ग्यारह दिन में पूरा होगा, ऐसा नियम नहीं है। अपने पुराने ऑर्डर देखकर उचित बफ़र रखो।",
+      "question": "11 din final promise?",
+      "answer": "QC aur delivery bhi jodo"
+    },
+    {
+      "visual": "Furniture maker checks fit of finished bookshelf at customer home and gives a clear delivery update",
+      "narration": "आज एक पेंडिंग ऑर्डर के चार स्टेज लिखो: सामग्री, बनाना, फिनिश और डिलीवरी। जहाँ तारीख पक्की नहीं, ग्राहक को साफ बताओ और अपडेट का दिन तय करो। भरोसा स्पष्ट वादे से बनता है।",
+      "question": "Aaj kya likhein?",
+      "answer": "Stage-wise timeline"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-22/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
