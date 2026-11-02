@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-10",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Salon appointment no-show: reminder, cancellation aur waitlist se khali slot kaise sambhalein",
+  "caption": "Salon ki chair khaali reh gayi, jabki appointment book thi? 💇‍♀️\n\nIllustrative example: 8 bookings mein 2 customers bina bataye na aayein aur har slot 30 minute ka ho, to 1 ghanta booked time unused reh sakta hai. Yeh lost revenue ka calculation nahi hai.\n\nPichhli shaam polite reminder bhejo aur confirmation lo. Customer cancel kare to, unki jagah waitlist ke interested customer ko slot offer karo. Bina cancellation ke double booking mat karo. Ek hafte tak booked, cancelled aur no-show slots alag note karke pattern dekho.\n\nAap appointment reminders kaise manage karte ho?\n\n#BusinessJalwa #SmallBusinessIndia #SalonBusiness #CustomerExperience #BusinessOperations",
+  "scenes": [
+    {
+      "visual": "Salon owner sees a booked but empty styling chair and checks appointment notebook",
+      "narration": "सलून में कुर्सी खाली है, लेकिन इस समय की अपॉइंटमेंट बुक थी। ग्राहक बिना बताए नहीं आया। क्या इस खाली समय को पहले से कम किया जा सकता था?",
+      "question": "Booked slot khaali kyon?",
+      "answer": "No-show ko track karo"
+    },
+    {
+      "visual": "Owner marks two vacant thirty-minute slots in an otherwise full appointment planner",
+      "narration": "मान लो आज आठ बुकिंग थीं। दो ग्राहक नहीं आए, और हर स्लॉट तीस मिनट का था। यानी कुल एक घंटा बुक किया हुआ समय खाली रह गया। यह बिक्री का नुकसान नहीं, सिर्फ समय का उदाहरण है।",
+      "question": "2 slots, 30 min each?",
+      "answer": "1 hour unused time"
+    },
+    {
+      "visual": "Owner sends a courteous appointment reminder on phone; customer responds at home",
+      "narration": "पिछली शाम एक छोटा रिमाइंडर भेजो: आपका समय यही है, आ पाएंगे? जवाब से पता चल सकता है कि कौन आएगा और किसे समय बदलना है।",
+      "question": "Reminder kab bhejein?",
+      "answer": "Pichhli shaam confirm karo"
+    },
+    {
+      "visual": "After a customer cancels, owner offers the newly open salon chair to a consenting waitlist customer",
+      "narration": "अगर ग्राहक कैंसल करे, तभी उस खाली स्लॉट को वेटलिस्ट में रुचि रखने वाले ग्राहक को ऑफर करो। बिना कैंसलेशन के एक ही समय पर दो बुकिंग मत रखना।",
+      "question": "Cancelled slot ka kya?",
+      "answer": "Waitlist ko offer karo"
+    },
+    {
+      "visual": "Owner reviews appointment notebook beside occupied and empty salon chairs",
+      "narration": "इस हफ्ते बुकिंग, कैंसलेशन और बिना सूचना छूटी अपॉइंटमेंट अलग अलग लिखो। फिर देखो, रिमाइंडर के बाद खाली स्लॉट कम हुए या नहीं। अपने सलून के हिसाब से तरीका सुधारो।",
+      "question": "Aaj ka action?",
+      "answer": "Bookings aur no-shows gino"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-10/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
