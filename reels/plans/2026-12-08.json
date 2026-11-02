@@ -1,0 +1,45 @@
+{
+  "date": "2026-12-08",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Flower bouquet shop mein single-person dependency kam karne ke liye backup training",
+  "caption": "10 bouquet orders aa gaye, par banana sirf ek person jaanta hai? 💐\n\nIllustrative flower-shop example: owner orders le sakta hai, lekin bouquet assembly ka poora kaam ek florist par depend karta hai. Uske absent hone par delivery atak sakti hai.\n\nSabse common bouquet ke steps note karo, ek helper ko supervised practice karao, aur fresh flowers, arrangement aur packing check karo. Phir decide karo kaun kis critical task ka backup ban sakta hai. Training ka matlab quality ko assume karna nahi; practice karke verify karna hai.\n\nAapke business ka kaunsa kaam sirf ek person jaanta hai?\n\n#BusinessJalwa #SmallBusiness #Operations #TeamTraining #FlowerShop",
+  "scenes": [
+    {
+      "visual": "Busy flower shop where one expert florist assembles all customer bouquets",
+      "narration": "फूलों की दुकान में दस बुके के ऑर्डर हैं। लेकिन उन्हें बनाना सिर्फ एक कर्मचारी जानता है। अगर वह छुट्टी पर हो, तो काम रुक सकता है। यह एक व्यक्ति पर निर्भरता है।",
+      "question": "Ek expert par sab?",
+      "answer": "Risk samjho"
+    },
+    {
+      "visual": "Shop owner and junior helper face flowers and unfinished orders",
+      "narration": "मान लो मालिक ग्राहकों से ऑर्डर ले लेता है, पर रंग चुनना, फूल काटना और बुके बाँधना उसी एक फूलकार को आता है। सिर्फ ऑर्डर लेना काफी नहीं; बनाने की क्षमता भी चाहिए।",
+      "question": "Kaunsa kaam atke?",
+      "answer": "Bouquet assembly"
+    },
+    {
+      "visual": "Experienced florist teaches junior helper how to arrange flower stems",
+      "narration": "पहले सबसे आम बुके का तरीका लिखो: कौन से फूल, कितना कागज़, और तैयार होने पर क्या जाँचना है। फिर दूसरे कर्मचारी को असली फूलों पर धीरे-धीरे यह काम सिखाओ।",
+      "question": "Backup kaise bane?",
+      "answer": "Steps sikhao"
+    },
+    {
+      "visual": "Junior florist practices a simple bouquet while owner reviews quality",
+      "narration": "ट्रेनिंग पूरी मानने से पहले अभ्यास कराओ। एक आसान बुके बनवाओ, फिर फिटिंग, ताज़गी और पैकिंग देखो। गलती हो तो साथ में सुधारो। ग्राहक का ऑर्डर पहली परीक्षा नहीं होना चाहिए।",
+      "question": "Training verify kaise?",
+      "answer": "Practice aur check"
+    },
+    {
+      "visual": "Trained helper assembles a bouquet while owner handles a customer",
+      "narration": "अब लिखो कि कौन किस काम का बैकअप बन सकता है। महीने में एक बार उसे वह काम फिर करने दो। मकसद हर किसी को हर काम देना नहीं, ज़रूरी काम को रुकने से बचाना है।",
+      "question": "Aaj ka action?",
+      "answer": "Backup map banao"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-08/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
