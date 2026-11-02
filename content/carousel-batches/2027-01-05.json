@@ -1,0 +1,50 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2027-01-05",
+  "num": 70,
+  "id": "mcdonalds-business-scale-070",
+  "topic": "Real business: McDonald's market size, revenue, footprint",
+  "as_of": "2025-12-31",
+  "sources": [
+    "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%202025%20Annual%20Report.pdf",
+    "https://www.euromonitor.com/newsroom/press-releases/april-2026/one-in-five-dollars-spent-on-global-foodservice-delivery-in-2025"
+  ],
+  "slides": [
+    {
+      "heading": "MCDONALD'S KA SCALE",
+      "body": "2025 ke end par 45,356 restaurants. 100+ countries mein presence.",
+      "scene": "A broad painterly world map with small restaurant markers, no exact geographic borders or logos",
+      "source": "McDonald's 2025 Annual Report",
+      "prompt": "Use case: productivity-visual. ONE 4:5 portrait Instagram educational carousel slide for BUSINESS JALWA, premium editorial scrapbook style consistent with existing brand: cream textured paper, deep forest green headline, warm terracotta and restrained golden accents, finely painted realistic Indian business illustration. This is an editorial data explainer about McDonald's, not an advertisement; do not draw official logo or trademarked packaging. Strong readable typography with generous margins. Only the exact heading, exact body, concise source and footer BUSINESS JALWA with 1/5 should appear. No other invented text or numbers. Ensure all digits and punctuation exact. Heading: \"MCDONALD'S KA SCALE\". Body: \"2025 ke end par 45,356 restaurants. 100+ countries mein presence.\". Source label: \"Source: McDonald's 2025 Annual Report\". Scene: A broad painterly world map with small restaurant markers, no exact geographic borders or logos."
+    },
+    {
+      "heading": "MARKET $3.36T",
+      "body": "2025 global consumer foodservice market: $3.36 trillion. Ismein cafes, restaurants aur kiosks bhi hain.",
+      "scene": "Indian analyst looking at a globe with illustrated cafe, restaurant, and kiosk scenes",
+      "source": "Euromonitor, Apr 2026",
+      "prompt": "Use case: productivity-visual. ONE 4:5 portrait Instagram educational carousel slide for BUSINESS JALWA, premium editorial scrapbook style consistent with existing brand: cream textured paper, deep forest green headline, warm terracotta and restrained golden accents, finely painted realistic Indian business illustration. This is an editorial data explainer about McDonald's, not an advertisement; do not draw official logo or trademarked packaging. Strong readable typography with generous margins. Only the exact heading, exact body, concise source and footer BUSINESS JALWA with 2/5 should appear. No other invented text or numbers. Ensure all digits and punctuation exact. Heading: \"MARKET $3.36T\". Body: \"2025 global consumer foodservice market: $3.36 trillion. Ismein cafes, restaurants aur kiosks bhi hain.\". Source label: \"Source: Euromonitor, Apr 2026\". Scene: Indian analyst looking at a globe with illustrated cafe, restaurant, and kiosk scenes."
+    },
+    {
+      "heading": "REVENUE $26.9B",
+      "body": "2025 mein McDonald's Corporation ka consolidated revenue $26.9 billion tha.",
+      "scene": "Business analyst studying annual report with abstract dollar figures",
+      "source": "McDonald's 2025 Annual Report",
+      "prompt": "Use case: productivity-visual. ONE 4:5 portrait Instagram educational carousel slide for BUSINESS JALWA, premium editorial scrapbook style consistent with existing brand: cream textured paper, deep forest green headline, warm terracotta and restrained golden accents, finely painted realistic Indian business illustration. This is an editorial data explainer about McDonald's, not an advertisement; do not draw official logo or trademarked packaging. Strong readable typography with generous margins. Only the exact heading, exact body, concise source and footer BUSINESS JALWA with 3/5 should appear. No other invented text or numbers. Ensure all digits and punctuation exact. Heading: \"REVENUE $26.9B\". Body: \"2025 mein McDonald's Corporation ka consolidated revenue $26.9 billion tha.\". Source label: \"Source: McDonald's 2025 Annual Report\". Scene: Business analyst studying annual report with abstract dollar figures."
+    },
+    {
+      "heading": "SALES $139.4B",
+      "body": "2025 systemwide sales $139.4 billion: company aur franchise restaurants ki customer sales.",
+      "scene": "Several restaurant counters with franchise operators and customers, abstract sales flow",
+      "source": "McDonald's 2025 Annual Report",
+      "prompt": "Use case: productivity-visual. ONE 4:5 portrait Instagram educational carousel slide for BUSINESS JALWA, premium editorial scrapbook style consistent with existing brand: cream textured paper, deep forest green headline, warm terracotta and restrained golden accents, finely painted realistic Indian business illustration. This is an editorial data explainer about McDonald's, not an advertisement; do not draw official logo or trademarked packaging. Strong readable typography with generous margins. Only the exact heading, exact body, concise source and footer BUSINESS JALWA with 4/5 should appear. No other invented text or numbers. Ensure all digits and punctuation exact. Heading: \"SALES $139.4B\". Body: \"2025 systemwide sales $139.4 billion: company aur franchise restaurants ki customer sales.\". Source label: \"Source: McDonald's 2025 Annual Report\". Scene: Several restaurant counters with franchise operators and customers, abstract sales flow."
+    },
+    {
+      "heading": "NUMBERS KA FARQ",
+      "body": "Market size, systemwide sales aur company revenue alag cheezein hain. Lagbhag 95% restaurants franchised the.",
+      "scene": "Three clearly separate visual cards for industry, restaurant sales, and corporate revenue; franchise owner in background",
+      "source": "McDonald's 2025 Annual Report",
+      "prompt": "Use case: productivity-visual. ONE 4:5 portrait Instagram educational carousel slide for BUSINESS JALWA, premium editorial scrapbook style consistent with existing brand: cream textured paper, deep forest green headline, warm terracotta and restrained golden accents, finely painted realistic Indian business illustration. This is an editorial data explainer about McDonald's, not an advertisement; do not draw official logo or trademarked packaging. Strong readable typography with generous margins. Only the exact heading, exact body, concise source and footer BUSINESS JALWA with 5/5 should appear. No other invented text or numbers. Ensure all digits and punctuation exact. Heading: \"NUMBERS KA FARQ\". Body: \"Market size, systemwide sales aur company revenue alag cheezein hain. Lagbhag 95% restaurants franchised the.\". Source label: \"Source: McDonald's 2025 Annual Report\". Scene: Three clearly separate visual cards for industry, restaurant sales, and corporate revenue; franchise owner in background."
+    }
+  ],
+  "caption": "McDonald's ka scale sirf ek revenue number se samajh nahi aata. 🍔\n\n2025 ke end par 45,356 restaurants aur 100+ countries mein presence thi. Us saal McDonald's Corporation ka consolidated revenue $26.9B tha; systemwide restaurant sales $139.4B thi. Dono alag measures hain, kyunki franchise restaurants ki customer sales poori company revenue mein count nahi hoti.\n\nEuromonitor ke mutabik 2025 global consumer foodservice market $3.36T tha. Yeh broad industry hai—McDonald's ka direct market share nikalne ke liye is number ko company revenue se divide nahi karna chahiye.\n\nSources (2025 data): McDonald's Annual Report: https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%202025%20Annual%20Report.pdf ; Euromonitor: https://www.euromonitor.com/newsroom/press-releases/april-2026/one-in-five-dollars-spent-on-global-foodservice-delivery-in-2025\n\nNext kis real business ka breakdown chahiye?\n\n#BusinessJalwa #CompanyStories #McDonalds #MarketSize #BusinessInHinglish"
+}
