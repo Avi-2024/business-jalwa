@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-17",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Sabzi stall mein daily tomato sell-through: kitna maal aaya, bika aur bacha",
+  "caption": "Tomato stall par subah kitna maal aaya aur shaam ko kitna bacha? 🍅\n\nEk hi din ka sell-through dekhne ke liye weight record karo. Illustrative example: subah 40 kg tomatoes aaye, unmein se 30 kg bike. 30 ÷ 40 × 100 = 75% sell-through; 10 kg nahi bike. Bacha hua saara maal loss nahi hota—alag check karo kya fresh hai aur kya kharab hua.\n\nRoz incoming, sold aur remaining quantity likho. Kuch din ka pattern, quality aur next day ki demand dekhkar agli kharid adjust karo. Ek din ke number ko fixed rule mat banao.\n\nAapki stall par kis sabzi ka leftover sabse zyada hota hai?\n\n#BusinessJalwa #SmallBusinessIndia #VegetableBusiness #InventoryBasics #BusinessOperations",
+  "scenes": [
+    {
+      "visual": "Indian vegetable vendor receives tomato crates at dawn and weighs incoming tomatoes",
+      "narration": "सुबह टमाटर की पेटियाँ आईं। शाम तक कुछ बिके, कुछ बचे। अगर आप सिर्फ बिक्री का पैसा देखेंगे, तो अगली खरीद के लिए ज़रूरी मात्रा का अंदाज़ा छूट सकता है।",
+      "question": "Subah kitna maal aaya?",
+      "answer": "Incoming weight likho"
+    },
+    {
+      "visual": "Vendor separates fresh tomatoes from bruised ones in market baskets",
+      "narration": "पहले आए टमाटरों का वज़न लिखो और खराब फल अलग पहचानो। फिर दिन भर बिके किलो भी नोट करो। आए हुए, बिके हुए और खराब हुए टमाटर एक ही चीज़ नहीं हैं।",
+      "question": "Kya alag track karein?",
+      "answer": "Aaya, bika, kharab"
+    },
+    {
+      "visual": "Vendor weighs and sells tomatoes to customers during market day",
+      "narration": "मान लो सुबह चालीस किलो आए और तीस किलो बिके। तीस को चालीस से भाग देकर सौ से गुणा करो, तो पचहत्तर प्रतिशत सेल-थ्रू हुआ। यह सिर्फ उस दिन की बिक्री का अनुपात है।",
+      "question": "30 of 40 kg bike?",
+      "answer": "75% sell-through"
+    },
+    {
+      "visual": "Vendor weighs remaining tomatoes at day end and checks which are still fresh",
+      "narration": "दस किलो नहीं बिके, पर क्या पूरा दस किलो नुकसान है? नहीं। देखो कितना टमाटर अभी ताज़ा है और कितना खराब हुआ। बची हुई मात्रा और खराब मात्रा अलग लिखो।",
+      "question": "10 kg bacha = loss?",
+      "answer": "Fresh aur spoilage alag"
+    },
+    {
+      "visual": "Vendor discusses next tomato purchase with supplier while reviewing blank notebook",
+      "narration": "कुछ दिनों की गिनती देखो। किस दिन ज़्यादा बिका, कब बचे टमाटर खराब हुए, और अगली सुबह की मांग क्या थी? इन्हीं बातों से अगली खरीद तय करो; एक दिन को नियम मत बनाओ।",
+      "question": "Agli kharid kaise tay ho?",
+      "answer": "Kai din ka pattern dekho"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-17/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
