@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-21",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Used-book shop mein condition grade aur honest listing se customer expectation kaise set karein",
+  "caption": "Second-hand book ki sirf title aur price batana kaafi nahi. 📚\n\nCover, spine, missing pages aur andar ke notes check karke condition clearly describe karo. Illustrative example: ek title ki 10 copies hain; 7 clean hain aur 3 mein handwritten notes hain. Dono condition ko alag dikhana aur actual photos lagana customer ko kharidne se pehle sahi expectation deta hai. Grade ka matlab tabhi banta hai jab aap uska rule consistent rakho.\n\nAaj apni 5 listings dekho: kya buyer ko wahi physical copy aur uski real condition samajh aa rahi hai?\n\n#BusinessJalwa #SmallBusinessIndia #UsedBooks #CustomerTrust #BookBusiness",
+  "scenes": [
+    {
+      "visual": "Used-book shop owner receives a mixed crate of books from a customer",
+      "narration": "पुरानी किताब बेच रहे हो? एक ही टाइटल की दो कॉपी अलग हालत में हो सकती हैं। अगर दोनों पर बस एक जैसी फोटो और एक जैसा विवरण लगा दोगे, तो खरीदार की उम्मीद गलत बन सकती है।",
+      "question": "Same title, same condition?",
+      "answer": "Har copy alag check karo"
+    },
+    {
+      "visual": "Shop owner carefully inspects the cover, spine and pages of an individual used book under a lamp",
+      "narration": "हर कॉपी का कवर, बाइंडिंग और पन्ने देखो। कोई पन्ना गायब है? अंदर लिखाई या हाइलाइट है? इन बातों के लिए अपना आसान कंडीशन रूल बनाओ, और हर किताब पर वही रूल लगाओ।",
+      "question": "Condition kaise check ho?",
+      "answer": "Cover, pages, notes dekho"
+    },
+    {
+      "visual": "Separate stacks show seven clean books and three annotated used books without labels",
+      "narration": "मान लो एक टाइटल की दस कॉपी हैं। सात साफ हैं, तीन में नोट्स लिखे हैं। यह सिर्फ समझाने का उदाहरण है। साफ कॉपी और नोट्स वाली कॉपी को अलग दिखाओ; दोनों को एक जैसा नया मत बताओ।",
+      "question": "10 copies mein farq?",
+      "answer": "7 clean, 3 annotated"
+    },
+    {
+      "visual": "Bookseller shows a customer actual close-up condition photos of a used book on a phone",
+      "narration": "लिस्टिंग में उसी कॉपी की असली फोटो लगाओ: सामने का कवर, स्पाइन और जिस पन्ने पर निशान हैं। ग्रेड लिखते हो तो उसका मतलब भी बताओ। खरीदार को भुगतान से पहले हालत समझ आनी चाहिए।",
+      "question": "Listing mein kya dikhe?",
+      "answer": "Actual copy ki photos"
+    },
+    {
+      "visual": "Customer inspects an annotated book openly with shopkeeper then buys confidently from organized used-book shelf",
+      "narration": "आज अपनी पाँच पुरानी किताबों की लिस्टिंग खोलो। फोटो और विवरण देखकर क्या कोई ग्राहक असली हालत समझ पाएगा? जहाँ जानकारी कम है, उसे ठीक करो। साफ जानकारी शिकायतें कम करने में मदद कर सकती है।",
+      "question": "Aaj ka action kya hai?",
+      "answer": "5 listings audit karo"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-21/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
