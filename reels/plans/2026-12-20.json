@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-20",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Yoga studio ka membership churn: shuru ke members mein se kitne chhode",
+  "caption": "Yoga studio mein naye members aa rahe hain, par purane kitne ja rahe hain? 🧘\n\nEk fixed period ke start par active members gino. Unhi shuru ke members mein se kitne us period mein membership chhod gaye, alag note karo. Illustrative example: shuru mein 20 active members the; unmein se 2 ne mahine ke dauran membership cancel ki. Churn = 2 ÷ 20 × 100 = 10% for that period and definition. Naye signups ko is numerator se minus mat karo; net growth alag metric hai.\n\nJab koi member jaaye to politely poochho—timing, travel ya class fit? Feedback ko pattern ki tarah dekho, guess se policy mat badlo. Aaj apne starting members aur cancellations ka simple log banao.\n\n#BusinessJalwa #SmallBusinessIndia #YogaStudio #MembershipBusiness #CustomerRetention",
+  "scenes": [
+    {
+      "visual": "Indian yoga studio owner welcomes regular members to a calm small studio",
+      "narration": "योगा स्टूडियो में नए मेंबर जुड़ रहे हैं। फिर भी पुराने मेंबर कितने छोड़ रहे हैं, यह अलग से देखना चाहिए। सिर्फ महीने के अंत की कुल संख्या से यह बात साफ नहीं होती।",
+      "question": "Purane members ruk rahe?",
+      "answer": "Churn alag dekho"
+    },
+    {
+      "visual": "Owner reviews blank member notebook while beginning-of-month group practices yoga",
+      "narration": "एक महीना चुनो। उसके पहले दिन जितने एक्टिव मेंबर हैं, उन्हें गिनो। फिर उन्हीं में से कितने महीने के दौरान सदस्यता छोड़ते हैं, अलग लिखो। आधार संख्या यही शुरुआती मेंबर हैं।",
+      "question": "Base kaun sa count?",
+      "answer": "Start ke active members"
+    },
+    {
+      "visual": "Two yoga studio members respectfully tell owner they are cancelling membership",
+      "narration": "मान लो शुरुआत में बीस मेंबर थे। उनमें से दो ने सदस्यता छोड़ी। दो को बीस से भाग देकर सौ से गुणा करो, तो उस महीने दस प्रतिशत चर्न हुआ। यह एक उदाहरण है।",
+      "question": "2 of 20 members left?",
+      "answer": "10% churn"
+    },
+    {
+      "visual": "Owner sorts unmarked continuing and cancelled membership cards, then hears departing member feedback",
+      "narration": "बीच में नए मेंबर भी जुड़ें, तो उन्हें छोड़ने वालों से घटाकर चर्न मत निकालो। नई सदस्यता और चर्न अलग माप हैं। जो गए, उनसे विनम्रता से वजह पूछो: समय, दूरी या क्लास?",
+      "question": "New joins cancel churn?",
+      "answer": "Nahi, alag metric"
+    },
+    {
+      "visual": "Studio owner reviews blank cancellation notes and discusses class timing with instructor",
+      "narration": "कुछ महीनों के कारण साथ रखो। अगर बार बार टाइमिंग की बात आए, तो नया स्लॉट जाँच सकते हो। आज शुरुआती मेंबर, छोड़े हुए मेंबर और कारण का छोटा लॉग शुरू करो।",
+      "question": "Aaj kya track karein?",
+      "answer": "Start, exits, reasons"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-20/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
