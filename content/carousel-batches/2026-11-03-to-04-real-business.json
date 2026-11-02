@@ -1,0 +1,102 @@
+{
+  "generator": "Built-in image_gen",
+  "sets": [
+    {
+      "date": "2026-11-03",
+      "num": 71,
+      "id": "starbucks-business-scale-071",
+      "topic": "Starbucks market, revenue, global footprint",
+      "sources": [
+        "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx",
+        "https://about.starbucks.com/stories/2026/starbucks-celebrates-the-global-game-by-showcasing-8-of-the-worlds-most-beautiful-coffeehouses/",
+        "https://www.euromonitor.com/newsroom/press-releases/april-2026/one-in-five-dollars-spent-on-global-foodservice-delivery-in-2025"
+      ],
+      "caption": "Starbucks ko ek coffee cup se aage samjho ☕\n\nFY2026 ke end par 41,607 coffeehouses aur $37.9B consolidated net revenue. July 2026 mein company ne 90 markets mein locations batayi thi. Euromonitor ke mutabik 2025 global specialist coffee aur tea shops category $133B thi. Market-size category ko Starbucks revenue ka direct denominator samajhkar market share mat nikalo—scope aur year alag hain.\n\nSources: Starbucks FY2026 results https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx ; Starbucks markets https://about.starbucks.com/stories/2026/starbucks-celebrates-the-global-game-by-showcasing-8-of-the-worlds-most-beautiful-coffeehouses/ ; Euromonitor https://www.euromonitor.com/newsroom/press-releases/april-2026/one-in-five-dollars-spent-on-global-foodservice-delivery-in-2025\n\nNext kis brand ka breakdown chahiye?\n\n#BusinessJalwa #CompanyStories #Starbucks #MarketSize #BusinessInHinglish",
+      "slides": [
+        {
+          "heading": "STARBUCKS KA SCALE",
+          "body": "FY2026 end: 41,607 coffeehouses worldwide.",
+          "scene": "A global coffeehouse network illustrated on a map",
+          "source": "Starbucks FY2026 results",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"STARBUCKS KA SCALE\". Exact body: \"FY2026 end: 41,607 coffeehouses worldwide.\". Small label: \"Source: Starbucks FY2026 results\". Footer: \"BUSINESS JALWA\" and \"1/5\". Scene: A global coffeehouse network illustrated on a map."
+        },
+        {
+          "heading": "MARKET $133B",
+          "body": "2025 global specialist coffee aur tea shops ki sales: $133 billion.",
+          "scene": "A café and tea-shop world market illustration",
+          "source": "Euromonitor, Apr 2026",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"MARKET $133B\". Exact body: \"2025 global specialist coffee aur tea shops ki sales: $133 billion.\". Small label: \"Source: Euromonitor, Apr 2026\". Footer: \"BUSINESS JALWA\" and \"2/5\". Scene: A café and tea-shop world market illustration."
+        },
+        {
+          "heading": "REVENUE $37.9B",
+          "body": "Starbucks ka FY2026 consolidated net revenue $37.9 billion tha.",
+          "scene": "An analyst reviewing a clear financial report in a cafe",
+          "source": "Starbucks FY2026 results",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"REVENUE $37.9B\". Exact body: \"Starbucks ka FY2026 consolidated net revenue $37.9 billion tha.\". Small label: \"Source: Starbucks FY2026 results\". Footer: \"BUSINESS JALWA\" and \"3/5\". Scene: An analyst reviewing a clear financial report in a cafe."
+        },
+        {
+          "heading": "90 MARKETS",
+          "body": "July 2026 mein Starbucks ne 90 markets mein locations report ki.",
+          "scene": "A globe with diverse neighborhood coffeehouses",
+          "source": "Starbucks, Jul 2026",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"90 MARKETS\". Exact body: \"July 2026 mein Starbucks ne 90 markets mein locations report ki.\". Small label: \"Source: Starbucks, Jul 2026\". Footer: \"BUSINESS JALWA\" and \"4/5\". Scene: A globe with diverse neighborhood coffeehouses."
+        },
+        {
+          "heading": "NUMBER KA MATLAB",
+          "body": "Market-size estimate aur company revenue alag hain. Dono ka scope aur year check karo.",
+          "scene": "Separate visual panels for industry, company, and coffeehouse reach",
+          "source": "Starbucks; Euromonitor",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"NUMBER KA MATLAB\". Exact body: \"Market-size estimate aur company revenue alag hain. Dono ka scope aur year check karo.\". Small label: \"Source: Starbucks; Euromonitor\". Footer: \"BUSINESS JALWA\" and \"5/5\". Scene: Separate visual panels for industry, company, and coffeehouse reach."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "num": 72,
+      "id": "coca-cola-business-scale-072",
+      "topic": "Coca-Cola market, revenue, global footprint",
+      "sources": [
+        "https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-010047/ko-20251231.htm",
+        "https://www.euromonitor.com/newsroom/press-releases/june-2025/innovation-and-functionality-drive-global-soft-drinks-market-to-usd1.1-trillion"
+      ],
+      "caption": "Coca-Cola ka scale teen alag numbers se dekho 🥤\n\n2025 mein company ka net operating revenue $47.941B tha aur Coca-Cola system ne 33.8B unit cases beche. Products 200+ countries aur territories mein available hain. Euromonitor ka $1.1T global soft drinks market figure **2024** ka broad industry estimate hai; ise company revenue ya unit-case volume ke saath confuse na karein.\n\nSources: Coca-Cola 2025 Form 10-K https://investors.coca-colacompany.com/filings-reports/all-sec-filings/content/0001628280-26-010047/ko-20251231.htm ; Euromonitor https://www.euromonitor.com/newsroom/press-releases/june-2025/innovation-and-functionality-drive-global-soft-drinks-market-to-usd1.1-trillion\n\nAapko next kis company ka real-data story chahiye?\n\n#BusinessJalwa #CompanyStories #CocaCola #MarketSize #BusinessInHinglish",
+      "slides": [
+        {
+          "heading": "COCA-COLA KA SCALE",
+          "body": "Company ke beverage brands 200+ countries aur territories mein available hain.",
+          "scene": "Global beverage distribution route with stores in varied regions",
+          "source": "Coca-Cola 2025 10-K",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"COCA-COLA KA SCALE\". Exact body: \"Company ke beverage brands 200+ countries aur territories mein available hain.\". Small label: \"Source: Coca-Cola 2025 10-K\". Footer: \"BUSINESS JALWA\" and \"1/5\". Scene: Global beverage distribution route with stores in varied regions."
+        },
+        {
+          "heading": "MARKET $1.1T",
+          "body": "2024 mein global soft drinks market ki value lagbhag $1.1 trillion thi.",
+          "scene": "Broad soft drinks shelf with water, soda, and other nonalcoholic drinks",
+          "source": "Euromonitor, Jun 2025",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"MARKET $1.1T\". Exact body: \"2024 mein global soft drinks market ki value lagbhag $1.1 trillion thi.\". Small label: \"Source: Euromonitor, Jun 2025\". Footer: \"BUSINESS JALWA\" and \"2/5\". Scene: Broad soft drinks shelf with water, soda, and other nonalcoholic drinks."
+        },
+        {
+          "heading": "REVENUE $47.9B",
+          "body": "Coca-Cola Company ka 2025 net operating revenue lagbhag $47.9 billion tha.",
+          "scene": "Analyst reading a beverage company annual report",
+          "source": "Coca-Cola 2025 10-K",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"REVENUE $47.9B\". Exact body: \"Coca-Cola Company ka 2025 net operating revenue lagbhag $47.9 billion tha.\". Small label: \"Source: Coca-Cola 2025 10-K\". Footer: \"BUSINESS JALWA\" and \"3/5\". Scene: Analyst reading a beverage company annual report."
+        },
+        {
+          "heading": "33.8B UNIT CASES",
+          "body": "2025 mein Coca-Cola system ne 33.8 billion unit cases beche. Yeh revenue nahi, volume hai.",
+          "scene": "Beverage bottling and distribution warehouse",
+          "source": "Coca-Cola 2025 10-K",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"33.8B UNIT CASES\". Exact body: \"2025 mein Coca-Cola system ne 33.8 billion unit cases beche. Yeh revenue nahi, volume hai.\". Small label: \"Source: Coca-Cola 2025 10-K\". Footer: \"BUSINESS JALWA\" and \"4/5\". Scene: Beverage bottling and distribution warehouse."
+        },
+        {
+          "heading": "SYSTEM SAMJHO",
+          "body": "Bottling partners products distribute karte hain. Market value, volume aur company revenue ko alag dekho.",
+          "scene": "Independent bottler, retail shelf, and company ledger as separate panels",
+          "source": "Coca-Cola 2025 10-K",
+          "prompt": "Use case: productivity-visual. Single finished 4:5 portrait educational Instagram carousel for BUSINESS JALWA. Premium warm editorial scrapbook style, cream paper, deep forest green headline, muted terracotta and gold accent, realistic painterly Indian small-business analyst/cafe/retail scenes. This is an independent company data explainer, not an advertisement; avoid exact trademark logos or branded packaging. Large exact legible Roman Hinglish lettering with ample safe margins. Only the heading, body, short source label, BUSINESS JALWA footer, and slide number may be readable; no extra numerical graphics or invented text.  Exact heading: \"SYSTEM SAMJHO\". Exact body: \"Bottling partners products distribute karte hain. Market value, volume aur company revenue ko alag dekho.\". Small label: \"Source: Coca-Cola 2025 10-K\". Footer: \"BUSINESS JALWA\" and \"5/5\". Scene: Independent bottler, retail shelf, and company ledger as separate panels."
+        }
+      ]
+    }
+  ]
+}
