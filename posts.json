@@ -168,8 +168,8 @@
   },
   {
     "id": "business-basics-009",
-    "publish_at": "2026-11-06T18:00:00+05:30",
-    "caption": "ROE yani Return on Equity. 📊\n\nYe batata hai company shareholders ki equity ke muqable kitna profit kama rahi hai.\n\nFormula: Net Profit ÷ Average Shareholders’ Equity × 100\n\nROE ko same industry ki companies aur multiple years ke context mein dekho; high ROE akela poori picture nahi batata.\n\nAgli post: P/E Ratio.\n\n#BusinessJalwa #ROE #FinanceTerms #BusinessInHinglish",
+    "publish_at": "2027-01-09T18:00:00+05:30",
+    "caption": "ROE yani Return on Equity. 📊\n\nYe batata hai company shareholders ki equity ke muqable kitna profit kama rahi hai.\n\nFormula: Net Profit ÷ Average Shareholders’ Equity × 100\n\nROE ko same industry ki companies aur multiple years ke context mein dekho; high ROE akela poori picture nahi batata.\n\n#BusinessJalwa #ROE #FinanceTerms #BusinessInHinglish",
     "image_urls": [
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-06-post-010/slide-01.jpg",
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-06-post-010/slide-02.jpg",
@@ -995,6 +995,19 @@
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-05-post-073/slide-03.jpg",
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-05-post-073/slide-04.jpg",
       "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-05-post-073/slide-05.jpg"
+    ],
+    "manual_approved": true
+  },
+  {
+    "id": "costco-business-scale-074",
+    "publish_at": "2026-11-06T18:00:00+05:30",
+    "caption": "Costco ka scale aur membership model samjho 🛒\n\nFY2025 end par 914 warehouses the, 14 markets mein. Total revenue $275.235B tha: net sales $269.912B aur membership fees $5.323B. Mordor Intelligence ne 2025 global grocery retail market $11.81T estimate kiya. Yeh broad grocery category hai, Costco ka merchandise mix aur membership revenue usse alag scope rakhte hain—direct market share calculation mat karo.\n\nSources: Costco FY2025 results https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Operating-Results/default.aspx ; Mordor Intelligence https://www.mordorintelligence.com/industry-reports/global-grocery-retail-market\n\nNext kis real business ka breakdown chahiye?\n\n#BusinessJalwa #CompanyStories #Costco #MarketSize #BusinessInHinglish",
+    "image_urls": [
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-06-post-074/slide-01.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-06-post-074/slide-02.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-06-post-074/slide-03.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-06-post-074/slide-04.jpg",
+      "https://raw.githubusercontent.com/Avi-2024/business-jalwa/main/assets/approved/2026-11-06-post-074/slide-05.jpg"
     ],
     "manual_approved": true
   }

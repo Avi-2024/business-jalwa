@@ -1,0 +1,41 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-11-06",
+  "id": "costco-business-scale-074",
+  "sources": [
+    "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Operating-Results/default.aspx",
+    "https://www.mordorintelligence.com/industry-reports/global-grocery-retail-market"
+  ],
+  "slides": [
+    {
+      "heading": "COSTCO KA SCALE",
+      "body": "FY2025 end: 914 warehouses, 14 markets.",
+      "citation": "Costco FY2025 results",
+      "path": "assets/approved/2026-11-06-post-074/slide-01.jpg"
+    },
+    {
+      "heading": "GROCERY MARKET $11.81T",
+      "body": "2025 global grocery retail market estimate: $11.81 trillion. Ye broad category hai.",
+      "citation": "Mordor Intelligence, 2026",
+      "path": "assets/approved/2026-11-06-post-074/slide-02.jpg"
+    },
+    {
+      "heading": "REVENUE $275.2B",
+      "body": "Costco ka FY2025 total revenue $275.235 billion tha.",
+      "citation": "Costco FY2025 results",
+      "path": "assets/approved/2026-11-06-post-074/slide-03.jpg"
+    },
+    {
+      "heading": "MEMBERSHIP $5.3B",
+      "body": "FY2025 membership fees $5.323 billion thi. Net sales alag $269.912B thi.",
+      "citation": "Costco FY2025 results",
+      "path": "assets/approved/2026-11-06-post-074/slide-04.jpg"
+    },
+    {
+      "heading": "METRICS ALAG RAKHO",
+      "body": "Grocery market Costco ki poori category nahi. Revenue aur membership fees ka scope check karo.",
+      "citation": "Costco; Mordor Intelligence",
+      "path": "assets/approved/2026-11-06-post-074/slide-05.jpg"
+    }
+  ]
+}
