@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-30",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Dosa stall mein nayi menu item ko chhote trial se kaise test karein",
+  "caption": "Dosa stall par naya item seedha permanent menu mein daalne se pehle chhota test karo. 🥘\n\nEk clear trial period aur limited quantity rakho. Illustrative example: 20 millet-vegetable dosa portions prepare kiye, 14 bike aur 6 bache. 14 ÷ 20 = 70% prepared portions sold that day. Yeh ek din ka sell-through hai, profit ya future demand ki guarantee nahi. Customer se taste, portion aur price ke baare mein alag feedback lo. Phir kuch din ke orders aur leftovers dekhkar recipe, quantity ya menu decision lo.\n\nAaj ek new item ke liye simple trial sheet banao: prepared, sold, leftover, feedback.\n\n#BusinessJalwa #SmallBusinessIndia #DosaStall #MenuTesting #CustomerFeedback",
+  "scenes": [
+    {
+      "visual": "Indian dosa-stall owner considers a millet-vegetable dosa beside regular dosa on hot tawa",
+      "narration": "दुकान पर नया डोसा लाना है? पहले दिन से उसे पक्का मेन्यू आइटम मत मानो। छोटी मात्रा का ट्रायल करो, ताकि ग्राहकों की पसंद और बचा हुआ सामान दोनों देख सको।",
+      "question": "Naya item seedha menu?",
+      "answer": "Pehle chhota trial"
+    },
+    {
+      "visual": "Dosa cook and coworker prepare a limited batch of millet batter and chopped vegetables",
+      "narration": "ट्रायल के लिए एक तय अवधि और सीमित पोर्शन रखो। रेसिपी, पोर्शन साइज और कीमत साफ बताओ। कितने पोर्शन तैयार किए, यह शुरुआत में लिखो; नहीं तो शाम का हिसाब अधूरा रहेगा।",
+      "question": "Trial mein kya note ho?",
+      "answer": "Prepared portions"
+    },
+    {
+      "visual": "Cook serves new millet-vegetable dosa to interested customer at the stall counter",
+      "narration": "मान लो बीस नए डोसे तैयार किए। दिन के अंत तक चौदह बिके और छह बचे। चौदह को बीस से भाग दो, तो उस दिन तैयार पोर्शन का सत्तर प्रतिशत बिका। यह सिर्फ उदाहरण है।",
+      "question": "14 of 20 sold?",
+      "answer": "70% sell-through"
+    },
+    {
+      "visual": "Customers taste new dosa while owner notes feedback in blank notebook near stall",
+      "narration": "अब ग्राहक से पूछो, स्वाद, पोर्शन या कीमत में क्या बेहतर हो सकता है? सिर्फ एक दिन की बिक्री से मुनाफ़ा या लंबे समय की मांग तय नहीं होती। कई दिनों का ट्रायल साथ देखो।",
+      "question": "Ek din enough hai?",
+      "answer": "Feedback aur trend dekho"
+    },
+    {
+      "visual": "Dosa-stall owner and coworker discuss trial results and next small batch beside ingredients",
+      "narration": "आज एक नए आइटम के लिए चार चीज़ें लिखो: बनाया कितना, बिका कितना, बचा कितना और ग्राहकों ने क्या कहा। फिर अगली छोटी बैच की मात्रा सोचो। सीखकर मेन्यू बदलना आसान होगा।",
+      "question": "Aaj ka action?",
+      "answer": "Trial sheet banao"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-30/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
