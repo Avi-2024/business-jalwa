@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-14",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Small catering order mein final guest count aur ingredient planning ka simple process",
+  "caption": "Catering order mein ‘lagbhag 50 guests’ sunte hi kharidari shuru kar dete ho? 🍽️\n\nGuest count badalne se ingredients, team aur serving plan badal sakte hain. Client ke saath ek final confirmation time tay karo. Us waqt agreed count aur last-minute additions ka process likh lo.\n\nIllustrative example: pehle 50 guests ka estimate tha, final confirmation par 60 hue—10 extra plates plan karni hongi. Yeh 10 plates ka revenue ya cost nahi batata; menu, portions aur wastage alag hote hain. Ingredients ko actual menu aur agreed portions ke hisaab se calculate karo, phir reasonable buffer tay karo.\n\nEvent ke baad prepared aur served portions compare karo. Agle order mein estimate behtar hoga. Aap guest count kab confirm karte ho?\n\n#BusinessJalwa #SmallBusinessIndia #CateringBusiness #Operations #FoodPlanning",
+  "scenes": [
+    {
+      "visual": "Indian caterer discusses a family celebration order with two clients and a blank guest-list notebook",
+      "narration": "कैटरिंग ऑर्डर मिला और क्लाइंट ने कहा, करीब पचास मेहमान होंगे। क्या इतने अंदाज़े पर सारा सामान खरीद लेना सही होगा? अगर गेस्ट काउंट बदला, तो तैयारी भी बदल जाएगी।",
+      "question": "Guest count sirf estimate hai?",
+      "answer": "Final count confirm karo"
+    },
+    {
+      "visual": "Caterer and clients compare different stacks of plates and serving trays while planning portions",
+      "narration": "क्लाइंट से पहले ही तय करो कि आखिरी संख्या कब तक बताएँगे। उसी समय मेन्यू, परोसे जाने वाले हिस्से और अचानक बढ़ने वाले मेहमानों का तरीका भी साफ कर लो।",
+      "question": "Confirm kab karein?",
+      "answer": "Pehle deadline tay karo"
+    },
+    {
+      "visual": "Client calls caterer to confirm final guest count while caterer notes it in blank order notebook",
+      "narration": "मान लो पहले पचास लोगों का अंदाज़ा था, लेकिन पुष्टि पर साठ हुए। यानी दस अतिरिक्त प्लेटों की योजना चाहिए। यह दस प्लेटों का मुनाफा नहीं बताता; सिर्फ तैयारी का फर्क दिखाता है।",
+      "question": "50 se 60 guests hue?",
+      "answer": "10 extra plates plan karo"
+    },
+    {
+      "visual": "Caterer selects rice and vegetables at market and kitchen team measures portions for agreed menu",
+      "narration": "अब तय मेन्यू और प्रति व्यक्ति हिस्से के हिसाब से सामग्री गिनो। थोड़ा उचित बफर रखो, लेकिन बिना हिसाब के बहुत ज्यादा खाना मत बनाओ। बदली संख्या क्लाइंट से लिखित में कन्फर्म करो।",
+      "question": "Ingredients kaise kharidein?",
+      "answer": "Menu aur portions se gino"
+    },
+    {
+      "visual": "Caterer serves guests at event and later checks remaining covered trays beside blank notes",
+      "narration": "इवेंट के बाद लिखो: कितने लोगों के लिए बनाया, कितने हिस्से परोसे और कितना बचा। अगली बार इसी रिकॉर्ड से अंदाज़ा सुधारो। आज अपने अगले ऑर्डर की काउंट-कन्फर्मेशन डेडलाइन तय करो।",
+      "question": "Event ke baad kya note karein?",
+      "answer": "Prepared, served, leftover"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-14/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
