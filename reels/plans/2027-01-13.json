@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-13",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "On-site cleaning job mein service, travel aur setup mila kar real team time plan karna",
+  "caption": "2 ghante ki cleaning ke liye team 4 ghante busy ho sakti hai. 🧹\n\nIllustrative schedule: 2 hours cleaning + 45 minutes going + 45 minutes returning + 30 minutes setup and packing = 4 hours of team time. Actual travel and setup har job mein badlenge. Quote aur next appointment banate waqt service scope ke saath non-service time ko bhi estimate karo; customer ko arrival window aur kaam ka scope clearly batao.\n\nPractical takeaway: calendar mein sirf cleaning duration block karoge to next booking late ho sakti hai. Team ka full occupied time dekho.\n\n#BusinessJalwa #CleaningBusiness #SmallBusinessIndia #Scheduling #ServiceOperations",
+  "scenes": [
+    {
+      "visual": "Home cleaning owner realizes a two-hour booking fills a longer team window",
+      "narration": "दो घंटे की सफाई, टीम चार घंटे व्यस्त। बाकी दो घंटे कहाँ गए? घर जाकर की जाने वाली सर्विस में सिर्फ ग्राहक के घर बिताया समय नहीं गिनना चाहिए। चलो एक उदाहरण से पूरे अपॉइंटमेंट का समय जोड़ते हैं।",
+      "question": "2h cleaning, 4h busy?",
+      "answer": "Travel bhi ginno"
+    },
+    {
+      "visual": "Two cleaning workers travel with vacuum, buckets and mops toward customer's apartment",
+      "narration": "मान लो ग्राहक के घर पहुंचने में पैंतालीस मिनट लगते हैं। वापस आने में भी पैंतालीस मिनट। ये दोनों मिलाकर डेढ़ घंटा हुआ। टीम इस दौरान दूसरे घर की सफाई नहीं कर सकती, इसलिए कैलेंडर में यह समय भी चाहिए।",
+      "question": "Travel kitna jodega?",
+      "answer": "Aana-jana 1.5h"
+    },
+    {
+      "visual": "Cleaning team unloads equipment and prepares supplies at the apartment door",
+      "narration": "घर पहुंचकर वैक्यूम और सामान तैयार करने, फिर काम के बाद समेटने में मान लो कुल आधा घंटा लगता है। हर काम में यह अलग हो सकता है। इसे छोड़ा, तो अगली बुकिंग के लिए निकलने का समय गलत निकलेगा।",
+      "question": "Setup bhi time hai?",
+      "answer": "Half hour example"
+    },
+    {
+      "visual": "Two workers clean living room while customer observes the agreed service",
+      "narration": "अब असली सफाई के दो घंटे जोड़ो। दो घंटे काम, डेढ़ घंटा सफर और आधा घंटा तैयारी मिलाकर चार घंटे हुए। यह टीम के व्यस्त रहने का उदाहरण है, ग्राहक से चार घंटे की सफाई का दावा नहीं। दोनों बातों को अलग रखो।",
+      "question": "Total team time?",
+      "answer": "4h occupied"
+    },
+    {
+      "visual": "Owner and cleaning team review a blank schedule and estimate with gear",
+      "narration": "अगला स्लॉट तय करते समय पूरा व्यस्त समय लिखो। कोटेशन में सफाई का स्कोप, अनुमानित पहुंचने का समय और किसी यात्रा शुल्क की शर्त पहले साफ बताओ। रास्ता बदल सकता है, इसलिए थोड़ा यथार्थवादी बफर भी रखो।",
+      "question": "Next booking kab?",
+      "answer": "Full window ke baad"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-13/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
