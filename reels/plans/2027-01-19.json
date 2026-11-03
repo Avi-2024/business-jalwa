@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-19",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Car detailing shop mein enquiries se confirmed bookings tak conversion samajhna",
+  "caption": "20 enquiries aaye, bookings sirf 2? 🚗\n\nIllustrative car-detailing example: ek hafte mein 20 distinct customer enquiries aur usi group se 2 confirmed bookings. Enquiry-to-booking conversion 2 ÷ 20 = 10%. Yeh number batata hai kitne log booking tak pahunche; yeh apne aap nahi batata ki baaki kyun ruke.\n\nHar enquiry par service need, shared scope/price, available slot aur next step note karo. Jo customer chahe usse ek polite follow-up mein poochho kya unclear tha. Price, timing, trust ya service fit—jo pattern dikhe, us par improvement test karo. Duplicate chats ko naya lead mat gino.\n\n#BusinessJalwa #CarDetailing #SmallBusinessIndia #CustomerEnquiries #Bookings",
+  "scenes": [
+    {
+      "visual": "Car detailing shop owner reviews many customer enquiries on phone but few bookings",
+      "narration": "बीस लोग कार डिटेलिंग पूछें, बुकिंग सिर्फ दो? तुरंत डिस्काउंट देने से पहले देखो कि ग्राहक किस कदम पर रुक रहे हैं। पूछताछ और पक्की बुकिंग अलग बातें हैं। एक हफ्ते के छोटे उदाहरण से इसे समझते हैं।",
+      "question": "20 enquiries, 2 bookings?",
+      "answer": "Gap samjho"
+    },
+    {
+      "visual": "Customer describes dirty car and asks owner about detailing service",
+      "narration": "मान लो इस हफ्ते बीस अलग ग्राहकों ने पूछताछ की। एक ही ग्राहक के तीन मैसेज को तीन नए लीड मत गिनो। हर बातचीत में लिखो कि ग्राहक को कौन सी सफाई चाहिए और किस दिन काम करवाना है।",
+      "question": "Lead kise gino?",
+      "answer": "Alag customer ko"
+    },
+    {
+      "visual": "Team inspects car interior, exterior and wheels to define service scope",
+      "narration": "अब बताओ कि पैकेज में क्या मिलेगा, क्या नहीं, कितना समय लगेगा और कीमत क्या है। अस्पष्ट जवाब पर ग्राहक तुलना भी नहीं कर पाता। बातचीत में अगला कदम भी साफ रखो: उपलब्ध स्लॉट और बुकिंग की पुष्टि कैसे होगी।",
+      "question": "Reply mein kya ho?",
+      "answer": "Scope, price, slot"
+    },
+    {
+      "visual": "Owner reviews blank appointment notebook and asks customers about hesitation",
+      "narration": "उसी बीस के समूह में दो बुकिंग पक्की हुईं। दो को बीस से भाग दें, तो दस प्रतिशत कन्वर्ज़न है। यह सिर्फ उदाहरण का माप है; बाकी अठारह क्यों नहीं आए, इसका कारण संख्या अकेले नहीं बताती।",
+      "question": "Conversion kitna?",
+      "answer": "10% illustrative"
+    },
+    {
+      "visual": "Team reviews customer notes and hands clean car keys to a booked customer",
+      "narration": "जहाँ उचित हो, विनम्रता से एक बार पूछो कि क्या चीज़ अटकी: समय, कीमत या सेवा का दायरा? जवाब नोट करो, फिर एक बदलाव आज़माओ। हर हफ्ते पूछताछ और बुकिंग साथ देखोगे, तो सुधार का रास्ता दिखेगा।",
+      "question": "Next step kya?",
+      "answer": "Reason note karo"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-19/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
