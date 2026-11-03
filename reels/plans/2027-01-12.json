@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-12",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Stationery shop mein local maker ki handmade journals consignment par rakhna",
+  "caption": "₹200 ki handmade journal biki. Kya poore ₹200 shopkeeper ka hissa hain? 📒\n\nIllustrative consignment arrangement: maker journals shop ki shelf par rakhta hai; dono pehle price, shop commission, payout timing aur unsold items ke return terms agree karte hain. Agar selling price ₹200 aur agreed commission 20% of that price hai, to shop ka hissa ₹40 aur maker ka ₹160 hoga, fees/taxes ya other agreed adjustments se pehle. ₹200 customer se collected amount hai, poora shop margin nahi.\n\nStock aate, bikte aur wapas jaate waqt count milao. Deal ko likhit mein clear rakho.\n\n#BusinessJalwa #SmallBusinessIndia #Consignment #StationeryBusiness #BusinessModel",
+  "scenes": [
+    {
+      "visual": "Local artisan brings handmade journals to stationery shopkeeper for shelf display",
+      "narration": "दो सौ रुपये की डायरी बिकी। क्या पूरे दो सौ दुकानदार के हैं? अगर डायरी स्थानीय मेकर ने कंसाइनमेंट पर रखी थी, तो जवाब अलग है। पहले समझो कि सामान किसने दिया और बिक्री के बाद हिस्सा कैसे बंटेगा।",
+      "question": "₹200 sale, kiska paisa?",
+      "answer": "Deal ke hisse dekho"
+    },
+    {
+      "visual": "Artisan and shopkeeper count handmade journals together beside blank inventory sheet",
+      "narration": "कंसाइनमेंट में मेकर अपना सामान दुकान की शेल्फ पर रखता है। दोनों पहले लिखकर तय करें: कितने पीस आए, कीमत क्या होगी, दुकान का कमीशन कितना है, और पैसा कब मिलेगा। अनबिका सामान कैसे लौटेगा, यह भी साफ हो।",
+      "question": "Pehle kya tay ho?",
+      "answer": "Price, share, return"
+    },
+    {
+      "visual": "Shopkeeper displays handmade journals and customer browses stationery shelf",
+      "narration": "मान लो मेकर ने पांच डायरी दीं। दुकानदार उन्हें अलग रिकॉर्ड में रखता है, ताकि अपनी खरीदी हुई इन्वेंटरी से उनका हिसाब न मिले। ग्राहक एक डायरी चुनता है। अब उस एक पीस की बिक्री दर्ज होगी।",
+      "question": "Stock kaise track?",
+      "answer": "Consignment alag likho"
+    },
+    {
+      "visual": "Customer pays shopkeeper for one handmade journal at counter",
+      "narration": "सिर्फ उदाहरण के लिए, बिक्री कीमत दो सौ रुपये और दुकान का तय कमीशन बीस प्रतिशत है। दो सौ का बीस प्रतिशत चालीस रुपये होता है। बाकी एक सौ साठ रुपये मेकर का हिस्सा है, किसी अन्य तय कटौती से पहले।",
+      "question": "Shop ka hissa kitna?",
+      "answer": "₹40 commission"
+    },
+    {
+      "visual": "Shopkeeper and artisan reconcile blank ledger, coins, and remaining journals",
+      "narration": "बिके पीस, बचा स्टॉक और मेकर को दिया पैसा नियमित मिलाओ। अगर बाकी डायरी नहीं बिकीं, तो समझौते के मुताबिक लौटाओ या आगे रखने की बात करो। सीख: शेल्फ पर रखा हर प्रोडक्ट दुकान की खरीदी हुई इन्वेंटरी नहीं होता।",
+      "question": "Unsold ka kya?",
+      "answer": "Agreement ke hisaab se"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-12/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
