@@ -135,6 +135,19 @@ def main():
                 force_render_only=True
                 print(f'Pending future Reel found; preparing {requested_date} only')
                 break
+    # GitHub scheduled runs can arrive late, after the local publication date.
+    # Resume the earliest due Reel whose two platforms are not verified yet.
+    # Its checkpoint prevents a second publish request after an uncertain result.
+    if not requested_date and os.environ.get('GITHUB_EVENT_NAME')=='schedule':
+        for plan_file in sorted(Path('reels/plans').glob('????-??-??.json')):
+            candidate=plan_file.stem
+            if candidate>today: break
+            pending_state=Path(f'reels/state/{candidate}.json')
+            saved=json.loads(pending_state.read_text()) if pending_state.exists() else {}
+            if not (saved.get('instagram_verified_at') and saved.get('facebook_verified_at')):
+                requested_date=candidate
+                print(f'Due Reel pending; processing {requested_date}')
+                break
     date=requested_date or today
     if date>today and not force_render_only:
         print('Future Reel date; no processing yet');return
