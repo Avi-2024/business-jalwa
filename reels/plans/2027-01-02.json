@@ -1,0 +1,42 @@
+{
+  "date": "2027-01-02",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Pottery workshop mein damaged mugs hata kar sellable units aur batch cost samajhna",
+  "caption": "Pottery mein bane hue saare mugs bikne layak nahi hote. 🏺\n\nIllustrative example: ek batch mein 100 mugs bane, firing aur quality check ke baad 8 cracked nikle. Sellable mugs 92 hain. Agar is batch ki total production cost ₹9,200 ho, to sellable mug par allocated batch cost ₹100 hai (₹9,200 ÷ 92); 100 se divide karne par ₹92 aayega, jo damage ko ignore karta hai. Yeh selling price ya profit nahi hai: packing, delivery, fees aur anya kharche alag dekhne honge.\n\nAaj apne batch mein made, damaged aur sellable units alag gino.\n\n#BusinessJalwa #SmallBusinessIndia #PotteryBusiness #UnitEconomics #Operations",
+  "scenes": [
+    {
+      "visual": "Indian woman potter forms a clay mug on a spinning wheel in a small workshop",
+      "narration": "कुम्हार ने सौ मग बनाए। लेकिन भट्टी से निकलने के बाद कुछ मगों में दरार आ गई। क्या सौ के सौ मग बिक्री के लिए रखे जा सकते हैं? पहले हर मग की जाँच जरूरी है।",
+      "question": "100 mugs bane?",
+      "answer": "Sab sellable nahi"
+    },
+    {
+      "visual": "Workshop helper places drying clay mugs carefully on wooden shelves",
+      "narration": "मिट्टी का आकार देना, सुखाना और फिर फायरिंग करना अलग-अलग चरण हैं। किसी चरण में नुकसान हो सकता है। इसलिए सिर्फ बने हुए मग गिनना, तैयार और बेचने लायक मग गिनने जैसा नहीं है।",
+      "question": "Kya alag ginna hai?",
+      "answer": "Made aur sellable"
+    },
+    {
+      "visual": "Potter checks fired mugs and discovers one cracked ceramic mug beside a kiln",
+      "narration": "मान लो सौ मग बने और आठ में दरार निकली। ऐसे मग अलग रखो। इस उदाहरण में बेचने लायक मग बानवे हैं। खराब मग को चुपचाप अच्छी खेप में मत मिलाओ।",
+      "question": "100 mein 8 damaged?",
+      "answer": "92 sellable mugs"
+    },
+    {
+      "visual": "Pottery owner sorts cracked mugs into a separate tray from quality finished mugs",
+      "narration": "अब मान लो पूरे बैच की उत्पादन लागत नौ हज़ार दो सौ रुपये है। उसे बानवे बेचने लायक मगों पर बाँटो, तो सौ रुपये प्रति मग आते हैं। सौ बने मगों से बाँटोगे, तो नुकसान छिप जाएगा।",
+      "question": "₹9,200 ÷ 92?",
+      "answer": "₹100 per sellable mug"
+    },
+    {
+      "visual": "Indian pottery owner displays quality finished mugs for customers on craft-shop shelves",
+      "narration": "यह सिर्फ बैच की लागत बाँटने का हिसाब है, बेचने की कीमत या मुनाफा नहीं। पैकिंग और डिलीवरी जैसे खर्च भी अलग देखो। आज हर बैच में बने, खराब और बेचने लायक मग लिखो।",
+      "question": "Aaj kya note karein?",
+      "answer": "Made, damaged, sellable"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-02/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
