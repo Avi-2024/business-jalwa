@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-14",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Gift shop mein free wrapping ka material aur staff-time cost samajhna",
+  "caption": "“Free gift wrap” customer ke liye free ho sakta hai, shop ke liye uska cost hota hai. 🎁\n\nIllustrative example per gift: paper, ribbon aur tape ₹10; staff time ki estimated cost ₹10. Total ₹20. Das wrapped gifts par yahi ₹200 ka estimated cost hai. Actual rate, material aur time har shop mein alag honge.\n\nGift wrapping ko product price mein include karo ya separate charge clearly batao—jo bhi model choose karo, customer ko pehle transparent rakho. Ek simple wrap aur premium wrap ka scope bhi alag define karo.\n\n#BusinessJalwa #GiftShop #SmallBusinessIndia #Pricing #RetailOperations",
+  "scenes": [
+    {
+      "visual": "Customer asks gift-shop owner to wrap a boxed present; owner pauses to consider the work",
+      "narration": "फ्री गिफ्ट रैप सच में फ्री है? ग्राहक से अलग पैसा न लो, तब भी कागज, रिबन और कर्मचारी का समय लगता है। गिफ्ट शॉप में इस छोटे खर्च को समझे बिना हर पैकिंग का सही फैसला मुश्किल होगा।",
+      "question": "Free wrap sach mein free?",
+      "answer": "Shop ka cost hota hai"
+    },
+    {
+      "visual": "Shop owner selects decorative wrapping sheets, ribbon and tape from materials drawer",
+      "narration": "पहले सामग्री देखो। मान लो एक गिफ्ट के कागज, रिबन और टेप पर दस रुपये लगते हैं। यह सिर्फ उदाहरण है। महंगी शीट या बड़े बॉक्स के लिए खर्च अलग होगा, इसलिए अपनी दुकान का औसत खुद निकालो।",
+      "question": "Material kitna?",
+      "answer": "₹10 example"
+    },
+    {
+      "visual": "Shop assistant carefully wraps a gift box by hand using paper, scissors and ribbon",
+      "narration": "अब समय जोड़ो। मान लो पैकिंग में लगा कर्मचारी समय भी अनुमानित दस रुपये का पड़ता है। सामग्री के दस और समय के दस, यानी एक गिफ्ट पर कुल बीस रुपये। समय को शून्य मानोगे तो लागत अधूरी दिखेगी।",
+      "question": "Time ka cost?",
+      "answer": "Total ₹20 per wrap"
+    },
+    {
+      "visual": "Owner reviews paper sheets and ribbons beside multiple wrapped gifts and blank ledger",
+      "narration": "अगर ऐसे दस गिफ्ट पैक हुए, तो इसी उदाहरण में कुल अनुमानित खर्च दो सौ रुपये है। इसका मतलब हर ग्राहक से अलग फीस लेना जरूरी नहीं। पर यह खर्च कीमत या मार्जिन के फैसले में कहीं न कहीं दिखना चाहिए।",
+      "question": "10 wraps ka cost?",
+      "answer": "₹200 illustrative"
+    },
+    {
+      "visual": "Owner discusses simple and premium wrap options with staff, then hands finished gift to customer",
+      "narration": "साफ विकल्प रखो: साधारण रैप उत्पाद की कीमत में शामिल, या प्रीमियम रैप अलग शुल्क पर। ग्राहक को पहले बताओ कि किसमें क्या मिलेगा। छोटी सर्विस का हिसाब रखोगे, तो ऑफर भी टिकाऊ और स्पष्ट रहेगा।",
+      "question": "Customer ko kya batayein?",
+      "answer": "Scope aur price clear"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-14/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
