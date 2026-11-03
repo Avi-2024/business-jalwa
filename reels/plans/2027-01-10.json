@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-10",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Laundry counter par milte-julte kapdon ko order-wise tag karke mix-up rokna",
+  "caption": "Do customers ke almost same white kurte aaye aur pickup par kaunsa kiska hai, yaad nahi? 🧺\n\nIllustrative example: customer A ke order ko 41 aur customer B ko 42 assign karo. Har kapde ke tag aur receipt par matching order ID rakho; details intake par note karo, processing mein orders ko alag rakho, aur handover se pehle tag ko receipt se milao. Tag kapde ko damage na kare aur care instructions follow karo.\n\nChhoti laundry ka practical rule: yaad-dasht par nahi, har garment ki traceable entry par bharosa karo.\n\n#BusinessJalwa #LaundryBusiness #SmallBusinessIndia #Operations #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Two customers bring near-identical white kurtas to a neighborhood laundry counter",
+      "narration": "दो सफेद कुर्ते, दो ग्राहक। शाम को लेने आएंगे तो कौन सा किसका? एक छोटी लॉन्ड्री में यही गलती वापसी, शिकायत और भरोसे का नुकसान बना सकती है। इसका जवाब याददाश्त नहीं, हर कपड़े की पहचान है।",
+      "question": "Do same kurte—kiska kaunsa?",
+      "answer": "Har garment ki pehchan"
+    },
+    {
+      "visual": "Laundry owner checks buttons and fabric care details on both similar kurtas",
+      "narration": "कपड़ा लेते समय ग्राहक के सामने पीस गिनो। रंग, कपड़े की खास पहचान, और पहले से मौजूद दाग या नुकसान दर्ज करो। देखभाल का लेबल भी पढ़ो। बाद में शक होने पर यही शुरुआती रिकॉर्ड मदद करेगा।",
+      "question": "Intake par kya note?",
+      "answer": "Pieces aur pehchan"
+    },
+    {
+      "visual": "Laundry owner attaches different blank color tags carefully to two white kurtas",
+      "narration": "मान लो पहले ग्राहक का ऑर्डर इकतालीस और दूसरे का बयालीस है। हर कुर्ते से सुरक्षित तरीके से उसका अलग ऑर्डर टैग जोड़ो। रसीद पर भी वही पहचान लिखो। यह बस समझाने वाला उदाहरण है।",
+      "question": "Tag kaise jodein?",
+      "answer": "Receipt se match"
+    },
+    {
+      "visual": "Laundry owner and helper put differently tagged garments into separate laundry baskets",
+      "narration": "अब धुलाई और प्रेस के दौरान दोनों ऑर्डर अलग रखो। अगर एक ऑर्डर में कई कपड़े हैं, तो हर पीस को उसी ऑर्डर से जोड़कर रखो। सिर्फ रंग देखकर या किसी एक कर्मचारी की याद पर भरोसा मत करो।",
+      "question": "Processing mein kya?",
+      "answer": "Orders alag rakho"
+    },
+    {
+      "visual": "Laundry owner compares blank receipt to garment tag before handing paper bag to customer",
+      "narration": "ग्राहक लौटे तो रसीद की पहचान, कपड़े का टैग, और पीस की गिनती तीनों मिलाओ। फिर कपड़ा सौंपो। रोज़ का यह छोटा कदम गलत डिलीवरी घटा सकता है और ग्राहक को साफ जवाब देता है।",
+      "question": "Handover se pehle?",
+      "answer": "Tag, receipt, pieces"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-10/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
