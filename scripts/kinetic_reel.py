@@ -44,7 +44,7 @@ def remap_words(metadata_path, removed_intervals, audio_duration):
 
 
 AMOUNTS = {
-    'दो': 2, 'तीन': 3, 'चार': 4, 'पाँच': 5, 'पांच': 5,
+    'एक': 1, 'दो': 2, 'तीन': 3, 'चार': 4, 'पाँच': 5, 'पांच': 5,
     'छह': 6, 'सात': 7, 'आठ': 8, 'नौ': 9, 'दस': 10,
     'बीस': 20, 'तीस': 30, 'चालीस': 40, 'पचास': 50,
     'साठ': 60, 'सत्तर': 70, 'अस्सी': 80, 'नब्बे': 90,
@@ -65,6 +65,18 @@ def readable_words(words):
         if (len(raw) >= 3 and raw[0] in AMOUNTS and raw[1] == 'गुणा'
                 and raw[2] in AMOUNTS):
             count, label = 3, f"{AMOUNTS[raw[0]]:,} × ₹{AMOUNTS[raw[2]]:,}"
+        elif (len(raw) >= 2 and raw[0] in AMOUNTS and 1 <= AMOUNTS[raw[0]] <= 9
+              and raw[1] == 'सौ'):
+            value = AMOUNTS[raw[0]] * 100
+            count = 2
+            if len(raw) >= 3 and raw[2] in AMOUNTS and 10 <= AMOUNTS[raw[2]] < 100:
+                value += AMOUNTS[raw[2]]
+                count = 3
+            if len(raw) > count and raw[count] in ('रुपये', 'रुपए'):
+                count += 1
+                label = f"₹{value:,}"
+            else:
+                label = f"{value:,}"
         elif (len(raw) >= 2 and raw[0] in AMOUNTS and raw[1] in ('हज़ार', 'हजार', 'लाख')):
             value = AMOUNTS[raw[0]] * (100_000 if raw[1] == 'लाख' else 1_000)
             count = 2
