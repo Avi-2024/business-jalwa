@@ -1,0 +1,42 @@
+{
+  "date": "2027-01-06",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Printer aur cartridge model mein one-time sale aur repeat consumable sales ka farq",
+  "caption": "Printer ki sale ek baar ho sakti hai; ink ki need dobara aa sakti hai. 🖨️\n\nIllustrative example: customer ne ₹5,000 ka printer kharida. Baad mein compatible cartridge ₹600 mein kharid sakta hai. Yeh do alag sales hain. Repeat cartridge purchase guaranteed nahi: customer ki printing volume, compatible options aur service experience matter karte hain. ₹5,000 + ₹600 ko ek hi sale ya profit mat samjho; costs alag hain.\n\nSmall shop lesson: printer ke saath replacement cost aur compatible cartridge model clearly explain karo. Follow-up mein customer ko sahi consumable milna chahiye.\n\n#BusinessJalwa #SmallBusinessIndia #BusinessModels #PrinterBusiness #CustomerExperience",
+  "scenes": [
+    {
+      "visual": "Indian office-supply shopkeeper demonstrates a generic desktop printer to a small-office customer",
+      "narration": "एक दुकान प्रिंटर बेचती है। क्या उसकी कमाई सिर्फ उस मशीन की एक बार की बिक्री से आती है? ग्राहक बाद में इंक भी खरीद सकता है। इस मॉडल में पहला प्रोडक्ट और बाद का कंज़्यूमेबल अलग बिक्री हैं।",
+      "question": "Printer ke baad kya?",
+      "answer": "Ink ki need aa sakti hai"
+    },
+    {
+      "visual": "Customer carries boxed generic printer home while shopkeeper remains at store",
+      "narration": "मान लो प्रिंटर पाँच हज़ार रुपये में बिका। यह पहली सेल है। इस रकम को मुनाफा मत समझो; मशीन खरीदने और दुकान चलाने की लागत भी होती है।",
+      "question": "₹5,000 printer sale?",
+      "answer": "Ek sale, profit nahi"
+    },
+    {
+      "visual": "Small-office owner notices low ink after using printer for documents",
+      "narration": "कुछ समय बाद इंक कम होती है। ग्राहक को संगत कार्ट्रिज चाहिए। मान लो वह छह सौ रुपये का कार्ट्रिज खरीदता है। यह नई सेल है, पुराने प्रिंटर बिल का हिस्सा नहीं।",
+      "question": "₹600 cartridge?",
+      "answer": "Alag repeat sale"
+    },
+    {
+      "visual": "Shopkeeper checks customer's printer cartridge compatibility and shows different cartridge options",
+      "narration": "लेकिन ग्राहक उसी दुकान से दोबारा खरीदेगा, यह तय नहीं। प्रिंटिंग कितनी होती है, दूसरा विकल्प क्या है, और सही कार्ट्रिज मिलता है या नहीं—सब फर्क डालते हैं।",
+      "question": "Repeat guaranteed hai?",
+      "answer": "Nahi, value deni hogi"
+    },
+    {
+      "visual": "Customer installs a compatible new cartridge and prints successfully in small office",
+      "narration": "छोटे दुकानदार के लिए सीख: प्रिंटर बेचते समय इंक की चलती लागत और सही मॉडल साफ बताओ। बाद में सही कंज़्यूमेबल उपलब्ध रखो। पहली सेल और लौटकर आई सेल अलग ट्रैक करो।",
+      "question": "Aaj kya track karein?",
+      "answer": "First aur repeat sale"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-06/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
