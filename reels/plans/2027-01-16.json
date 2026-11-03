@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-16",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Mixer repair shop mein estimate badalne se pehle customer approval lena",
+  "caption": "Mixer repair ka ₹600 estimate, final bill ₹900? 🔧\n\nIllustrative example: pehle ₹600 ka kaam estimate hua. Inspection mein ek aur ₹300 ka part zaroori nikla. Ab revised total ₹900 customer ko batakar approval lo; bina poochhe extra kaam aur charge mat jodo. Actual parts, labour, diagnosis fee aur warranty ki terms shop ke hisaab se alag hongi.\n\nRepair shuru karne se pehle scope aur estimate likho. Nayi problem mile to part, extra cost aur revised total clear karo; customer ke yes ke baad hi aage badho. Isse bill samajhna aur kaam track karna dono easy hota hai.\n\n#BusinessJalwa #RepairShop #SmallBusinessIndia #CustomerTrust #ServicePricing",
+  "scenes": [
+    {
+      "visual": "Customer at appliance repair counter questions a changed mixer-grinder repair bill",
+      "narration": "मिक्सर का छह सौ का अनुमान, बिल नौ सौ कैसे? ग्राहक का सवाल ठीक है। मशीन खोलने पर नई खराबी दिख सकती है। लेकिन अतिरिक्त काम शुरू करने से पहले बदली हुई कीमत बताना ज़रूरी है।",
+      "question": "₹600 se ₹900 kyun?",
+      "answer": "Pehle approval lo"
+    },
+    {
+      "visual": "Technician checks mixer-grinder base and jar with a multimeter",
+      "narration": "मान लो शुरुआत में एक पार्ट और मेहनत मिलाकर छह सौ रुपये का अनुमान दिया। लिखो कि कौन सा काम होगा, खर्च कितना है और जांच का अलग शुल्क है या नहीं। ग्राहक को दायरा पहले समझ आना चाहिए।",
+      "question": "Pehla estimate kya?",
+      "answer": "Scope aur cost likho"
+    },
+    {
+      "visual": "Technician shows customer the additional damaged mixer component",
+      "narration": "जांच में दूसरा पार्ट खराब मिला। उसे बदलने में तीन सौ रुपये और लगेंगे। अब ग्राहक को नया पार्ट, उसकी वजह और नया कुल खर्च समझाओ: इस उदाहरण में नौ सौ रुपये। पुराना अनुमान खुद से नहीं बदलता।",
+      "question": "Naya part mila?",
+      "answer": "Revised total ₹900"
+    },
+    {
+      "visual": "Repair shop owner discusses revised estimate with customer before extra work",
+      "narration": "पूछो: क्या नई कीमत पर मरम्मत जारी रखें? जवाब संदेश या पर्ची पर दर्ज करो। ग्राहक मना करे, तो पहले मंज़ूर हुई जांच या काम की शर्तों के मुताबिक हिसाब बताओ। बिना मंज़ूरी अतिरिक्त पार्ट मत लगाओ।",
+      "question": "Kaam kab badhe?",
+      "answer": "Yes ke baad hi"
+    },
+    {
+      "visual": "Repaired mixer-grinder is safely tested and returned with a clear receipt",
+      "narration": "वापसी पर बिल में पार्ट, मेहनत और पहले बताई जांच का शुल्क अलग दिखाओ। जो वारंटी सच में देते हो, वही बताओ। छोटा नियम: अनुमान बदले, तो ग्राहक की मंज़ूरी भी नई लो। भरोसा इसी स्पष्टता से बनता है।",
+      "question": "Final bill kaisa?",
+      "answer": "Clear breakdown do"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-16/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
