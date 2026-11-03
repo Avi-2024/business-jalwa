@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-22",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Custom furniture order mein sofa banane se pehle room aur delivery-route measurements confirm karna",
+  "caption": "7-foot sofa, 6-foot wall—measurement kisne check ki? 🛋️\n\nIllustrative example: customer jis wall par sofa rakhna chahta hai woh 6 feet lambi hai, lekin selected design 7 feet ka hai. Planned placement mein 1 foot ka gap hai. Wood cut hone se pehle room ka usable space, doorway, stairs/lift aur assembled furniture ke dimensions saath verify karo. Entry ka decision sirf ek width dekhkar mat lo; turns, packaging aur assembly method bhi matter karte hain.\n\nFinal drawing, dimensions aur delivery route customer se confirm karo. Jahan possible ho, modular design ya room ke hisaab se revised size offer karo. Rework aur surprise ko booking stage par hi reduce kiya ja sakta hai.\n\n#BusinessJalwa #FurnitureBusiness #SmallBusinessIndia #CustomOrders #Operations",
+  "scenes": [
+    {
+      "visual": "Furniture maker shows a large sofa drawing beside a shorter living-room wall",
+      "narration": "सात फुट का सोफ़ा, लेकिन जहाँ रखना है वह दीवार सिर्फ छह फुट? कारीगर ने लकड़ी काट दी तो बदलाव महँगा और मुश्किल हो सकता है। इसलिए ऑर्डर लेते समय डिज़ाइन के साथ जगह भी नापनी होगी।",
+      "question": "7 ft sofa, 6 ft wall?",
+      "answer": "Space pehle naap"
+    },
+    {
+      "visual": "Customer and furniture maker measure clear wall space in an Indian living room",
+      "narration": "यह एक उदाहरण है। ग्राहक के कमरे में चुनी हुई दीवार छह फुट लंबी है, और सोफ़े का प्रस्तावित आकार सात फुट। तय जगह के लिए एक फुट की कमी है। सिर्फ कैटलॉग की तस्वीर देखकर आकार पक्का मत करो।",
+      "question": "Gap kitna hai?",
+      "answer": "1 foot mismatch"
+    },
+    {
+      "visual": "Furniture maker checks doorway and staircase with measuring tape and sketches",
+      "narration": "फिर डिलीवरी का पूरा रास्ता देखो: मुख्य दरवाज़ा, मोड़, सीढ़ियाँ या लिफ्ट। केवल दरवाज़े की चौड़ाई से फिट होने का फैसला नहीं होता। फर्नीचर का आकार, घुमाने की जगह और असेंबली भी मायने रखते हैं।",
+      "question": "Andar kaise jayega?",
+      "answer": "Route bhi check"
+    },
+    {
+      "visual": "Carpenter and customer review revised modular sofa sketch before cutting wood",
+      "narration": "कटिंग से पहले ग्राहक के साथ अंतिम माप और ड्रॉइंग कन्फर्म करो। जरूरत हो तो छोटा आकार या अलग हिस्सों में बनने वाला डिज़ाइन दिखाओ। जो विकल्प संभव हो, उसकी कीमत और समय भी पहले साफ कर दो।",
+      "question": "Cutting se pehle kya?",
+      "answer": "Final drawing approve"
+    },
+    {
+      "visual": "Furniture maker delivers well-fitted modular sofa into the intended room",
+      "narration": "टेकअवे: कस्टम ऑर्डर में तीन चीज़ें साथ मिलाओ—फर्नीचर का आकार, कमरे की जगह, और पहुँचने का रास्ता। इन मापों को लिखकर ग्राहक से सहमति लो। तब कारीगर का काम और ग्राहक की उम्मीद एक ही प्लान पर होंगे।",
+      "question": "Order ka rule?",
+      "answer": "3 measures confirm"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-22/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
