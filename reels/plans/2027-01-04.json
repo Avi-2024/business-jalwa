@@ -1,0 +1,42 @@
+{
+  "date": "2027-01-04",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Power-tool rental mein refundable deposit aur rental fee ko alag track karna",
+  "caption": "Customer se ₹1,300 mile, kya poora amount business ki kamai hai? 🔧\n\nIllustrative one-day drill rental: rental fee ₹300, refundable security deposit ₹1,000. Cash received ₹1,300, lekin ₹1,000 customer ko return karne ki obligation hai. Tool sahi condition mein wapas aane par agreed terms ke mutabik deposit refund karo. Rental service complete hone par ₹300 fee ko apni earned rental income se jodo; expenses aur tax treatment alag cheezein hain. Agar damage ya late return ho, koi deduction sirf pehle se clear terms aur documented inspection ke mutabik samjhao.\n\nAaj rental register mein fee, deposit, return date aur refund alag columns banao.\n\nGeneral accounting reference: https://www.ifrs.org/content/dam/ifrs/supporting-implementation/smes/2025-modules/module-23.pdf\n\n#BusinessJalwa #SmallBusinessIndia #ToolRental #CashFlow #BusinessBasics",
+  "scenes": [
+    {
+      "visual": "Indian tool-rental owner shows an electric drill to a customer at a neighborhood shop",
+      "narration": "ड्रिल किराये पर देने वाला दुकानदार ग्राहक से तेरह सौ रुपये लेता है। क्या पूरी रकम उसकी कमाई है? नहीं। रेंटल फीस और वापस होने वाली सिक्योरिटी डिपॉज़िट अलग हैं।",
+      "question": "₹1,300 mile, sab income?",
+      "answer": "Fee aur deposit alag"
+    },
+    {
+      "visual": "Owner and customer inspect drill, bits and carrying case before handover",
+      "narration": "मान लो एक दिन का किराया तीन सौ रुपये है और डिपॉज़िट एक हज़ार रुपये। दोनों मिलकर तेरह सौ रुपये कैश आए। लेकिन एक हज़ार ग्राहक को लौटाना पड़ सकता है।",
+      "question": "₹300 + ₹1,000?",
+      "answer": "Cash received ₹1,300"
+    },
+    {
+      "visual": "Shop owner separates rental-fee and refundable-deposit records while receiving payment",
+      "narration": "रजिस्टर में तीन सौ की रेंटल फीस और एक हज़ार की रिफंडेबल डिपॉज़िट अलग लिखो। सिर्फ बैंक में पैसा आने से डिपॉज़िट रेवेन्यू नहीं बन जाती। वापसी की ज़िम्मेदारी भी साथ आती है।",
+      "question": "Deposit ko kaise likhein?",
+      "answer": "Refundable alag track"
+    },
+    {
+      "visual": "Customer returns drill and owner checks body, bits and case condition",
+      "narration": "जब ड्रिल वापस आए, पहले से तय शर्तों के हिसाब से हालत देखो। सब ठीक हो, तो डिपॉज़िट लौटा दो। नुकसान या देरी पर कटौती हो, तो उसकी वजह साफ दर्ज करो।",
+      "question": "Return par kya karein?",
+      "answer": "Inspect, phir refund"
+    },
+    {
+      "visual": "Owner refunds deposit to customer at counter after successful tool return",
+      "narration": "किराये की सेवा पूरी होने पर रेंटल फीस को कमाई में गिनो; खर्च और टैक्स का हिसाब अलग है। आज चार चीजें दर्ज करने का सिस्टम बनाओ: फीस, डिपॉज़िट, वापसी और रिफंड।",
+      "question": "Aaj kya track karein?",
+      "answer": "Fee, deposit, refund"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-04/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
