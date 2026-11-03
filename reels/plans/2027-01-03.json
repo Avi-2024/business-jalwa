@@ -1,0 +1,42 @@
+{
+  "date": "2027-01-03",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Courier parcel mein actual aur volumetric weight ka farq",
+  "caption": "Halka parcel bhi courier mein mehenga kyun pad sakta hai? 📦\n\nIllustrative example: actual weight 2 kg hai, lekin box 40 × 30 × 20 cm ka hai. Agar carrier ka divisor 5,000 ho, volumetric weight 4.8 kg banta hai. Kuch carriers rate ke liye actual aur volumetric weight mein jo zyada ho use lete hain. Final bill carrier ke divisor, rounding, service, destination aur extra charges par depend karega.\n\nPacking se pehle product ki safety banaye rakhte hue sahi size ka box chuno; quote dete waqt weight ke saath dimensions bhi check karo.\n\nSource for illustrative carrier method: https://dct.dhl.com/help\n\n#BusinessJalwa #SmallBusinessIndia #CourierBusiness #ShippingCosts #Operations",
+  "scenes": [
+    {
+      "visual": "Indian home-decor seller packs one lightweight cushion in a large cardboard box",
+      "narration": "बॉक्स बड़ा है, लेकिन अंदर का कुशन हल्का। दो किलो वज़न देखकर शिपिंग चार्ज तय कर दिया, फिर बिल ज़्यादा आया। कई कूरियर असली वज़न के साथ बॉक्स के आकार से निकला वज़न भी देखते हैं।",
+      "question": "Halka parcel, high bill?",
+      "answer": "Box size bhi dekho"
+    },
+    {
+      "visual": "Courier clerk weighs the sealed cushion parcel on a scale",
+      "narration": "तराज़ू पर जो दिखे, वह एक्चुअल वेट है। हमारे उदाहरण में दो किलो। अब बॉक्स की लंबाई, चौड़ाई और ऊँचाई नापो। ये तीन माप वॉल्यूमेट्रिक वेट निकालने के काम आते हैं।",
+      "question": "Actual weight kya?",
+      "answer": "Scale par 2 kg"
+    },
+    {
+      "visual": "Courier clerk measures parcel length and width with a tape at dispatch counter",
+      "narration": "मान लो बॉक्स चालीस बाय तीस बाय बीस सेंटीमीटर है। इस उदाहरण में डिवाइज़र पाँच हज़ार है। तीनों माप गुणा करके पाँच हज़ार से भाग दो, तो वॉल्यूमेट्रिक वेट चार दशमलव आठ किलो बनता है।",
+      "question": "40 × 30 × 20 ÷ 5000?",
+      "answer": "4.8 kg volumetric"
+    },
+    {
+      "visual": "Courier clerk explains height measurement and compares parcel dimensions with seller",
+      "narration": "अब दो किलो एक्चुअल और चार दशमलव आठ किलो वॉल्यूमेट्रिक वेट की तुलना करो। इस कूरियर नियम में बड़ा नंबर रेट का आधार है। लेकिन हर सर्विस का डिवाइज़र और राउंडिंग नियम जाँचो।",
+      "question": "2 kg ya 4.8 kg?",
+      "answer": "Carrier rule check karo"
+    },
+    {
+      "visual": "Seller chooses a well-fitted protective box and hands it to courier clerk",
+      "narration": "अगली बार कोट देने से पहले वज़न और बॉक्स के तीनों माप लिखो। सामान सुरक्षित रहे, ऐसा सही साइज़ का बॉक्स चुनो। फाइनल चार्ज में सर्विस, दूरी और दूसरे शुल्क भी देखना ज़रूरी है।",
+      "question": "Quote se pehle kya?",
+      "answer": "Weight + dimensions note"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-03/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
