@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-18",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Footwear shop mein size exchange ko do stock movements se sahi record karna",
+  "caption": "Shoe exchange ke baad stock ek pair zyada kyun dikh raha hai? 👟\n\nIllustrative example: size 8 ke 10 pairs the. Ek sale par 9 bache. Customer ne fit ke liye size 9 se exchange kiya; pehle returned pair ki condition check karo. Sellable ho to size 8 mein 1 pair wapas add karo, aur diya gaya size 9 pair uske stock se 1 minus karo. Worn ya damaged pair ko sellable stock mein mat daalo.\n\nExchange ko nayi sale ya simple return maan kar dono entries chhod doge to size-wise count bigad sakta hai. Date, original bill, returned item condition, replacement size aur price difference record karo. Store ki exchange terms pehle clear rakho.\n\n#BusinessJalwa #FootwearRetail #SmallBusinessIndia #Inventory #CustomerService",
+  "scenes": [
+    {
+      "visual": "Shoe shop owner puzzled by an exchange while customer holds returned sneakers",
+      "narration": "एक जूते का साइज़ बदला, स्टॉक में एक जोड़ी ज़्यादा कैसे दिखी? एक्सचेंज में पुराना सामान वापस आता है और नया बाहर जाता है। अगर सिर्फ एक तरफ की एंट्री हुई, तो साइज़ के हिसाब से गिनती गलत हो सकती है।",
+      "question": "Exchange mein stock badha?",
+      "answer": "Do entries chahiye"
+    },
+    {
+      "visual": "Shopkeeper checks returned shoe sole and condition before restocking",
+      "narration": "मान लो साइज़ आठ के दस जोड़े थे। एक जोड़ी बिकी, तो नौ बचे। ग्राहक उसे बदलने लौटा। पहले जूते की हालत देखो। बेचने लायक हो तभी उस साइज़ के स्टॉक में वापस जोड़ो; खराब हो तो अलग रखो।",
+      "question": "Returned pair sellable?",
+      "answer": "Condition pehle check"
+    },
+    {
+      "visual": "Assistant finds replacement shoe size in the stockroom",
+      "narration": "अब ग्राहक को साइज़ नौ की जोड़ी दी जा रही है। इसे साइज़ नौ के स्टॉक से घटाओ। इस उदाहरण में वापस आया साइज़ आठ, जांच के बाद, नौ से दस हुआ; साइज़ नौ में एक जोड़ी कम हुई।",
+      "question": "Naya pair kahan gaya?",
+      "answer": "Replacement size minus"
+    },
+    {
+      "visual": "Owner records exchange and customer tries replacement shoes on fitting bench",
+      "narration": "एक्सचेंज की पर्ची में पुराना बिल, लौटे जूते की हालत, नया साइज़ और कोई कीमत का अंतर लिखो। इसे बिना वजह दूसरी पूरी बिक्री मत गिनो। दुकान की एक्सचेंज शर्तें ग्राहक को पहले बताना भी ज़रूरी है।",
+      "question": "Slip mein kya likhein?",
+      "answer": "Dono items aur difference"
+    },
+    {
+      "visual": "Owner hands replacement shoes to satisfied customer with ledger open",
+      "narration": "दिन खत्म होने से पहले दोनों साइज़ की वास्तविक जोड़ी गिन लो। रिकॉर्ड और शेल्फ मिलें, तभी अगला ऑर्डर सही तय होगा। सरल नियम याद रखो: एक्सचेंज में लौटे सामान और दिए सामान की अलग-अलग स्टॉक एंट्री होती है।",
+      "question": "Final check kya?",
+      "answer": "Shelf aur record milao"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-18/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
