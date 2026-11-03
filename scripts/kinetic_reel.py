@@ -319,8 +319,7 @@ def render_scene(scene, index, duration, narration, words, clip):
         for frame in range(frames):
             t = frame / FPS
             image = base.copy().convert('RGBA')
-            visual_index = (index + int(t / 3.5)) % len(VISUALS)
-            cutout, cutout_position = visual_layer(visual_index, t, scene)
+            cutout, cutout_position = visual_layer(index, t, scene)
             image.alpha_composite(cutout, cutout_position)
             group_index = bisect.bisect_right(starts, t) - 1
             if group_index >= 0:

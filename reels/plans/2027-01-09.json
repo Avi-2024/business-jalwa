@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-09",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Sabzi stall ki cash aur digital sales ka daily reconciliation",
+  "caption": "Dukaan band hote waqt galle ki rakam ko poore din ki sales se seedha compare karoge, to digital payments missing lag sakte hain. 🥕📒\n\nIllustrative example: ₹800 cash sales + ₹1,200 digital sales = ₹2,000 total sales. Agar subah galla khaali tha, beech mein cash nikala nahi aur shaam ko ₹750 mile, to ₹50 ka farq investigate karo. Digital payments ko successful transaction record se alag milao; bank credit ka time provider ke hisaab se badal sakta hai.\n\nRoz cash, digital aur galle se nikle kharch alag likho. Farq usi din trace karo; bina check kiye use loss mat maano.\n\n#BusinessJalwa #SmallBusinessIndia #CashReconciliation #UPI #RetailOperations",
+  "scenes": [
+    {
+      "visual": "Vegetable vendor hands tomatoes in paper bag to phone-paying customer",
+      "narration": "शाम को सब्ज़ी की दुकान बंद हुई। गल्ले में सात सौ पचास रुपये हैं, लेकिन दिन की बिक्री दो हज़ार रुपये लिखी है। क्या पैसे कम हो गए? पहले नकद और डिजिटल बिक्री को अलग देखो।",
+      "question": "Sales aur galla alag?",
+      "answer": "Payment mode dekho"
+    },
+    {
+      "visual": "Elderly customer pays cash for leafy greens at the vegetable stall",
+      "narration": "मान लो आज की कुल बिक्री में आठ सौ रुपये नकद और बारह सौ रुपये डिजिटल थे। आठ सौ और बारह सौ मिलाकर दो हज़ार होते हैं। यह सिर्फ समझाने वाला उदाहरण है; हर दुकान के आंकड़े अलग होंगे।",
+      "question": "Total sales kitni?",
+      "answer": "Cash + digital = ₹2,000"
+    },
+    {
+      "visual": "Vendor puts notes and coins in wooden cash box beside tomatoes",
+      "narration": "अब गल्ले में सात सौ पचास हैं। अगर सुबह गल्ला खाली था और दिन में नकद निकाला नहीं गया, तो नकद बिक्री से पचास कम हैं। खुले पैसे, उधारी या छूटी हुई एंट्री जांचो। अनुमान से घाटा मत लिखो।",
+      "question": "₹50 ka farq kyun?",
+      "answer": "Cash entries milao"
+    },
+    {
+      "visual": "Vendor checks blank phone beside payment speaker and carrots",
+      "narration": "डिजिटल के बारह सौ रुपये फोन की ट्रांज़ैक्शन सूची से एक-एक कर मिलाओ। सफल पेमेंट और सिर्फ स्क्रीनशॉट में फर्क है। बैंक में कब पहुंचे, वह स्टेटमेंट से जांचो। अलग सेवा में समय बदल सकता है।",
+      "question": "UPI kaise milayein?",
+      "answer": "Successful record dekho"
+    },
+    {
+      "visual": "Vendor and helper compare blank notebooks among vegetable crates at closing time",
+      "narration": "रोज़ दुकान बंद करते वक्त नकद बिक्री, डिजिटल बिक्री और गल्ले से निकला खर्च अलग लिखो। फिर गल्ले की रकम और डिजिटल रिकॉर्ड मिलाओ। फर्क दिखे तो उसी दिन वजह नोट करो। साफ हिसाब, बेहतर फैसला।",
+      "question": "Roz kya likhein?",
+      "answer": "Cash, digital, kharch"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-09/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
