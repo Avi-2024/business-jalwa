@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-07",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Tile shop mein floor area aur cutting buffer ko alag samajhna",
+  "caption": "100 sq ft floor ke liye 100 sq ft tiles hi order karoge? 🧱\n\nIllustrative example: room ka net flooring area 100 sq ft hai. Doorway aur edges par cutting, design pattern aur breakage ki wajah se order quantity zyada ho sakti hai. Agar installer is project ke liye 10% buffer suggest kare, estimate 110 sq ft hoga: 100 × 1.10 = 110. Yeh universal rule nahi; tile size, layout aur site measurement ke hisaab se buffer badalta hai. Carton coverage aur returns policy bhi check karo.\n\nSmall business lesson: customer ko measured floor area, suggested buffer aur final order quantity alag-alag batao. Clear estimate se shortage aur extra stock dono samajh aate hain.\n\n#BusinessJalwa #SmallBusinessIndia #TileBusiness #FlooringEstimate #BusinessBasics",
+  "scenes": [
+    {
+      "visual": "Tile shop owner and customer review a blank room layout before ordering",
+      "narration": "टाइल की दुकान में ग्राहक पूछता है: मेरे कमरे का फ़र्श सौ वर्ग फ़ुट है, तो क्या सौ वर्ग फ़ुट टाइल ही काफ़ी होगी? ज़रूरी नहीं। फ़र्श का नापा हुआ एरिया और खरीदी जाने वाली मात्रा अलग हो सकती है।",
+      "question": "100 sq ft floor?",
+      "answer": "Order alag ho sakta hai"
+    },
+    {
+      "visual": "Installer measures the actual empty room and doorway edges",
+      "narration": "पहले कमरे की सही नाप लो। मान लो लगाने वाला एरिया सौ वर्ग फ़ुट निकला। यह नेट फ़्लोर एरिया है। अब दरवाज़े के कोने और दीवार के किनारे देखो, जहाँ टाइल काटनी पड़ सकती है।",
+      "question": "Pehle kya naapna hai?",
+      "answer": "Net floor area"
+    },
+    {
+      "visual": "Shop owner and customer compare tile size and layout samples on counter",
+      "narration": "कटिंग में कुछ हिस्सा इस्तेमाल नहीं होता। पैटर्न, टाइल के साइज़ और बिछाने के तरीके से अतिरिक्त मात्रा बदलती है। इसलिए हर प्रोजेक्ट पर एक ही प्रतिशत लगाना सही नहीं; साइट और लेआउट देखकर तय करो।",
+      "question": "Buffer fixed hai?",
+      "answer": "Layout par depend karta hai"
+    },
+    {
+      "visual": "Worker safely cuts tile around a doorway and saves useful offcuts",
+      "narration": "सिर्फ समझाने के लिए मान लो इस काम में दस प्रतिशत बफ़र चाहिए। सौ वर्ग फ़ुट में दस प्रतिशत जोड़ोगे तो ऑर्डर का अनुमान एक सौ दस वर्ग फ़ुट होगा। यह उदाहरण है, पक्का नियम नहीं।",
+      "question": "100 + 10% kitna?",
+      "answer": "110 sq ft estimate"
+    },
+    {
+      "visual": "Customer and installer inspect finished tiled floor with spare carton nearby",
+      "narration": "दुकानदार की सीख: नापा हुआ एरिया, कटिंग बफ़र और फ़ाइनल ऑर्डर अलग बताओ। कार्टन में कितनी टाइल आती है, और बची टाइल लौट सकती है या नहीं, यह भी पहले साफ करो।",
+      "question": "Quote mein kya dikhayein?",
+      "answer": "Area, buffer, order"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-07/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
