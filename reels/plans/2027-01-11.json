@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-11",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Cloud kitchen mein do riders ke beech wrong order bag handoff kaise rokein",
+  "caption": "Do riders ek saath pickup par aaye aur counter par do similar bags rakhe hain. Galat bag nikal gaya to customer ko wrong meal milega. 🍱\n\nIllustrative example: ek order veg thali ka, doosra paneer wrap ka. Pehle har bag ki contents ko order ticket se milao, phir sealed bag ka order ID rider ke app par dikh rahe pickup ID se match karo. Rang ki dori sirf visual cue hai; final check ID aur items ka hi hai. Handover ke baad record mark karo.\n\nCloud kitchen takeaway: packing aur dispatch ko do alag checks banao. Rush mein bhi bag ko sirf rider ke haath badhaane par mat de do.\n\n#BusinessJalwa #CloudKitchen #SmallBusinessIndia #OrderAccuracy #Operations",
+  "scenes": [
+    {
+      "visual": "Two delivery riders reach for two similar takeaway bags at cloud kitchen pickup counter while owner stops them",
+      "narration": "दो राइडर एक साथ आए, दो एक जैसे बैग रखे थे। गलत बैग किसे जाएगा? क्लाउड किचन में यह छोटी सी जल्दी ग्राहक को गलत खाना पहुंचा सकती है। पहले पैकिंग और फिर हैंडओवर, दोनों पर अलग चेक चाहिए।",
+      "question": "Do riders, wrong bag?",
+      "answer": "Handover se pehle check"
+    },
+    {
+      "visual": "Cook packs a vegetarian thali with rice dal and chapati in one leakproof meal container",
+      "narration": "मान लो एक ऑर्डर वेज थाली का है। कुक खाना पैक करते समय ऑर्डर टिकट से आइटम और मात्रा मिलाए। कंटेनर बंद हो, जरूरत हो तो रिसाव भी जांचो। यह पैकिंग चेक है; अभी राइडर को बैग नहीं देना।",
+      "question": "Pehla check kya?",
+      "answer": "Items aur quantity"
+    },
+    {
+      "visual": "Cook packs a paneer wrap and salad in separate meal container",
+      "narration": "दूसरा ऑर्डर पनीर रैप का है। दोनों बैग दिखने में मिलते-जुलते हैं, इसलिए सिर्फ खाने की शक्ल या रंगीन डोरी पर भरोसा मत करो। हर पैक्ड बैग के साथ सही ऑर्डर पहचान जुड़ी होनी चाहिए।",
+      "question": "Similar bags ka risk?",
+      "answer": "Order ID lagao"
+    },
+    {
+      "visual": "Kitchen owner compares two blank order tickets and two sealed bags with distinct ties",
+      "narration": "अब डिस्पैच चेक करो। बैग पर लगी ऑर्डर पहचान और अंदर की पैकिंग टिकट एक ही ऑर्डर की हों। अगर कोई आइटम बदला गया है, तो रिकॉर्ड में उसे साफ करो। सील लगने के बाद भी टिकट मैच करना जरूरी है।",
+      "question": "Dispatch par kya mile?",
+      "answer": "Bag aur ticket"
+    },
+    {
+      "visual": "Owner matches rider phone pickup screen to designated bag before handing separate bags to two riders",
+      "narration": "राइडर से उसके ऐप पर पिकअप ऑर्डर की पहचान दिखाने को कहो। वही पहचान बैग से मिलाओ, फिर सही बैग सौंपकर हैंडओवर दर्ज करो। रंगीन डोरी बस जल्दी पहचानने का संकेत है; अंतिम फैसला ऑर्डर रिकॉर्ड से करो।",
+      "question": "Rider ko kab dein?",
+      "answer": "ID match, phir handover"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-11/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
