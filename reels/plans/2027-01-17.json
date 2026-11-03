@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-17",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Tiffin subscription mein advance pause aur delivery-based billing ko clear rakhna",
+  "caption": "7 din ka tiffin plan, 2 din customer bahar: bill kitna? 🍱\n\nIllustrative example: ₹100 per delivered day, 7 days ka plan ₹700. Agar customer agreed cutoff se pehle 2 din pause batata hai aur un dinon ka khana banta ya deliver nahi hota, to agreed per-day model mein 5 delivered days ₹500 hote hain. Prepaid ₹700 mein bache ₹200 ko agreed policy ke mutabik credit ya refund karo. Yeh example hai; har service apni pause deadline, minimum plan aur charges pehle clear kare.\n\nSimple delivery log rakho: date, active/pause, meal prepared, delivered, aur payment adjustment. Pauses aur missed deliveries ko ek jaisa mat samjho.\n\n#BusinessJalwa #TiffinService #SmallBusinessIndia #SubscriptionBusiness #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Tiffin business owner checks a week's lunchboxes while a regular customer is away",
+      "narration": "सात दिन का टिफिन प्लान, ग्राहक दो दिन बाहर। बिल कितना? जवाब आपकी पहले से बताई पॉज़ पॉलिसी पर निर्भर है। बिना रिकॉर्ड के ग्राहक और किचन, दोनों अलग-अलग दिन गिन सकते हैं। चलो एक आसान उदाहरण देखते हैं।",
+      "question": "2 din skip, bill kitna?",
+      "answer": "Policy pe depend"
+    },
+    {
+      "visual": "Office customer sends pause request on phone before meal preparation",
+      "narration": "मान लो रोज़ के टिफिन का शुल्क सौ रुपये है। सात दिन की रकम सात सौ रुपये बनती है। ग्राहक ने तय समय से पहले दो दिन रोकने को कहा, और उन दिनों का खाना बना या भेजा नहीं गया।",
+      "question": "Pause kab bataya?",
+      "answer": "Cutoff se pehle"
+    },
+    {
+      "visual": "Kitchen manager checks blank delivery calendar and sets aside containers for paused days",
+      "narration": "अगर आपका मॉडल केवल डिलीवर हुए दिनों का शुल्क लेता है, तो यहाँ पाँच दिन गिनेंगे। पाँच गुना सौ, यानी पाँच सौ रुपये। यह सिर्फ उदाहरण है; न्यूनतम प्लान या अलग नियम हों, तो पहले से साफ बताओ।",
+      "question": "Billable din kitne?",
+      "answer": "5 din, ₹500"
+    },
+    {
+      "visual": "Cook prepares meals only for active customers; delivery rider hands active-day tiffin to office worker",
+      "narration": "अगर ग्राहक सात सौ रुपये पहले दे चुका है, तो बचे दो सौ रुपये का क्या होगा? अपनी बताई शर्त के अनुसार अगले प्लान में क्रेडिट या रिफंड करो। बिना सहमति चुपचाप पूरी रकम रख लेना विवाद पैदा कर सकता है।",
+      "question": "₹200 ka kya?",
+      "answer": "Credit ya refund policy"
+    },
+    {
+      "visual": "Owner and customer review a blank delivery ledger and settle the account",
+      "narration": "रोज़ एक लाइन लिखो: कौन सा दिन एक्टिव था, किस दिन पॉज़ मिला, खाना बना या नहीं, और डिलीवरी हुई या नहीं। फिर बिल उसी रिकॉर्ड और सहमत नियम से बनाओ। ग्राहक को भी हिसाब समझ आएगा।",
+      "question": "Record kya rakhein?",
+      "answer": "Pause aur delivery log"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-17/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
