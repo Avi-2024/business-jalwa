@@ -1,0 +1,42 @@
+{
+  "date": "2027-01-05",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Pet grooming appointments mein service aur cleaning time mila kar real slot capacity",
+  "caption": "Pet grooming mein sirf bath aur trim ka time book karoge, to next customer ko wait karna pad sakta hai. 🐶\n\nIllustrative example: ek dog ki grooming 50 minutes leti hai aur table/tools reset karne mein 10 minutes. Ek booking ke liye 60-minute slot chahiye. Ek groomer ke 4 ghanton mein aise maximum 4 slots fit hote hain, woh bhi tab jab sab jobs isi estimate mein poori hon. Breed, coat, pet comfort, add-on service aur late arrival se actual time badal sakta hai.\n\nAaj har service ka actual time note karo, cleaning buffer add karo, phir availability customer ko batao. Pet ko jaldi mein handle mat karo.\n\n#BusinessJalwa #SmallBusinessIndia #PetGrooming #Appointments #BusinessOperations",
+  "scenes": [
+    {
+      "visual": "Indian pet groomer welcomes a dog and its owner at a small grooming studio",
+      "narration": "चार घंटे में कितने डॉग ग्रूमिंग अपॉइंटमेंट ले सकते हो? सिर्फ नहाने और ट्रिम का समय जोड़कर जवाब मत दो। हर पेट के बाद टेबल और टूल्स साफ करने का समय भी चाहिए।",
+      "question": "4 ghante, kitne pets?",
+      "answer": "Pehle full slot gino"
+    },
+    {
+      "visual": "Groomer gently bathes one dog in a pet wash tub",
+      "narration": "मान लो एक डॉग की ग्रूमिंग में पचास मिनट लगते हैं। फिर जगह और सामान तैयार करने में दस मिनट। यानी अगले डॉग से पहले कुल साठ मिनट का स्लॉट रखो।",
+      "question": "50 + 10 minute?",
+      "answer": "60-minute slot"
+    },
+    {
+      "visual": "Groomer dries and brushes dog on grooming table",
+      "narration": "इस उदाहरण में एक ग्रूमर के चार घंटों में ऐसे चार स्लॉट आते हैं। पाँचवाँ अपॉइंटमेंट उसी समय में भर दोगे, तो इंतज़ार बढ़ सकता है। यह क्षमता का उदाहरण है, पक्का नियम नहीं।",
+      "question": "4 ghante mein slots?",
+      "answer": "Example: 4 slots"
+    },
+    {
+      "visual": "Groomer cleans and resets table and tools between pets",
+      "narration": "हर पेट का कोट, आराम और ज़रूरी सर्विस अलग होती है। किसी को ज़्यादा समय चाहिए, तो स्लॉट बदलो। सफाई का बफर हटाकर समय पर रहने का दिखावा मत करो।",
+      "question": "Time hamesha same?",
+      "answer": "Pet ke hisaab se badle"
+    },
+    {
+      "visual": "Groomer reviews blank booking planner and hands finished dog back to happy owner",
+      "narration": "आज पिछले कुछ अपॉइंटमेंट का असली सर्विस टाइम लिखो। उसके साथ क्लीनिंग और हैंडओवर का समय जोड़ो। फिर उतने ही स्लॉट दिखाओ, जिन्हें आपकी टीम आराम से निभा सके।",
+      "question": "Aaj kya measure karein?",
+      "answer": "Service + reset time"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-05/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
