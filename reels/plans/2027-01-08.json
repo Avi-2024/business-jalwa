@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-08",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Kirana shop mein container ka tare weight alag karke net quantity bill karna",
+  "caption": "Dabba aur daal ko ek saath tolkar poora weight bill karna sahi quantity nahi batata. ⚖️\n\nIllustrative example: bhara dabba 1.2 kg hai aur khaali dabba 200 g. Net daal 1 kg hai: 1.2 kg − 0.2 kg = 1.0 kg. Agar scale ka tare function use karte ho, khaali dabba rakhkar zero set karo; warna dabbe ka weight alag tolkar ghatao. Customer ko product ka net weight aur usi par price clearly batao.\n\nSmall kirana lesson: reusable jar, tray ya bowl mein loose item tolte waqt container ko product samajhkar bill mat karo. Saaf quantity se trust banta hai.\n\n#BusinessJalwa #KiranaBusiness #SmallBusinessIndia #RetailOperations #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Kirana owner welcomes customer with empty reusable glass jar by lentil bins",
+      "narration": "किराना दुकान पर ग्राहक अपना डब्बा लेकर दाल लेने आया। दुकानवाले ने डब्बे समेत वजन देखा। सवाल है: क्या पूरा वजन दाल का है? नहीं। डब्बे का अपना वजन भी उसमें जुड़ा हुआ है।",
+      "question": "Dabba bhi tola?",
+      "answer": "Net daal alag hai"
+    },
+    {
+      "visual": "Empty reusable glass jar rests on digital scale with blank display",
+      "narration": "मान लो खाली डब्बे का वजन दो सौ ग्राम है। इसे टेयर वेट कहते हैं। अगर तराज़ू में टेयर बटन हो, तो खाली डब्बा रखकर शून्य सेट कर सकते हो। नहीं तो उसका वजन अलग लिख लो।",
+      "question": "Tare weight kya?",
+      "answer": "Khaali dabbe ka wazan"
+    },
+    {
+      "visual": "Shopkeeper pours yellow lentils into customer's jar at neighborhood store",
+      "narration": "अब डब्बे में दाल भरो। मान लो भरा डब्बा एक दशमलव दो किलो दिखाता है। यह कुल वजन है, सिर्फ दाल का नहीं। ग्राहक को बिल देने से पहले असली प्रोडक्ट वजन निकालना है।",
+      "question": "1.2 kg kis ka?",
+      "answer": "Dabba aur daal dono"
+    },
+    {
+      "visual": "Filled jar on scale beside empty jar, shopkeeper checks quantities carefully",
+      "narration": "कुल एक दशमलव दो किलो में से डब्बे के दो सौ ग्राम घटाओ। दो सौ ग्राम यानी शून्य दशमलव दो किलो। बचता है एक किलो दाल। यह बस समझाने वाला उदाहरण है।",
+      "question": "Net daal kitni?",
+      "answer": "1 kg"
+    },
+    {
+      "visual": "Shopkeeper transfers lentils into paper bag and gives clear receipt to customer",
+      "narration": "सीख सीधी है: ग्राहक से सिर्फ नेट दाल का पैसा लो। डब्बा, ट्रे या कटोरा इस्तेमाल हो, उसका वजन पहले अलग करो। बिल पर साफ मात्रा बताओ। छोटी सी सही तौल भरोसा बढ़ाती है।",
+      "question": "Bill kis par bane?",
+      "answer": "Net product weight"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-08/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
