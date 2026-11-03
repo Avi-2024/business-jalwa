@@ -123,6 +123,23 @@ def main():
     today=local.date().isoformat()
     requested_date=os.environ.get('REEL_DATE')
     force_render_only=os.environ.get('REEL_RENDER_ONLY','').lower() in ('true','1','yes')
+    rebuild_revision=None
+    # A deliberate rebuild marker repairs a future video without changing its approved plan.
+    if not requested_date and os.environ.get('GITHUB_EVENT_NAME')=='push':
+        for marker in sorted(Path('reels/rebuild').glob('????-??-??.txt')):
+            candidate=marker.stem
+            saved_path=Path(f'reels/state/{candidate}.json')
+            if candidate<=today or not saved_path.exists(): continue
+            saved=json.loads(saved_path.read_text())
+            desired=marker.read_text().strip()
+            if saved.get('video_url') and saved.get('render_revision')!=desired:
+                if saved.get('instagram_publish_requested_at') or saved.get('facebook_publish_requested_at'):
+                    raise RuntimeError('Cannot rebuild a Reel after publication starts')
+                requested_date=candidate
+                rebuild_revision=desired
+                force_render_only=True
+                print(f'Rebuilding future Reel {candidate} with {desired}')
+                break
     # On repository pushes, render the earliest future plan that has no committed video.
     if not requested_date and os.environ.get('GITHUB_EVENT_NAME')=='push':
         for plan_file in sorted(Path('reels/plans').glob('????-??-??.json')):
@@ -164,6 +181,8 @@ def main():
     signature=hashlib.sha256(json.dumps([plan,source_images],sort_keys=True).encode()).hexdigest()
     state=json.loads(statepath.read_text()) if statepath.exists() else {'date':date,'source_post_id':source_id,'signature':signature}
     if state['signature']!=signature: raise RuntimeError('Content changed after processing began')
+    if rebuild_revision:
+        state.pop('video_url',None)
     def save():
         statepath.write_text(json.dumps(state,indent=2)+'\n');checkpoint([statepath])
     ig=os.environ['IG_USER_ID'];page=os.environ['FACEBOOK_PAGE_ID']
@@ -185,7 +204,9 @@ def main():
         asyncio.run(build(post,plan,asset.parent));checkpoint([asset,planpath])
         sha=run('git','rev-parse','HEAD')
         state['video_url']=f'https://raw.githubusercontent.com/{REPO}/{sha}/{asset.as_posix()}'
-        state['created_at']=now();save()
+        state['created_at']=now()
+        if rebuild_revision: state['render_revision']=rebuild_revision
+        save()
     if render_only:
         print('Reel video rendered and committed; publishing waits until 19:00 Asia/Kolkata')
         return

@@ -19,6 +19,7 @@ on:
   push:
     paths:
       - 'reels/plans/**'
+      - 'reels/rebuild/**'
       - 'scripts/daily_reel.py'
       - 'scripts/kinetic_reel.py'
       - 'assets/reels/visual-library/**'

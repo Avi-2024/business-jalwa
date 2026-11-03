@@ -179,7 +179,7 @@ def visual_layer(index, elapsed, scene=None):
     if bounds:
         source = source.crop(bounds)
     phase = (elapsed % 3.5) / 3.5
-    scale = min(610 / source.width, 565 / source.height) * (1 + .035 * phase)
+    scale = min(610 / source.width, 440 / source.height) * (1 + .035 * phase)
     size = (max(1, round(source.width * scale)), max(1, round(source.height * scale)))
     source = source.resize(size, Image.Resampling.LANCZOS)
     x = (SIZE[0] - size[0]) // 2 + round(7 * math.sin(phase * math.pi))
