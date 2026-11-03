@@ -1,0 +1,42 @@
+{
+  "date": "2026-12-31",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Small coworking space mein hot desk aur dedicated desk ka farq aur seat inventory",
+  "caption": "Co-working space mein desk bechte waqt seat ka promise clear rakho. 💻\n\nHot desk mein member available shared seat use karta hai; dedicated desk ek member ke liye fixed rehta hai. Illustrative example: 10 usable desks hain aur 4 dedicated members ke liye reserved hain. To us waqt flexible desk pool 6 ka hai, 10 ka nahi. Availability time, booking rules aur storage ko bhi clearly explain karo. Is simple count se revenue ya profit ka conclusion nahi nikalta.\n\nAaj physical desks gino, reserved desks mark karo, aur flexible availability alag track karo.\n\n#BusinessJalwa #SmallBusinessIndia #CoworkingSpace #BusinessModels #Operations",
+  "scenes": [
+    {
+      "visual": "Indian coworking operator speaks with freelancer seeking a desk in small shared workspace",
+      "narration": "कोवर्किंग स्पेस में नया मेंबर पूछता है, मेरी सीट कौन सी होगी? हॉट डेस्क और डेडिकेटेड डेस्क का वादा अलग है। पहले यह साफ करो, ताकि आने पर सीट को लेकर गलत उम्मीद न बने।",
+      "question": "Seat fixed hogi?",
+      "answer": "Plan pe depend karega"
+    },
+    {
+      "visual": "Indian freelancers use available shared seats at a long coworking table",
+      "narration": "हॉट डेस्क में मेंबर उस समय उपलब्ध साझा सीट चुनता है। रोज वही कुर्सी मिलने का वादा नहीं होता। बुकिंग समय, मिलने वाली सुविधाएँ और जगह रखने के नियम पहले बताओ।",
+      "question": "Hot desk kya hai?",
+      "answer": "Available shared seat"
+    },
+    {
+      "visual": "Dedicated coworking member works at fixed personal desk with monitor and small plant",
+      "narration": "डेडिकेटेड डेस्क एक मेंबर के लिए तय रहती है। उसकी सीट को उसी समय हॉट डेस्क की खाली सीट मत गिनो। कौन सी डेस्क आरक्षित है, यह टीम की सूची में साफ दिखना चाहिए।",
+      "question": "Dedicated desk ka matlab?",
+      "answer": "Fixed reserved seat"
+    },
+    {
+      "visual": "Coworking operator counts physical usable desks, four reserved and six flexible, on blank floor sketch",
+      "narration": "मान लो दस इस्तेमाल लायक डेस्क हैं। चार डेडिकेटेड मेंबर के लिए आरक्षित हैं। तो उस समय फ्लेक्सिबल सीटें छह बचती हैं, दस नहीं। यह सिर्फ जगह का उदाहरण है, कमाई का हिसाब नहीं।",
+      "question": "10 desks, 4 reserved?",
+      "answer": "6 flexible desks"
+    },
+    {
+      "visual": "Operator shows available flexible seat to freelancer while dedicated member uses fixed desk",
+      "narration": "आज अपनी सभी इस्तेमाल लायक सीटें गिनो। आरक्षित सीटें अलग दिखाओ, फिर हॉट डेस्क की असली उपलब्धता लिखो। मेंबर को वही प्लान समझाओ जो उसकी जरूरत और आपकी क्षमता से मेल खाए।",
+      "question": "Aaj kya track karein?",
+      "answer": "Reserved aur flexible alag"
+    }
+  ],
+  "visual_asset": "assets/reels/2026-12-31/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
