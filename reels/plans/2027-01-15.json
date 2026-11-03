@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-15",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Flower shop mein confirmed orders aur walk-in demand se ready bouquet batch plan karna",
+  "caption": "30 bouquets subah bana diye, lekin shaam tak 10 bache? 💐\n\nIllustrative florist example: 20 confirmed orders ke bouquets reserve karo. Walk-in ke liye pehle chhota ready batch banao, baaki phool flexible stock mein rakho. Demand dikhe to next batch banao. Phool ki freshness, lead time aur local demand ke hisaab se apne numbers set karo.\n\nRoz likho: confirmed orders, walk-in sales aur din ke end par bache bouquets. Kuch din ka pattern milne par ready batch adjust karo. Har leftover phool ya bouquet ko automatically loss maan lena sahi nahi, lekin uska haal aur reuse window zaroor track karo.\n\n#BusinessJalwa #FlowerShop #SmallBusinessIndia #InventoryPlanning #RetailOperations",
+  "scenes": [
+    {
+      "visual": "Florist sees several unsold prepared bouquets at closing time",
+      "narration": "सुबह तीस बुके बनाए, शाम तक दस बचे? फूलों की दुकान में यह सवाल तैयारी से जुड़ा है। ग्राहक कब और क्या खरीदेंगे, पक्का नहीं होता। सारे फूल पहले से बुके में बांधने पर बचे हुए माल का जोखिम बढ़ सकता है।",
+      "question": "30 banaye, 10 bache?",
+      "answer": "Batch ko plan karo"
+    },
+    {
+      "visual": "Customer places a confirmed bouquet order and florist records it in an order book",
+      "narration": "पहले पक्के ऑर्डर गिनो। मान लो आज बीस बुके पहले से बुक हैं। उनके फूल और डिलीवरी का समय तय करो। फिर देखो कि बिना बुकिंग आने वाले ग्राहकों के लिए कितने तैयार बुके रखने हैं।",
+      "question": "Pakka demand kitna?",
+      "answer": "20 orders reserve"
+    },
+    {
+      "visual": "Florist separates reserved flower stems from flexible loose flower stock",
+      "narration": "बुक किए हुए बुके और अनुमान से बनाए हुए बुके अलग हैं। अगर वॉक-इन बदलते रहते हैं, तो सारे बचे फूल तुरंत पैक मत करो। कुछ ताज़े फूल खुले रखो, ताकि ग्राहक की पसंद पर भी बुके बना सको।",
+      "question": "Bache phool ka kya?",
+      "answer": "Flexible stock rakho"
+    },
+    {
+      "visual": "Assistant prepares a small initial batch of bouquets in the morning",
+      "narration": "मान लो वॉक-इन के लिए शुरुआत में पाँच तैयार बुके रखते हो। यह सिर्फ उदाहरण है, तय नियम नहीं। जब ये बिकने लगें, अगला छोटा बैच बनाओ। अगर तैयारी में ज्यादा समय लगता है, तो शुरुआती बैच बड़ा रखना पड़ सकता है।",
+      "question": "Ready batch kitna?",
+      "answer": "Chhota batch se shuru"
+    },
+    {
+      "visual": "Florist reviews remaining bouquets and hands a fresh custom bouquet to a customer",
+      "narration": "दिन के अंत में तीन बातें लिखो: पक्के ऑर्डर, वॉक-इन बिक्री और बचे बुके। कुछ दिनों का पैटर्न देखकर अगली सुबह की तैयारी बदलो। मकसद ग्राहक को ताज़ा विकल्प देना और बिना वजह तैयार माल कम रखना है।",
+      "question": "Kal ka plan kaise?",
+      "answer": "Sales aur leftovers likho"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-15/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
