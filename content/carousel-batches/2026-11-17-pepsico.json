@@ -1,0 +1,40 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-11-17",
+  "num": 85,
+  "id": "pepsico-business-scale-085",
+  "topic": "Real business: PepsiCo snacks market estimate, consolidated net revenue, geographic reach",
+  "as_of": "2025-12-27",
+  "sources": [
+    "https://www.grandviewresearch.com/industry-analysis/snacks-market",
+    "https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm"
+  ],
+  "scope_note": "Global snacks-market estimate is not directly comparable to PepsiCo consolidated beverages-and-food revenue. No market-share calculation.",
+  "slides": [
+    {
+      "heading": "PEPSICO KA GLOBAL REACH",
+      "body": "2025 filing: PepsiCo beverages aur convenient foods 200+ countries aur territories tak pahunchte hain.",
+      "source": "PepsiCo FY2025 10-K"
+    },
+    {
+      "heading": "SNACKS MARKET $747.6B",
+      "body": "2025 global snacks market estimate: USD $747.6 billion. Ye poori category hai, sirf PepsiCo nahi.",
+      "source": "Grand View Research, 2026"
+    },
+    {
+      "heading": "NET REVENUE $93.925B",
+      "body": "PepsiCo FY2025 consolidated net revenue: USD $93.925 billion. Ismein snacks aur beverages dono hain.",
+      "source": "PepsiCo FY2025 10-K"
+    },
+    {
+      "heading": "DO BUSINESS STREAMS",
+      "body": "PepsiCo snacks aur drinks dono bechta hai. Company revenue ko snacks-only market se seedha compare na karo.",
+      "source": "PepsiCo FY2025 10-K"
+    },
+    {
+      "heading": "NUMBERS KA SCOPE",
+      "body": "Market estimate: global snacks. Revenue: poori PepsiCo. Footprint: 200+ countries/territories. Market share yahan calculate nahi hota.",
+      "source": "GVR; PepsiCo FY2025 10-K"
+    }
+  ]
+}
