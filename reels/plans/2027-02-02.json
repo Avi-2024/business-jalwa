@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-02",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Local sabzi delivery mein paas ke orders ko ek route aur promised time window mein plan karna",
+  "caption": "3 deliveries, 9 km ka chakkar—ek hi mohalla mein? 🛵\n\nIllustrative sabzi-shop example: shop se teen gharon tak alag-alag jaakar lautne ka har round trip 3 km maan lo. Total 9 km. Agar wahi teen orders customer-approved time window mein ek route par deliver hon aur shop wapas aane tak route 5 km bane, to 4 km travel bachega. Actual distance, time aur savings location aur traffic par depend karenge.\n\nPractical habit: orders ko area aur promised window se group karo, route nikalne se pehle packed bags aur addresses check karo. Urgent delivery ka promise alag socho; customer ko bina bataye delay mat karo.\n\n#BusinessJalwa #SmallBusinessIndia #LocalDelivery #OperationsBasics #SabziBusiness",
+  "scenes": [
+    {
+      "visual": "Indian vegetable shop owner puzzled as delivery rider returns repeatedly from nearby homes",
+      "narration": "तीन डिलीवरी, नौ किलोमीटर? वो भी एक ही मोहल्ले में! सब्ज़ी दुकान से हर ऑर्डर आते ही राइडर अलग निकलता है, फिर वापस आता है। ग्राहक खुश हो सकते हैं, पर रास्ते का खर्च चुपचाप बढ़ता है।",
+      "question": "3 delivery, 9 km?",
+      "answer": "Trips alag the"
+    },
+    {
+      "visual": "Vegetable seller packs three distinct household orders while rider makes separate returns to the shop",
+      "narration": "एक उदाहरण लो। दुकान से तीन घरों तक जाकर लौटने का हर अलग चक्कर तीन किलोमीटर मानो। तीन चक्कर हुए, तो कुल नौ किलोमीटर चले। ऑर्डर तीन ही हैं, मगर हर बार दुकान लौटना दूरी बढ़ा रहा है।",
+      "question": "Doori kaise badhi?",
+      "answer": "3 round trips"
+    },
+    {
+      "visual": "Shop owner and rider review three ready vegetable bags together before one neighborhood delivery route",
+      "narration": "अब उन ग्राहकों से पहले ही डिलीवरी का समय तय करो। अगर तीनों ऑर्डर उसी विंडो में तैयार हैं, राइडर एक रूट में तीन घर जाकर लौट सकता है। मान लो यह रास्ता पाँच किलोमीटर हुआ।",
+      "question": "Ek route possible?",
+      "answer": "Window pehle tay karo"
+    },
+    {
+      "visual": "Delivery rider serves several nearby households on one organized route with separate vegetable bags",
+      "narration": "इस हिसाब में नौ की जगह पाँच किलोमीटर, यानी चार किलोमीटर कम सफर। यह सिर्फ समझाने वाला उदाहरण है; असली रास्ता और समय बदलेंगे। पहले देखो कि एक साथ भेजने से ग्राहक का तय समय तो नहीं टूट रहा।",
+      "question": "Kitna safar bacha?",
+      "answer": "Example mein 4 km"
+    },
+    {
+      "visual": "Vegetable shop owner checks packed bags and delivery addresses with rider before dispatch, customer receives on time",
+      "narration": "काम की बात: पास के ऑर्डर इलाके और वादे वाले समय से समूह में रखो। निकलने से पहले हर बैग और पता जाँचो। बहुत जल्दी चाहिए तो अलग डिलीवरी बताओ; बिना पूछे ग्राहक का समय मत बदलो।",
+      "question": "Roz ka rule kya?",
+      "answer": "Area + time group"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-02/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
