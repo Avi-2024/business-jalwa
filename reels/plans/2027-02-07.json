@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-07",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Hardware shop mein screw boxes aur loose pieces ko ek hi stock unit mein ginana",
+  "caption": "2 dibbe aaye, 30 screws bik gaye—stock mein kitne bache? 🔩\n\nIllustrative hardware-shop example: ek dibbe mein 50 screws hain. Do dibbe = 100 pieces. Agar 30 loose pieces bike, to 70 pieces bache. Purchase aur sale ko alag units mein likhne se stock galat dikh sakta hai. Actual pack size har product aur supplier ke hisaab se check karein.\n\nPractical habit: pack size note karo, full-box sale ko confirmed piece count mein convert karo, loose stock alag tray mein rakho aur din ke end par count milao.\n\n#BusinessJalwa #HardwareShop #SmallBusinessIndia #InventoryBasics #StockManagement",
+  "scenes": [
+    {
+      "visual": "Indian hardware-shop owner puzzled by sealed screw boxes and a tray of loose screws at the counter",
+      "narration": "दो डिब्बे आए, तीस स्क्रू बिके—स्टॉक में क्या बचेगा? हार्डवेयर दुकान में डिब्बे खरीदना और खुले पीस बेचना आम है। गड़बड़ तब होती है जब दोनों को एक ही गिनती समझ लिया जाए।",
+      "question": "2 boxes, 30 bike: bache?",
+      "answer": "Pehle unit dekho"
+    },
+    {
+      "visual": "Shopkeeper opens a plain box of screws and counts individual pieces into a sorting tray",
+      "narration": "मान लो एक डिब्बे में पचास स्क्रू हैं। सप्लायर ने दो डिब्बे दिए, यानी सौ स्क्रू। माल लेते समय पैक की मात्रा जाँचो; हर सप्लायर की पैकिंग एक जैसी मानकर मत चलो। ये सिर्फ उदाहरण है।",
+      "question": "Ek box mein kitne?",
+      "answer": "Example: 50 pieces"
+    },
+    {
+      "visual": "Hardware shop assistant counts loose screws into a small paper bag for a customer",
+      "narration": "फिर ग्राहक ने तीस खुले स्क्रू खरीदे। हिसाब है: सौ में से तीस गए, सत्तर पीस बचे। इसे दो डिब्बों में से तीस घटाना मत लिखो। बिक्री की यूनिट पहले तय करो।",
+      "question": "30 loose bike, ab?",
+      "answer": "70 pieces bache"
+    },
+    {
+      "visual": "Owner compares full screw boxes on a shelf with loose screws in a separate tray while reviewing a blank clipboard",
+      "narration": "अगर पूरा डिब्बा भी बिकता है, तो उसकी पुष्टि की हुई पीस संख्या में बदलकर स्टॉक घटाओ। खुले ट्रे के पीस अलग रखो, लेकिन कुल स्टॉक एक ही यूनिट में दिखाओ।",
+      "question": "Full box bhi bike?",
+      "answer": "Pieces mein convert karo"
+    },
+    {
+      "visual": "Orderly hardware shop shelf with plain boxes and clear bins of loose screws as owner and assistant finish their stock check",
+      "narration": "आज से छोटा नियम: खरीद पर पैक साइज दर्ज करो, बिक्री पर डिब्बा या पीस साफ लिखो, और दिन के अंत में खुले पीस गिनकर मिलाओ। तब दोबारा माल मँगाने का फैसला ज्यादा साफ होगा।",
+      "question": "Roz kya check karein?",
+      "answer": "Pack aur pieces milao"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-07/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
