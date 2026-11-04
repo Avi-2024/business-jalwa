@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-28",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Small photo studio mein client shoot files ka verified backup aur delivery handoff",
+  "caption": "Shaadi ki photos ka memory card kharab ho gaya to? 📷\n\nSmall photo studio ke liye client files hi kaam ka core hain. Illustrative routine: ek shoot ke baad original card se files do alag storage devices par copy karo; folder count aur kuch photos/videos kholkar verify karo. Dono copies ek hi bag mein mat rakho. Original card ko delivery aur backup check tak sambhal kar rakho, aur client files ka access limited rakho.\n\nBackup sirf copy button dabana nahi. File padhne layak hai ya nahi, yeh check bhi zaroori hai. Apni retention aur deletion policy client ko pehle clear batao.\n\n#BusinessJalwa #PhotoStudio #SmallBusinessIndia #Operations #DataBackup",
+  "scenes": [
+    {
+      "visual": "Indian wedding photographer at studio discovers a troubling memory card issue after a shoot",
+      "narration": "शादी की फोटो वाला मेमरी कार्ड खराब हो जाए, तो ग्राहक को क्या देंगे? छोटे फोटो स्टूडियो में कैमरे का काम शूट पर खत्म नहीं होता। तस्वीरों को सुरक्षित रखना और सही फाइल पहुँचाना भी उसी ऑर्डर का हिस्सा है।",
+      "question": "Card kharab hua?",
+      "answer": "Backup routine chahiye"
+    },
+    {
+      "visual": "Photographer transfers shoot files from camera card to two separate external drives on desk",
+      "narration": "मान लो एक शादी का शूट पूरा हुआ। कार्ड से फाइलें दो अलग स्टोरेज डिवाइस पर कॉपी करो। एक ही जगह रखी दो कॉपी आग, चोरी या नुकसान के सामने साथ में जा सकती हैं। इसलिए उन्हें अलग सुरक्षित जगह रखो।",
+      "question": "Kitni copies?",
+      "answer": "Do alag jagah"
+    },
+    {
+      "visual": "Studio worker checks photo folders and opens a few images and video clips on computer",
+      "narration": "कॉपी बटन दबाना काफी नहीं। फोल्डर की गिनती मिलाओ, कुछ फोटो और वीडियो खोलकर देखो, और फाइलें ठीक से चल रही हैं या नहीं जाँचो। बड़ी डिलीवरी से पहले इसी तरह पूरा फोल्डर दोबारा देखना उपयोगी है।",
+      "question": "Copy ho gayi?",
+      "answer": "Files kholkar dekho"
+    },
+    {
+      "visual": "Photographer stores original memory card safely and keeps client files away from visitors",
+      "narration": "जब तक बैकअप और डिलीवरी की जाँच पूरी न हो, ओरिजिनल कार्ड संभालकर रखो। क्लाइंट की निजी तस्वीरों का एक्सेस सीमित रखो। फाइलें कितने समय तक रखोगे और कब हटाओगे, यह पहले से साफ़ बताना अच्छा है।",
+      "question": "Original card kab?",
+      "answer": "Check tak sambhalo"
+    },
+    {
+      "visual": "Photographer hands over verified digital photo files to happy couple at studio",
+      "narration": "टेकअवे: हर शूट के बाद वही क्रम अपनाओ—दो अलग कॉपी, फाइलों की जाँच, और फिर डिलीवरी। एक छोटी चेकलिस्ट स्टाफ को भी यही तरीका दोहराने में मदद करेगी। ग्राहक के खास दिन को सिर्फ एक कार्ड के भरोसे मत छोड़ो।",
+      "question": "Studio ka rule?",
+      "answer": "Copy, verify, deliver"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-28/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
