@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-11",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Online kurti seller ke liye generic size label ke saath actual garment measurements dikhana",
+  "caption": "Dono kurtis par M hai, phir fit alag kyun? 👗\n\nIllustrative example: ek ready kurti ka chest round 38 inch aur doosri ka 40 inch ho sakta hai, bhale hi dono par M label ho. Product ke actual chest, shoulder aur length measurements ek consistent method se lo. Size guide mein unit aur measurement ka tareeka clear batao. Body measurement aur finished garment measurement ko mix mat karo; fit preference bhi customer se customer badalti hai.\n\nPractical habit: har naye cut ka size chart dobara check karo aur buyer ko apni comfortable kurti ki measurement compare karne mein help karo. Isse fit ki expectation zyada clear ho sakti hai.\n\n#BusinessJalwa #OnlineClothingBusiness #SmallBusinessIndia #CustomerExperience #SizeGuide",
+  "scenes": [
+    {
+      "visual": "Customer puzzled while comparing two similar labeled kurtis on hangers with online seller in a small studio",
+      "narration": "दोनों कुर्तियों पर एम लिखा है, फिर एक टाइट क्यों? ऑनलाइन कपड़ों में यही सवाल रिटर्न बन सकता है। सिर्फ साइज का अक्षर ग्राहक को असली फिट नहीं बताता। चलो नाप से समझते हैं।",
+      "question": "Dono M, fit alag?",
+      "answer": "Actual naap dekho"
+    },
+    {
+      "visual": "Seller lays two different kurtis flat side by side and compares their chest measurements",
+      "narration": "मान लो एक तैयार कुर्ती की छाती का पूरा घेरा अड़तीस इंच है, दूसरी का चालीस। ये सिर्फ उदाहरण है। टैग दोनों का एम हो सकता है, लेकिन नाप और पहनने का एहसास अलग होगा।",
+      "question": "M ka naap fixed?",
+      "answer": "Design ke hisaab se badle"
+    },
+    {
+      "visual": "Seller measures chest width, shoulder and length of an actual kurti laid flat on a table",
+      "narration": "हर डिजाइन का तैयार कपड़ा समतल रखकर छाती, कंधे और लंबाई नापो। साइज चार्ट में बताओ कि नाप कैसे ली और इंच या सेंटीमीटर कौन सी यूनिट है। एक ही तरीका लगातार रखो।",
+      "question": "Chart mein kya ho?",
+      "answer": "Naap aur unit saaf"
+    },
+    {
+      "visual": "Customer at home compares a comfortable kurti she owns with the product measurements while looking at blank phone screen",
+      "narration": "ग्राहक को अपनी आरामदायक कुर्ती की वैसी ही नाप लेकर तुलना करने को कहो। शरीर की नाप और तैयार कपड़े की नाप एक मत मानो। कितना ढीला फिट पसंद है, यह भी अलग हो सकता है।",
+      "question": "Compare kis se karein?",
+      "answer": "Apni comfy kurti se"
+    },
+    {
+      "visual": "Online kurti seller helps customer choose a fitting garment and prepares it neatly for handoff",
+      "narration": "प्रोडक्ट फोटो के साथ उसी कुर्ती की नाप दिखाओ। पुराने चार्ट को हर नए कट पर मत चिपकाओ। ऑर्डर से पहले नाप समझाने से ग्राहक बेहतर चुनाव कर सकता है और टल सकने वाली शिकायतें घट सकती हैं।",
+      "question": "Naye cut par kya?",
+      "answer": "Chart dobara check"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-11/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
