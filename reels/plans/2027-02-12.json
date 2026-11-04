@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-12",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Bookshop mein special order se pehle sahi edition aur language confirm karna",
+  "caption": "Naam sahi tha, phir bhi kitaab galat kaise aa gayi? 📚\n\nIllustrative bookshop example: customer ko ek title ka revised edition chahiye tha, par order mein sirf title gaya aur purana edition aa gaya. Special order se pehle author, publisher, language, edition aur printed ISBN (agar diya ho) customer ke saath confirm karo. Supplier ko wahi details bhejo aur maal aate hi dobara milao.\n\nPractical habit: customer ki book-cover photo ya course list lo, details repeat karke approval lo, aur handoff se pehle actual copy check karo.\n\n#BusinessJalwa #BookshopBusiness #SmallBusinessIndia #CustomerTrust #OperationsBasics",
+  "scenes": [
+    {
+      "visual": "Student and neighborhood bookseller puzzled by two similar books with different covers at counter",
+      "narration": "नाम सही, किताब गलत! बुकशॉप में ऐसा कैसे हुआ? छात्र को नया एडिशन चाहिए था, पर उसी शीर्षक का पुराना संस्करण मँग गया। सिर्फ किताब का नाम लिख लेना काफ़ी नहीं है।",
+      "question": "Naam sahi, book galat?",
+      "answer": "Edition check karo"
+    },
+    {
+      "visual": "Student shows bookseller a blank phone screen with the requested book details during a special order",
+      "narration": "एक उदाहरण मानो: ग्राहक ने पढ़ाई की किताब माँगी। उसी नाम के दो संस्करण हो सकते हैं। भाषा या छपाई का संस्करण अलग हुआ, तो काम की किताब बदल जाती है। यही फर्क ऑर्डर से पहले पकड़ो।",
+      "question": "Same title, same book?",
+      "answer": "Zaroori nahi"
+    },
+    {
+      "visual": "Bookseller carefully compares two versions side by side, examining spine, cover and page layout",
+      "narration": "ग्राहक से कवर की फोटो, लेखक, भाषा और एडिशन पूछो। किताब पर आई एस बी एन दिया हो, तो वह भी नोट करो। विवरण दोहराकर ग्राहक से पक्का करो; अंदाज़े से सप्लायर को ऑर्डर मत भेजो।",
+      "question": "Order se pehle kya?",
+      "answer": "Details confirm karo"
+    },
+    {
+      "visual": "Bookseller and assistant compare a newly arrived textbook with a blank order slip before shelving it",
+      "narration": "माल आते ही दर्ज विवरण से किताब मिलाओ। नाम के साथ भाषा, एडिशन और दिया गया आई एस बी एन जाँचो। कुछ अलग निकले, तो ग्राहक को सच बताकर सही प्रति का इंतज़ाम करो।",
+      "question": "Book aane par?",
+      "answer": "Order se milao"
+    },
+    {
+      "visual": "Bookseller and student check the correct book together during a satisfied handoff at the counter",
+      "narration": "छोटा नियम: माँग लिखो, ग्राहक से पुष्टि लो, वही विवरण सप्लायर को भेजो, और डिलीवरी पर फिर मिलान करो। इस आदत से गलत किताब के कारण लौटाने की नौबत कम हो सकती है।",
+      "question": "Final handoff se pehle?",
+      "answer": "Ek baar aur check"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-12/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
