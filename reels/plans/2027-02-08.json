@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-08",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Tailoring shop mein pehle se booked kaam dekhkar nayi delivery date ka wada karna",
+  "caption": "8 blouses pehle se due hain. Naya order kal dene ka promise karoge? 🧵\n\nIllustrative tailoring-shop example: agar agle 4 working days mein roz 3 milte-julte blouses complete ho sakte hain, to capacity 12 ki hai. 8 already committed hon to 4 slots hi bachte hain. Real work mein fitting, embroidery aur alterations ka time alag ho sakta hai, isliye simple count ke saath kaam ki complexity aur buffer bhi dekho.\n\nPractical habit: naya order lene se pehle pending orders, promised dates aur available sewing time dekho. Jo date sach mein nibha sakte ho, wahi customer ko batao.\n\n#BusinessJalwa #TailoringBusiness #SmallBusinessIndia #OperationsBasics #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Indian tailoring-shop customer asks for urgent delivery while owner and assistant face a table of unfinished garments",
+      "narration": "शुक्रवार तक आठ ब्लाउज़ देने हैं; आज नया ऑर्डर लेकर कल का वादा करोगे? सिलाई दुकान में ग्राहक को हाँ कहना आसान है। लेकिन पहले से भरा काम देखे बिना तारीख देना मुश्किल खड़ी कर सकता है।",
+      "question": "8 due, kal naya order?",
+      "answer": "Pehle capacity dekho"
+    },
+    {
+      "visual": "Tailor and assistant inspect work-in-progress blouses on hangers beside their sewing table",
+      "narration": "एक सरल उदाहरण: अगले चार कामकाजी दिनों में रोज़ तीन मिलते-जुलते ब्लाउज़ पूरे हो सकते हैं। यानी कुल बारह काम की जगह। आठ पहले से तय हैं, तो चार जगह बचती हैं। ये संख्या सिर्फ उदाहरण है।",
+      "question": "4 din ki jagah?",
+      "answer": "Example: 12 blouses"
+    },
+    {
+      "visual": "Single sewing machine stitching an ornate blouse while other garments wait on the table",
+      "narration": "पर हर कपड़ा एक सा समय नहीं लेता। फिटिंग, कढ़ाई और सुधार अलग हैं। इसलिए नए ऑर्डर को बची जगह में सीधे मत ठूँसो। पहले उसका काम देखो और थोड़ी गुंजाइश रखो।",
+      "question": "Har blouse same?",
+      "answer": "Samay alag lagta hai"
+    },
+    {
+      "visual": "Tailoring-shop owner reviews a blank order book then discusses a realistic delivery date with customer",
+      "narration": "ग्राहक से कपड़ा, नाप और जरूरी तारीख पूछो। फिर बाकी काम के हिसाब से ईमानदार डिलीवरी तारीख बताओ। जल्दी चाहिए तो तभी हाँ कहो जब पहले के वादे न बिगड़ें।",
+      "question": "Date kaise dein?",
+      "answer": "Booked kaam dekhkar"
+    },
+    {
+      "visual": "Tailor and assistant hand over a finished garment to a satisfied customer after checking the fit and finish",
+      "narration": "रोज़ ऑर्डर बुक में वादे की तारीख और बाकी काम देखो। मशीन पर लगने वाला अनुमानित समय भी नोट करो। साफ शेड्यूल से देर से डिलीवरी और आखिरी वक्त की भागदौड़ घट सकती है।",
+      "question": "Roz kya check karein?",
+      "answer": "Due date aur kaam"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-08/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
