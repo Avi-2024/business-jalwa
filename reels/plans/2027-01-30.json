@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-30",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Kirana shop ke day-end closing mein cash aur UPI sales ko alag reconcile karna",
+  "caption": "₹1,000 ki sale hui, cash drawer mein ₹500. Kya ₹500 gayab? 🧾\n\nIllustrative kirana example: 10 items ₹100 ke bike. 5 ka payment cash aur 5 ka UPI hua. Sales total ₹1,000 hai, lekin drawer mein expected cash ₹500 hi hai. Baaki ₹500 ko successful UPI transactions ke record se match karo. Yeh example opening cash, change, refunds aur expenses ko zero maan kar banaya gaya hai; real closing mein unhe bhi alag record karna hoga.\n\nDaily habit: sales register, cash count aur verified digital receipts ko payment mode ke hisaab se milao. Sirf customer ka screenshot dekhkar payment complete mat mano.\n\n#BusinessJalwa #KiranaStore #SmallBusinessIndia #DailyClosing #FinanceBasics",
+  "scenes": [
+    {
+      "visual": "Indian kirana shopkeeper puzzled by sales register and half-full cash drawer at closing",
+      "narration": "हज़ार रुपये की बिक्री हुई, पर दराज़ में सिर्फ पाँच सौ? क्या बाकी पैसे गायब हैं? किराना दुकान की रात वाली गिनती में एक आम गलती है: कुल बिक्री और नकद को एक ही रकम मान लेना।",
+      "question": "₹1000 sale, ₹500 cash?",
+      "answer": "Mode alag gino"
+    },
+    {
+      "visual": "Shopkeeper serves ten small grocery items to customers with cash and phone payments",
+      "narration": "एक आसान उदाहरण लो। सौ रुपये की दस चीजें बिकीं, कुल बिक्री हज़ार रुपये। पाँच ग्राहकों ने नकद दिया और पाँच ने यू पी आई से भुगतान किया। इसलिए दराज़ में सिर्फ पाँच सौ रुपये आने चाहिए।",
+      "question": "Cash kitna bana?",
+      "answer": "₹500 cash"
+    },
+    {
+      "visual": "Shop owner reviews verified UPI transaction list separately from physical cash drawer",
+      "narration": "बाकी पाँच सौ रुपये को सफल डिजिटल भुगतान की सूची से मिलाओ। ग्राहक का स्क्रीनशॉट ही सबूत मत मानो; अपने भरोसेमंद मर्चेंट रिकॉर्ड या बैंक एंट्री में स्थिति देखो। भुगतान लंबित हो, तो उसे सफल बिक्री की वसूली मत गिनो।",
+      "question": "Baaki ₹500 kahan?",
+      "answer": "UPI record milao"
+    },
+    {
+      "visual": "Shopkeeper separates cash, digital receipts and shop expense slips on counter",
+      "narration": "असल दिन में शुरुआत का कैश, दिए हुए छुट्टे, रिफंड और दुकान के छोटे खर्च भी होंगे। इन्हें अलग दर्ज करो। हमारा हज़ार रुपये वाला उदाहरण इन्हें शून्य मानता है, सिर्फ नकद और डिजिटल भुगतान का फर्क समझाने के लिए।",
+      "question": "Real closing mein?",
+      "answer": "Adjustments likho"
+    },
+    {
+      "visual": "Shopkeeper finishes closing checklist with cash drawer and phone transaction confirmation",
+      "narration": "टेकअवे: रोज़ तीन चीजें मिलाओ—बिक्री की सूची, दराज़ का नकद, और सफल डिजिटल पेमेंट। फर्क बचे, तो उसी दिन वजह खोजो। इस तरह बिक्री और हाथ में आए पैसे का हिसाब साफ़ रहता है।",
+      "question": "Roz kya milaye?",
+      "answer": "Sales, cash, UPI"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-30/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
