@@ -1,0 +1,42 @@
+{
+  "date": "2027-01-31",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Neighborhood gym mein naye sign-ups aur expired memberships se net active member growth samajhna",
+  "caption": "20 naye members, par active count sirf 5 badha? 🏋️\n\nIllustrative neighborhood gym example: mahine ki shuruaat mein 100 active members. 20 naye join hue, 15 purane memberships expire hue aur renew nahi hue. Koi aur change nahi maanenge, to month-end active count 105 hoga—net growth 5.\n\nSirf new sign-ups dekhne se growth ka poora picture nahi milta. Join, expire, renew aur return ko alag track karo. Har hafte expiring members se unka experience poochho; unki marzi se next step clear karo.\n\n#BusinessJalwa #SmallBusinessIndia #GymBusiness #CustomerRetention #BusinessBasics",
+  "scenes": [
+    {
+      "visual": "Neighborhood Indian gym owner puzzled by new signups while workout floor has open space",
+      "narration": "बीस नए मेंबर, बढ़त सिर्फ पाँच? यह कैसे हुआ? जिम के रजिस्टर में नए नाम देखना अच्छा लगता है। लेकिन महीने के आखिर में सक्रिय मेंबर कितने बचे, उससे असली तस्वीर मिलती है।",
+      "question": "20 naye, growth 5?",
+      "answer": "End count dekho"
+    },
+    {
+      "visual": "Gym owner welcoming a new member at reception beside a blank membership form",
+      "narration": "मान लो महीने की शुरुआत में सौ सक्रिय मेंबर थे। इस महीने बीस नए लोग जुड़े। अभी तक लगेगा कि मेंबर गिनती सौ से बढ़कर एक सौ बीस हो गई। लेकिन कहानी यहीं खत्म नहीं होती।",
+      "question": "Naye kitne jude?",
+      "answer": "20 sign-ups"
+    },
+    {
+      "visual": "Gym owner reviews membership ledger while a few former members leave the gym",
+      "narration": "उसी महीने पंद्रह पुराने मेंबरों की सदस्यता खत्म हुई और उन्होंने उसे आगे नहीं बढ़ाया। अगर कोई दूसरा बदलाव नहीं हुआ, तो अंत में एक सौ पाँच सक्रिय मेंबर बचे। नए बीस आए, पंद्रह गए—बढ़त सिर्फ पाँच।",
+      "question": "Asli growth kitni?",
+      "answer": "Sirf 5 members"
+    },
+    {
+      "visual": "Gym owner separates blank membership cards into new, expired, and returned groups",
+      "narration": "यह सिर्फ समझाने वाला उदाहरण है। अपने जिम में नए साइन अप, खत्म हुई सदस्यताएँ, रिन्यूअल और वापस आए पुराने मेंबर अलग दर्ज करो। फिर हर महीने शुरुआत और अंत के सक्रिय मेंबर मिलाओ।",
+      "question": "Kya alag likhein?",
+      "answer": "Join, expire, return"
+    },
+    {
+      "visual": "Gym owner asks a member about their experience near lockers, then plans next month at desk",
+      "narration": "काम की बात: हर हफ्ते जल्द खत्म होने वाली सदस्यताओं की सूची देखो। समय रहते विनम्रता से पूछो कि अनुभव कैसा रहा और वे आगे आना चाहते हैं या नहीं। नए मेंबर गिनो, पर टिके हुए मेंबर भी देखो।",
+      "question": "Agla step kya?",
+      "answer": "Expiry pe follow-up"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-31/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
