@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-05",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Parcel counter par shop closing time aur carrier pickup cutoff ka farq customer ko pehle batana",
+  "caption": "5 baje parcel diya, phir aaj dispatch kyun nahi hua? 📦\n\nIllustrative courier-counter example: shop 7 PM tak khuli hai, lekin us din carrier pickup 4 PM par ho chuka. Customer 5 PM par parcel de sakta hai, par same-day carrier handoff promise karna sahi nahi. Parcel accepted aur carrier ko handed over—yeh do alag steps hain. Actual cutoff service aur location ke hisaab se check karein.\n\nPractical habit: aaj ka confirmed pickup cutoff counter par clear rakho, booking se pehle expected handoff batayo, aur actual scan/handoff status ke baad hi dispatch confirm karo. Urgent option sirf available ho tab offer karo.\n\n#BusinessJalwa #CourierBusiness #SmallBusinessIndia #CustomerCommunication #OperationsBasics",
+  "scenes": [
+    {
+      "visual": "Indian parcel-counter customer surprised that a parcel handed in late afternoon has not left despite the shop being open",
+      "narration": "पाँच बजे पार्सल दिया, फिर आज क्यों नहीं भेजा? दुकान खुली थी, पर कूरियर की पिकअप पहले निकल चुकी थी। काउंटर पर पार्सल जमा होना और उसे कैरियर को सौंपना, दो अलग कदम हैं।",
+      "question": "5 baje diya, kal gaya?",
+      "answer": "Pickup time alag"
+    },
+    {
+      "visual": "Neighborhood parcel shop owner accepts a carefully packed parcel while courier pickup vehicle has already departed",
+      "narration": "एक उदाहरण मानो: दुकान शाम सात बजे तक खुली है, लेकिन उस दिन गाड़ी चार बजे पार्सल ले गई। ग्राहक पाँच बजे आता है। दुकान उसका पैकेट रख सकती है, मगर आज की गाड़ी में वह नहीं जाएगा।",
+      "question": "Shop kab tak khuli?",
+      "answer": "7 baje tak"
+    },
+    {
+      "visual": "Parcel counter clerk stores the accepted package safely while showing customer that carrier handoff has not happened yet",
+      "narration": "यहीं गलत उम्मीद बनती है। ग्राहक को लगता है, रसीद मिली तो सामान चल भी पड़ा। इसलिए साफ कहो: पैकेट अभी काउंटर पर है; अगली उपलब्ध पिकअप में सौंपेंगे। असली हैंडऑफ होने पर ही भेजा गया बोलो।",
+      "question": "Receipt ka matlab?",
+      "answer": "Accepted, not handed off"
+    },
+    {
+      "visual": "Parcel shop owner and customer discuss today's pickup availability before booking, with blank counter card and parcels",
+      "narration": "यह चार बजे वाला समय सिर्फ उदाहरण है। अपने कैरियर और लोकेशन का आज का पुष्टि किया हुआ कटऑफ देखो। बुकिंग से पहले ग्राहक को अपेक्षित हैंडऑफ बताओ। जल्दी भेजना हो, तो उपलब्ध विकल्प ही सुझाओ।",
+      "question": "Pehle kya batayein?",
+      "answer": "Confirmed cutoff"
+    },
+    {
+      "visual": "Next pickup courier scans parcel as shop owner checks handoff status and customer receives a clear update",
+      "narration": "काम की बात: रोज़ पिकअप का समय जाँचो, छूटे पैकेट अलग सुरक्षित रखो, और कैरियर के स्कैन या हैंडऑफ के बाद ही डिस्पैच की पुष्टि करो। साफ समय बताने से ग्राहक भरोसा बनाए रखता है।",
+      "question": "Dispatch kab bolen?",
+      "answer": "Handoff confirm hone par"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-05/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
