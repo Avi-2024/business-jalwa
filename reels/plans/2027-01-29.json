@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-29",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Plant nursery mein customer ke ghar ki roshni aur jagah samajhkar sahi plant recommend karna",
+  "caption": "“Meri balcony mein sirf 2 ghante dhoop hai”—kya har paudha wahan chalega? 🪴\n\nIllustrative nursery conversation: customer ne balcony ke liye plant manga. Seller ne pehle direct sunlight ka time, jagah aur care routine poocha. Plant ki actual light aur watering needs dekhkar option suggest kiya, aur simple care instructions diye. Full-sun plant ko low-light jagah ke liye casually recommend karna complaint ka reason ban sakta hai.\n\nTakeaway: sale ke pehle 3 sawal—kitni direct dhoop, kitni jagah, aur regular care kaun karega? Plant-specific care ko check karo; koi plant har ghar mein guaranteed nahi chalta.\n\n#BusinessJalwa #PlantNursery #SmallBusinessIndia #CustomerExperience #Retail",
+  "scenes": [
+    {
+      "visual": "Indian nursery customer shows a wilted potted plant to shop owner and asks what went wrong",
+      "narration": "दो घंटे धूप वाली बालकनी में हर पौधा चलेगा? नर्सरी से खुश होकर गया ग्राहक अगर पौधा मुरझाते देखे, तो फिर दुकान पर सवाल लेकर आता है। सही सलाह देने के लिए पहले उसके घर की जगह समझनी होगी।",
+      "question": "2 ghante dhoop?",
+      "answer": "Pehle jagah samjho"
+    },
+    {
+      "visual": "Nursery owner asks customer about balcony sunlight using hands and points at a sunlit and shaded display",
+      "narration": "मान लो ग्राहक कहता है, मेरी बालकनी में सुबह करीब दो घंटे सीधी धूप आती है। अब सिर्फ सुंदर दिखने वाला पौधा मत उठाओ। उसकी किस्म के लिए कितनी रोशनी चाहिए, यह देखो और उसी हिसाब से विकल्प दिखाओ।",
+      "question": "Bas 2 ghante?",
+      "answer": "Light need milao"
+    },
+    {
+      "visual": "Owner compares two different potted plant varieties suitable for different light conditions",
+      "narration": "एक पौधे को ज्यादा सीधी धूप चाहिए, दूसरे को कम। दोनों की जरूरत अलग हो सकती है। ग्राहक को यह फर्क आसान भाषा में बताओ। अगर उसकी जगह किसी पौधे के अनुकूल नहीं है, तो साफ़ मना करना बेहतर है।",
+      "question": "Dono same hain?",
+      "answer": "Needs alag hoti hain"
+    },
+    {
+      "visual": "Nursery worker shows customer pot drainage, soil moisture and space for a plant in balcony",
+      "narration": "रोशनी के साथ गमले की जगह, पानी देने की आदत और निकास भी पूछो। बहुत ज्यादा या बहुत कम पानी दोनों परेशानी बन सकते हैं। उस खास पौधे की देखभाल का छोटा निर्देश साथ दो, ताकि ग्राहक को याद रहे।",
+      "question": "Care kaise bataye?",
+      "answer": "Short guide do"
+    },
+    {
+      "visual": "Customer chooses an appropriate potted plant after discussing home balcony with nursery owner",
+      "narration": "टेकअवे: बिक्री से पहले तीन सवाल पूछो—कितनी धूप, कितनी जगह, और देखभाल कौन करेगा? फिर पौधे की असली जरूरत से मिलाकर सुझाव दो। ऐसा संवाद ग्राहक को बेहतर चुनाव करने में मदद करता है; पौधा चलने की गारंटी नहीं देता।",
+      "question": "Sale se pehle?",
+      "answer": "3 sawal pucho"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-29/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
