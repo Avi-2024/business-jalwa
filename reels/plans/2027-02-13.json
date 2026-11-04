@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-13",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Event decorator ke liye venue access aur setup time confirm karke realistic delivery plan banana",
+  "caption": "Event saat baje, hall paanch baje milega—teen ghante ka decor kaise hoga? ⏱️\n\nIllustrative example: venue mein entry aur setup ka time alag se confirm kiye bina final commitment mat do. Gate, service lift, trolley route, hall access aur teardown rules pehle poochho. Kaam ka actual setup time aur thoda buffer jodkar customer aur venue ke saath workable schedule tay karo.\n\nPractical habit: quote ke saath load-in window aur setup start time likhkar dono taraf se confirm kara lo.\n\n#BusinessJalwa #EventBusiness #SmallBusinessIndia #OperationsPlanning #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Decorator arrives outside venue with floral arch and trolley but finds a narrow entrance",
+      "narration": "शाम सात बजे इवेंट है, हॉल पाँच बजे मिलेगा—तीन घंटे की सजावट कब होगी? इवेंट डेकोरेटर के लिए सिर्फ कार्यक्रम का समय जानना काफ़ी नहीं। सामान अंदर पहुँचाने और सेटअप करने की अपनी अलग समय-सीमा होती है।",
+      "question": "7 baje event, hall 5 baje?",
+      "answer": "Setup window dekho"
+    },
+    {
+      "visual": "Decorator discusses venue doorway and delivery access with manager",
+      "narration": "मान लो आर्च, पर्दे और लाइटें लगाने में तीन घंटे लगते हैं। हॉल में प्रवेश दो घंटे पहले मिले, तो काम समय पर पूरा करना मुश्किल होगा। असली सवाल है: काम शुरू कब कर सकते हैं?",
+      "question": "Sirf event time kaafi?",
+      "answer": "Entry time bhi poochho"
+    },
+    {
+      "visual": "Decorator and assistant measure doorway and inspect service lift and trolley route",
+      "narration": "बुकिंग से पहले वेन्यू से गेट, सामान उतारने की जगह, सर्विस लिफ्ट और प्रवेश का समय पूछो। बड़ा स्ट्रक्चर दरवाज़े से गुज़रेगा या नहीं, यह भी देखो। संभव हो, तो जगह पहले जाँच लो।",
+      "question": "Venue par kya check?",
+      "answer": "Route aur access"
+    },
+    {
+      "visual": "Decorator checks watch in empty hall and plans work with assistant and materials",
+      "narration": "काम को हिस्सों में बाँटो: उतारना, ढाँचा लगाना, फूल और लाइटें सजाना, फिर अंतिम जाँच। हर हिस्से का समय लिखो और थोड़ा बफर रखो। उपलब्ध समय कम हो, तो ग्राहक से पहले बात करो।",
+      "question": "Time kaise banao?",
+      "answer": "Steps plus buffer"
+    },
+    {
+      "visual": "Decorator team brings materials through agreed entrance and completes floral arch setup",
+      "narration": "छोटा नियम अपनाओ: कोटेशन में सामान लाने, सेटअप शुरू करने और तैयार होने का समय साफ़ लिखो। ग्राहक और वेन्यू, दोनों से पुष्टि लो। इससे टीम का प्लान वास्तविक रहेगा और आख़िरी मिनट की भागदौड़ कम हो सकती है।",
+      "question": "Final promise kab?",
+      "answer": "Access confirm karke"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-13/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
