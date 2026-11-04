@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-01",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Bakery counter par jaldi expire hone wale bread packs ko pehle bechkar stock rotation samajhna",
+  "caption": "10 bread packs bike, phir bhi 8 purane packs shelf par bache? 🍞\n\nIllustrative bakery example: pehle se 8 good-condition packs hain jinki expiry jaldi hai; aaj 12 aur aaye. Agar 10 customers ko sirf naye packs diye, to jaldi expire hone wale 8 wahi rahenge. Agar safe, valid stock mein pehle earliest-expiry wale 8 aur phir naye 2 diye, to 10 naye packs bachenge.\n\nCounter habit: har delivery par expiry date check karo, jo pehle expire hoga use aage rakho, aur roz damaged ya expired packs alag karo. Expired product kabhi mat becho.\n\n#BusinessJalwa #BakeryBusiness #InventoryBasics #SmallBusinessIndia #StockRotation",
+  "scenes": [
+    {
+      "visual": "Indian neighborhood bakery owner surprised to find older bread packs still on shelf after a busy sales day",
+      "narration": "दस पैक बिके, आठ पुराने बचे? बेकरी काउंटर पर यह कैसे हुआ? जब नए पैक सामने रख देते हैं, तो ग्राहक वही उठा लेते हैं और जल्दी एक्सपायर होने वाला स्टॉक पीछे रह जाता है।",
+      "question": "10 bike, 8 purane bache?",
+      "answer": "Shelf order dekho"
+    },
+    {
+      "visual": "Bakery worker receives fresh packaged bread while earlier good-condition packs remain on a separate shelf",
+      "narration": "मान लो दुकान में पहले से आठ ब्रेड पैक हैं, जिनकी एक्सपायरी पहले है। आज बारह नए पैक आए। सभी अभी बेचने लायक हैं। कुल बीस पैक हुए, और दिन में दस पैक बिके।",
+      "question": "Stock ka mix kya?",
+      "answer": "8 pehle, 12 naye"
+    },
+    {
+      "visual": "Customer picks newly delivered bread while earlier packs stay untouched at back of bakery shelf",
+      "narration": "अगर बिके हुए दस पैक सारे नए थे, तो पुराने आठ वहीं रहेंगे। अब उनकी तारीख करीब आ रही है। बिक्री ठीक दिखती है, लेकिन बचा हुआ स्टॉक देखकर असली समस्या समझ आती है।",
+      "question": "Purane kyun bache?",
+      "answer": "Naye pehle bike"
+    },
+    {
+      "visual": "Bakery owner moves valid earlier-expiry bread packs to front, with newly delivered packs behind",
+      "narration": "तरीका है: जो पैक पहले एक्सपायर होगा, उसे आगे रखो और पहले बेचो। इस उदाहरण में पुराने आठ और नए दो बिकते, तो बाकी दस नए पैक बचते। यह सिर्फ समझाने वाला हिसाब है।",
+      "question": "Kaun pehle bike?",
+      "answer": "Earliest expiry pehle"
+    },
+    {
+      "visual": "Bakery owner checks package dates and condition, separates damaged packs, and neatly rotates shelves",
+      "narration": "हर डिलीवरी पर तारीख और पैक की हालत देखो। जल्दी एक्सपायर होने वाले सही पैक सामने रखो, रोज़ शेल्फ जाँचो, और खराब या एक्सपायर पैक बिक्री से अलग करो। यही छोटी आदत बेवजह बचा स्टॉक घटा सकती है।",
+      "question": "Roz kya check karein?",
+      "answer": "Date aur condition"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-01/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
