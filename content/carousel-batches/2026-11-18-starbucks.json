@@ -1,0 +1,45 @@
+{
+  "generator": "Original image_gen editorial contact sheet + verified text layout",
+  "date": "2026-11-18",
+  "num": 86,
+  "id": "starbucks-business-scale-086",
+  "topic": "Real business: Starbucks global coffee market estimate, FY2025 consolidated net revenue, 89-market store footprint",
+  "as_of": "2025-09-28",
+  "sources": [
+    "https://www.grandviewresearch.com/industry-analysis/coffee-market",
+    "https://www.sec.gov/Archives/edgar/data/829224/000082922425000114/sbux-20250928.htm"
+  ],
+  "scope_note": "2025 global coffee category estimate includes packaged coffee and is not a cafe-only market. Starbucks FY2025 consolidated net revenue differs from total retail sales across licensed stores; no market-share calculation.",
+  "moved_generic": {
+    "id": "franchise-basics-022",
+    "from": "2026-11-18T18:00:00+05:30",
+    "to": "2027-01-21T18:00:00+05:30"
+  },
+  "slides": [
+    {
+      "heading": "STARBUCKS KA SCALE",
+      "body": "FY2025: 40,990 company-operated aur licensed stores; 89 global markets.",
+      "source": "Starbucks FY2025 10-K"
+    },
+    {
+      "heading": "COFFEE MARKET $249.3B",
+      "body": "2025 global coffee market estimate, USD. Packaged coffee bhi included; cafe-only nahi.",
+      "source": "Grand View Research, 2026"
+    },
+    {
+      "heading": "NET REVENUE $37.184B",
+      "body": "Starbucks FY2025 consolidated net revenue, USD. Sabhi licensed cafes ki retail sales ya GMV nahi.",
+      "source": "Starbucks FY2025 10-K"
+    },
+    {
+      "heading": "89 MARKETS, 40,990 STORES",
+      "body": "FY2025 end: 18,311 North America; 22,679 International. Company-operated aur licensed.",
+      "source": "Starbucks FY2025 10-K"
+    },
+    {
+      "heading": "SCOPE ALAG RAKHO",
+      "body": "Global coffee category estimate aur company revenue se market share seedha nahi nikalta.",
+      "source": "GVR; Starbucks FY2025 10-K"
+    }
+  ]
+}
