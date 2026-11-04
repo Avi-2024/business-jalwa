@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-26",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Dry-cleaning shop mein garment intake aur handover ko count, condition aur tag se verify karna",
+  "caption": "“तीन शर्ट दी थीं, दो ही वापस मिलीं?” 👕\n\nDry-cleaning counter पर यह विवाद एक छोटी intake checklist से काफी हद तक रोका जा सकता है। ग्राहक के सामने कपड़ों की संख्या, रंग/पहचान और दिखने वाली पुरानी खराबी दर्ज करें; हर piece को order से जोड़े हुए tag के साथ रखें। वापस देते समय वही count और tag मिलाएँ।\n\nIllustrative example: 3 shirts जमा हुईं तो receipt और internal record, दोनों में 3 pieces दिखने चाहिए। Return पर भी 3 matched pieces handover हों। ग्राहक के साथ final check करें।\n\nSimple rule: intake पर जो गिना और देखा, वही delivery पर verify करो. #BusinessJalwa #DryCleaning #SmallBusinessIndia #CustomerTrust #Operations",
+  "scenes": [
+    {
+      "visual": "Dry-cleaning counter with customer holding three shirts and owner noticing an incomplete return stack",
+      "narration": "तीन शर्ट दी थीं, लौटते समय दो निकलीं? ड्राई क्लीनिंग शॉप में ऐसा विवाद ग्राहक का भरोसा तोड़ सकता है। शुरुआत में ही गिनती और पहचान साफ़ दर्ज हो, तो बाद में दोनों पक्ष एक ही रिकॉर्ड देख सकते हैं।",
+      "question": "3 di, 2 mili?",
+      "answer": "Intake record dekho"
+    },
+    {
+      "visual": "Customer and dry-cleaning clerk count three separate shirts together at counter",
+      "narration": "मान लो ग्राहक तीन शर्ट लाया। काउंटर पर उसके सामने तीनों पीस गिनो। रंग और कोई खास पहचान नोट करो। रसीद और अंदर के रिकॉर्ड में भी तीन पीस ही दिखने चाहिए।",
+      "question": "Pehle kya check?",
+      "answer": "Count aur pehchan"
+    },
+    {
+      "visual": "Clerk and customer inspect a visible old stain and loose button on one shirt before service",
+      "narration": "अब पहले से मौजूद दाग या टूटा बटन भी देख लो। जो दिख रहा है, उसे ग्राहक से मिलाकर दर्ज करो। इससे लौटाते समय पुरानी हालत और सफाई के नतीजे में भ्रम कम होता है।",
+      "question": "Purana daag?",
+      "answer": "Haalat note karo"
+    },
+    {
+      "visual": "Worker attaches unique blank physical tags to each shirt and separates orders on rails",
+      "narration": "हर कपड़े को उसी ऑर्डर से जुड़े अलग टैग के साथ रखो। धुलाई और प्रेस के बीच टैग मिलाते रहो। सिर्फ रंग देखकर कपड़ा पहचानना जोखिम भरा है, खासकर जब दो ग्राहकों की शर्ट एक जैसी हों।",
+      "question": "Same color shirt?",
+      "answer": "Tag se milao"
+    },
+    {
+      "visual": "Clerk and customer jointly recount three cleaned shirts at pickup counter",
+      "narration": "डिलीवरी पर रसीद से तीनों टैग और तीनों कपड़े मिलाओ। ग्राहक के सामने अंतिम गिनती करके ही हैंडओवर करो। आज से हर ऑर्डर पर यही छोटा नियम अपनाओ: गिनकर लो, पहचानकर रखो, और मिलाकर लौटाओ।",
+      "question": "Handover kab?",
+      "answer": "Match karke do"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-26/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
