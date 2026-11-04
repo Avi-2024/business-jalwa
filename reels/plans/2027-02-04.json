@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-04",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Water-can delivery mein filled cans aur khaali cans ki customer-wise return tracking",
+  "caption": "20 water cans gaye, 12 khaali laute—baaki 8 kahan? 💧\n\nIllustrative refill-can example: aaj 20 filled cans deliver hue aur 12 empty cans collect hue. Difference 8 hai, lekin unhe bina check kiye lost mat bolo. Kuch customers ke paas pehle ka empty can ho sakta hai, aur kuch aaj ka can baad mein lautayenge. Customer-wise opening balance, delivered, returned aur closing balance note karo.\n\nPractical habit: rider ko har stop par filled-out aur empty-in count confirm karvao, aur din ke end par pending cans customer ke naam se milao. Damaged cans alag note karo.\n\n#BusinessJalwa #WaterDelivery #SmallBusinessIndia #OperationsBasics #InventoryTracking",
+  "scenes": [
+    {
+      "visual": "Indian water-can delivery owner puzzled by fewer empty blue reusable cans returning than full cans sent",
+      "narration": "बीस गए, बारह लौटे—आठ कैन कहाँ? पानी के कैन वाले बिज़नेस में भरे कैन भेजना और खाली कैन वापस लेना दो अलग गिनतियाँ हैं। सिर्फ आज का फर्क देखकर आठ को खोया हुआ मत मानो।",
+      "question": "20 gaye, 12 laute?",
+      "answer": "Balance samjho"
+    },
+    {
+      "visual": "Water-can shop team loads sealed full reusable cans for several household deliveries",
+      "narration": "एक आसान उदाहरण लो। आज बीस भरे कैन ग्राहकों को दिए और राइडर बारह खाली कैन लेकर लौटा। सीधा हिसाब कहता है, आठ कैन का फर्क है। लेकिन यह सिर्फ दिन की आवाजाही है, पूरी कहानी नहीं।",
+      "question": "Aaj ka farq?",
+      "answer": "8 cans"
+    },
+    {
+      "visual": "Delivery rider collects an empty reusable can from one household while another customer keeps a can for later return",
+      "narration": "किसी ग्राहक के पास पहले से खाली कैन रहा होगा; कोई आज का कैन कल लौटाएगा। इसलिए हर ग्राहक का शुरुआती बकाया देखे बिना नया बकाया नहीं पता चलेगा। फर्क और खोया हुआ कैन एक बात नहीं हैं।",
+      "question": "8 kho gaye kya?",
+      "answer": "Zaroori nahi"
+    },
+    {
+      "visual": "Water-can owner and rider compare customer-specific delivery and return counts in a blank ledger beside separate full and empty cans",
+      "narration": "हर ग्राहक के लिए चार चीजें लिखो: पहले कितने कैन बाकी थे, आज कितने भरे गए, कितने खाली लौटे, और अब कितने बाकी हैं। राइडर हर स्टॉप पर दोनों गिनतियाँ पुष्टि करे। टूटे कैन अलग दर्ज हों।",
+      "question": "Kya record karein?",
+      "answer": "Opening, out, in, due"
+    },
+    {
+      "visual": "At closing time water-can owner checks neat reusable can rows and calmly follows up on outstanding cans by customer",
+      "narration": "टेकअवे: दुकान की कुल गिनती के साथ ग्राहकवार हिसाब मिलाओ। जो कैन अभी वापस नहीं आया, उसे उसी ग्राहक के नाम पर pending रखो। फिर तय वापसी समय पर विनम्रता से पूछो। इससे बेवजह खोने का अनुमान नहीं लगेगा।",
+      "question": "Day-end mein kya?",
+      "answer": "Customer-wise match"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-04/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
