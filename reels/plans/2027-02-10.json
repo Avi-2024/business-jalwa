@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-10",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Copy shop mein bulk double-sided printing se pehle ek proof copy check karna",
+  "caption": "200 copies nikli, par peeche ka page khaali? 🖨️\n\nIllustrative copy-shop example: customer ne 200 double-sided copies maangi, lekin setting one-sided reh gayi. Puri batch chalane se pehle ek proof copy nikaal kar dono sides, margins aur page order check karo. Galti mile to setting sudhaaro, naya proof dekho, phir customer ki confirmation ke baad batch chalao.\n\nPractical habit: instructions repeat karo → one proof check karo → batch run karo → delivery se pehle beech ki ek copy bhi inspect karo.\n\n#BusinessJalwa #PrintShop #SmallBusinessIndia #QualityCheck #OperationsBasics",
+  "scenes": [
+    {
+      "visual": "Indian copy-shop owner sees a stack of sheets printed on only one side while a customer looks concerned",
+      "narration": "दो सौ कॉपियाँ निकलीं, पर पीछे वाला हिस्सा खाली! कॉपी दुकान में एक गलत सेटिंग पूरी खेप बिगाड़ सकती है। ग्राहक ने दो तरफ़ा प्रिंट माँगा था, मशीन एक तरफ़ा चल गई। बचाव कहाँ है?",
+      "question": "200 copies, back khaali?",
+      "answer": "Pehle proof dekho"
+    },
+    {
+      "visual": "Customer brings a stack of blank source pages to a neighborhood print shop and discusses the job with owner",
+      "narration": "ऑर्डर लेते वक्त तीन बातें साफ करो: कॉपियों की संख्या, एक या दो तरफ़ा प्रिंट, और पन्नों का क्रम। मान लो इस बार दो सौ दो तरफ़ा कॉपियाँ चाहिए। ये संख्या सिर्फ उदाहरण है।",
+      "question": "Order mein kya poochhein?",
+      "answer": "Count, sides, order"
+    },
+    {
+      "visual": "Copy-shop owner makes just one proof sheet and checks both sides and margins with customer",
+      "narration": "सीधे दो सौ मत छापो। पहले सिर्फ एक प्रूफ कॉपी निकालो। ग्राहक या अपने स्टाफ के साथ आगे-पीछे देखो: दोनों तरफ़ प्रिंट है? मार्जिन और पन्नों का क्रम सही है?",
+      "question": "Pehla print kitna?",
+      "answer": "Sirf ek proof"
+    },
+    {
+      "visual": "Owner adjusts copier settings after a proof check and then begins the bulk print batch",
+      "narration": "अगर कुछ उल्टा है, सेटिंग बदलो और फिर एक प्रूफ निकालो। सही होने पर ग्राहक की हाँ लेकर पूरी खेप चलाओ। यह छोटा टेस्ट कागज़ और मशीन का समय बचा सकता है।",
+      "question": "Proof galat nikla?",
+      "answer": "Sudhaaro, phir check"
+    },
+    {
+      "visual": "Owner inspects a sheet from the middle of the completed stack before handing the neat print job to customer",
+      "narration": "हर बड़े काम का नियम रखो: निर्देश दोहराओ, प्रूफ जाँचो, फिर पूरी प्रिंटिंग करो। डिलीवरी से पहले बीच की एक कॉपी भी देख लो। मशीन चलते-चलते हुई गलती भी इस तरह पकड़ में आ सकती है।",
+      "question": "Delivery se pehle?",
+      "answer": "Beech ki copy dekho"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-10/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
