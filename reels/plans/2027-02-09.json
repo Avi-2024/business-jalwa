@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-09",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Stationery supplier mein udhar par diya maal aur vaastav mein mila cash alag track karna",
+  "caption": "₹20,000 ka maal diya, par haath mein sirf ₹2,000 aaye—baaki kahan? 📒\n\nIllustrative stationery-supply example: office ko ₹20,000 ka maal deliver hua; ₹2,000 abhi mile aur ₹18,000 agreed date par milne hain. Delivered order aur actually received cash ko alag track karo. Baaki ₹18,000 ko bank balance maan kar kharch plan mat karo. Real payment terms customer ke saath pehle clear karo.\n\nPractical habit: customer, delivered amount, received amount, outstanding balance aur due date likho. Roz sales aur cash received ke do alag totals dekho, aur due date ke aas-paas polite follow-up karo.\n\n#BusinessJalwa #SmallBusinessIndia #CashFlowBasics #Receivables #StationeryBusiness",
+  "scenes": [
+    {
+      "visual": "Indian stationery-shop owner surprised by a mostly empty cash drawer after preparing a sizable office order",
+      "narration": "बीस हज़ार का सामान दिया, मगर हाथ में सिर्फ दो हज़ार आए—बाकी कहाँ हैं? स्टेशनरी सप्लाई में माल देने और पैसा मिलने का दिन अलग हो सकता है। इसे न समझो तो नकद स्थिति भ्रमित करेगी।",
+      "question": "20 hazaar sale, cash 2?",
+      "answer": "Baaki udhar hai"
+    },
+    {
+      "visual": "Stationery supplier hands packed notebooks, paper and pens to an office customer",
+      "narration": "मान लो ऑफिस को बीस हज़ार का माल आज दे दिया। उसने दो हज़ार अभी दिए और अठारह हज़ार तय तारीख पर देने हैं। ये सिर्फ उदाहरण है; रकम और भुगतान की शर्तें पहले साफ करो।",
+      "question": "Kitna abhi mila?",
+      "answer": "Sirf 2 hazaar"
+    },
+    {
+      "visual": "Customer makes a small partial payment while shop owner holds a blank invoice sheet",
+      "narration": "पूरे ऑर्डर का हिसाब है, लेकिन खर्च करने के लिए अभी सिर्फ मिला पैसा है। बाकी अठारह हज़ार वसूलने हैं। उसे बैंक में पड़ा कैश समझकर नया खर्च तय मत करो।",
+      "question": "18 hazaar kahan?",
+      "answer": "Customer se aana hai"
+    },
+    {
+      "visual": "Shop owner separates received cash from an unpaid blank invoice folder and checks a blank ledger",
+      "narration": "हर उधार बिक्री में ग्राहक का नाम, दिया माल, कुल रकम, मिली रकम और तय तारीख लिखो। बिल की कॉपी रखो। तारीख के आसपास विनम्र याद दिलाने से भुगतान की स्थिति साफ रहेगी।",
+      "question": "Udhar mein kya likhein?",
+      "answer": "Rakam aur due date"
+    },
+    {
+      "visual": "Stationery owner politely follows up with office customer and later checks received payment against a blank ledger",
+      "narration": "रोज़ दो जोड़ देखो: आज कितना माल दिया और आज कितना पैसा आया। फिर बाकी उधार और उसकी देय तारीख मिलाओ। इससे सप्लायर को भुगतान और अगली खरीद की योजना साफ बनेगी।",
+      "question": "Roz kaun se totals?",
+      "answer": "Sale aur cash alag"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-09/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
