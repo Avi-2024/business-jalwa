@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-24",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Juice stall mein theoretical aur actual serving yield ko alag track karna",
+  "caption": "10 litre juice se 50 glass pakke milenge? 🥤\n\nIllustrative example: har glass mein 200 ml dene par 10,000 ml se theoretical 50 servings banti hain. Agar transfer aur serving mein 500 ml usable juice kam ho jaye, to 9,500 ml se 47 full glasses milenge aur 100 ml bachega. Yeh fixed wastage rate nahi; actual loss ko apni shop par naapna hoga.\n\nEk standard measuring cup rakho, batch ka starting volume aur actual sold servings likho. Phir stock aur next batch ka promise real yield ke hisaab se karo. Portion consistency customer trust aur cost planning dono ke liye useful hai.\n\n#BusinessJalwa #JuiceShop #SmallBusinessIndia #Operations #PortionControl",
+  "scenes": [
+    {
+      "visual": "Juice stall owner looks at large fresh juice container and a row of empty glasses",
+      "narration": "दस लीटर जूस है—क्या पचास ग्लास पक्के बेच पाओगे? कागज़ पर जवाब हाँ लग सकता है। लेकिन दुकान पर डालते और परोसते समय जितना जूस सच में बचता है, वही आपकी बिक्री तय करता है।",
+      "question": "10 litre = 50 glass?",
+      "answer": "Pehle yield dekho"
+    },
+    {
+      "visual": "Juice seller pours into standard measuring cup beside clear serving glasses",
+      "narration": "मान लो एक ग्लास में दो सौ मिलीलीटर जूस देना तय है। दस लीटर यानी दस हज़ार मिलीलीटर। इसे दो सौ से भाग दो, तो पचास ग्लास की सैद्धांतिक संख्या आती है। अब असली परोसना देखें।",
+      "question": "Paper par kitne?",
+      "answer": "50 glass theoretical"
+    },
+    {
+      "visual": "Juice maker transfers drink between pitcher and dispenser while observing spill and residue",
+      "narration": "इस उदाहरण में ट्रांसफ़र और सर्विंग के बाद पाँच सौ मिलीलीटर इस्तेमाल लायक जूस कम रहा। अब साढ़े नौ लीटर बचते हैं। दो सौ मिलीलीटर के सैंतालीस पूरे ग्लास बनेंगे, और सौ मिलीलीटर बचेगा।",
+      "question": "Actual kitne full?",
+      "answer": "47 glass"
+    },
+    {
+      "visual": "Stall worker records batch volume and serving count on blank clipboard while using measuring cup",
+      "narration": "यह नुकसान का कोई तय प्रतिशत नहीं है। अपनी दुकान में हर बैच का शुरुआती वॉल्यूम और बिके हुए पूरे ग्लास लिखो। एक ही माप वाला कप इस्तेमाल करो, ताकि ग्राहक को हर बार लगभग समान मात्रा मिले।",
+      "question": "Daily kya likhna?",
+      "answer": "Batch aur serving count"
+    },
+    {
+      "visual": "Juice stall owner plans next batch with fresh fruit and regular customers at counter",
+      "narration": "टेकअवे: स्टॉक का वादा सैद्धांतिक संख्या पर मत करो। अपनी असली सर्विंग यील्ड देखकर अगला बैच और दिन की बिक्री प्लान करो। माप साफ होगा तो कम पड़ने का जोखिम भी जल्दी दिखेगा।",
+      "question": "Next batch kaise?",
+      "answer": "Real yield se plan"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-24/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
