@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-25",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Bike repair shop mein brake-pad reorder point ko supplier lead time aur buffer se plan karna",
+  "caption": "Customer ki bike aayi, brake-pad set shelf par khatam? 🛵\n\nIllustrative example: workshop roz average 2 brake-pad sets use karta hai aur supplier ko naya stock pahunchane mein 3 din lagte hain. Is lead time mein 6 sets lag sakte hain. Agar owner 2 sets ka extra buffer rakhe, to 8 sets bachte hi reorder karne ka reminder useful hai. Yeh fixed rule nahi: real demand, delivery delays aur model-wise fit alag hote hain.\n\nHar part ka average daily use, supplier lead time aur sensible safety stock track karo. Order quantity alag decide hoti hai. Regular review se customer ko unavailable part ki surprise kam hogi.\n\n#BusinessJalwa #BikeRepair #SmallBusinessIndia #InventoryPlanning #Operations",
+  "scenes": [
+    {
+      "visual": "Indian bike repair shop mechanic checks an almost empty brake-pad shelf as customer waits with motorcycle",
+      "narration": "ग्राहक बाइक लेकर खड़ा है, और ब्रेक पैड का सेट खत्म? रिपेयर शॉप में ऐसी कमी सिर्फ एक बिक्री नहीं रोकती; ग्राहक को दोबारा आना पड़ सकता है। सवाल है: नया स्टॉक कितने सेट बचने पर मंगाएँ?",
+      "question": "Brake pad khatam?",
+      "answer": "Reorder point banao"
+    },
+    {
+      "visual": "Mechanic reviews brake-pad sets used in recent jobs with workshop helper",
+      "narration": "मान लो एक खास बाइक मॉडल के ब्रेक पैड के रोज़ औसतन दो सेट लगते हैं। सप्लायर को नया माल पहुँचाने में तीन दिन लगते हैं। इन तीन दिनों में लगभग छह सेट की ज़रूरत पड़ सकती है।",
+      "question": "3 din mein kitne?",
+      "answer": "6 sets expected"
+    },
+    {
+      "visual": "Parts supplier packages brake-pad sets while bike workshop owner checks delivery timing",
+      "narration": "अब देरी या अचानक बढ़ी मांग के लिए दो सेट का छोटा बफर मान लो। छह और दो मिलाकर आठ सेट हुए। इस उदाहरण में आठ सेट बचें, तब नया ऑर्डर लगाने का संकेत मिलना चाहिए।",
+      "question": "Buffer jodkar?",
+      "answer": "8 par reorder"
+    },
+    {
+      "visual": "Workshop owner labels separate motorcycle model brake-pad shelves and checks stock cards",
+      "narration": "यह हर पार्ट के लिए एक जैसा नंबर नहीं होगा। मॉडल के हिसाब से स्टॉक अलग रखो। औसत इस्तेमाल, सप्लायर का असली समय और पिछले स्टॉक-आउट देखो। ऑर्डर की मात्रा भी इस संकेत से अलग तय करनी होगी।",
+      "question": "Sab parts same?",
+      "answer": "Model-wise track"
+    },
+    {
+      "visual": "Mechanic fits the correct brake-pad set to a customer's bike while owner reviews parts shelf",
+      "narration": "टेकअवे: स्टॉक खत्म होने का इंतज़ार मत करो। रोज़ की मांग को सप्लाई के दिनों से जोड़ो, फिर उचित बफर रखो। महीने में इस सीमा को फिर जाँचो, ताकि ग्राहक के आने से पहले सही पार्ट उपलब्ध हो।",
+      "question": "Next month kya?",
+      "answer": "Threshold review karo"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-25/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
