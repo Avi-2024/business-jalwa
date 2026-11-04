@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-03",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Chai stall mein daily average ke bajay rush-hour demand dekhkar prep aur help plan karna",
+  "caption": "60 chai bike, phir bhi shaam ko line kyun? ☕\n\nIllustrative chai-stall example: dukaan 10 ghante khuli aur 60 cups bike—daily average 6 cups per hour. Lekin agar 30 cups sirf shaam ke ek ghante mein bike, to woh rush average se 5 guna hai. Baaki 30 cups doosre 9 ghanton mein bike. Average se akela rush ka plan nahi banta.\n\nPractical habit: kuch din hourly orders note karo. Peak se pehle cups, ingredients aur change ready rakho; zaroorat aur budget ke hisaab se help ya clear wait time plan karo. Service quality aur customer safety ko rush mein bhi sambhalo.\n\n#BusinessJalwa #ChaiBusiness #SmallBusinessIndia #OperationsBasics #CustomerExperience",
+  "scenes": [
+    {
+      "visual": "Indian neighborhood tea stall owner surprised by a long evening queue despite a normal-looking daily sales notebook",
+      "narration": "साठ चाय बिकीं, फिर भी शाम को लंबी लाइन क्यों? चाय वाले ने पूरे दिन की औसत बिक्री देखी, पर ग्राहक एक जैसी रफ़्तार से नहीं आते। असली दबाव उस एक घंटे में छिपा था।",
+      "question": "60 chai, shaam ko line?",
+      "answer": "Peak hour dekho"
+    },
+    {
+      "visual": "Tea seller runs a calm stall during daytime and marks cup orders on an unmarked notebook",
+      "narration": "मान लो दुकान दस घंटे खुली और कुल साठ कप बिके। औसत निकली छह कप प्रति घंटा। इस संख्या से लगेगा, एक ही व्यक्ति आराम से संभाल लेगा। लेकिन औसत हर घंटे की तस्वीर नहीं बताती।",
+      "question": "Average kitna?",
+      "answer": "6 cups per hour"
+    },
+    {
+      "visual": "Evening commuter crowd quickly gathers around a small Indian tea counter while seller pours multiple cups",
+      "narration": "अब देखो: तीस कप सिर्फ शाम के एक घंटे में बिके। बाकी तीस, दूसरे नौ घंटों में। मतलब उस rush वाले घंटे में माँग पूरे दिन के औसत से पाँच गुना थी। इसलिए लाइन बनी।",
+      "question": "Rush mein kitne?",
+      "answer": "30 cups in 1 hour"
+    },
+    {
+      "visual": "Tea stall owner prepares clean cups, ingredients and change before evening rush with helper nearby",
+      "narration": "यह सिर्फ समझाने वाला उदाहरण है। अपने काउंटर पर कुछ दिन हर घंटे के ऑर्डर गिनो। जिस समय भीड़ बार-बार आती है, उससे पहले साफ कप, सामग्री और छुट्टे तैयार रखो। ज़रूरत हो, तो मदद तय करो।",
+      "question": "Peak se pehle kya?",
+      "answer": "Prep aur help"
+    },
+    {
+      "visual": "Organized tea stall serves customers in a clear queue while owner monitors safe pouring and wait time",
+      "narration": "टेकअवे: दिन का टोटल बताता है कितनी बिक्री हुई; घंटे की गिनती बताती है तैयारी कब चाहिए। भीड़ ज्यादा हो, तो ग्राहक को इंतज़ार साफ बताओ और गरम चाय संभालकर परोसो।",
+      "question": "Roz kya note karein?",
+      "answer": "Hourly orders"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-03/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
