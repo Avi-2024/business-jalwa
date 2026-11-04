@@ -1,0 +1,45 @@
+{
+  "date": "2027-01-27",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Home pickle seller ke courier parcels mein leakage kam karne ke liye packing test aur batch tracking",
+  "caption": "20 achar jars bheje, 3 leak hokar pahunche? 🫙\n\nIllustrative example: home seller ko 20 parcels mein 3 leakage complaints mili. Pehla step hai complaint ko batch, jar aur packing method se jodna. Lid seal, jar cushioning aur outer carton ko chhote test batch mein check karo; courier ke safar ko bhi dhyan mein rakho. Damage rate ka trend dekho, aur customer ko clear replacement process batao.\n\nSirf aur tape lapetna solution nahi. Ek change karo, test karo, phir repeat orders ke liye standard packing step likho. Food safety aur applicable shipping rules alag se follow karo.\n\n#BusinessJalwa #HomeBusiness #SmallBusinessIndia #Packaging #CustomerExperience",
+  "scenes": [
+    {
+      "visual": "Customer opens leaked pickle parcel at home while small-batch Indian pickle seller receives complaint",
+      "narration": "बीस अचार के जार भेजे, तीन रास्ते में लीक हो गए? घर से बेचने वाले के लिए यह सिर्फ पैकिंग की गलती नहीं; रिफंड, दोबारा भेजने और ग्राहक के भरोसे का सवाल है। पहले पता करो, रिसाव कहाँ से शुरू हुआ।",
+      "question": "20 mein 3 leak?",
+      "answer": "Pehle wajah pakdo"
+    },
+    {
+      "visual": "Pickle seller inspects lids, jar rims, and seals of a small batch on kitchen worktable",
+      "narration": "मान लो ये तीन शिकायतें एक ही बैच से आईं। जार का ढक्कन, किनारा और सील देखो। अगर हर शिकायत अलग बैच से है, तो पैकिंग या सफर में झटका भी जाँचने की वजह बन सकता है।",
+      "question": "Ek batch tha?",
+      "answer": "Batch trace karo"
+    },
+    {
+      "visual": "Seller compares two parcel packing methods with jars protected by cushioning inside cartons",
+      "narration": "अब छोटे टेस्ट में एक बदलाव करो। जैसे जार को सुरक्षित कुशनिंग दो और डिब्बे में हिलने की जगह कम करो। उसी समय ढक्कन और सील की जाँच अलग रखो, ताकि पता चले किस बदलाव से फर्क पड़ा।",
+      "question": "Packing kaise test?",
+      "answer": "Ek change ek baar"
+    },
+    {
+      "visual": "Seller reviews returned damaged parcel and tracks parcel batches with blank physical cards",
+      "narration": "अगले बीस पार्सल में कितनी शिकायतें आती हैं, लिखो। पहले तीन थीं और अब एक है, तो यह सुधार का संकेत है, गारंटी नहीं। मौसम, जार और कूरियर हैंडलिंग बदलें तो फिर जाँच करनी होगी।",
+      "question": "Sudhar hua?",
+      "answer": "Complaints compare karo"
+    },
+    {
+      "visual": "Seller packs sealed pickle jars carefully and explains replacement to customer on phone",
+      "narration": "टेकअवे: हर भेजे हुए बैच और शिकायत का रिकॉर्ड रखो। पैकिंग का छोटा टेस्ट चलाओ, सफल तरीका दोहराओ, और नुकसान पर ग्राहक को साफ़ रिप्लेसमेंट प्रक्रिया बताओ। खाने की सुरक्षा और शिपिंग के लागू नियम भी हमेशा मानो।",
+      "question": "Ab kya routine?",
+      "answer": "Test, track, repeat"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-01-27/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
