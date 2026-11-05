@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-19",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Home tiffin service mein delivery area aur route dekhkar realistic orders lena",
+  "caption": "Paanch tiffin, paanch alag dishaayein — delivery late kyun? 🍱\n\nIllustrative setup: chhoti tiffin service ko paanch orders milte hain, lekin addresses bikhre hue hain. Sirf orders ginne se delivery ka time nahi pata chalta. Pehle addresses aur promised time dekho, ek route mein aane wale orders group karo, aur door ke address ke liye alag delivery window ya charge pehle hi saaf batao.\n\nPractical takeaway: orders accept karne se pehle route aur capacity check karo; food safety ke liye suitable packing aur temperature handling apne process mein rakho.\n\n#BusinessJalwa #TiffinBusiness #SmallBusinessIndia #DeliveryOperations #CustomerExperience",
+  "scenes": [
+    {
+      "visual": "Tiffin business owner has five packed meals while rider faces diverging neighborhood streets",
+      "narration": "पाँच टिफ़िन तैयार, फिर डिलीवरी लेट क्यों? मान लो पाँच ग्राहक अलग दिशाओं में हैं। खाना समय पर बन सकता है, लेकिन एक राइडर हर जगह एक साथ नहीं पहुँच सकता। सिर्फ ऑर्डर गिनने से रास्ते का समय नहीं दिखता।",
+      "question": "5 tiffin, delivery late kyun?",
+      "answer": "Addresses bikhre hain"
+    },
+    {
+      "visual": "Tiffin rider on scooter pauses at a road fork among separate neighborhood streets",
+      "narration": "ऑर्डर लेते समय पता, इलाका और माँगा गया समय देखो। पहुँचने में कितना समय लगेगा, यह भी सोचो। ट्रैफ़िक और हर घर पर रुकने का समय जुड़ता है। तभी साफ़ डिलीवरी समय बता पाओगे।",
+      "question": "Order se pehle kya dekhein?",
+      "answer": "Area aur promised time"
+    },
+    {
+      "visual": "Owner and rider group blank address cards by delivery area beside steel tiffin carriers",
+      "narration": "पास पास के पते एक रूट में रखो। मान लो पाँच में तीन घर एक ही इलाके में हैं। उन्हें एक चक्कर में देने की योजना बनाओ। बाकी दो के लिए अलग रास्ता रखो। क्रम साफ़ होगा तो तैयारी आसान होगी।",
+      "question": "Route kaise banayein?",
+      "answer": "Paas ke addresses jodo"
+    },
+    {
+      "visual": "Owner packs the tiffins in planned dispatch order as rider waits by the counter",
+      "narration": "दूर के पते के लिए पास वाले ग्राहक जैसा समय मत बोलो। रूट और क्षमता जाँचकर सही डिलीवरी विंडो या अलग शुल्क बताओ। ग्राहक राज़ी हो, तभी ऑर्डर पक्का करो। दबाव में अवास्तविक वादा बाद में परेशानी बनता है।",
+      "question": "Door ka order kaise lein?",
+      "answer": "Time aur charge saaf karo"
+    },
+    {
+      "visual": "Rider delivers steel tiffins to neighboring customers while owner prepares the next dispatch",
+      "narration": "छोटा नियम: ऑर्डर से पहले इलाका, समय और राइडर की क्षमता देखो। डिब्बे उसी क्रम में तैयार करो। हर ग्राहक को वास्तविक डिलीवरी विंडो दो। इससे देर का जोखिम समझ आता है और गलत वादा करने से बचते हो।",
+      "question": "Tiffin ka practical rule?",
+      "answer": "Route dekhkar wada karo"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-19/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
