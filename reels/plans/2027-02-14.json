@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-14",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Chai-samosa combo discount dene se pehle per-order contribution samajhna",
+  "caption": "₹30 ki chai aur samosa ₹25 ke combo mein: sale badhe to bhi bachta kitna hai? ☕\n\nSirf samjhane ke liye example: chai ₹10, samosa ₹20; dono ki seedhi ingredient aur serving cost mila kar ₹12. Alag bechne par ₹18, aur ₹25 combo par ₹13 seedhi cost ke baad bachte hain. Yeh profit nahi hai—rent, staff aur doosre kharche abhi baaki hain.\n\nApne actual ingredients, portions, packing aur price likhkar combo ka hisaab nikalo. Phir dekho discount se extra orders aate bhi hain ya nahi.\n\n#BusinessJalwa #SmallBusinessIndia #ComboPricing #ChaiBusiness #FinanceBasics",
+  "scenes": [
+    {
+      "visual": "Chai stall owner watches customer consider tea and samosa separately",
+      "narration": "तीस रुपये की चाय-समोसा जोड़ी पच्चीस के कॉम्बो में बेचोगे—तो बचेंगे कितने? ग्राहक को पाँच रुपये की छूट अच्छी लग सकती है। मगर दुकान के लिए पहले हर ऑर्डर का हिसाब देखना ज़रूरी है।",
+      "question": "30 ka combo 25 mein?",
+      "answer": "Bachega kitna?"
+    },
+    {
+      "visual": "Customer holds tea and samosa together while owner discusses the offer",
+      "narration": "सिर्फ समझने के लिए मान लो चाय की कीमत दस रुपये और समोसे की बीस रुपये है। अलग बेचो तो कुल तीस रुपये मिलते हैं। अब छूट देने से पहले दोनों को बनाने की सीधी लागत जोड़ते हैं।",
+      "question": "Alag price kya?",
+      "answer": "Kul 30 rupaye"
+    },
+    {
+      "visual": "Tea and samosa ingredients arranged in separate groups on counter",
+      "narration": "मान लो चाय में दूध, पत्ती, चीनी और कप मिलाकर चार रुपये लगते हैं। समोसे की सामग्री, तेल और परोसने पर आठ रुपये। दोनों की सीधी लागत हुई बारह रुपये। अपनी दुकान में ये रकम अपने असली रिकॉर्ड से निकालना।",
+      "question": "Seedhi cost kitni?",
+      "answer": "Example mein 12"
+    },
+    {
+      "visual": "Owner and assistant check ingredient portions and blank ledger beside tea and samosa",
+      "narration": "फर्क देखो: अलग बेचने पर तीस में से बारह घटे, अठारह बचे। पच्चीस के कॉम्बो में बारह घटे, तेरह बचे। यानी हर ऑर्डर पर पाँच रुपये कम बचे। यह मुनाफ़ा नहीं; किराया और मज़दूरी अभी बाकी हैं।",
+      "question": "Discount ka asar?",
+      "answer": "5 rupaye kam bache"
+    },
+    {
+      "visual": "Owner serves tea-and-samosa combo to customer after thoughtful planning",
+      "narration": "कॉम्बो रखना है, तो पहले असली लागत और बची रकम लिखो। फिर कुछ दिन देखो कि छूट से अतिरिक्त ऑर्डर आते भी हैं या नहीं। कीमत ऐसा तय करो कि ग्राहक को बात साफ़ हो और दुकान के खर्च भी संभलें।",
+      "question": "Combo kab rakhein?",
+      "answer": "Hisaab dekhkar"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-14/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
