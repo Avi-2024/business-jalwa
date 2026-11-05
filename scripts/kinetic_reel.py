@@ -350,14 +350,24 @@ def render_scene(scene, index, duration, narration, words, clip):
                         line = line.copy()
                         line.putalpha(line.getchannel('A').point(lambda value: round(value * opacity)))
                     image.alpha_composite(line, (35, 490 + shift))
-            elif index == 0 and frame < 5:
-                # A brief opening frame can also serve as the video cover.
-                title = Image.new('RGBA', SIZE, (0, 0, 0, 0))
-                d = ImageDraw.Draw(title)
-                font = ImageFont.truetype(FONT_LATIN, 41)
-                label = scene['question']
-                d.text(((720 - d.textlength(label, font=font)) / 2, 630), label, fill=WHITE, font=font)
-                image = Image.alpha_composite(image, title)
+            # Keep a concise Roman-Hinglish question and gold answer visible at each scene opening.
+            if t < 2.8:
+                overlay = Image.new('RGBA', SIZE, (0, 0, 0, 0))
+                d = ImageDraw.Draw(overlay)
+                question = scene['question'].strip()
+                answer = scene['answer'].strip()
+                qfont = ImageFont.truetype(FONT_LATIN, 30)
+                afont = ImageFont.truetype(FONT_LATIN, 36)
+                qwidth = d.textlength(question, font=qfont)
+                awidth = d.textlength(answer, font=afont)
+                fade = max(0, min(1, t / .16, (2.8 - t) / .32))
+                d.text(((720 - qwidth) / 2, 330), question,
+                       fill=(*WHITE, round(255 * fade)), font=qfont)
+                d.rounded_rectangle((180, 383, 540, 386), radius=2,
+                                    fill=(70, 142, 213, round(220 * fade)))
+                d.text(((720 - awidth) / 2, 402), answer,
+                       fill=(*GOLD, round(255 * fade)), font=afont)
+                image = Image.alpha_composite(image, overlay)
             process.stdin.write(image.convert('RGB').tobytes())
     finally:
         process.stdin.close()
