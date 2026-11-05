@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-16",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Paint shop mein full order se pehle actual wall par shade sample check karna",
+  "caption": "Shop mein cream laga, ghar ki deewar par peela? 🎨\n\nIllustrative paint-shop example: ek shade alag roshni, wall surface aur finish mein kuch alag dikh sakta hai. Customer se room aur lighting poochho. Bade order se pehle actual deewar par chhota sample patch lagwa kar sookhne ke baad din aur shaam dono mein dekho. Agar base preparation ya finish badal rahi hai, final result bhi badal sakta hai.\n\nPractical habit: shade code aur chosen finish likhkar customer ki confirmation lo, phir full quantity finalize karo.\n\n#BusinessJalwa #PaintShop #SmallBusinessIndia #CustomerExperience #OperationsBasics",
+  "scenes": [
+    {
+      "visual": "Paint shop owner and customer compare a cream sample near a lamp and daylight window",
+      "narration": "दुकान में रंग क्रीम लगा, घर की दीवार पर पीला क्यों? पेंट की छोटी पट्टी देखकर पूरा कमरा तय करना जोखिम भरा हो सकता है। रोशनी, दीवार की सतह और फिनिश से वही शेड अलग दिख सकता है।",
+      "question": "Cream shade peela kyun?",
+      "answer": "Roshni aur surface"
+    },
+    {
+      "visual": "Owner gives customer plain paint sample boards and a small unmarked paint tin",
+      "narration": "मान लो ग्राहक ने दुकान की तेज़ रोशनी में हल्का क्रीम चुना। घर में गर्म पीली लाइट है। दोनों जगह आँख को रंग अलग महसूस हो सकता है। इसलिए सिर्फ दुकान का कार्ड देखकर बड़े ऑर्डर की जल्दी मत करो।",
+      "question": "Shop sample kaafi?",
+      "answer": "Wall par bhi dekho"
+    },
+    {
+      "visual": "Painter applies a small sample patch to the customer's actual room wall in daylight",
+      "narration": "पहले उसी दीवार पर छोटा सैंपल पैच लगवाओ जहाँ पेंट होना है। सतह की तैयारी और फिनिश भी प्रस्तावित काम जैसी रखो। पैच सूखने दो; गीले रंग को अंतिम रंग मानकर फैसला मत लो।",
+      "question": "Sample kahan lagayein?",
+      "answer": "Actual wall par"
+    },
+    {
+      "visual": "Customer views dry painted patch under a warm indoor evening lamp",
+      "narration": "अब सूखा पैच दिन की रोशनी और शाम की लाइट, दोनों में देखो। ग्राहक को पसंद न आए, तो अभी दूसरा शेड आज़माना आसान है। पूरे कमरे के बाद बदलाव कहीं ज़्यादा मेहनत और खर्च माँग सकता है।",
+      "question": "Kab check karein?",
+      "answer": "Sookhne ke baad"
+    },
+    {
+      "visual": "Paint shop owner and customer confirm the chosen plain paint tins after sample inspection",
+      "narration": "छोटा नियम: सैंपल लगाओ, सूखने दो, अलग रोशनी में देखो, फिर शेड और फिनिश लिखकर ग्राहक से पुष्टि लो। उसके बाद पूरी मात्रा तय करो। इससे उम्मीद और असली नतीजे के बीच फर्क कम हो सकता है।",
+      "question": "Full order kab?",
+      "answer": "Sample approve karke"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-16/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
