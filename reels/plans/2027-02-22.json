@@ -1,0 +1,45 @@
+{
+  "date": "2027-02-22",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Small cafe mein supplier delivery ko purchase order, delivery note aur invoice se match karna",
+  "caption": "10 carton mangaye, 12 aa gaye? 📦\n\nCafe ya retail shop mein supplier ko purchase order (PO) bhejne se pehle item, size, per-carton quantity, rate aur delivery date likho. Example: 10 cartons × ₹800 = ₹8,000. Delivery par actual count, delivery note aur invoice milao. Agar bill 12 cartons ka hai, to 2 extra cartons ka reason aur correction ya approval written mein clear karo. Received quantity bina verify kiye confirm mat karo.\n\n#BusinessJalwa #SmallBusinessIndia #PurchaseOrder #SupplierManagement #CafeBusiness #OperationsBasics",
+  "scenes": [
+    {
+      "visual": "Cafe owner receives twelve cartons of paper cups although the purchase order was for ten; supplier stands beside the delivery",
+      "narration": "दस कार्टन पेपर कप मँगाए थे, लेकिन सप्लायर बारह उतार गया। क्या दोनों एक्स्ट्रा रख लें? पहले अपने ऑर्डर से मिलान कीजिए।",
+      "question": "10 order, 12 cartons aaye?",
+      "answer": "Pehle PO milao"
+    },
+    {
+      "visual": "Cafe owner and packaging supplier review a blank purchase-order sheet beside stacked paper-cup cartons",
+      "narration": "कैफ़े की खरीद में पहले purchase order बनाइए। उसमें कप का सही साइज़, हर कार्टन में कितने कप, कार्टन की संख्या, तय रेट और डिलीवरी की तारीख लिखें।",
+      "question": "PO mein kya likhein?",
+      "answer": "Item, qty, rate, date"
+    },
+    {
+      "visual": "Owner counts the delivered cartons and checks the sealed packaging and paper cups",
+      "narration": "मिसाल के लिए, दस कार्टन और हर कार्टन आठ सौ रुपये का है। आपके ऑर्डर की कुल कीमत आठ हज़ार रुपये हुई। माल उतरते समय कार्टन गिनें और पैकिंग भी देखें।",
+      "question": "10 × ₹800 kitna?",
+      "answer": "₹8,000 order value"
+    },
+    {
+      "visual": "Owner compares a blank delivery note and invoice against the purchase order while the extra cartons remain visible",
+      "narration": "अब purchase order को delivery note और invoice से मिलाइए। अगर बिल बारह कार्टन का है, तो दो एक्स्ट्रा का कारण पूछें। कमी या नुकसान हो, तो receipt पर साफ़ नोट करें।",
+      "question": "Bill 12 ka hai?",
+      "answer": "2 extra note karo"
+    },
+    {
+      "visual": "Owner sets two extra cartons aside, contacts the supplier, and agrees on a corrected handover",
+      "narration": "सप्लायर से corrected invoice, बदला हुआ ऑर्डर या एक्स्ट्रा कार्टन की वापसी—जो भी तय हो, लिखित में पक्का करें। सीख यही है: ऑर्डर, मिला हुआ माल और बिल—तीनों अलग-अलग जाँचकर ही final approval दें।",
+      "question": "Final approval kab?",
+      "answer": "PO, delivery, invoice milao"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-22/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ]
+}
