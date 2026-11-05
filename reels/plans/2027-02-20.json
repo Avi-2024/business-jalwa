@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-20",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Yoga studio mein trial se second booking ka simple conversion measure karna",
+  "caption": "10 trial students aaye, 2 ne doosri class book ki — ab kya samjhein? 🧘\n\nIllustrative example: ek chhote yoga studio ke 10 alag log trial class lete hain. Agle do hafton mein unmein se 2 log second class book karte hain. Trial-to-second-booking rate = 2 ÷ 10 = 20% is cohort aur is time window ke liye. Yeh number wajah nahi batata. Timings, class experience ya price par voluntary feedback lo; phir ek practical improvement test karo.\n\nPractical habit: same time window ke saath har trial group ka count rakho. Bina poochhe yeh mat maan lo ki discount hi solution hai.\n\n#BusinessJalwa #YogaStudio #SmallBusinessIndia #CustomerRetention #BusinessMetrics",
+  "scenes": [
+    {
+      "visual": "Neighborhood yoga instructor welcomes trial students carrying mats at her studio door",
+      "narration": "दस ट्रायल स्टूडेंट आए, दूसरी क्लास सिर्फ दो ने बुक की। बाकी आठ कहाँ रुके? वजह अनुमान से मत तय करो। पहले देखो, ट्रायल लेने वालों में कितने लोग सच में अगली क्लास तक पहुँचे।",
+      "question": "10 trial, sirf 2 wapas?",
+      "answer": "Pehle rate gino"
+    },
+    {
+      "visual": "Instructor guides a gentle seated stretch during a trial yoga class",
+      "narration": "मान लो एक हफ़्ते में दस अलग लोगों ने ट्रायल लिया। अगले दो हफ़्तों में उनमें से दो ने दूसरी क्लास बुक की। यही समय तय रखो, ताकि गिनती में पुराने और नए ग्राहक न मिलें।",
+      "question": "Kisko count karein?",
+      "answer": "Usi trial group ko"
+    },
+    {
+      "visual": "Studio owner sorts blank cards with colored clips to track trial and repeat interest",
+      "narration": "हिसाब सीधा है: दो दूसरी बुकिंग, दस ट्रायल के मुकाबले। यानी इस उदाहरण में बीस प्रतिशत ने दो हफ़्तों में अगली क्लास बुक की। इसे ट्रायल से दूसरी बुकिंग का रेट कहो; इससे कारण पता नहीं चलता।",
+      "question": "Repeat rate kitna?",
+      "answer": "Is example mein 20%"
+    },
+    {
+      "visual": "Two former trial students return with mats while instructor greets them warmly",
+      "narration": "कम रेट देखकर तुरंत डिस्काउंट मत लगाओ। जिन्होंने दोबारा बुक नहीं किया, उनसे विनम्रता से पूछो: समय ठीक नहीं था, क्लास मुश्किल लगी, या कुछ और? जवाबों में बार बार आने वाली बात देखो।",
+      "question": "Discount hi solution hai?",
+      "answer": "Pehle feedback lo"
+    },
+    {
+      "visual": "Instructor listens to a student and then leads a welcoming yoga class",
+      "narration": "फिर छोटा बदलाव आज़माओ, जैसे शुरुआती क्लास का समय साफ़ दिखाना। अगली ट्रायल टोली के लिए वही दो हफ़्ते की गिनती दोहराओ। इससे दिखेगा कि दूसरी बुकिंग बढ़ी या नहीं। कारण का दावा सावधानी से करो।",
+      "question": "Ab kya karein?",
+      "answer": "Badlav test, phir ginti"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-20/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
