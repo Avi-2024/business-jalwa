@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-21",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Bicycle rental shop mein pickup aur return par cycle ki condition saath mein record karna",
+  "caption": "Rental cycle par scratch mila — pehle se tha ya ab aaya? 🚲\n\nIllustrative situation: customer ko cycle dete waqt frame par ek purana scratch tha. Agar pickup par dono ne cycle dekhi, chhoti condition note aur clear photo rakhi, to return par wahi jagah milana aasan hota hai. Brakes, tyres aur bell bhi handoff se pehle check karo. Return par customer ke saamne compare karo; sirf photo dekhkar bina baat kiye blame mat lagao.\n\nPractical habit: pickup aur return ki checklist, clear timestamped photos aur damage policy customer ko pehle batao.\n\n#BusinessJalwa #BicycleRental #SmallBusinessIndia #RentalOperations #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Rental shop owner and customer notice a scratch on the returned bicycle frame",
+      "narration": "किराये की साइकिल लौटी, फ्रेम पर खरोंच है। पुरानी थी या अभी आई? पहले की जानकारी न हो, तो दोनों अंदाज़ा लगाएँगे। ऐसी उलझन टालने का काम साइकिल देते समय शुरू होता है।",
+      "question": "Scratch purana tha ya naya?",
+      "answer": "Pickup record dekho"
+    },
+    {
+      "visual": "Owner points out a pre-existing small frame scratch with the renter before pickup",
+      "narration": "मान लो फ्रेम पर एक हल्की खरोंच पहले से है। साइकिल देते वक्त ग्राहक को दिखाओ और हालत सूची में लिखो। ब्रेक, टायर और घंटी भी जाँचो। ग्राहक देख ले कि उसे कैसी साइकिल मिल रही है।",
+      "question": "Dene se pehle kya check?",
+      "answer": "Scratch aur parts dono"
+    },
+    {
+      "visual": "Owner takes a clear side photo of the bicycle with a blank-screen phone at pickup",
+      "narration": "साइकिल के दोनों तरफ़ की साफ़ तस्वीर लो, खासकर पुरानी खरोंच की। तस्वीर और हालत सूची उसी बुकिंग से जोड़ो। ग्राहक को नुकसान की नीति पहले बता दो, ताकि शर्तें बाद में अचानक न लगें।",
+      "question": "Proof kaise rakhein?",
+      "answer": "Photo aur condition note"
+    },
+    {
+      "visual": "At return, owner and renter compare the same bicycle frame together",
+      "narration": "वापसी पर ग्राहक के सामने साइकिल देखो। पुरानी तस्वीर से वही खरोंच मिलती है, तो उसे नया नुकसान मत मानो। अलग निशान दिखे, तो साथ में जाँचो और अपनी बताई नीति के मुताबिक बात करो।",
+      "question": "Return par kya milayein?",
+      "answer": "Pehle wali condition"
+    },
+    {
+      "visual": "Owner and renter calmly complete the bicycle handoff in front of the rental shop",
+      "narration": "सीधा नियम: पिकअप पर जाँच, साफ़ तस्वीर और लिखी हुई हालत; रिटर्न पर उसी रिकॉर्ड से मिलान। इससे गलत आरोप का जोखिम घटता है और मरम्मत की ज़रूरत भी दिखती है। हर किराये में यह चेक दोहराओ।",
+      "question": "Rental ka simple rule?",
+      "answer": "Pickup aur return milao"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-21/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
