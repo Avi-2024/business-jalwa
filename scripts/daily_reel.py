@@ -7,6 +7,7 @@ import asyncio, datetime as dt, hashlib, json, math, os, re, subprocess, sys, ti
 import urllib.request, urllib.parse, urllib.error, wave
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from storyboard_art import ensure_storyboard
 
 ROOT=Path('.')
 REPO='Avi-2024/business-jalwa'
@@ -172,6 +173,8 @@ def main():
     planpath=Path(f'reels/plans/{date}.json')
     if not planpath.exists(): raise RuntimeError(f'No narrated Reel plan for {date}; daily preparation has not completed')
     plan=json.loads(planpath.read_text());posts=json.loads(Path('posts.json').read_text())
+    if plan.get('content_mode')=='original' and plan.get('visual_asset'):
+        ensure_storyboard(plan)
     post=select(date,posts,plan)
     if post and (not post.get('instagram_media_id') or not post.get('verified_at')):
         raise RuntimeError('Source carousel not yet verified published; leave Reel pending')
@@ -201,7 +204,11 @@ def main():
         state['renamed_at']=now()
         save()
     if not state.get('video_url'):
-        asyncio.run(build(post,plan,asset.parent));checkpoint([asset,planpath])
+        asyncio.run(build(post,plan,asset.parent))
+        rendered_paths=[asset,planpath]
+        if plan.get('visual_asset'):
+            rendered_paths.append(Path(plan['visual_asset']))
+        checkpoint(rendered_paths)
         sha=run('git','rev-parse','HEAD')
         state['video_url']=f'https://raw.githubusercontent.com/{REPO}/{sha}/{asset.as_posix()}'
         state['created_at']=now()
