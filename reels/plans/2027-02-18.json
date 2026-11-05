@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-18",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Neighbourhood laundry mein ek jaisi shirts ko intake se delivery tak sahi customer se match karna",
+  "caption": "Do safed shirts, do customers — laundry mein mix-up kaise rokein? 👕\n\nIllustrative example: do customers ki ek jaisi shirts aati hain. Sirf rang ya chehra yaad rakhne se kaam nahi chalega. Kapde lete waqt item count aur pehchaan ki detail note karo, har order ko alag code aur durable tag do, aur delivery se pehle tag ko customer ki receipt se match karo.\n\nPractical habit: tag ko kapde ke liye safe jagah lagao; delicate fabric ke liye suitable method chuno.\n\n#BusinessJalwa #LaundryBusiness #SmallBusinessIndia #OperationsBasics #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Laundry owner notices two nearly identical white shirts brought by different customers",
+      "narration": "दो सफ़ेद शर्ट, दो ग्राहक। वापस देते समय किसकी शर्ट किसे जाएगी? पड़ोस की लॉन्ड्री में दोनों एक जैसी दिखें, तो सिर्फ चेहरा या रंग याद रखना काफ़ी नहीं। गलती पकड़नी है तो शुरुआत कपड़े लेते समय करो।",
+      "question": "Do safed shirts, kiski kaun si?",
+      "answer": "Pehchaan pehle darj karo"
+    },
+    {
+      "visual": "Owner examines collar and button details of one incoming shirt at the counter",
+      "narration": "मान लो दो ग्राहकों से एक एक सफ़ेद शर्ट आई। एक की कॉलर पर अलग सिलाई है, दूसरी का बटन बदला है। हर ऑर्डर में कपड़ों की गिनती और ऐसी पहचान लिखो। ग्राहक को भी विवरण दिखाओ।",
+      "question": "Sirf rang kaafi hai?",
+      "answer": "Detail aur count likho"
+    },
+    {
+      "visual": "Owner attaches different blank durable tags to the two white shirts",
+      "narration": "हर ऑर्डर को अलग कोड दो और उससे जुड़ा, धुलाई सहने वाला टैग कपड़े पर सुरक्षित तरीके से लगाओ। नाज़ुक कपड़े हों तो सही तरीका चुनो। एक जैसे कपड़ों को अलग टोकरी में भी रखो।",
+      "question": "Kapda kaise pehchaanein?",
+      "answer": "Alag order tag lagao"
+    },
+    {
+      "visual": "Owner keeps tagged garments in separate cloth baskets and matches tag with customer receipt",
+      "narration": "धुलाई और प्रेस के बाद टैग पढ़कर कपड़ा उसी ऑर्डर में वापस रखो। डिलीवरी पर ग्राहक की पर्ची का कोड, कपड़ों की गिनती और दर्ज पहचान मिलाओ। सिर्फ सामने रखी सफ़ेद शर्ट उठाकर मत दे दो।",
+      "question": "Delivery se pehle kya check?",
+      "answer": "Tag, count, receipt milao"
+    },
+    {
+      "visual": "Owner hands the correctly matched pressed shirt to its smiling customer",
+      "narration": "सीधा नियम है: लेते समय पहचान दर्ज, हर कपड़े का टैग, और लौटाते समय पर्ची से मिलान। इससे गड़बड़ी की संभावना घटती है और ग्राहक को साफ़ हिसाब मिलता है। अपनी लॉन्ड्री में आज से यह चेक शुरू करो।",
+      "question": "Mix-up rokne ka rule?",
+      "answer": "Intake se delivery tak milaan"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-18/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
