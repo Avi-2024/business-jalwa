@@ -1,0 +1,39 @@
+{
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Tuition centre monthly batch fee: included sessions, duration aur make-up policy pehle clear karna",
+  "caption": "₹1,200 monthly fee, par classes kitni? 📚\n\nIllustrative tuition-batch example: monthly fee ka scope clear rakho—planned sessions, duration, holidays aur make-up policy. Agar ₹1,200 mein 12 planned classes hain, to ₹100 per planned class per student banta hai; yeh profit nahi. Rent, teacher time aur materials alag costs hain.\n\nPractical habit: fee lene se pehle written schedule aur missed-class rules share karo, phir parent confirmation lo.\n\n#BusinessJalwa #TuitionCentre #SmallBusinessIndia #ServicePricing #BusinessBasics",
+  "visual_asset": "assets/reels/2027-02-23/visual-storyboard.png",
+  "visual_grid": [
+    3,
+    2
+  ],
+  "scenes": [
+    {
+      "narration": "बारह सौ रुपये की फीस—महीने में कितनी क्लास? अगर जवाब साफ़ नहीं, तो बाद में अभिभावक और ट्यूटर दोनों उलझेंगे।",
+      "question": "₹1,200 mein kitni classes?",
+      "answer": "Sessions pehle clear karo"
+    },
+    {
+      "narration": "मासिक फीस का मतलब अपने आप असीमित क्लास नहीं होता। पहले बताइए कि महीने में कितने सेशन होंगे, हर सेशन कितनी देर का होगा, और छुट्टी किस दिन रहेगी।",
+      "question": "Monthly fee ka scope?",
+      "answer": "Fixed sessions + duration"
+    },
+    {
+      "narration": "मिसाल के लिए, बारह सौ रुपये में बारह तय क्लास हैं। तो हर विद्यार्थी के लिए प्रति तय क्लास सौ रुपये बैठते हैं। यह फीस का हिसाब है, मुनाफ़ा नहीं; किराया, शिक्षक का समय और सामग्री अलग खर्च हैं।",
+      "question": "₹1,200 ÷ 12?",
+      "answer": "₹100 per class"
+    },
+    {
+      "narration": "अब पहले से लिखिए: विद्यार्थी अनुपस्थित हो तो मेकअप क्लास मिलेगी या नहीं, छुट्टी वाली क्लास कब होगी, और कितने दिन पहले सूचना देनी है। एक खाली सीट दो लोगों से पक्की मत कीजिए।",
+      "question": "Missed class ka rule?",
+      "answer": "Policy pehle likho"
+    },
+    {
+      "narration": "फीस लेते समय छोटा शेड्यूल भेजिए—कुल क्लास, समय, छुट्टियाँ और मेकअप की शर्त। अभिभावक की पुष्टि लीजिए, फिर बैच शुरू कीजिए। साफ़ नियम भरोसा बनाते हैं और आपकी क्षमता भी संभालते हैं।",
+      "question": "Best next step?",
+      "answer": "Schedule + confirmation"
+    }
+  ]
+}
