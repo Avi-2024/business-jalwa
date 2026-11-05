@@ -1,0 +1,42 @@
+{
+  "date": "2027-02-15",
+  "content_mode": "original",
+  "source_post_id": null,
+  "approved": true,
+  "topic": "Appliance shop mein demo unit aur sealed ready-to-sell stock alag ginana",
+  "caption": "Shelf par 6 mixers, par turant dene ke liye sealed pieces sirf 5? 🔌\n\nIllustrative shop example: ek unit demo ke liye khola gaya hai. Isliye physical count aur sealed ready-to-sell count alag rakho. Customer ko sealed piece ka wada karne se pehle actual box aur model verify karo. Demo unit bechna ho to uski condition saaf batakar alag agreement karo; use chupke se naya sealed stock mat gino.\n\nRoz ka simple record: sealed, demo aur damaged/hold units alag. Isse availability ka wada zyada sahi hoga.\n\n#BusinessJalwa #ApplianceStore #SmallBusinessIndia #InventoryBasics #CustomerTrust",
+  "scenes": [
+    {
+      "visual": "Customer points at mixers on shelf while shop owner checks availability",
+      "narration": "शेल्फ पर छह मिक्सर हैं, पर अभी ग्राहक को देने लायक सील बंद पाँच ही—क्यों? क्योंकि एक मिक्सर दिखाने के लिए खोला जा चुका है। दुकान में दिखने वाले कुल पीस और नए सील बंद पीस एक जैसे नहीं होते।",
+      "question": "6 dikhe, sealed 5 kyun?",
+      "answer": "Ek demo hai"
+    },
+    {
+      "visual": "Assistant demonstrates unpacked mixer on counter as owner watches",
+      "narration": "एक उदाहरण मानो: दुकान ने छह मिक्सर मँगाए। एक को डेमो के लिए खोलकर काउंटर पर रखा। बाकी पाँच बॉक्स बंद हैं। ग्राहक ने नया, सील बंद मिक्सर माँगा, तो उपलब्ध संख्या पाँच है, छह नहीं।",
+      "question": "Naya stock kitna?",
+      "answer": "5 sealed pieces"
+    },
+    {
+      "visual": "Sealed mixer boxes in backroom with one unpacked demo unit separately on counter",
+      "narration": "स्टॉक रिकॉर्ड में डेमो पीस को अलग दर्ज करो। अगर कोई बॉक्स खराब है या ग्राहक के लिए रोका गया है, उसे भी अलग रखो। वरना शेल्फ गिनकर ज़्यादा डिलीवरी का वादा हो सकता है।",
+      "question": "Demo ko kaise gino?",
+      "answer": "Alag record karo"
+    },
+    {
+      "visual": "Owner and assistant count sealed boxes and check blank inventory ledger",
+      "narration": "ऑर्डर लेने से पहले वही मॉडल, रंग और बंद बॉक्स वास्तव में मौजूद है या नहीं, देखो। सिर्फ स्क्रीन पर संख्या या दूर से दिखते डिब्बों पर भरोसा मत करो। डेमो बेचना हो, तो उसकी हालत ग्राहक को साफ़ बताओ।",
+      "question": "Promise se pehle?",
+      "answer": "Box verify karo"
+    },
+    {
+      "visual": "Owner hands a sealed mixer box to customer while demo remains on display",
+      "narration": "छोटा नियम: कुल पीस, सील बंद बिक्री के पीस, डेमो और होल्ड अलग गिनो। दिन के अंत में इनका मिलान कर लो। फिर ग्राहक को सही उपलब्धता बताना आसान होगा और आख़िरी समय की उलझन कम हो सकती है।",
+      "question": "Daily stock habit?",
+      "answer": "Categories milao"
+    }
+  ],
+  "visual_asset": "assets/reels/2027-02-15/visual-storyboard.png",
+  "visual_grid": [3, 2]
+}
