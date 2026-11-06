@@ -1,0 +1,63 @@
+name: Render approved carousel JPEG assets
+on:
+  push:
+    paths:
+      - 'assets/source/**/slide-*.svg'
+      - 'scripts/render_carousel_assets.py'
+      - '.github/workflows/render-carousel-assets.yml'
+permissions:
+  contents: write
+concurrency:
+  group: carousel-artwork-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install SVG and image renderers
+        run: python -m pip install --disable-pip-version-check pillow cairosvg
+      - name: Find changed carousel source folders
+        id: keys
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" \
+            | awk -F/ '/^assets\/source\/[^/]+\/slide-[0-9]+\.svg$/ {print $3}' \
+            | sort -u > /tmp/post-keys.txt
+          if [[ ! -s /tmp/post-keys.txt ]]; then
+            echo "No carousel source folder changed; nothing to render."
+            exit 0
+          fi
+          echo "keys=$(paste -sd, /tmp/post-keys.txt)" >> "$GITHUB_OUTPUT"
+      - name: Render and validate five JPEG slides
+        if: steps.keys.outputs.keys != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+          IFS=',' read -ra KEYS <<< "${{ steps.keys.outputs.keys }}"
+          for key in "${KEYS[@]}"; do
+            python scripts/render_carousel_assets.py "$key"
+            python scripts/render_carousel_assets.py --verify-only "$key"
+          done
+      - name: Commit generated JPEGs to main
+        if: steps.keys.outputs.keys != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/approved/
+          if git diff --cached --quiet; then
+            echo "No generated JPEG changes to commit."
+            exit 0
+          fi
+          git commit -m "Render approved carousel JPEG assets"
+          git pull --rebase origin main
+          git push origin HEAD:main
