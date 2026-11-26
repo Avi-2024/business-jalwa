@@ -494,7 +494,10 @@
     "verified_at": "2026-11-26T21:52:19.150Z",
     "media_type": "CAROUSEL_ALBUM",
     "media_product_type": "FEED",
-    "published_at": "2026-11-26T21:52:15+0000"
+    "published_at": "2026-11-26T21:52:15+0000",
+    "facebook_post_id": "1439082832616704_122114813637520525",
+    "facebook_page_id": "1439082832616704",
+    "facebook_posted_at": "2026-11-26T21:53:47.584Z"
   },
   {
     "id": "upsell-crosssell-031",
